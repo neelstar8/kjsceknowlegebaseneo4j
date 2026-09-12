@@ -1,0 +1,180 @@
+{
+  "name": "Dr. Vaibhav Prakash Vasani",
+  "faculty_id": "160999",
+  "name_variations": [
+    "Vaibhav Prakash Vasani",
+    "Vaibhav Vasani",
+    "Dr. Vaibhav Vasani",
+    "Dr. Vaibhav Vasani, PhD"
+  ],
+  "title": "Dr.",
+  "designation": "Assistant Professor",
+  "institution": "K J Somaiya School of Engineering / Somaiya Vidyavihar University",
+  "department": "Computer Engineering",
+  "location": "Vidyavihar, Mumbai, Maharashtra, India",
+  "official_email": "vaibhav.vasani@somaiya.edu",
+  "faculty_profile_url": "https://www.somaiya.edu/en/view-member/160999",
+
+  "linkedin_url": "https://in.linkedin.com/in/dr-vaibhav-vasani-phd-460a4162",
+  "google_scholar_url": "https://scholar.google.com/citations?hl=en&user=ssU-uBEAAAAJ",
+  "vidwan_url": "https://vidwan.inflibnet.ac.in/profile/361998",
+  "orcid_url": "https://orcid.org/0000-0001-6498-553X",
+  "scopus_id": "57327580900",
+  "web_of_science_id": "HPR-2595-2023",
+
+  "education": [
+    "PhD in Computer Science and Engineering, Kalinga University, 2025",
+    "MA in Hindi, Indira Gandhi National Open University, 2023",
+    "ME in Computer Engineering, Mumbai University / Lokmanya Tilak College of Engineering, 2014",
+    "BE in Information Technology, S.G.B. Amravati University / Prof. Ram Meghe Institute of Technology and Research, 2009"
+  ],
+
+  "current_position": "Assistant Professor",
+  "current_department": "Computer Engineering",
+  "current_institution": "K J Somaiya School of Engineering / Somaiya Vidyavihar University",
+  "joined_somaiya": "July 2018",
+  "joined_somaiya_date": "2018-07-16",
+
+  "total_teaching_experience": "16+ years",
+
+  "subjects_taught": [
+    "Soft Computing",
+    "Data Warehousing and Mining",
+    "Theory of Computer Science",
+    "System Programming and Compiler Construction",
+    "Computer Networks",
+    "Database Management System",
+    "Data Structures",
+    "Project-I",
+    "Project Management",
+    "Project-II",
+    "Structured Programming Approach",
+    "Microprocessor",
+    "Theoretical Computer Science"
+  ],
+
+  "research_interests": [
+    "Database",
+    "Data Mining",
+    "Big Data Analytics",
+    "Machine Learning",
+    "Data Science",
+    "Deep Learning",
+    "Software Engineering",
+    "Artificial Intelligence"
+  ],
+
+  "research_specialisation": [
+    "Data Science",
+    "Algorithms & Analysis",
+    "Application Development",
+    "Pedagogies and Assessments",
+    "Agriculture"
+  ],
+
+  "expertise": [
+    "Computer Science",
+    "Artificial Intelligence"
+  ],
+
+  "technical_areas": [
+    "Data Mining",
+    "Machine Learning",
+    "Deep Learning",
+    "Artificial Intelligence",
+    "Big Data Analytics",
+    "Database Systems",
+    "Software Engineering",
+    "Data Science",
+    "Application Development"
+  ],
+
+  "tools": ["Tableau", "RStudio", "Git", "Power BI", "Hadoop", "SAS", "Google Data Studio"],
+  "databases": ["MySQL", "PostgreSQL", "Oracle", "MongoDB"],
+  "programming_languages": ["C", "C++", "Python"],
+  "operating_systems": ["Ubuntu", "CentOS", "Windows"],
+  "development_tools": ["Code::Blocks", "PyCharm", "VS Code"],
+
+  "roles_and_responsibilities": [
+    "Faculty Advisor for Somaiya Machine Learning and Research Association (SMLRA)",
+    "Coordinator for Software Development Cell (SWDC)",
+    "Honours Coordinator",
+    "Timetable In-charge of Computer Engineering Department",
+    "Member of Social Media and Publicity"
+  ],
+
+  "professional_experience": [
+    "K J Somaiya School of Engineering — Assistant Professor — July 2018 to Present",
+    "Shah & Anchor Kutchhi Engineering College — Assistant Professor — July 2015 to July 2018",
+    "Padmabhushan VasantDada Patil Pratishthan's College of Engineering — Assistant Professor — February 2015 to May 2015",
+    "PVPP's Manohar Phalke Polytechnic — Lecturer — December 2009 to January 2015",
+    "Yashwantrao Chavan Maharashtra Open University — Lecturer / Visiting Faculty — 2009",
+    "Government Polytechnic Mumbai — Lecturer / Visiting Faculty — 2009",
+    "ICFAI Business School (IBS), Mumbai — Visiting Faculty, Emerging Technology in Business",
+    "Birla College, Kalyan — Visiting Faculty, MSc AI, Data Science, Cloud Computing, Applied Mathematics"
+  ],
+
+  "projects": [
+    "Peer-grade system for assessment of student work — a system where faculty create classes and peer-grade assignments, configure faculty/student grading ratios, and download graded reports. Technology: Django, HTML, CSS, JavaScript",
+    "Recommendation system for organizations — recommends roles and responsibilities to individuals or groups based on collected organizational data. Technology: PHP, MySQL, HTML, CSS, Data Mining",
+    "GIS-based recommendation system for metro construction — recommendations involving parking placement, footpath modification, hawker avoidance, and pedestrian walkway planning."
+  ],
+
+  "selected_publications": [
+    "A review based on sentimental analysis for Hindi language",
+    "Qubits and Sentiments: Unveiling New Perspectives in Hindi Textual Data",
+    "Bogus User Profile Detection on Matrimonial Sites Using Machine Learning Approach",
+    "Optical Character Recognition for Electronic Invoices Using AWS Services",
+    "VIRA - Virtual Assistant Integrated Business Process Management System for Virtual Assistants",
+    "Classification and performance evaluation using data mining algorithms",
+    "Facial Emotion Recognition: A multi-task approach using deep learning",
+    "Benchmarking of Deep Learning models on 2D Laminar Flow behind Cylinder",
+    "Intruder Detection Recognition Alert System for Fencing Defence using Image Processing Techniques",
+    "Transformer Models for Enhanced Natural Language Processing in Medical Records Management",
+    "Placement Prediction of students using Association Rule",
+    "Neural Network based Face gesture recognition",
+    "A Survey on Educational Data Mining",
+    "Introduction to Emotion Detection and Predictive Psychology in the Age of Technology",
+    "Quantum Intelligence and NLP for Personalized Sentiment Analysis: Integrating User Profiles for Enhanced Accuracy in 5G-Enabled Communication Environments"
+  ],
+
+  "research_metrics_publications": 37,
+  "research_metrics_articles": 23,
+  "research_metrics_chapters": 2,
+  "research_metrics_proceedings": 12,
+  "research_metrics_scopus_citations": 18,
+  "research_metrics_scopus_h_index": 2,
+  "research_metrics_crossref_citations": 16,
+  "research_metrics_crossref_h_index": 3,
+  "research_metrics_source": "Vidwan profile",
+  "metrics_last_verified": "2026-09-09",
+
+  "awards": [
+    "Manohar Phalke Young Achiever of the Year Teacher Award, March 2013, PVPP's Manohar Phalke Polytechnic",
+    "Smart India Hackathon 2019 — team won at Bangalore Nodal Center, agriculture-domain problem",
+    "Smart India Hackathon 2020 — team was runner-up at Bangalore Nodal Center"
+  ],
+
+  "professional_memberships": [
+    "ACM",
+    "Mumbai ACM Professional Chapter (PR Head)",
+    "Indian Society for Technical Education (ISTE) — Lifetime member"
+  ],
+
+  "papers_published": 15,
+  "years_of_experience": 16,
+  "projects_guided": "40+",
+  "courses_designed": "25+",
+
+  "sources": [
+    "Official Somaiya faculty profile",
+    "Official Somaiya CV",
+    "Vidwan profile",
+    "LinkedIn profile",
+    "Google Scholar profile",
+    "ORCID profile"
+  ],
+  "last_verified": "2026-09-09",
+  "official_profile_source": "https://www.somaiya.edu/en/view-member/160999",
+  "cv_source": "Not available"
+}

@@ -1,0 +1,534 @@
+{
+  "_comment": [
+    "Canonical subject registry for the PYQ pipeline.",
+    "Only entries under 'subjects' are loaded. Matching is exact, on whole words,",
+    "longest alias first -- never fuzzy, because filenames contain typos",
+    "('Futter.pdf') that a fuzzy matcher would confidently mis-resolve.",
+    "",
+    "Every expansion below is corroborated either by a real subject string already",
+    "in the Neo4j faculty graph (FacultyMember.subjects_taught) or by the filename",
+    "expanding its own abbreviation. Nothing here is guessed.",
+    "",
+    "'candidates' is IGNORED by the loader. It holds abbreviations seen in the",
+    "corpus whose expansion could not be corroborated. Papers using them ingest",
+    "with subject_status='unresolved' and still return a working Drive link.",
+    "To adopt one: move it into 'subjects', give it a 'name', then re-run",
+    "normalize + ingest -- the paper moves to its proper subject_key in place."
+  ],
+  "subjects": [
+    {
+      "subject_key": "os",
+      "name": "Operating Systems",
+      "code": null,
+      "aliases": [
+        "os",
+        "operating system",
+        "operating systems"
+      ]
+    },
+    {
+      "subject_key": "cn",
+      "name": "Computer Networks",
+      "code": null,
+      "aliases": [
+        "cn",
+        "computer network",
+        "computer networks"
+      ]
+    },
+    {
+      "subject_key": "cg",
+      "name": "Computer Graphics",
+      "code": null,
+      "aliases": [
+        "cg",
+        "computer graphics"
+      ]
+    },
+    {
+      "subject_key": "se",
+      "name": "Software Engineering",
+      "code": null,
+      "aliases": [
+        "se",
+        "software engineering"
+      ]
+    },
+    {
+      "subject_key": "coa",
+      "name": "Computer Organization and Architecture",
+      "code": null,
+      "aliases": [
+        "coa",
+        "computer organization and architecture",
+        "computer organization & architecture",
+        "computer organization"
+      ]
+    },
+    {
+      "subject_key": "oopm",
+      "name": "Object Oriented Programming Methodology",
+      "code": null,
+      "aliases": [
+        "oopm",
+        "object oriented programming methodology",
+        "object oriented programming"
+      ]
+    },
+    {
+      "subject_key": "ds",
+      "name": "Data Structures",
+      "code": null,
+      "aliases": [
+        "ds",
+        "data structure",
+        "data structures"
+      ]
+    },
+    {
+      "subject_key": "ai",
+      "name": "Artificial Intelligence",
+      "code": null,
+      "aliases": [
+        "ai",
+        "artificial intelligence"
+      ]
+    },
+    {
+      "subject_key": "ml",
+      "name": "Machine Learning",
+      "code": null,
+      "aliases": [
+        "ml",
+        "machine learning"
+      ]
+    },
+    {
+      "subject_key": "sc",
+      "name": "Soft Computing",
+      "code": null,
+      "aliases": [
+        "sc",
+        "soft computing"
+      ]
+    },
+    {
+      "subject_key": "dbms",
+      "name": "Database Management System",
+      "code": null,
+      "aliases": [
+        "dbms",
+        "database management system",
+        "database management",
+        "database",
+        "rdbms",
+        "relational database management system"
+      ]
+    },
+    {
+      "subject_key": "mad",
+      "name": "Mobile Application Development",
+      "code": null,
+      "aliases": [
+        "mad",
+        "mobile application development",
+        "flutter",
+        "mad flutter"
+      ]
+    },
+    {
+      "subject_key": "da",
+      "name": "Data Analytics",
+      "code": null,
+      "aliases": [
+        "da",
+        "data analytics"
+      ]
+    },
+    {
+      "subject_key": "dv",
+      "name": "Data Visualization",
+      "code": null,
+      "aliases": [
+        "dv",
+        "data visualization",
+        "data visualisation"
+      ]
+    },
+    {
+      "subject_key": "ac",
+      "name": "Applied Cryptography",
+      "code": "116U01E628",
+      "aliases": [
+        "ac",
+        "applied cryptography"
+      ]
+    },
+    {
+      "subject_key": "ait",
+      "name": "Advanced Internet Technologies",
+      "code": null,
+      "aliases": [
+        "ait",
+        "advanced internet technologies",
+        "advance internet technology",
+        "internet technology"
+      ]
+    },
+    {
+      "subject_key": "scm",
+      "name": "Supply Chain Management",
+      "code": null,
+      "aliases": [
+        "scm",
+        "supply chain management",
+        "supply chain mngt",
+        "logistics and supply chain management",
+        "supply chain"
+      ]
+    },
+    {
+      "subject_key": "cb",
+      "name": "Consumer Behaviour",
+      "code": null,
+      "aliases": [
+        "cb",
+        "consumer behaviour",
+        "consumer behavior"
+      ]
+    },
+    {
+      "subject_key": "aoa",
+      "name": "Analysis of Algorithms",
+      "code": "116U01C402",
+      "aliases": [
+        "aoa",
+        "analysis of algorithms",
+        "analysis of algorithm"
+      ]
+    },
+    {
+      "subject_key": "nlp",
+      "name": "Natural Language Processing",
+      "code": null,
+      "aliases": [
+        "nlp",
+        "natural language processing"
+      ]
+    },
+    {
+      "subject_key": "dsip",
+      "name": "Digital Signal and Image Processing",
+      "code": null,
+      "aliases": [
+        "dsip",
+        "digital signal and image processing",
+        "digital signal & image processing",
+        "digital image processing"
+      ]
+    },
+    {
+      "subject_key": "css",
+      "name": "Cryptography and System Security",
+      "code": null,
+      "aliases": [
+        "css",
+        "cryptography and system security",
+        "cryptography & system security"
+      ]
+    },
+    {
+      "subject_key": "bda",
+      "name": "Big Data Analytics",
+      "code": null,
+      "aliases": [
+        "bda",
+        "big data analytics"
+      ]
+    },
+    {
+      "subject_key": "dwm",
+      "name": "Data Warehousing and Mining",
+      "code": null,
+      "aliases": [
+        "dwm",
+        "data warehousing and mining",
+        "data warehousing & mining"
+      ]
+    },
+    {
+      "subject_key": "dmbi",
+      "name": "Data Mining and Business Intelligence",
+      "code": null,
+      "aliases": [
+        "dmbi",
+        "data mining and business intelligence",
+        "business intelligence and data mining"
+      ]
+    },
+    {
+      "subject_key": "cgv",
+      "name": "Computer Graphics and Virtual Reality Systems",
+      "code": null,
+      "aliases": [
+        "cgv",
+        "computer graphics and virtual reality systems",
+        "computer graphics & virtual reality systems"
+      ]
+    },
+    {
+      "subject_key": "spm",
+      "name": "Software Project Management",
+      "code": null,
+      "aliases": [
+        "spm",
+        "software project management"
+      ]
+    },
+    {
+      "subject_key": "mp",
+      "name": "Microprocessor",
+      "code": null,
+      "aliases": [
+        "mp",
+        "microprocessor"
+      ]
+    },
+    {
+      "subject_key": "cv",
+      "name": "Computer Vision",
+      "code": null,
+      "aliases": [
+        "cv",
+        "computer vision"
+      ]
+    },
+    {
+      "subject_key": "is",
+      "name": "Information Security",
+      "code": "116U01C602",
+      "aliases": [
+        "is",
+        "information security"
+      ]
+    },
+    {
+      "subject_key": "cc",
+      "name": "Cloud Computing",
+      "code": "116U01E629",
+      "aliases": [
+        "cc",
+        "cloud computing"
+      ]
+    },
+    {
+      "subject_key": "wp",
+      "name": "Web Programming",
+      "code": null,
+      "aliases": [
+        "wp",
+        "web programming"
+      ]
+    },
+    {
+      "subject_key": "psot",
+      "name": "Probability, Statistics and Optimization Techniques",
+      "code": null,
+      "aliases": [
+        "psot",
+        "probability statistics and optimization techniques"
+      ]
+    },
+    {
+      "subject_key": "tacd",
+      "name": "Theory of Automata and Compiler Design",
+      "code": null,
+      "aliases": [
+        "tacd",
+        "theory of automata and compiler design"
+      ]
+    },
+    {
+      "subject_key": "osss",
+      "name": "Open Source Software Systems",
+      "code": null,
+      "aliases": [
+        "osss",
+        "open source software systems",
+        "open source software"
+      ]
+    },
+    {
+      "subject_key": "stqa",
+      "name": "Software Testing and Quality Assurance",
+      "code": null,
+      "aliases": [
+        "stqa",
+        "software testing and quality assurance",
+        "software testing"
+      ]
+    },
+    {
+      "subject_key": "pds",
+      "name": "Python for Data Science",
+      "code": null,
+      "aliases": [
+        "pds",
+        "python for data science",
+        "data science using python"
+      ]
+    },
+    {
+      "subject_key": "arvr",
+      "name": "Augmented and Virtual Reality",
+      "code": null,
+      "aliases": [
+        "arvr",
+        "ar vr",
+        "augmented and virtual reality"
+      ]
+    },
+    {
+      "subject_key": "ued",
+      "name": "User Experience Design",
+      "code": "116P07E432",
+      "aliases": [
+        "ued",
+        "user experience design"
+      ]
+    },
+    {
+      "subject_key": "gsm",
+      "name": "Goods and Services Marketing",
+      "code": null,
+      "aliases": [
+        "gsm",
+        "goods and services marketing"
+      ]
+    },
+    {
+      "subject_key": "mad_ios",
+      "name": "Mobile Application Development (iOS)",
+      "code": null,
+      "aliases": [
+        "mobile application development ios",
+        "mad ios"
+      ]
+    },
+    {
+      "subject_key": "drt",
+      "name": "Development of Religious Thought",
+      "code": null,
+      "aliases": [
+        "dev of religious thought",
+        "development of religious thought"
+      ]
+    },
+    {
+      "subject_key": "hvj",
+      "name": "Human Values and Jainism",
+      "code": null,
+      "aliases": [
+        "human values and jainism"
+      ]
+    },
+    {
+      "subject_key": "german",
+      "name": "German",
+      "code": null,
+      "aliases": [
+        "german"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "subject_key": "bct",
+      "proposed_name": null,
+      "aliases": [
+        "bct"
+      ],
+      "papers": 5,
+      "evidence": "Honours/elective at TY, LY and M.Tech II. Most likely Blockchain Technology, but no corroborating string exists in the faculty graph."
+    },
+    {
+      "subject_key": "itvc",
+      "proposed_name": null,
+      "aliases": [
+        "itvc"
+      ],
+      "papers": 4,
+      "evidence": "SY Sem III core. Real course code 116U01C301 captured from SY_ISE_ITVC_July-Nov 2021_116U01C301.pdf. No matching faculty-graph string."
+    },
+    {
+      "subject_key": "csm",
+      "proposed_name": null,
+      "aliases": [
+        "csm"
+      ],
+      "papers": 3,
+      "evidence": "LY, three years running. Faculty graph has 'CLOUD COMPUTING' but nothing matching C-S-M."
+    },
+    {
+      "subject_key": "dm",
+      "proposed_name": null,
+      "aliases": [
+        "dm"
+      ],
+      "papers": 3,
+      "evidence": "SY Sem III. Faculty graph has BOTH 'Discrete Mathematics..' and 'Discrete Structures', plus 'Business Intelligence and Data Mining'. Genuinely ambiguous."
+    },
+    {
+      "subject_key": "dsm",
+      "proposed_name": null,
+      "aliases": [
+        "dsm"
+      ],
+      "papers": 2,
+      "evidence": "SY Sem III. Could be Discrete Structures & Mathematics or Data Science. No corroboration."
+    },
+    {
+      "subject_key": "dcc",
+      "proposed_name": null,
+      "aliases": [
+        "dcc"
+      ],
+      "papers": 2,
+      "evidence": "LY. Faculty graph has 'DATA COMMUNICATION AND NETWORKING' / 'DATA COMMUNICATION NETWORKS' -- close, but D-C-C does not map cleanly."
+    },
+    {
+      "subject_key": "rl",
+      "proposed_name": null,
+      "aliases": [
+        "rl"
+      ],
+      "papers": 2,
+      "evidence": "LY. Likely Reinforcement Learning; no corroborating faculty-graph string."
+    },
+    {
+      "subject_key": "futter",
+      "proposed_name": null,
+      "aliases": [
+        "futter"
+      ],
+      "papers": 1,
+      "evidence": "Almost certainly a typo for 'Flutter' (compare TY V MAD-Flutter.PDF, same TY slot a year earlier). Deliberately NOT auto-corrected -- add 'futter' to the 'mad' aliases to adopt it."
+    },
+    {
+      "subject_key": "aitise",
+      "proposed_name": null,
+      "aliases": [
+        "aitise"
+      ],
+      "papers": 1,
+      "evidence": "From 'AITISE Abled.pdf' -- 'AIT' and 'ISE' are glued with no separator. Splitting it would be a guess; add 'aitise' to the 'ait' aliases to adopt it."
+    },
+    {
+      "subject_key": "_others",
+      "proposed_name": null,
+      "aliases": [],
+      "papers": 27,
+      "evidence": "One or two papers each: aada, adbdwh, addw, adm, ads, aml, amlt, apm, c#, ccet, csfc, dl, eefm, hmi, ids, imct, imgt, ioe, msd, pm, sadt, sec, smac, vapt. See data/pyq_unknown_report.json for the live list with file names and Drive links."
+    }
+  ]
+}

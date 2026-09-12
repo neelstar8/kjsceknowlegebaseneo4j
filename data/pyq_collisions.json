@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-09-12T04:31:15.386940+00:00",
+  "count": 3,
+  "collisions": [
+    {
+      "pyq_id": "dbms|ISE|2020-21|even|sem4|core|regular",
+      "files": [
+        {
+          "file_name": "RDBMS(2020-2021)ISE_ QUESTION PAPER_WITHiout CO.pdf",
+          "drive_url": "https://drive.google.com/file/d/1oSz_qUiPfy13AhYW_Wn8mzwwfTjeZgGa/view?usp=drivesdk",
+          "page_label": null
+        },
+        {
+          "file_name": "SA_RDBMS(2020-2021)ISE_TEMPLATE FOR QUESTION PAPER_WITHOUT CO .pdf",
+          "drive_url": "https://drive.google.com/file/d/1KOgOhX4Tgjw3JVQHTzbGk7jJzA-0e5wc/view?usp=drivesdk",
+          "page_label": null
+        }
+      ],
+      "explained_by_page_labels": false,
+      "note": "distinct files parsed to the same paper -- please verify"
+    },
+    {
+      "pyq_id": "cgv|ISE|2021-22|odd|sem5|core|regular",
+      "files": [
+        {
+          "file_name": "SA_TY-LY_ISE_E-CGV_DE_PAPER_Without_ CO_2021_2022_1.1.pdf",
+          "drive_url": "https://drive.google.com/file/d/1wr1z_pEXdQaf3bJnIyUH17soMytxf1mx/view?usp=drivesdk",
+          "page_label": null
+        },
+        {
+          "file_name": "TY-LY_ISE_E-CGV_DE_PAPER_Without_ CO_2021_2022_Regular.pdf",
+          "drive_url": "https://drive.google.com/file/d/1XwcitxbeBbUOaKu6A9RACJ4xRcWWU46Z/view?usp=drivesdk",
+          "page_label": null
+        }
+      ],
+      "explained_by_page_labels": false,
+      "note": "distinct files parsed to the same paper -- please verify"
+    },
+    {
+      "pyq_id": "ml|ISE|2022-23|even|sem2|core|regular",
+      "files": [
+        {
+          "file_name": "ML 1 pg.jpg",
+          "drive_url": "https://drive.google.com/file/d/1kuz4fD9aKcf7wv7Ag2SYyl-h5L4O-npD/view?usp=drivesdk",
+          "page_label": "1 pg"
+        },
+        {
+          "file_name": "ML 2 pg.jpg",
+          "drive_url": "https://drive.google.com/file/d/1D1L1chnStdvCI2owuyh4mkOKwXtk9u1K/view?usp=drivesdk",
+          "page_label": "2 pg"
+        }
+      ],
+      "explained_by_page_labels": true,
+      "note": "one paper split across files -- expected"
+    }
+  ]
+}

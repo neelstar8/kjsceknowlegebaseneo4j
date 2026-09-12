@@ -1,0 +1,23 @@
+{
+  "validated_at": "2026-09-10T08:51:49.281218+00:00",
+  "total_records": 613,
+  "unique_ids": 613,
+  "unique_names": 612,
+  "duplicate_ids": 0,
+  "duplicate_names": 1,
+  "missing_ids": 0,
+  "missing_names": 0,
+  "missing_profile_urls": 0,
+  "missing_emails": 20,
+  "missing_departments": 0,
+  "missing_designations": 0,
+  "profiles_not_fetched": 0,
+  "faculty_with_empty_profiles": 267,
+  "parsing_errors": 0,
+  "duplicate_id_values": {},
+  "duplicate_name_values": {
+    "mr. sachin vishnu baste": 2
+  },
+  "severe_errors": [],
+  "passed": true
+}

@@ -1,0 +1,34 @@
+{
+  "retrieval_timestamp": "2026-09-11T08:33:10.329767+00:00",
+  "normalized_at": "2026-09-12T04:31:15.386940+00:00",
+  "ingested_at": "2026-09-12T04:31:15.550744+00:00",
+  "source_url": "https://drive.google.com/drive/folders/1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+  "collection": "ise_question_paper_kj_somaiya",
+  "branch": "Computer Engineering",
+  "allowed_exam_types": [
+    "ISE"
+  ],
+  "total_considered_this_run": 167,
+  "total_inserted": 0,
+  "total_updated": 167,
+  "total_failed": 0,
+  "unresolved_subject_count": 51,
+  "warning_count": 52,
+  "counts_before": {
+    "pyq": 164,
+    "pyq_file": 162,
+    "subject": 81,
+    "stored_in": 167,
+    "for_subject": 164,
+    "faculty_member": 613
+  },
+  "counts_after": {
+    "pyq": 164,
+    "pyq_file": 162,
+    "subject": 81,
+    "stored_in": 167,
+    "for_subject": 164,
+    "faculty_member": 613
+  },
+  "stale_file_count": 0
+}

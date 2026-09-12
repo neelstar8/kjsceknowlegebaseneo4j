@@ -1,0 +1,256 @@
+Checking Neo4j connection...
+Neo4j OK.
+
+Checking Ollama + Qwen3...
+Ollama OK.
+
+======================================================================
+SYSTEM PROMPT USED FOR EVERY QUESTION
+======================================================================
+You are KJGPT, a college knowledge-base assistant.
+
+You will be given a block of KNOWLEDGE BASE CONTEXT retrieved from a database,
+followed by a user question. Follow these rules strictly:
+
+1. Treat the KNOWLEDGE BASE CONTEXT as the single source of truth. Do not use
+   any outside or prior knowledge to answer, even if you believe you know the
+   answer.
+2. Answer using only the information present in the context. Do not invent,
+   guess, or infer facts that are not explicitly stated there.
+3. If the context does not contain the information needed to answer the
+   question, clearly say that the information is not available in the
+   current KJGPT knowledge base. Do not make up a plausible-sounding answer.
+4. Clearly distinguish between what is known (present in the context) and
+   what is unavailable (absent from the context).
+5. Answer the user's actual question directly and concisely. Do not repeat
+   the entire context back if only part of it is relevant.
+6. Do not expose internal implementation details such as database names,
+   node labels, Cypher queries, or field names -- just answer naturally.
+7. Be helpful and conversational, but never at the expense of accuracy.
+
+======================================================================
+
+[01/30] (36.61s) Q: Who is Vaibhav Vasani sir?
+        A: Dr. Vaibhav Prakash Vasani is an **Assistant Professor** in the **Computer Engineering** department at the **K J Somaiya School of Engineering** (Somaiya Vidyavihar University), located in Vidyavihar, Mumbai. He holds a **PhD in Computer Science and Engineering** (expected 2025) and has over **16 years of teaching experience**.  
+
+His research focuses on **Data Mining, Machine Learning, Artificial Intelligence, Big Data Analytics, and Software Engineering**, with expertise in tools like **Python, RStudio, Hadoop, and Tableau**. He has published extensively in these areas and guides numerous projects, including systems for peer grading, organizational recommendations, and GIS-based metro planning.  
+
+Dr. Vasani is also actively involved in academic leadership roles, such as **Faculty Advisor for SMLRA** (Somaiya Machine Learning and Research Association) and **Coordinator for SWDC** (Software Development Cell). He has received awards like the **Manohar Phalke Young Achiever Award** and has participated in hackathons, including winning the **Smart India Hackathon 2019**.  
+
+For more details, you can visit his [official profile](https://www.somaiya.edu/en/view-member/160999) or [LinkedIn](https://in.linkedin.com/in/dr-vaibhav-vasani-phd-460a4162).
+----------------------------------------------------------------------
+[02/30] (12.56s) Q: Which department is Vaibhav Vasani sir from?
+        A: Dr. Vaibhav Prakash Vasani is from the **Computer Engineering** department.
+----------------------------------------------------------------------
+[03/30] (6.91s) Q: What is Vaibhav Vasani sir's designation?
+        A: Vaibhav Vasani sir's designation is **Assistant Professor**.
+----------------------------------------------------------------------
+[04/30] (15.18s) Q: Is Vaibhav Vasani sir a professor or assistant professor?
+        A: Dr. Vaibhav Prakash Vasani is designated as an **Assistant Professor** at K J Somaiya School of Engineering / Somaiya Vidyavihar University. This is explicitly stated in his faculty profile under "Designation," "Current Position," and "Current Department" sections.
+----------------------------------------------------------------------
+[05/30] (10.98s) Q: What is his official email id?
+        A: Dr. Vaibhav Prakash Vasani's official email ID is **vaibhav.vasani@somaiya.edu**. This is listed in his institutional faculty profile.
+----------------------------------------------------------------------
+[06/30] (15.52s) Q: Where can I find his faculty profile page?
+        A: You can find Dr. Vaibhav Prakash Vasani's official faculty profile page at [https://www.somaiya.edu/en/view-member/160999](https://www.somaiya.edu/en/view-member/160999). This is explicitly listed as the "Faculty Profile URL" in his detailed information.
+----------------------------------------------------------------------
+[07/30] (22.86s) Q: What subjects does he teach in computer engineering?
+        A: Dr. Vaibhav Prakash Vasani teaches the following subjects in Computer Engineering:  
+- Soft Computing  
+- Data Warehousing and Mining  
+- Theory of Computer Science  
+- System Programming and Compiler Construction  
+- Computer Networks  
+- Database Management System  
+- Data Structures  
+- Project-I  
+- Project Management  
+- Project-II  
+- Structured Programming Approach  
+- Microprocessor  
+- Theoretical Computer Science  
+
+These subjects are explicitly listed in his faculty profile.
+----------------------------------------------------------------------
+[08/30] (9.49s) Q: Does he teach Data Structures?
+        A: Yes, Dr. Vaibhav Prakash Vasani teaches **Data Structures** as part of his subject offerings.
+----------------------------------------------------------------------
+[09/30] (27.86s) Q: Does he teach any AI or ML related subject?
+        A: Dr. Vaibhav Prakash Vasani does not explicitly teach AI or ML-related subjects as listed in his "Subjects Taught" section. However, his **research interests** and **technical areas** include **Machine Learning**, **Deep Learning**, and **Artificial Intelligence**, indicating expertise in these fields. His teaching portfolio includes **Data Warehousing and Mining**, which overlaps with data science and ML but is not explicitly labeled as AI/ML courses. 
+
+For precise teaching details, the context does not confirm AI/ML-specific subjects.
+----------------------------------------------------------------------
+[10/30] (20.33s) Q: What are his educational qualifications?
+        A: Dr. Vaibhav Prakash Vasani's educational qualifications are as follows:  
+- **PhD in Computer Science and Engineering**, Kalinga University (Expected 2025)  
+- **MA in Hindi**, Indira Gandhi National Open University (2023)  
+- **ME in Computer Engineering**, Mumbai University / Lokmanya Tilak College of Engineering (2014)  
+- **BE in Information Technology**, S.G.B. Amravati University / Prof. Ram Meghe Institute of Technology and Research (2009)  
+
+These details are sourced from his official profile and CV.
+----------------------------------------------------------------------
+[11/30] (10.88s) Q: Does he have a PhD?
+        A: Yes, Dr. Vaibhav Prakash Vasani holds a PhD in Computer Science and Engineering from Kalinga University, awarded in 2025. This is explicitly stated in his education background.
+----------------------------------------------------------------------
+[12/30] (14.31s) Q: Where did he complete his PhD from?
+        A: Dr. Vaibhav Prakash Vasani completed his PhD in Computer Science and Engineering from **Kalinga University**.
+----------------------------------------------------------------------
+[13/30] (18.40s) Q: What is his highest degree and in which year did he complete it?
+        A: Dr. Vaibhav Prakash Vasani's highest degree is a **PhD in Computer Science and Engineering**, which he completed in **2025**.
+----------------------------------------------------------------------
+[14/30] (21.68s) Q: How many years of teaching experience does he have?
+        A: Dr. Vaibhav Prakash Vasani has **16+ years of teaching experience**, as explicitly stated in his profile. This includes his roles at various institutions from 2009 to the present.
+----------------------------------------------------------------------
+[15/30] (14.57s) Q: When did he join Somaiya?
+        A: Dr. Vaibhav Prakash Vasani joined Somaiya on **July 16, 2018**. This is explicitly stated in the "Joined Somaiya (Date)" field and corroborated under his professional experience section.
+----------------------------------------------------------------------
+[16/30] (31.35s) Q: Where did he work before joining K J Somaiya School of Engineering?
+        A: Before joining K J Somaiya School of Engineering in July 2018, Dr. Vaibhav Prakash Vasani worked at the following institutions:  
+- **Shah & Anchor Kutchhi Engineering College** (Assistant Professor, July 2015 – July 2018)  
+- **Padmabhushan VasantDada Patil Pratishthan's College of Engineering** (Assistant Professor, February 2015 – May 2015)  
+- **PVPP's Manohar Phalke Polytechnic** (Lecturer, December 2009 – January 2015)  
+- Other roles included visiting faculty positions at Yashwantrao Chavan Maharashtra Open University, Government Polytechnic Mumbai, ICFAI Business School, and Birla College.  
+
+These roles are listed in reverse chronological order in his professional experience.
+----------------------------------------------------------------------
+[17/30] (12.90s) Q: What are his research interests?
+        A: Dr. Vaibhav Prakash Vasani's research interests include **Database, Data Mining, Big Data Analytics, Machine Learning, Data Science, Deep Learning, Software Engineering, and Artificial Intelligence**.
+----------------------------------------------------------------------
+[18/30] (13.69s) Q: What is he specialized in research-wise?
+        A: Dr. Vaibhav Prakash Vasani specializes in the following research areas: **Data Science, Algorithms & Analysis, Application Development, Pedagogies and Assessments, and Agriculture**. These are explicitly listed under his "Research Specialisation" in the provided context.
+----------------------------------------------------------------------
+[19/30] (18.09s) Q: What tools and technologies does he know?
+        A: Dr. Vaibhav Prakash Vasani is proficient in the following tools and technologies:  
+
+**Tools**:  
+- Tableau  
+- RStudio  
+- Git  
+- Power BI  
+- Hadoop  
+- SAS  
+- Google Data Studio  
+
+**Databases**:  
+- MySQL  
+- PostgreSQL  
+- Oracle  
+- MongoDB  
+
+**Programming Languages**:  
+- C  
+- C++  
+- Python  
+
+**Operating Systems**:  
+- Ubuntu  
+- CentOS  
+- Windows  
+
+**Development Tools**:  
+- Code::Blocks  
+- PyCharm  
+- VS Code  
+
+These reflect his technical expertise as detailed in his official profiles.
+----------------------------------------------------------------------
+[20/30] (9.93s) Q: What programming languages does he know?
+        A: Dr. Vaibhav Prakash Vasani is proficient in the following programming languages: **C, C++, and Python**.
+----------------------------------------------------------------------
+[21/30] (35.08s) Q: Is he good in Python?
+        A: Dr. Vaibhav Prakash Vasani is listed as proficient in **Python** under his "Programming Languages" section. However, the knowledge base does not explicitly state his skill level or expertise in Python beyond this listing. His work in areas like **Artificial Intelligence**, **Machine Learning**, and **Data Science** (which heavily rely on Python) suggests it is a critical tool in his professional toolkit. For precise details on his proficiency, further clarification from his profile or direct contact would be needed.
+----------------------------------------------------------------------
+[22/30] (17.89s) Q: What responsibilities does he handle in the department?
+        A: Dr. Vaibhav Prakash Vasani handles the following responsibilities in the department:  
+- Faculty Advisor for the Somaiya Machine Learning and Research Association (SMLRA)  
+- Coordinator for the Software Development Cell (SWDC)  
+- Honours Coordinator  
+- Timetable In-charge of the Computer Engineering Department  
+- Member of the Social Media and Publicity team  
+
+These roles are explicitly listed in his official profile.
+----------------------------------------------------------------------
+[23/30] (15.64s) Q: Is he the coordinator of any club or cell?
+        A: Yes, Dr. Vaibhav Prakash Vasani serves as the **Coordinator for the Software Development Cell (SWDC)** and is also the **Faculty Advisor for the Somaiya Machine Learning and Research Association (SMLRA)**. These roles are explicitly listed in his "Roles and Responsibilities" section.
+----------------------------------------------------------------------
+[24/30] (20.20s) Q: What awards has he received?
+        A: Dr. Vaibhav Prakash Vasani has received the following awards:  
+1. **Manohar Phalke Young Achiever of the Year Teacher Award** (March 2013) from PVPP's Manohar Phalke Polytechnic.  
+2. **Smart India Hackathon 2019** — team won at the Bangalore Nodal Center for an agriculture-domain problem.  
+3. **Smart India Hackathon 2020** — team was runner-up at the Bangalore Nodal Center.  
+
+These awards are explicitly mentioned in the provided context.
+----------------------------------------------------------------------
+[25/30] (15.88s) Q: Has he won any hackathon?
+        A: Yes, Dr. Vaibhav Prakash Vasani has won the **Smart India Hackathon 2019** as part of a team that addressed an agriculture-domain problem at the Bangalore Nodal Center.
+----------------------------------------------------------------------
+[26/30] (36.00s) Q: Can you list a few of his research publications?
+        A: Here are a few of Dr. Vaibhav Prakash Vasani's research publications listed in his profile:  
+1. **A review based on sentimental analysis for Hindi language**  
+2. **Qubits and Sentiments: Unveiling New Perspectives in Hindi Textual Data**  
+3. **Bogus User Profile Detection on Matrimonial Sites Using Machine Learning Approach**  
+4. **Optical Character Recognition for Electronic Invoices Using AWS Services**  
+5. **VIRA - Virtual Assistant Integrated Business Process Management System for Virtual Assistants**  
+6. **Classification and performance evaluation using data mining algorithms**  
+7. **Facial Emotion Recognition: A multi-task approach using deep learning**  
+8. **Transformer Models for Enhanced Natural Language Processing in Medical Records Management**  
+9. **Placement Prediction of students using Association Rule**  
+10. **Quantum Intelligence and NLP for Personalized Sentiment Analysis: Integrating User Profiles for Enhanced Accuracy in 5G-Enabled Communication Environments**  
+
+These publications reflect his research interests in areas like data mining, machine learning, natural language processing, and AI-driven applications.
+----------------------------------------------------------------------
+[27/30] (14.93s) Q: What is his Google Scholar profile link?
+        A: The Google Scholar profile link for Dr. Vaibhav Prakash Vasani is:  
+[https://scholar.google.com/citations?hl=en&user=ssU-uBEAAAAJ](https://scholar.google.com/citations?hl=en&user=ssU-uBEAAAAJ)
+----------------------------------------------------------------------
+[28/30] (12.57s) Q: What is his LinkedIn profile link?
+        A: Dr. Vaibhav Prakash Vasani's LinkedIn profile link is [https://in.linkedin.com/in/dr-vaibhav-vasani-phd-460a4162](https://in.linkedin.com/in/dr-vaibhav-vasani-phd-460a4162).
+----------------------------------------------------------------------
+[29/30] (11.13s) Q: Is he a member of ACM or any professional body?
+        A: Yes, Dr. Vaibhav Prakash Vasani is a member of the **ACM** (Association for Computing Machinery) and the **Mumbai ACM Professional Chapter**, where he serves as the PR Head. He is also a **lifetime member** of the **Indian Society for Technical Education (ISTE)**.
+----------------------------------------------------------------------
+[30/30] (16.64s) Q: What is Vaibhav Vasani sir's favorite cricket team?
+        A: The information about Dr. Vaibhav Prakash Vasani's favorite cricket team is not available in the current KJGPT knowledge base.
+----------------------------------------------------------------------
+
+======================================================================
+SUMMARY
+======================================================================
+Questions asked:      30
+Total time:           540.05s
+Average response time: 18.00s
+Fastest: [03] 6.91s - What is Vaibhav Vasani sir's designation?
+Slowest: [01] 36.61s - Who is Vaibhav Vasani sir?
+
+#   Time (s)  Question
+----------------------------------------------------------------------
+1   36.61     Who is Vaibhav Vasani sir?
+2   12.56     Which department is Vaibhav Vasani sir from?
+3   6.91      What is Vaibhav Vasani sir's designation?
+4   15.18     Is Vaibhav Vasani sir a professor or assistant professor?
+5   10.98     What is his official email id?
+6   15.52     Where can I find his faculty profile page?
+7   22.86     What subjects does he teach in computer engineering?
+8   9.49      Does he teach Data Structures?
+9   27.86     Does he teach any AI or ML related subject?
+10  20.33     What are his educational qualifications?
+11  10.88     Does he have a PhD?
+12  14.31     Where did he complete his PhD from?
+13  18.40     What is his highest degree and in which year did he complete it?
+14  21.68     How many years of teaching experience does he have?
+15  14.57     When did he join Somaiya?
+16  31.35     Where did he work before joining K J Somaiya School of Engineering?
+17  12.90     What are his research interests?
+18  13.69     What is he specialized in research-wise?
+19  18.09     What tools and technologies does he know?
+20  9.93      What programming languages does he know?
+21  35.08     Is he good in Python?
+22  17.89     What responsibilities does he handle in the department?
+23  15.64     Is he the coordinator of any club or cell?
+24  20.20     What awards has he received?
+25  15.88     Has he won any hackathon?
+26  36.00     Can you list a few of his research publications?
+27  14.93     What is his Google Scholar profile link?
+28  12.57     What is his LinkedIn profile link?
+29  11.13     Is he a member of ACM or any professional body?
+30  16.64     What is Vaibhav Vasani sir's favorite cricket team?

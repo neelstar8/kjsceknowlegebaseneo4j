@@ -1,0 +1,330 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/neel/Desktop/neo4jprac/tests/run_faculty_batch_30.py", line 323, in <module>
+    main()
+    ~~~~^^
+  File "/Users/neel/Desktop/neo4jprac/tests/run_faculty_batch_30.py", line 298, in main
+    append_analysis()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/neel/Desktop/neo4jprac/tests/run_faculty_batch_30.py", line 175, in append_analysis
+    good = [i for i in with_retrieval if i in records and records[i]["status"] == "Completed"]
+                                         ^^^^^^^^^^^^
+TypeError: cannot use 'dict' as a dict key (unhashable type: 'dict')
+======================================================================
+KJGPT FACULTY BATCH TEST
+======================================================================
+Checking Neo4j connection...
+Neo4j OK.
+Checking Ollama + Qwen3...
+Ollama OK.
+
+Initialized test file at /Users/neel/Desktop/neo4jprac/data/faculty_batch_test_30.md
+
+[1/30] 🔄 Running
+Question: Who is Vaibhav Vasani?
+[1/30] ✅ Completed (72.12s)
+Response: Dr. Vaibhav Prakash Vasani is an **Assistant Professor** in the **Department of Computer Engineering** at the **K J Somaiya School of Engineering** (part of Somaiya Vidyavihar University). He has been with the institution since **July 2018** and brings **16+ years of teaching experience** across diploma, graduate, and postgraduate levels.  
+
+### Key Details:  
+- **Qualifications**:  
+  - BE in Information Technology (S.G.B. Amravati University, 2009)  
+  - ME in Computer Engineering (Mumbai University, 2014)  
+  - MA in Hindi (Indira Gandhi National Open University, 2023)  
+  - PhD in Computer Science and Engineering (Kalinga University, 2025)  
+
+- **Research Interests**: Database, Data Mining, Big Data Analytics, Machine Learning, Data Science, Deep Learning, Software Engineering, Artificial Intelligence.  
+
+- **Roles**:  
+  - Faculty Advisor for **SMLRA** (Somaiya Machine Learning and Research Association)  
+  - Coordinator for **SWDC** (Software Development Cell)  
+  - Honours Coordinator and Timetable In-charge for the Computer Engineering Department  
+
+- **Professional Experience**:  
+  Previously worked at institutions like **Shah & Anchor Kutchhi Engineering College**, **PVPP's Manohar Phalke Polytechnic**, and **Government Polytechnic Mumbai**.  
+
+- **Notable Projects**:  
+  - Peer-grade system for student assessments (using Django, HTML, CSS, JavaScript)  
+  - GIS-based metro construction recommendation system  
+  - Recommendation system for organizational roles (using PHP, MySQL, Data Mining)  
+
+- **Awards**:  
+  - Manohar Phalke Young Achiever of the Year Teacher Award (2013)  
+  - Smart India Hackathon 2019 (agriculture-domain winner) and 2020 (runner-up)  
+
+- **Contact**:  
+  Email: [vaibhav.vasani@somaiya.edu](mailto:vaibhav.vasani@somaiya.edu) | Office: #107, Bhaskaracharya Building, Somaiya Vidyavihar, Mumbai  
+
+For more details, visit his [faculty profile](https://kjsce.somaiya.edu/en/view-member/160999/) or [LinkedIn](https://in.linkedin.com/in/dr-vaibhav-vasani-phd-460a4162).
+----------------------------------------------------------------------
+[2/30] 🔄 Running
+Question: Is Dr. Abhijeet Karmarkar a professor or an assistant professor?
+[2/30] ✅ Completed (17.46s)
+Response: Dr. Abhijeet Uday Karmarkar is designated as an **Assistant Professor** at K J Somaiya School of Engineering.
+----------------------------------------------------------------------
+[3/30] 🔄 Running
+Question: Which department does Dr. Ameya Naik belong to?
+[3/30] ✅ Completed (17.70s)
+Response: Dr. Ameya K. Naik belongs to the **Electronics & Telecommunication** department.
+----------------------------------------------------------------------
+[4/30] 🔄 Running
+Question: Who teaches Database Management System?
+[4/30] ✅ Completed (33.92s)
+Response: The following faculty members teach **Database Management System** at K J Somaiya School of Engineering:  
+
+- Dr. Archana Ajay Gupta  
+- Dr. Ashwini Ashutosh Deshmukh  
+- Dr. Grishma Jaideep Sharma  
+- Dr. Jyoti Vishnu Joglekar  
+- Dr. Nilkamal Prashant More  
+- Dr. Vaibhav Prakash Vasani  
+- Mrs. Bharathi H Narayan  
+- Mrs. Jyothi Manjunath Rao  
+- Mrs. Kiran Kumari  
+- Mrs. Purnima N Ahirao  
+- Mrs. Veena Avinash Badgujar  
+- Ms. Deepshree Harshad Deogaonkar  
+- Ms. Sunayana Vilas Jadhav  
+
+All are affiliated with the **K J Somaiya School of Engineering**.
+----------------------------------------------------------------------
+[5/30] 🔄 Running
+Question: Which faculty teach Computer Networks?
+[5/30] ✅ Completed (20.60s)
+Response: The faculty members who teach **COMPUTER NETWORKS** are:  
+- Dr. Ankita Salil Nagmote  
+- Dr. Prasanna Jaichand Shete  
+- Dr. Sanjay Madhavdas Vidhani  
+- Dr. Vaibhav Prakash Vasani  
+- Mr. Gopal Jagannath Sonune  
+- Mrs. Rohini S Nair  
+- Mrs. Shivani Mahesh Deosthale  
+- Ms. Poonam Manohar Bhogle  
+- Ms. Swati Namdeo Mali  
+
+All are affiliated with the **K J Somaiya School of Engineering**, with departments in **Computer** or **Information Technology**.
+----------------------------------------------------------------------
+[6/30] 🔄 Running
+Question: Which faculty members are working in Machine Learning?
+[6/30] ✅ Completed (19.27s)
+Response: The following faculty members are working in Machine Learning at K J Somaiya School of Engineering:  
+- Dr. Ashwini Anant Dalvi (Assistant Professor, Information Technology)  
+- Dr. Grishma Jaideep Sharma (Assistant Professor, Computer)  
+- Dr. Jagannath Haridas Nirmal (Professor, Electronics)  
+- Dr. Ninad Dileep Mehendale (Associate Professor, Electronics)  
+- Dr. Rupali Pankaj Patil (Associate Professor, Electronics & Telecommunication)  
+- Dr. Sonali Atulkumar Patil (Professor, Information Technology)  
+- Dr. Sudha R Gupta (Professor, Electronics)  
+- Dr. Sujata Prasad Pathak (Assistant Professor, Information Technology)  
+- Dr. Vaibhav Prakash Vasani (Assistant Professor, Computer Engineering)  
+
+Let me know if you need further details!
+----------------------------------------------------------------------
+[7/30] 🔄 Running
+Question: Who has research interests in Data Mining or Big Data Analytics?
+[7/30] ✅ Completed (18.45s)
+Response: The faculty members with research interests matching **Big Data Analytics** are:  
+- Dr. Jyoti Vishnu Joglekar (Computer, K J Somaiya School of Engineering)  
+- Dr. Kirti Virendrakumar Wankhede (Data Science and Technology, K J Somaiya Institute of Management)  
+- Dr. Vaibhav Prakash Vasani (Computer Engineering, K J Somaiya School of Engineering)  
+- Dr. Vaibhav Sureshrao Narwane (Mechanical, K J Somaiya School of Engineering)  
+
+**Note**: The provided context only specifies "Big Data Analytics" as the research interest. There is no explicit mention of "Data Mining" in the knowledge base.
+----------------------------------------------------------------------
+[8/30] 🔄 Running
+Question: Who is an expert in Robotics?
+[8/30] ✅ Completed (13.74s)
+Response: Dr. Abhijeet Uday Karmarkar and Dr. Sangita Nitin Bansode are experts in Robotics. Both are faculty members in the Mechanical Department at K J Somaiya School of Engineering.
+----------------------------------------------------------------------
+[9/30] 🔄 Running
+Question: Which professors work on Cybersecurity?
+[9/30] ✅ Completed (56.39s)
+Response: The information provided does not specify which professors work on Cybersecurity. The available data lists faculty members with designations and departments, but none explicitly mention Cybersecurity as their field of expertise.
+----------------------------------------------------------------------
+[10/30] 🔄 Running
+Question: Does Vaibhav Vasani sir have a PhD?
+[10/30] ✅ Completed (13.51s)
+Response: Yes, Dr. Vaibhav Prakash Vasani holds a PhD in Computer Science and Engineering (CSE) from Kalinga University, awarded in 2025. This is explicitly mentioned in his qualifications and education section of the knowledge base.
+----------------------------------------------------------------------
+[11/30] 🔄 Running
+Question: What are Dr. Abhijeet Karmarkar's educational qualifications?
+[11/30] ✅ Completed (15.40s)
+Response: Dr. Abhijeet Uday Karmarkar's educational qualifications are as follows:  
+- **Bachelor of Engineering (Mechanical Engineering)** from Mumbai University (2011)  
+- **Master of Engineering (CAD-CAM & Robotics)** from Mumbai University (2014)  
+- **PhD** from Mumbai University (2023)  
+
+This information is explicitly stated in the knowledge base.
+----------------------------------------------------------------------
+[12/30] 🔄 Running
+Question: How many years of teaching experience does Vaibhav Vasani sir have?
+[12/30] ✅ Completed (8.69s)
+Response: Dr. Vaibhav Prakash Vasani has **16+ years of teaching experience** as mentioned in his faculty profile.
+----------------------------------------------------------------------
+[13/30] 🔄 Running
+Question: Where did Vaibhav Vasani sir work before joining Somaiya?
+[13/30] ✅ Completed (33.13s)
+Response: Before joining K J Somaiya School of Engineering in July 2018, Dr. Vaibhav Vasani worked at the following institutions:  
+- **Shah & Anchor Kutchhi Engineering College** (Assistant Professor, July 2015 – July 2018)  
+- **Padmabhushan VasantDada Patil Pratishthan's College of Engineering** (Assistant Professor, February 2015 – May 2015)  
+- **PVPP's Manohar Phalke Polytechnic** (Lecturer, December 2009 – January 2015)  
+- **Yashwantrao Chavan Maharashtra Open University** (Lecturer / Visiting Faculty, 2009)  
+- **Government Polytechnic Mumbai** (Lecturer / Visiting Faculty, 2009)  
+- **ICFAI Business School (IBS), Mumbai** (Visiting Faculty, Emerging Technology in Business)  
+- **Birla College, Kalyan** (Visiting Faculty, MSc AI, Data Science, Cloud Computing, Applied Mathematics)  
+
+These roles span his teaching and research career prior to his current position at Somaiya.
+----------------------------------------------------------------------
+[14/30] 🔄 Running
+Question: What responsibilities does Vaibhav Vasani sir handle in his department?
+[14/30] ✅ Completed (21.50s)
+Response: Dr. Vaibhav Prakash Vasani handles the following responsibilities in his department:  
+- **Faculty Advisor** for the Somaiya Machine Learning and Research Association (SMLRA).  
+- **Coordinator** for the Software Development Cell (SWDC).  
+- **Honours Coordinator** for the Computer Engineering Department.  
+- **Timetable In-charge** for the Computer Engineering Department.  
+- **Member** of the Social Media and Publicity team.  
+
+These roles highlight his involvement in academic guidance, research coordination, and departmental administrative tasks.
+----------------------------------------------------------------------
+[15/30] 🔄 Running
+Question: Has Dr. Ameya Naik worked on any research projects?
+[15/30] ✅ Completed (29.09s)
+Response: Yes, Dr. Ameya Naik has worked on several research projects. According to the knowledge base, his research projects include:  
+- **"Dietary Assessment using Medical Imaging and Pattern Recognition Techniques"** (Minor research Grant by University of Mumbai, 2016-17)  
+- **"Examiner Authentication and Paperless Data Compilation using Smart Card and Biometrics"** (Minor research Grant by University of Mumbai, 2012-13)  
+- **"Real Time Automatic Biometric Recognition using DSP"** (Minor research Grant by University of Mumbai, 2009-10)  
+- **"Object Recognition and Tracking"** (sponsored by K. J. Somaiya College of Engineering, 2009)  
+- **"Investigating Techniques to Enhance Spectral Efficiency and Data Rate in 4G & 5G Communications"** (Research Grant by Somaiya Vidyavihar University)  
+
+These projects reflect his expertise in areas like biometrics, signal processing, and communication technologies.
+----------------------------------------------------------------------
+[16/30] 🔄 Running
+Question: Can Dr. Ameya Naik's research publications be listed?
+[16/30] ✅ Completed (37.14s)
+Response: Yes, Dr. Ameya Naik's research publications include:  
+1. **"A Unified Framework for the Design of Low Complexity Wavelet Filters"** (2017) in *International Journal of Wavelets, Multiresolution and Information Processing* (DOI: [10.1142/S0219691317500540](https://doi.org/10.1142/S0219691317500540)).  
+2. **"Joint Encryption and Compression Scheme for a Multimodal Telebiometric System"** (2016) in *Elsevier Neurocomputing* (DOI: [10.1016/j.neucom.2016.01.006](https://doi.org/10.1016/j.neucom.2016.01.006)).  
+
+Conference proceedings:  
+- **"Blind DCT Domain Digital Watermarking for Biometric Authentication"** (2010) in *International Journal of Computer Applications*.  
+- **"A Comparison of Real Valued Transforms for Image Compression"** (2008) in *Fifth International Conference on Signal and Image Processing*.  
+
+For a complete list, his [Curriculum Vitae](https://svv-pii-data.somaiya.edu/160543_1699189884.pdf) or [Faculty Profile](https://kjsce.somaiya.edu/en/view-member/160543/) may include additional details.
+----------------------------------------------------------------------
+[17/30] 🔄 Running
+Question: Does Vaibhav Vasani sir have any hobbies listed in his profile?
+[17/30] ✅ Completed (23.21s)
+Response: The provided profile of Dr. Vaibhav Prakash Vasani does not include any information about hobbies. The context details his professional background, research interests, teaching experience, publications, and roles, but personal hobbies are not mentioned.
+----------------------------------------------------------------------
+[18/30] 🔄 Running
+Question: What awards has Dr. Ameya Naik received?
+[18/30] ✅ Completed (27.01s)
+Response: Dr. Ameya Naik has received the following awards:  
+1. **Appreciation Award** (multiple times) from the R&D cell, K. J. Somaiya College of Engineering, Vidyavihar, for outstanding research publications (2012–14, 2014–16, 2016–18).  
+2. **Award** from the ISTE chapter, K. J. Somaiya College of Engineering, Vidyavihar, for outstanding research publications (2016 and 2017).  
+3. **Best Teachers Award** in the Department of Electronics and Telecommunication for the academic year 2014–15.  
+4. Inclusion in **Marquis Who’s Who in the World**, 27th edition (2010), based on outstanding achievements.  
+
+These awards recognize his research contributions, teaching excellence, and academic achievements.
+----------------------------------------------------------------------
+[19/30] 🔄 Running
+Question: Has Vaibhav Vasani sir won any hackathon?
+[19/30] ✅ Completed (15.94s)
+Response: Yes, Dr. Vaibhav Vasani has won a hackathon. His team won the **Smart India Hackathon 2019** at the Bangalore Nodal Center for an agriculture-domain problem. Additionally, his team was the **runner-up** in the **Smart India Hackathon 2020** at the same nodal center.
+----------------------------------------------------------------------
+[20/30] 🔄 Running
+Question: Is Vaibhav Vasani sir a member of ACM or any professional body?
+[20/30] ✅ Completed (12.91s)
+Response: Yes, Dr. Vaibhav Vasani is a member of the **ACM** (specifically the **Mumbai ACM Professional Chapter**, where he holds the role of PR Head) and the **Indian Society for Technical Education (ISTE)** as a lifetime member. These are explicitly listed in his professional memberships.
+----------------------------------------------------------------------
+[21/30] 🔄 Running
+Question: What is Vaibhav Vasani sir's official email id?
+[21/30] ✅ Completed (10.21s)
+Response: Vaibhav Vasani sir's official email ID is **vaibhav.vasani@somaiya.edu**.
+----------------------------------------------------------------------
+[22/30] 🔄 Running
+Question: Who should I look up if I'm interested in Artificial Intelligence?
+[22/30] ✅ Completed (42.13s)
+Response: If you're interested in Artificial Intelligence, you should look up the following faculty members:  
+- Dr. Abhijeet Uday Karmarkar (Mechanical)  
+- Dr. Ankita Salil Nagmote (Information Technology)  
+- Dr. Ayesha Shahe Anwar Hakim (Electronics)  
+- Dr. Deepak Hemandas Sharma (Computer)  
+- Dr. Jyoti Vishnu Joglekar (Computer)  
+- Dr. Krantee Manoj Jamdaade (Data Science and Technology)  
+- Dr. Ninad Dileep Mehendale (Electronics)  
+- Dr. Prerna Manik Mahindroo (Business Analytics)  
+- Dr. Rupali Pankaj Patil (Electronics & Telecommunication)  
+- Dr. Sudarshan Manikrao Sirsat (Data Science and Technology)  
+- Dr. Tejashree Suresh Phatak (Electronics)  
+- Dr. Vaibhav Prakash Vasani (Computer Engineering)  
+- Dr. Vaibhav Sureshrao Narwane (Mechanical)  
+- Mr. Jayesh Liladhar Rane (Electronics)  
+- Mr. Umang Jayantibhai Patel (Electronics)  
+- Mrs. Kalpita Ajinkya Wagaskar (Information Technology)  
+- Mrs. Poonam Hemant Narkhede (Information Technology)  
+- Mrs. Snehal Rohit Shinde (Electronics)  
+- Ms. Keerthana Thirunavukkarasu (Information Technology)  
+- Ms. Kirti Dilip Mishra (Computer)  
+- Ms. Mousmi Roheet Rathod (Information Technology & Computer Science)  
+
+All are affiliated with KJ Somaiya institutions.
+----------------------------------------------------------------------
+[23/30] 🔄 Running
+Question: What is Dr. Ameya Naik's favorite book?
+[23/30] ✅ Completed (15.42s)
+Response: The information about Dr. Ameya Naik's favorite book is not available in the current KJGPT knowledge base. The provided context includes details about his academic background, research interests, teaching subjects, publications, and professional experience, but it does not mention personal preferences such as favorite books.
+----------------------------------------------------------------------
+[24/30] 🔄 Running
+Question: Between the faculty in the Computer Engineering department, who teaches Data Structures?
+[24/30] ✅ Completed (14.68s)
+Response: The faculty member in the Computer Engineering department who teaches Data Structures is **Dr. Vaibhav Prakash Vasani**.
+----------------------------------------------------------------------
+[25/30] 🔄 Running
+Question: I'm interested in a final year project on Machine Learning, which professor should I approach?
+[25/30] ✅ Completed (24.27s)
+Response: Based on the knowledge base, you can approach any of the following professors whose research interests align with Machine Learning:  
+- Dr. Ashwini Anant Dalvi (Assistant Professor, Information Technology)  
+- Dr. Grishma Jaideep Sharma (Assistant Professor, Computer)  
+- Dr. Jagannath Haridas Nirmal (Professor, Electronics)  
+- Dr. Ninad Dileep Mehendale (Associate Professor, Electronics)  
+- Dr. Rupali Pankaj Patil (Associate Professor, Electronics & Telecommunication)  
+- Dr. Sonali Atulkumar Patil (Professor, Information Technology)  
+- Dr. Sudha R Gupta (Professor, Electronics)  
+- Dr. Sujata Prasad Pathak (Assistant Professor, Information Technology)  
+- Dr. Vaibhav Prakash Vasani (Assistant Professor, Computer Engineering)  
+
+All are affiliated with the K J Somaiya School of Engineering. For specific guidance, you may need to contact their respective departments directly.
+----------------------------------------------------------------------
+[26/30] 🔄 Running
+Question: Tell me about Professor Ameya Naik.
+[26/30] ✅ Completed (35.14s)
+Response: Professor Ameya K. Naik is a Professor in the Department of Electronics & Telecommunication at K J Somaiya School of Engineering, Mumbai. He holds a Ph.D. in Electronics and has over 20 years of teaching experience. His research focuses on **Wavelets, Signal Processing, Image Processing, Data Compression, Biometrics, and Multirate Signal Processing**, with expertise in applications like **digital watermarking, biometric authentication, and telecommunications**.  
+
+He teaches courses such as **Discrete Time Signal Processing, Image Processing, Digital Communication, and Software Simulation Laboratory**. His academic credentials include a B.E. (2002) and M.E. (2004) from institutions in Mumbai, followed by a Ph.D. from S.R.T.M. University (2015).  
+
+Professor Naik has published extensively in international journals and conferences, authored papers on topics like **wavelet filters, encryption-compression schemes, and real-valued transforms for image compression**, and contributed to sponsored research projects. He has received multiple awards, including the **"Appreciation Award" for outstanding research** and the **"Best Teachers Award"** (2014-15).  
+
+For more details, visit his [faculty profile](https://kjsce.somaiya.edu/en/view-member/160543/) or [curriculum vitae](https://svv-pii-data.somaiya.edu/160543_1699189884.pdf).
+----------------------------------------------------------------------
+[27/30] 🔄 Running
+Question: Give me a summary of the faculty in the Electronics & Telecommunication department.
+[27/30] ✅ Completed (18.83s)
+Response: The Electronics & Telecommunication department at K J Somaiya School of Engineering has 22 faculty members, including professors, associate professors, and assistant professors. All listed faculty are affiliated with the same institution and hold varying seniority levels in their roles. No additional details about their research areas or specific contributions are provided in the context.
+----------------------------------------------------------------------
+[28/30] 🔄 Running
+Question: What is Vaibhav Vasani sir's favorite programming language?
+[28/30] ✅ Completed (21.50s)
+Response: The knowledge base provided does not specify Dr. Vaibhav Prakash Vasani's favorite programming language. The context lists programming languages and tools he has worked with (e.g., Django, Python, PHP, JavaScript, etc.) and his research interests, but it does not mention a personal preference for a specific language.
+----------------------------------------------------------------------
+[29/30] 🔄 Running
+Question: What is Dr. Ameya Naik's favorite cricket team?
+[29/30] ✅ Completed (17.31s)
+Response: The information about Dr. Ameya Naik's favorite cricket team is not available in the provided knowledge base context.
+----------------------------------------------------------------------
+[30/30] 🔄 Running
+Question: What is Dr. Abhijeet Karmarkar's date of birth?
+[30/30] ✅ Completed (19.90s)
+Response: The knowledge base provided does not include Dr. Abhijeet Uday Karmarkar's date of birth. This information is not available in the current context.
+----------------------------------------------------------------------

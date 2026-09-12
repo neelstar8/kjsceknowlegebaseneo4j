@@ -1,0 +1,18 @@
+{
+  "retrieval_timestamp": "2026-09-10T08:44:12.243919+00:00",
+  "ingested_at": "2026-09-10T08:51:54.597337+00:00",
+  "source_url": "https://www.somaiya.edu/en/contact-us/faculty-directory/",
+  "total_discovered": 613,
+  "total_normalized": 613,
+  "total_considered_this_run": 613,
+  "total_inserted": 0,
+  "total_updated": 613,
+  "total_failed": 0,
+  "duplicate_count": 0,
+  "missing_name_count": 0,
+  "missing_profile_count": 0,
+  "faculty_with_empty_profiles": 267,
+  "faculty_with_parsing_errors": 0,
+  "neo4j_count_before": 613,
+  "neo4j_count_after": 613
+}

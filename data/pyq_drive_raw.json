@@ -1,0 +1,3086 @@
+{
+  "source": "https://drive.google.com/drive/folders/1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+  "root_folder_id": "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+  "root_folder_name": "ise question paper kj somaiya",
+  "retrieved_at": "2026-09-11T08:33:10.329767+00:00",
+  "total_files": 171,
+  "note": "Captured via a read-only Drive walk before the service account existed. Re-running scripts/discover_pyq.py overwrites this with the complete tree; ingestion is idempotent either way.",
+  "files": [
+    {
+      "drive_file_id": "1mN1u20J8jLCfiVLuizMh1JOCyeMJTy3e",
+      "file_name": "ISE QP 23-24 odd.zip",
+      "mime_type": "application/zip",
+      "file_size": 25881559,
+      "drive_url": "https://drive.google.com/file/d/1mN1u20J8jLCfiVLuizMh1JOCyeMJTy3e/view?usp=drivesdk",
+      "parent_folder_id": "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+      "parent_folder_name": "drive-download-20260811T182940Z-1-001",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO"
+      ],
+      "drive_created_time": "2026-08-11T18:31:13.847Z",
+      "drive_modified_time": "2024-09-13T01:08:38Z"
+    },
+    {
+      "drive_file_id": "1Ga6p2b8i9NzYgVAuVGBF6Ftuee9oB0Lh",
+      "file_name": "LY 23-24.zip",
+      "mime_type": "application/zip",
+      "file_size": 8774287,
+      "drive_url": "https://drive.google.com/file/d/1Ga6p2b8i9NzYgVAuVGBF6Ftuee9oB0Lh/view?usp=drivesdk",
+      "parent_folder_id": "y2324o",
+      "parent_folder_name": "ISE QP 23-24 odd",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 odd",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324o"
+      ],
+      "drive_created_time": "2026-08-11T18:31:17.042Z",
+      "drive_modified_time": "2025-08-20T23:23:26Z"
+    },
+    {
+      "drive_file_id": "1Ly3RHEW5Db8C45HeoUwd-26vGDIzBT8K",
+      "file_name": "LY.zip",
+      "mime_type": "application/zip",
+      "file_size": 1889799,
+      "drive_url": "https://drive.google.com/file/d/1Ly3RHEW5Db8C45HeoUwd-26vGDIzBT8K/view?usp=drivesdk",
+      "parent_folder_id": "y2425o",
+      "parent_folder_name": "ISE QP 24-25 Odd PDF",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o"
+      ],
+      "drive_created_time": "2026-08-11T18:31:20.356Z",
+      "drive_modified_time": "2025-08-20T23:22:02Z"
+    },
+    {
+      "drive_file_id": "1lomcpzU1JZDaSmWTgdkXM_jDP2laUg4s",
+      "file_name": "SY IV sem 22-23 ISE QP.zip",
+      "mime_type": "application/zip",
+      "file_size": 8886442,
+      "drive_url": "https://drive.google.com/file/d/1lomcpzU1JZDaSmWTgdkXM_jDP2laUg4s/view?usp=drivesdk",
+      "parent_folder_id": "blooms",
+      "parent_folder_name": "ISE QP with Blooms and Toxonomy",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 22-23 Even & Syllabus/ISE QP with Blooms and Toxonomy",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2223e",
+        "blooms"
+      ],
+      "drive_created_time": "2026-08-11T18:32:33.455Z",
+      "drive_modified_time": "2024-01-11T16:06:44Z"
+    },
+    {
+      "drive_file_id": "1PnU1zG2Sq4obCReSWZrcEPU6eaz5qgdk",
+      "file_name": "SY 23-24 even.zip",
+      "mime_type": "application/zip",
+      "file_size": 6633344,
+      "drive_url": "https://drive.google.com/file/d/1PnU1zG2Sq4obCReSWZrcEPU6eaz5qgdk/view?usp=drivesdk",
+      "parent_folder_id": "y2324e",
+      "parent_folder_name": "ISE QP 23-24 Even",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 Even",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324e"
+      ],
+      "drive_created_time": "2026-08-11T18:31:23.383Z",
+      "drive_modified_time": "2025-01-08T05:19:16Z"
+    },
+    {
+      "drive_file_id": "1ShsbSZ5wkqG6-5qCsS7PxAHWSCdo-55P",
+      "file_name": "AI_SVU 2020_with CO.doc",
+      "mime_type": "application/msword",
+      "file_size": 295424,
+      "drive_url": "https://drive.google.com/file/d/1ShsbSZ5wkqG6-5qCsS7PxAHWSCdo-55P/view?usp=drivesdk",
+      "parent_folder_id": "y2324e",
+      "parent_folder_name": "ISE QP 23-24 Even",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 Even",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324e"
+      ],
+      "drive_created_time": "2026-08-11T18:31:13.931Z",
+      "drive_modified_time": "2024-03-06T19:57:16Z"
+    },
+    {
+      "drive_file_id": "1oGH0iPsEkLTTIsBTGjtzEkKYzou0klxh",
+      "file_name": "ISE-ML-with co Feb2024.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 412053,
+      "drive_url": "https://drive.google.com/file/d/1oGH0iPsEkLTTIsBTGjtzEkKYzou0klxh/view?usp=drivesdk",
+      "parent_folder_id": "y2324e",
+      "parent_folder_name": "ISE QP 23-24 Even",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 Even",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324e"
+      ],
+      "drive_created_time": "2026-08-11T18:31:13.674Z",
+      "drive_modified_time": "2024-03-06T15:53:48Z"
+    },
+    {
+      "drive_file_id": "1SUAOP7YrhfJDpxP3p_RrZommu8Cz8wCr",
+      "file_name": "TY V MAD-Flutter.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 1992200,
+      "drive_url": "https://drive.google.com/file/d/1SUAOP7YrhfJDpxP3p_RrZommu8Cz8wCr/view?usp=drivesdk",
+      "parent_folder_id": "24o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324o",
+        "24o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:32:14.811Z",
+      "drive_modified_time": "2023-10-06T01:29:38Z"
+    },
+    {
+      "drive_file_id": "1XGYyCyVJWWpeqKWmoMCRjargjs9kqqUd",
+      "file_name": "TY V OS.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 1202174,
+      "drive_url": "https://drive.google.com/file/d/1XGYyCyVJWWpeqKWmoMCRjargjs9kqqUd/view?usp=drivesdk",
+      "parent_folder_id": "24o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324o",
+        "24o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:32:12.100Z",
+      "drive_modified_time": "2023-10-06T01:03:40Z"
+    },
+    {
+      "drive_file_id": "18eL5wt5kXQSOxFVFNH78hs1yzK2CVtuG",
+      "file_name": "TY V CG.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 887079,
+      "drive_url": "https://drive.google.com/file/d/18eL5wt5kXQSOxFVFNH78hs1yzK2CVtuG/view?usp=drivesdk",
+      "parent_folder_id": "24o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324o",
+        "24o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:23.511Z",
+      "drive_modified_time": "2023-10-06T02:17:34Z"
+    },
+    {
+      "drive_file_id": "19A9RVJ_D_WFZQCKHEWD0w_lBW1z_B1P3",
+      "file_name": "TY V OEHM-Consumer Behaviour.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 870010,
+      "drive_url": "https://drive.google.com/file/d/19A9RVJ_D_WFZQCKHEWD0w_lBW1z_B1P3/view?usp=drivesdk",
+      "parent_folder_id": "24o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324o",
+        "24o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:23.386Z",
+      "drive_modified_time": "2023-10-06T01:47:34Z"
+    },
+    {
+      "drive_file_id": "1xU0U1kaYagVLUvfV0lVwaRF27kXgtyRS",
+      "file_name": "TY V OEHM-IMGT.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 616520,
+      "drive_url": "https://drive.google.com/file/d/1xU0U1kaYagVLUvfV0lVwaRF27kXgtyRS/view?usp=drivesdk",
+      "parent_folder_id": "24o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324o",
+        "24o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:23.394Z",
+      "drive_modified_time": "2023-10-06T01:45:22Z"
+    },
+    {
+      "drive_file_id": "1WGC-zf_HPJGI8MuAvJ__erhaUuRbhEAL",
+      "file_name": "TY V H-DA.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 710906,
+      "drive_url": "https://drive.google.com/file/d/1WGC-zf_HPJGI8MuAvJ__erhaUuRbhEAL/view?usp=drivesdk",
+      "parent_folder_id": "24o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324o",
+        "24o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:23.333Z",
+      "drive_modified_time": "2023-10-06T01:16:20Z"
+    },
+    {
+      "drive_file_id": "1kow94wBJIcIfC05qvysDmseB5vhUmF9g",
+      "file_name": "TY V H-BCT.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 504219,
+      "drive_url": "https://drive.google.com/file/d/1kow94wBJIcIfC05qvysDmseB5vhUmF9g/view?usp=drivesdk",
+      "parent_folder_id": "24o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324o",
+        "24o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:23.171Z",
+      "drive_modified_time": "2023-10-06T01:17:36Z"
+    },
+    {
+      "drive_file_id": "1KKp2Ls832sOuf7ON376yLeHlXOgvFG9S",
+      "file_name": "TY V m-AI.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 531923,
+      "drive_url": "https://drive.google.com/file/d/1KKp2Ls832sOuf7ON376yLeHlXOgvFG9S/view?usp=drivesdk",
+      "parent_folder_id": "24o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324o",
+        "24o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:23.401Z",
+      "drive_modified_time": "2023-10-06T01:14:22Z"
+    },
+    {
+      "drive_file_id": "18_GHVAMFUg5l8kdg12fSIe4lImGa5xA3",
+      "file_name": "TY V m-OS.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 698933,
+      "drive_url": "https://drive.google.com/file/d/18_GHVAMFUg5l8kdg12fSIe4lImGa5xA3/view?usp=drivesdk",
+      "parent_folder_id": "24o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324o",
+        "24o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:23.327Z",
+      "drive_modified_time": "2023-10-06T01:12:30Z"
+    },
+    {
+      "drive_file_id": "1g3GyqXdrHd3xyou0Y-nWOcfjEsD1NsZR",
+      "file_name": "TY V SC.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 520108,
+      "drive_url": "https://drive.google.com/file/d/1g3GyqXdrHd3xyou0Y-nWOcfjEsD1NsZR/view?usp=drivesdk",
+      "parent_folder_id": "24o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324o",
+        "24o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:23.276Z",
+      "drive_modified_time": "2023-10-06T01:05:20Z"
+    },
+    {
+      "drive_file_id": "1DfjeKjMKXLoJmVuR2b7kV_bpjb3hBxAG",
+      "file_name": "TY V CN.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 695790,
+      "drive_url": "https://drive.google.com/file/d/1DfjeKjMKXLoJmVuR2b7kV_bpjb3hBxAG/view?usp=drivesdk",
+      "parent_folder_id": "24o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324o",
+        "24o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:23.472Z",
+      "drive_modified_time": "2023-10-06T01:01:40Z"
+    },
+    {
+      "drive_file_id": "1cXPFgJxqlSrt2eC8ML5yRojZJihiFVNT",
+      "file_name": "TY V SE.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 573975,
+      "drive_url": "https://drive.google.com/file/d/1cXPFgJxqlSrt2eC8ML5yRojZJihiFVNT/view?usp=drivesdk",
+      "parent_folder_id": "24o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324o",
+        "24o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:23.381Z",
+      "drive_modified_time": "2023-10-06T01:00:08Z"
+    },
+    {
+      "drive_file_id": "1egH5USMx78-KAnzCYrab9sBLCyv2SODq",
+      "file_name": "SY III COA.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 566086,
+      "drive_url": "https://drive.google.com/file/d/1egH5USMx78-KAnzCYrab9sBLCyv2SODq/view?usp=drivesdk",
+      "parent_folder_id": "24o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 odd/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324o",
+        "24o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:20.643Z",
+      "drive_modified_time": "2023-10-11T00:34:46Z"
+    },
+    {
+      "drive_file_id": "1DJhdMBnsyImraUkY1hiceKIPDKUQLgjk",
+      "file_name": "SY III H-AC.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 689803,
+      "drive_url": "https://drive.google.com/file/d/1DJhdMBnsyImraUkY1hiceKIPDKUQLgjk/view?usp=drivesdk",
+      "parent_folder_id": "24o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 odd/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324o",
+        "24o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:20.915Z",
+      "drive_modified_time": "2023-10-06T02:02:38Z"
+    },
+    {
+      "drive_file_id": "1aiiD6VMHfBrcCvixVXcAXy5ZaLtKnvFd",
+      "file_name": "SY III DM.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 1115087,
+      "drive_url": "https://drive.google.com/file/d/1aiiD6VMHfBrcCvixVXcAXy5ZaLtKnvFd/view?usp=drivesdk",
+      "parent_folder_id": "24o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 odd/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324o",
+        "24o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:57.799Z",
+      "drive_modified_time": "2023-10-05T05:04:40Z"
+    },
+    {
+      "drive_file_id": "1dNi5oZ9FfIMZIeuihMh2AW4MgIf-mM1z",
+      "file_name": "SY III Honors DV.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 547048,
+      "drive_url": "https://drive.google.com/file/d/1dNi5oZ9FfIMZIeuihMh2AW4MgIf-mM1z/view?usp=drivesdk",
+      "parent_folder_id": "24o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 odd/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324o",
+        "24o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:20.465Z",
+      "drive_modified_time": "2023-10-05T05:16:18Z"
+    },
+    {
+      "drive_file_id": "1FS3NNR8OR5A4pCeK0Muy8TBDSDdBgCXD",
+      "file_name": "SY III ITVC.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 1030135,
+      "drive_url": "https://drive.google.com/file/d/1FS3NNR8OR5A4pCeK0Muy8TBDSDdBgCXD/view?usp=drivesdk",
+      "parent_folder_id": "24o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 odd/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324o",
+        "24o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:20.961Z",
+      "drive_modified_time": "2023-10-05T05:08:32Z"
+    },
+    {
+      "drive_file_id": "1ZJR7cbPp8nBL14YDU5oAl6E_m4MOkV_L",
+      "file_name": "SY III OOPM.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 598010,
+      "drive_url": "https://drive.google.com/file/d/1ZJR7cbPp8nBL14YDU5oAl6E_m4MOkV_L/view?usp=drivesdk",
+      "parent_folder_id": "24o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 odd/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324o",
+        "24o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:20.355Z",
+      "drive_modified_time": "2023-10-05T05:13:14Z"
+    },
+    {
+      "drive_file_id": "1ZFlVaBtb8H0_FXAsVYqP_9vMwaeCG6r6",
+      "file_name": "SY III DS.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 619389,
+      "drive_url": "https://drive.google.com/file/d/1ZFlVaBtb8H0_FXAsVYqP_9vMwaeCG6r6/view?usp=drivesdk",
+      "parent_folder_id": "24o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 odd/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324o",
+        "24o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:20.567Z",
+      "drive_modified_time": "2023-10-05T05:09:44Z"
+    },
+    {
+      "drive_file_id": "1rCkwX_jSjo0lprV1rIBC2S9oEoTItlxg",
+      "file_name": "SY DS-ISE QUESTION odd 20-21 without CO and BT.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 354699,
+      "drive_url": "https://drive.google.com/file/d/1rCkwX_jSjo0lprV1rIBC2S9oEoTItlxg/view?usp=drivesdk",
+      "parent_folder_id": "21o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:42.481Z",
+      "drive_modified_time": "2020-01-26T23:02:32Z"
+    },
+    {
+      "drive_file_id": "1SkH1XaMiDRI83wKWHxhhREXboaEyUhDx",
+      "file_name": "ISE_ SY_OOPM .pdf",
+      "mime_type": "application/pdf",
+      "file_size": 486541,
+      "drive_url": "https://drive.google.com/file/d/1SkH1XaMiDRI83wKWHxhhREXboaEyUhDx/view?usp=drivesdk",
+      "parent_folder_id": "21o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:44.310Z",
+      "drive_modified_time": "2020-01-26T23:02:30Z"
+    },
+    {
+      "drive_file_id": "1HJCPvBmkMeSrFlQjG7uZ8mkMVhOE6Xam",
+      "file_name": "ISE_COA_SY.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 326315,
+      "drive_url": "https://drive.google.com/file/d/1HJCPvBmkMeSrFlQjG7uZ8mkMVhOE6Xam/view?usp=drivesdk",
+      "parent_folder_id": "21o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:44.139Z",
+      "drive_modified_time": "2020-01-26T23:02:32Z"
+    },
+    {
+      "drive_file_id": "1hC69geck1MotrWw-25P-lO_chkh4RsvM",
+      "file_name": "DSM_QUESTION PAPER_withoutCOs.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 700135,
+      "drive_url": "https://drive.google.com/file/d/1hC69geck1MotrWw-25P-lO_chkh4RsvM/view?usp=drivesdk",
+      "parent_folder_id": "21o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:44.018Z",
+      "drive_modified_time": "2020-01-26T23:02:32Z"
+    },
+    {
+      "drive_file_id": "1GvUsH3oZ8wTPNPc2cxPtWBh3ol5fda7I",
+      "file_name": "SY_ISE_ITVC.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 523209,
+      "drive_url": "https://drive.google.com/file/d/1GvUsH3oZ8wTPNPc2cxPtWBh3ol5fda7I/view?usp=drivesdk",
+      "parent_folder_id": "21o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:43.865Z",
+      "drive_modified_time": "2020-01-26T23:02:32Z"
+    },
+    {
+      "drive_file_id": "1HPK3oAmV8jvRIKg1vaSgsR979-UQ_66r",
+      "file_name": "CGV_ISE_QUESTION PAPER_2020-2021.docx",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "file_size": 25740,
+      "drive_url": "https://drive.google.com/file/d/1HPK3oAmV8jvRIKg1vaSgsR979-UQ_66r/view?usp=drivesdk",
+      "parent_folder_id": "21o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:42.230Z",
+      "drive_modified_time": "2020-01-26T23:02:38Z"
+    },
+    {
+      "drive_file_id": "1DVzUAKGfP2xnWLK9bB965jNSbgLkuvWU",
+      "file_name": "ISE- ADBDWH.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 312065,
+      "drive_url": "https://drive.google.com/file/d/1DVzUAKGfP2xnWLK9bB965jNSbgLkuvWU/view?usp=drivesdk",
+      "parent_folder_id": "21o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:41.727Z",
+      "drive_modified_time": "2020-01-26T23:02:40Z"
+    },
+    {
+      "drive_file_id": "1zrGw3UQAOh80UU5uHCXwcvy_kODq2T4c",
+      "file_name": "ISE_OSSS_20-21.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 475162,
+      "drive_url": "https://drive.google.com/file/d/1zrGw3UQAOh80UU5uHCXwcvy_kODq2T4c/view?usp=drivesdk",
+      "parent_folder_id": "21o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:41.678Z",
+      "drive_modified_time": "2020-01-26T23:02:40Z"
+    },
+    {
+      "drive_file_id": "194wkvhdP56cbFczxqyZl3z88gWXnC1Ua",
+      "file_name": "ARVR_ISE_QUESTION PAPER_2020-2021.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 291957,
+      "drive_url": "https://drive.google.com/file/d/194wkvhdP56cbFczxqyZl3z88gWXnC1Ua/view?usp=drivesdk",
+      "parent_folder_id": "21o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:41.620Z",
+      "drive_modified_time": "2020-01-26T23:02:40Z"
+    },
+    {
+      "drive_file_id": "1y0CMoWbj48Mg4GwDm3zE3zkiFP0cOYrN",
+      "file_name": "ISE_OET MOBILE APPLICATION DEVELOPMENT iOS.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 149981,
+      "drive_url": "https://drive.google.com/file/d/1y0CMoWbj48Mg4GwDm3zE3zkiFP0cOYrN/view?usp=drivesdk",
+      "parent_folder_id": "21o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:41.619Z",
+      "drive_modified_time": "2020-01-26T23:02:40Z"
+    },
+    {
+      "drive_file_id": "1hBY4kqWMaKkWpFH4MeXPn7pab5zFKVZK",
+      "file_name": "ISE_soft computing without COS and blooms.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 483466,
+      "drive_url": "https://drive.google.com/file/d/1hBY4kqWMaKkWpFH4MeXPn7pab5zFKVZK/view?usp=drivesdk",
+      "parent_folder_id": "21o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:41.573Z",
+      "drive_modified_time": "2020-01-26T23:02:40Z"
+    },
+    {
+      "drive_file_id": "18V2oz1BVg-qVK7km1G22Z3JCSflvWs3A",
+      "file_name": "CN_ISE QUESTION PAPER(Without CO and Bloom_s).pdf",
+      "mime_type": "application/pdf",
+      "file_size": 160784,
+      "drive_url": "https://drive.google.com/file/d/18V2oz1BVg-qVK7km1G22Z3JCSflvWs3A/view?usp=drivesdk",
+      "parent_folder_id": "21o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:41.538Z",
+      "drive_modified_time": "2020-01-26T23:02:38Z"
+    },
+    {
+      "drive_file_id": "1rPTsjn4IHarx0iQBtT1jA3jWbkj2glN_",
+      "file_name": "ISE_OET MOBILE APPLICATION DEVELOPMENT iOS.docx",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "file_size": 90289,
+      "drive_url": "https://drive.google.com/file/d/1rPTsjn4IHarx0iQBtT1jA3jWbkj2glN_/view?usp=drivesdk",
+      "parent_folder_id": "21o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:41.500Z",
+      "drive_modified_time": "2020-01-26T23:02:38Z"
+    },
+    {
+      "drive_file_id": "1kh-HL3w4Bvnj_n9WmnMUVOqLdB494ntq",
+      "file_name": "CGV_ISE_QUESTION PAPER_2020-2021.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 297856,
+      "drive_url": "https://drive.google.com/file/d/1kh-HL3w4Bvnj_n9WmnMUVOqLdB494ntq/view?usp=drivesdk",
+      "parent_folder_id": "21o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:40.128Z",
+      "drive_modified_time": "2020-01-26T23:02:42Z"
+    },
+    {
+      "drive_file_id": "1BD8SbE19O0W_JB8p31Kq0_6dl5NrpJTK",
+      "file_name": "ISE_MOBILE APPLICATION DEVELOPMENT FLUTTER.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 387395,
+      "drive_url": "https://drive.google.com/file/d/1BD8SbE19O0W_JB8p31Kq0_6dl5NrpJTK/view?usp=drivesdk",
+      "parent_folder_id": "21o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:40.105Z",
+      "drive_modified_time": "2020-01-26T23:02:38Z"
+    },
+    {
+      "drive_file_id": "1X_R17znF6r-4Xkbm8PlpYXfDYVfjlN6P",
+      "file_name": "ISE_QUESTION PAPER Python for Data Science 29 Oct 2020 without blooms taxo.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 151162,
+      "drive_url": "https://drive.google.com/file/d/1X_R17znF6r-4Xkbm8PlpYXfDYVfjlN6P/view?usp=drivesdk",
+      "parent_folder_id": "21o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:40.012Z",
+      "drive_modified_time": "2020-01-26T23:02:38Z"
+    },
+    {
+      "drive_file_id": "1j-g5mXZFyw8tNp5kJIkalIF4M4rguz1z",
+      "file_name": "ISE_SE TY QUESTION PAPER.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 409910,
+      "drive_url": "https://drive.google.com/file/d/1j-g5mXZFyw8tNp5kJIkalIF4M4rguz1z/view?usp=drivesdk",
+      "parent_folder_id": "21o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:40.007Z",
+      "drive_modified_time": "2020-01-26T23:02:38Z"
+    },
+    {
+      "drive_file_id": "1FQz6UKQIN2zgR1FRcPfVZTPL65UlcM2q",
+      "file_name": "ISE_C#.NET_NOV2020.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 467989,
+      "drive_url": "https://drive.google.com/file/d/1FQz6UKQIN2zgR1FRcPfVZTPL65UlcM2q/view?usp=drivesdk",
+      "parent_folder_id": "21o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:46.451Z",
+      "drive_modified_time": "2020-01-26T23:02:24Z"
+    },
+    {
+      "drive_file_id": "1RD4pyCHMg5t-OMlOoKFstWdGSFp5Xq-J",
+      "file_name": "Rev-CSS-ISE.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 386515,
+      "drive_url": "https://drive.google.com/file/d/1RD4pyCHMg5t-OMlOoKFstWdGSFp5Xq-J/view?usp=drivesdk",
+      "parent_folder_id": "21o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:46.362Z",
+      "drive_modified_time": "2020-01-26T23:02:26Z"
+    },
+    {
+      "drive_file_id": "1G9s9eT0z0RrXfVQQcXfqmSHE0jhBimQO",
+      "file_name": "NLP - LY - VII - ISE Q PAPER - NOV 2020.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 424958,
+      "drive_url": "https://drive.google.com/file/d/1G9s9eT0z0RrXfVQQcXfqmSHE0jhBimQO/view?usp=drivesdk",
+      "parent_folder_id": "21o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:45.070Z",
+      "drive_modified_time": "2020-01-26T23:02:26Z"
+    },
+    {
+      "drive_file_id": "1gzDXXX-oApwDWjMrIQJOelKlC7O7BQQ5",
+      "file_name": "HMI_ISE_Nov2020 (Without CO_s).pdf",
+      "mime_type": "application/pdf",
+      "file_size": 303378,
+      "drive_url": "https://drive.google.com/file/d/1gzDXXX-oApwDWjMrIQJOelKlC7O7BQQ5/view?usp=drivesdk",
+      "parent_folder_id": "21o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:44.952Z",
+      "drive_modified_time": "2020-01-26T23:02:22Z"
+    },
+    {
+      "drive_file_id": "1kJVeFXG6A3q3xixq70EGUJ9n4hmYZBH6",
+      "file_name": "CSM ISE Nov 2020 Students.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 341907,
+      "drive_url": "https://drive.google.com/file/d/1kJVeFXG6A3q3xixq70EGUJ9n4hmYZBH6/view?usp=drivesdk",
+      "parent_folder_id": "21o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:44.866Z",
+      "drive_modified_time": "2020-01-26T23:02:24Z"
+    },
+    {
+      "drive_file_id": "1zl33DTIc160TY8MzLaOKQPMQucGLdmRd",
+      "file_name": "SC.LY Elective.Nov2020 without CO-BT.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 305622,
+      "drive_url": "https://drive.google.com/file/d/1zl33DTIc160TY8MzLaOKQPMQucGLdmRd/view?usp=drivesdk",
+      "parent_folder_id": "21o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:44.836Z",
+      "drive_modified_time": "2020-01-26T23:02:22Z"
+    },
+    {
+      "drive_file_id": "1aF5WDPTaqvjnhGKfbf868yNrC_HK1o4n",
+      "file_name": "ISE_SPM LY QUESTION PAPER.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 425744,
+      "drive_url": "https://drive.google.com/file/d/1aF5WDPTaqvjnhGKfbf868yNrC_HK1o4n/view?usp=drivesdk",
+      "parent_folder_id": "21o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:44.806Z",
+      "drive_modified_time": "2020-01-26T23:02:24Z"
+    },
+    {
+      "drive_file_id": "1sheEQ7p_ZhonIV-jAXVjc6fb1IpSIuDo",
+      "file_name": "ISE_DWM QUESTION PAPER(Without CO).pdf",
+      "mime_type": "application/pdf",
+      "file_size": 402621,
+      "drive_url": "https://drive.google.com/file/d/1sheEQ7p_ZhonIV-jAXVjc6fb1IpSIuDo/view?usp=drivesdk",
+      "parent_folder_id": "21o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 odd/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021o",
+        "21o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:44.542Z",
+      "drive_modified_time": "2020-01-26T23:02:26Z"
+    },
+    {
+      "drive_file_id": "18UgEqHuP5Z8haQpjYil_pX7dN7tMiQ10",
+      "file_name": "AOA_ISE(2020-21)_QP.docx.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 622630,
+      "drive_url": "https://drive.google.com/file/d/18UgEqHuP5Z8haQpjYil_pX7dN7tMiQ10/view?usp=drivesdk",
+      "parent_folder_id": "21e_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:42.517Z",
+      "drive_modified_time": "2020-01-26T23:02:50Z"
+    },
+    {
+      "drive_file_id": "1oSz_qUiPfy13AhYW_Wn8mzwwfTjeZgGa",
+      "file_name": "RDBMS(2020-2021)ISE_ QUESTION PAPER_WITHiout CO.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 288931,
+      "drive_url": "https://drive.google.com/file/d/1oSz_qUiPfy13AhYW_Wn8mzwwfTjeZgGa/view?usp=drivesdk",
+      "parent_folder_id": "21e_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:42.512Z",
+      "drive_modified_time": "2020-01-26T23:02:48Z"
+    },
+    {
+      "drive_file_id": "1IW2puX_65JCtpZ-RlbU8C1nI6YwSc0rR",
+      "file_name": "ISE_SemIV_PSOT_ March 20-21.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 244420,
+      "drive_url": "https://drive.google.com/file/d/1IW2puX_65JCtpZ-RlbU8C1nI6YwSc0rR/view?usp=drivesdk",
+      "parent_folder_id": "21e_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:42.462Z",
+      "drive_modified_time": "2020-01-26T23:02:50Z"
+    },
+    {
+      "drive_file_id": "1sdAh2Y_dQ9sbf6X3ait54o4G426W9GOX",
+      "file_name": "PWD_AOA_ISE(2020-21)_QP.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 226233,
+      "drive_url": "https://drive.google.com/file/d/1sdAh2Y_dQ9sbf6X3ait54o4G426W9GOX/view?usp=drivesdk",
+      "parent_folder_id": "21e_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:42.270Z",
+      "drive_modified_time": "2020-01-26T23:02:48Z"
+    },
+    {
+      "drive_file_id": "1KOgOhX4Tgjw3JVQHTzbGk7jJzA-0e5wc",
+      "file_name": "SA_RDBMS(2020-2021)ISE_TEMPLATE FOR QUESTION PAPER_WITHOUT CO .pdf",
+      "mime_type": "application/pdf",
+      "file_size": 292799,
+      "drive_url": "https://drive.google.com/file/d/1KOgOhX4Tgjw3JVQHTzbGk7jJzA-0e5wc/view?usp=drivesdk",
+      "parent_folder_id": "21e_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:42.192Z",
+      "drive_modified_time": "2020-01-26T23:02:50Z"
+    },
+    {
+      "drive_file_id": "1BbUD5_NDbijmYQi3IoQitJuqHSoUzHpf",
+      "file_name": "TACD ISE 2020_21.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 589583,
+      "drive_url": "https://drive.google.com/file/d/1BbUD5_NDbijmYQi3IoQitJuqHSoUzHpf/view?usp=drivesdk",
+      "parent_folder_id": "21e_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:42.183Z",
+      "drive_modified_time": "2020-01-26T23:02:50Z"
+    },
+    {
+      "drive_file_id": "1B4jWAF8awXQR10EwC7ihxMU5A7cjofgx",
+      "file_name": "ISE_SemIV_PSOT_ (PWD)_March 20-21.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 247360,
+      "drive_url": "https://drive.google.com/file/d/1B4jWAF8awXQR10EwC7ihxMU5A7cjofgx/view?usp=drivesdk",
+      "parent_folder_id": "21e_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:42.179Z",
+      "drive_modified_time": "2020-01-26T23:02:50Z"
+    },
+    {
+      "drive_file_id": "10sFZWM1mgFuR-ADxR92aOMEsx1fbjGIU",
+      "file_name": "AITISE Abled.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 444606,
+      "drive_url": "https://drive.google.com/file/d/10sFZWM1mgFuR-ADxR92aOMEsx1fbjGIU/view?usp=drivesdk",
+      "parent_folder_id": "21e_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:34.310Z",
+      "drive_modified_time": "2020-01-26T23:03:00Z"
+    },
+    {
+      "drive_file_id": "1Qd9xOhBr7wD35k_irLKKPofUNgbLF0Ho",
+      "file_name": "ISE_DCC QUESTION PAPER_WITHOUT CO_FOR students.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 416950,
+      "drive_url": "https://drive.google.com/file/d/1Qd9xOhBr7wD35k_irLKKPofUNgbLF0Ho/view?usp=drivesdk",
+      "parent_folder_id": "21e_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:34.182Z",
+      "drive_modified_time": "2020-01-26T23:03:00Z"
+    },
+    {
+      "drive_file_id": "1jbfMu6GxXxczWbKDl1yBUE9XSiKUTG-G",
+      "file_name": "ML 2021 March ISE students.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 315302,
+      "drive_url": "https://drive.google.com/file/d/1jbfMu6GxXxczWbKDl1yBUE9XSiKUTG-G/view?usp=drivesdk",
+      "parent_folder_id": "21e_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:34.085Z",
+      "drive_modified_time": "2020-01-26T23:02:58Z"
+    },
+    {
+      "drive_file_id": "1WWdry-JOd4czEZkgG2APYMkTx41hdmj6",
+      "file_name": "STQA OF QUESTION PAPER WITHOUT CO_FOR STUDENTS.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 185350,
+      "drive_url": "https://drive.google.com/file/d/1WWdry-JOd4czEZkgG2APYMkTx41hdmj6/view?usp=drivesdk",
+      "parent_folder_id": "21e_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:34.068Z",
+      "drive_modified_time": "2020-01-26T23:02:58Z"
+    },
+    {
+      "drive_file_id": "1u8wcoU6zn51osEUMOTdkL1Cg3iXfkjoW",
+      "file_name": "ISE_DCC QUESTION PAPER_WITHOUT CO_FOR PWD students.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 430244,
+      "drive_url": "https://drive.google.com/file/d/1u8wcoU6zn51osEUMOTdkL1Cg3iXfkjoW/view?usp=drivesdk",
+      "parent_folder_id": "21e_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:34.044Z",
+      "drive_modified_time": "2020-01-26T23:03:00Z"
+    },
+    {
+      "drive_file_id": "1x7SkjiNx8-i9ig0DVPZQayzxhYdysYQF",
+      "file_name": "ISE AIT 2021.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 507010,
+      "drive_url": "https://drive.google.com/file/d/1x7SkjiNx8-i9ig0DVPZQayzxhYdysYQF/view?usp=drivesdk",
+      "parent_folder_id": "21e_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:34.006Z",
+      "drive_modified_time": "2020-01-26T23:02:58Z"
+    },
+    {
+      "drive_file_id": "1deMJq92fEGTWeDUJdLE-4gsFgoLrny18",
+      "file_name": "ISE-BDA-QP.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 223097,
+      "drive_url": "https://drive.google.com/file/d/1deMJq92fEGTWeDUJdLE-4gsFgoLrny18/view?usp=drivesdk",
+      "parent_folder_id": "21e_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:33.961Z",
+      "drive_modified_time": "2020-01-26T23:02:58Z"
+    },
+    {
+      "drive_file_id": "1LbL_ltLvQTetLgBVuMtho0J7Byd_bivD",
+      "file_name": "PWD STQA OF QUESTION PAPER WITHOUT CO_FOR  PWD STUDENTS.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 185545,
+      "drive_url": "https://drive.google.com/file/d/1LbL_ltLvQTetLgBVuMtho0J7Byd_bivD/view?usp=drivesdk",
+      "parent_folder_id": "21e_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:33.758Z",
+      "drive_modified_time": "2020-01-26T23:02:58Z"
+    },
+    {
+      "drive_file_id": "1ZR1g_-25Ji9ju3htsgJLlpWpHTyEzpTd",
+      "file_name": "AI QUESTION PAPER WITHOUT CO_FOR STUDENTS.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 309539,
+      "drive_url": "https://drive.google.com/file/d/1ZR1g_-25Ji9ju3htsgJLlpWpHTyEzpTd/view?usp=drivesdk",
+      "parent_folder_id": "21e_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:31.232Z",
+      "drive_modified_time": "2020-01-26T23:02:54Z"
+    },
+    {
+      "drive_file_id": "1VW-8JINUZAv0lFz3MCmJAB3hjTYB7I6l",
+      "file_name": "AML_Open Elective_Programming_ISE_March2021.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 466195,
+      "drive_url": "https://drive.google.com/file/d/1VW-8JINUZAv0lFz3MCmJAB3hjTYB7I6l/view?usp=drivesdk",
+      "parent_folder_id": "21e_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:31.223Z",
+      "drive_modified_time": "2020-01-26T23:02:54Z"
+    },
+    {
+      "drive_file_id": "1FHZnk1eBHj1zzCer0OkxsQEF3-SymPBm",
+      "file_name": "OET_SMAC_ISE_ QUESTION PAPER WITHOUT CO_FOR STUDENTS.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 106847,
+      "drive_url": "https://drive.google.com/file/d/1FHZnk1eBHj1zzCer0OkxsQEF3-SymPBm/view?usp=drivesdk",
+      "parent_folder_id": "21e_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:30.407Z",
+      "drive_modified_time": "2020-01-26T23:02:52Z"
+    },
+    {
+      "drive_file_id": "1QWO7s-BWm28K4t3cMzu9i6u7aWAjhBnx",
+      "file_name": "CSS-ISE_QUESTION PAPER.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 338605,
+      "drive_url": "https://drive.google.com/file/d/1QWO7s-BWm28K4t3cMzu9i6u7aWAjhBnx/view?usp=drivesdk",
+      "parent_folder_id": "21e_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:30.385Z",
+      "drive_modified_time": "2020-01-26T23:02:52Z"
+    },
+    {
+      "drive_file_id": "12_A2LbfS1UgRfZ1FKSNNsp_ai2IsJzlO",
+      "file_name": "TY - VI - ML - ISE Q Paper - March - 2021.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 411863,
+      "drive_url": "https://drive.google.com/file/d/12_A2LbfS1UgRfZ1FKSNNsp_ai2IsJzlO/view?usp=drivesdk",
+      "parent_folder_id": "21e_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:30.361Z",
+      "drive_modified_time": "2020-01-26T23:02:52Z"
+    },
+    {
+      "drive_file_id": "1HES9kMX9XMJJ-BetSdgbcbcaLciXkbFB",
+      "file_name": "AI TY ISE 20-21.docx",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "file_size": 15824,
+      "drive_url": "https://drive.google.com/file/d/1HES9kMX9XMJJ-BetSdgbcbcaLciXkbFB/view?usp=drivesdk",
+      "parent_folder_id": "21e_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:30.218Z",
+      "drive_modified_time": "2020-01-26T23:02:52Z"
+    },
+    {
+      "drive_file_id": "1gda-ziy3ALRnz6erEYu70vc_qfP8jqsv",
+      "file_name": "ISE_DSIP paper 2021 Jan-Apr 2021 without BT.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 265073,
+      "drive_url": "https://drive.google.com/file/d/1gda-ziy3ALRnz6erEYu70vc_qfP8jqsv/view?usp=drivesdk",
+      "parent_folder_id": "21e_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:29.450Z",
+      "drive_modified_time": "2020-01-26T23:02:52Z"
+    },
+    {
+      "drive_file_id": "1oIgmjvDFgPAJEkmkgGjti6wXQiQ_MVvb",
+      "file_name": "MSD ISE_TEMPLATE FOR QUESTION PAPER_WITHOUT CO.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 289713,
+      "drive_url": "https://drive.google.com/file/d/1oIgmjvDFgPAJEkmkgGjti6wXQiQ_MVvb/view?usp=drivesdk",
+      "parent_folder_id": "21e_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:29.377Z",
+      "drive_modified_time": "2020-01-26T23:02:54Z"
+    },
+    {
+      "drive_file_id": "10GCDoO62ozXVvMMnFC4-8XbXHi802tyw",
+      "file_name": "AML_Open Elective_Theory_ISE_March2021.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 413822,
+      "drive_url": "https://drive.google.com/file/d/10GCDoO62ozXVvMMnFC4-8XbXHi802tyw/view?usp=drivesdk",
+      "parent_folder_id": "21e_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:28.754Z",
+      "drive_modified_time": "2020-01-26T23:02:52Z"
+    },
+    {
+      "drive_file_id": "1qgDCCETnEKZ_BUDJk-5CBdNzMYbNY-SE",
+      "file_name": "TY_DMBI_ISE_without CO.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 211652,
+      "drive_url": "https://drive.google.com/file/d/1qgDCCETnEKZ_BUDJk-5CBdNzMYbNY-SE/view?usp=drivesdk",
+      "parent_folder_id": "21e_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/20-21 even/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2021e",
+        "21e_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:28.558Z",
+      "drive_modified_time": "2020-01-26T23:02:54Z"
+    },
+    {
+      "drive_file_id": "1Gr-q0QW6AWI-9X4v5ChKz4ioybOMv21H",
+      "file_name": "SY_ISE_DS_PWD without CO.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 139098,
+      "drive_url": "https://drive.google.com/file/d/1Gr-q0QW6AWI-9X4v5ChKz4ioybOMv21H/view?usp=drivesdk",
+      "parent_folder_id": "22o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:36.568Z",
+      "drive_modified_time": "2021-10-03T17:46:24Z"
+    },
+    {
+      "drive_file_id": "1HIK03AC3nhDPUcec1a6ypsDrV-QzwM-W",
+      "file_name": "SY_ISE_DS_Paper WITHOUT BT CO.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 138259,
+      "drive_url": "https://drive.google.com/file/d/1HIK03AC3nhDPUcec1a6ypsDrV-QzwM-W/view?usp=drivesdk",
+      "parent_folder_id": "22o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:35.025Z",
+      "drive_modified_time": "2021-10-03T17:21:04Z"
+    },
+    {
+      "drive_file_id": "1d_pCihKLTuNMeCIMOPL0ysGg1s6s1Rwx",
+      "file_name": "DM ISE without CO - PwD.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 281132,
+      "drive_url": "https://drive.google.com/file/d/1d_pCihKLTuNMeCIMOPL0ysGg1s6s1Rwx/view?usp=drivesdk",
+      "parent_folder_id": "22o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:36.596Z",
+      "drive_modified_time": "2021-10-03T09:48:48Z"
+    },
+    {
+      "drive_file_id": "1kHOXiW2ZbF5xkKZdy1xTpjSVCEyT64NT",
+      "file_name": "DM ISE without CO.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 285592,
+      "drive_url": "https://drive.google.com/file/d/1kHOXiW2ZbF5xkKZdy1xTpjSVCEyT64NT/view?usp=drivesdk",
+      "parent_folder_id": "22o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:35.039Z",
+      "drive_modified_time": "2021-10-03T07:58:40Z"
+    },
+    {
+      "drive_file_id": "18LTYnUvrNEZ-QTi-pruHvQWIOJfWyuS_",
+      "file_name": "SVU_SEM_III_Honours_AC_2021-22_without_CO.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 145776,
+      "drive_url": "https://drive.google.com/file/d/18LTYnUvrNEZ-QTi-pruHvQWIOJfWyuS_/view?usp=drivesdk",
+      "parent_folder_id": "22o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:35.146Z",
+      "drive_modified_time": "2021-09-30T09:25:02Z"
+    },
+    {
+      "drive_file_id": "1qLf5dtAP5Au4nVz_LPQRsR79kDunzyu3",
+      "file_name": "PWD_SVU_SEM_III_OOPM_2021-22_without_co.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 207357,
+      "drive_url": "https://drive.google.com/file/d/1qLf5dtAP5Au4nVz_LPQRsR79kDunzyu3/view?usp=drivesdk",
+      "parent_folder_id": "22o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:36.556Z",
+      "drive_modified_time": "2021-09-30T06:59:16Z"
+    },
+    {
+      "drive_file_id": "19YmzTZyFHfIcYZLEZgnQH3UkcXYo__iK",
+      "file_name": "SVU_SEM_III_OOPM_2021-22_withoutCO.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 207598,
+      "drive_url": "https://drive.google.com/file/d/19YmzTZyFHfIcYZLEZgnQH3UkcXYo__iK/view?usp=drivesdk",
+      "parent_folder_id": "22o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:35.245Z",
+      "drive_modified_time": "2021-09-30T06:53:32Z"
+    },
+    {
+      "drive_file_id": "1qIvy4qCYs-dQ4ZCYSTBsky-Mw8pYDpZh",
+      "file_name": "SY_ISE_ITVC_July-Nov 2021_116U01C301.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 553614,
+      "drive_url": "https://drive.google.com/file/d/1qIvy4qCYs-dQ4ZCYSTBsky-Mw8pYDpZh/view?usp=drivesdk",
+      "parent_folder_id": "22o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:36.640Z",
+      "drive_modified_time": "2021-09-30T04:14:34Z"
+    },
+    {
+      "drive_file_id": "1PEbjdVvQHIpLyvCObJ0ogFBxWYlfXc6u",
+      "file_name": "SY_21_ISE_Paper_H-DV_2021_2022_odd_sem_III _Without_CO.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 190486,
+      "drive_url": "https://drive.google.com/file/d/1PEbjdVvQHIpLyvCObJ0ogFBxWYlfXc6u/view?usp=drivesdk",
+      "parent_folder_id": "22o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:36.715Z",
+      "drive_modified_time": "2021-09-29T11:10:14Z"
+    },
+    {
+      "drive_file_id": "1Kngp9nmFTwotKtUkE88BXv5OqfejjV-P",
+      "file_name": "TY_OEHM 2USHG02_GOODS AND SERVICES MARKETING ISE PAPER.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 98128,
+      "drive_url": "https://drive.google.com/file/d/1Kngp9nmFTwotKtUkE88BXv5OqfejjV-P/view?usp=drivesdk",
+      "parent_folder_id": "22o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:39.181Z",
+      "drive_modified_time": "2021-10-07T11:26:16Z"
+    },
+    {
+      "drive_file_id": "1l3rjYcSqLWMbxe6ozxkGKRK7_VV-OW1E",
+      "file_name": "TY_OEHM 2USHG01_ISE Question Paper Consumer Behavior OEHM.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 315471,
+      "drive_url": "https://drive.google.com/file/d/1l3rjYcSqLWMbxe6ozxkGKRK7_VV-OW1E/view?usp=drivesdk",
+      "parent_folder_id": "22o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:39.094Z",
+      "drive_modified_time": "2021-10-07T11:24:00Z"
+    },
+    {
+      "drive_file_id": "1ddGln35yFFywr7uoBtwFPoI9CCJ4rS_u",
+      "file_name": "TY OET Flutter ISE - PWD  without CO.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 1156568,
+      "drive_url": "https://drive.google.com/file/d/1ddGln35yFFywr7uoBtwFPoI9CCJ4rS_u/view?usp=drivesdk",
+      "parent_folder_id": "22o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:32:47.769Z",
+      "drive_modified_time": "2021-10-06T04:07:58Z"
+    },
+    {
+      "drive_file_id": "1T99R7_p2nWUXdXyEqj6JJXzfKGZOE_wy",
+      "file_name": "TY OET Flutter ISE Paper without CO.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 1192602,
+      "drive_url": "https://drive.google.com/file/d/1T99R7_p2nWUXdXyEqj6JJXzfKGZOE_wy/view?usp=drivesdk",
+      "parent_folder_id": "22o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:32:45.042Z",
+      "drive_modified_time": "2021-10-06T04:07:38Z"
+    },
+    {
+      "drive_file_id": "19pEvqswXJWe7i0B5xiNqde6jUJXTRQcY",
+      "file_name": "SA_TY-LY_ISE_O-ARVR_FOR QUESTION PAPER_Without CO_2021_2022_odd__2 .pdf",
+      "mime_type": "application/pdf",
+      "file_size": 370733,
+      "drive_url": "https://drive.google.com/file/d/19pEvqswXJWe7i0B5xiNqde6jUJXTRQcY/view?usp=drivesdk",
+      "parent_folder_id": "22o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:38.964Z",
+      "drive_modified_time": "2021-10-06T16:26:28Z"
+    },
+    {
+      "drive_file_id": "1diblSUTIAt05mP6rmvRcbJiKclRRU3Dx",
+      "file_name": "ISE- ADDW.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 216847,
+      "drive_url": "https://drive.google.com/file/d/1diblSUTIAt05mP6rmvRcbJiKclRRU3Dx/view?usp=drivesdk",
+      "parent_folder_id": "22o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:37.614Z",
+      "drive_modified_time": "2021-10-06T06:21:28Z"
+    },
+    {
+      "drive_file_id": "1wr1z_pEXdQaf3bJnIyUH17soMytxf1mx",
+      "file_name": "SA_TY-LY_ISE_E-CGV_DE_PAPER_Without_ CO_2021_2022_1.1.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 187662,
+      "drive_url": "https://drive.google.com/file/d/1wr1z_pEXdQaf3bJnIyUH17soMytxf1mx/view?usp=drivesdk",
+      "parent_folder_id": "22o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:39.933Z",
+      "drive_modified_time": "2021-10-06T03:16:44Z"
+    },
+    {
+      "drive_file_id": "1h5DHpnsY9XQZJF5zNvpP5-eDGzNN_apJ",
+      "file_name": "CN ISE 2021-22_PwD without CO.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 202730,
+      "drive_url": "https://drive.google.com/file/d/1h5DHpnsY9XQZJF5zNvpP5-eDGzNN_apJ/view?usp=drivesdk",
+      "parent_folder_id": "22o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:39.960Z",
+      "drive_modified_time": "2021-10-03T17:51:26Z"
+    },
+    {
+      "drive_file_id": "15cNzpvYB2Qj0I0XmjQT2gN6XzQtF-exm",
+      "file_name": "CN ISE 2021-22 without CO BT mapping.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 306237,
+      "drive_url": "https://drive.google.com/file/d/15cNzpvYB2Qj0I0XmjQT2gN6XzQtF-exm/view?usp=drivesdk",
+      "parent_folder_id": "22o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:39.166Z",
+      "drive_modified_time": "2021-10-03T17:17:42Z"
+    },
+    {
+      "drive_file_id": "1wpbEADof423PkshtcauGYbFWd0J9wwHk",
+      "file_name": "OSSS_TY_ISE_QP_WITHout CO.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 305542,
+      "drive_url": "https://drive.google.com/file/d/1wpbEADof423PkshtcauGYbFWd0J9wwHk/view?usp=drivesdk",
+      "parent_folder_id": "22o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:39.064Z",
+      "drive_modified_time": "2021-10-03T04:36:42Z"
+    },
+    {
+      "drive_file_id": "1k0QRNznGdwOyV76EtKZKi46jyYZ6yLTM",
+      "file_name": "TY_Software Engineering_ISE_October_2021.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 284537,
+      "drive_url": "https://drive.google.com/file/d/1k0QRNznGdwOyV76EtKZKi46jyYZ6yLTM/view?usp=drivesdk",
+      "parent_folder_id": "22o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:39.951Z",
+      "drive_modified_time": "2021-10-03T02:49:06Z"
+    },
+    {
+      "drive_file_id": "1y_SygnOVrMf0IHM_D6mLgxVka5AhQiHd",
+      "file_name": "OET_PDS_QP_sem5_without CO.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 433790,
+      "drive_url": "https://drive.google.com/file/d/1y_SygnOVrMf0IHM_D6mLgxVka5AhQiHd/view?usp=drivesdk",
+      "parent_folder_id": "22o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:39.926Z",
+      "drive_modified_time": "2021-10-01T13:24:20Z"
+    },
+    {
+      "drive_file_id": "1jvHTr7QeWmvvcvQEkUNAWmQ-OMwXiZTq",
+      "file_name": "TY_ISE_Soft computing_ QUESTION PAPER_WITHout CO.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 192741,
+      "drive_url": "https://drive.google.com/file/d/1jvHTr7QeWmvvcvQEkUNAWmQ-OMwXiZTq/view?usp=drivesdk",
+      "parent_folder_id": "22o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:39.829Z",
+      "drive_modified_time": "2021-09-30T08:08:26Z"
+    },
+    {
+      "drive_file_id": "1XwcitxbeBbUOaKu6A9RACJ4xRcWWU46Z",
+      "file_name": "TY-LY_ISE_E-CGV_DE_PAPER_Without_ CO_2021_2022_Regular.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 187245,
+      "drive_url": "https://drive.google.com/file/d/1XwcitxbeBbUOaKu6A9RACJ4xRcWWU46Z/view?usp=drivesdk",
+      "parent_folder_id": "22o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:39.090Z",
+      "drive_modified_time": "2021-09-29T15:45:52Z"
+    },
+    {
+      "drive_file_id": "1eukRh9kLwY5rG7-I6E3WcHRhguyV0clF",
+      "file_name": "TY_ISE_QUESTION PAPER_DeptElec_MP_WITHOUT CO.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 88714,
+      "drive_url": "https://drive.google.com/file/d/1eukRh9kLwY5rG7-I6E3WcHRhguyV0clF/view?usp=drivesdk",
+      "parent_folder_id": "22o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:39.197Z",
+      "drive_modified_time": "2021-09-29T09:09:32Z"
+    },
+    {
+      "drive_file_id": "19jpbKv0DK637qdjyI4owUDt3uVT-Eoid",
+      "file_name": "LY_OEHM_ISE_Dev. of Religious Thought - QUESTION PAPER_WITHOUT CO.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 147329,
+      "drive_url": "https://drive.google.com/file/d/19jpbKv0DK637qdjyI4owUDt3uVT-Eoid/view?usp=drivesdk",
+      "parent_folder_id": "22o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:37.559Z",
+      "drive_modified_time": "2021-10-06T14:13:20Z"
+    },
+    {
+      "drive_file_id": "1rLNztMieadoBftIDa19WBC2-2lTJyYgy",
+      "file_name": "LY-OEHM_LY_SEM _Human values and Jainism_ISE .pdf",
+      "mime_type": "application/pdf",
+      "file_size": 58385,
+      "drive_url": "https://drive.google.com/file/d/1rLNztMieadoBftIDa19WBC2-2lTJyYgy/view?usp=drivesdk",
+      "parent_folder_id": "22o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:37.457Z",
+      "drive_modified_time": "2021-10-06T14:13:50Z"
+    },
+    {
+      "drive_file_id": "1IFosWx0tOq7vytFTjZCsLiYGvB9UAZ8F",
+      "file_name": "CV_LY_ISE_QUESTION PAPER_WITHOUT CO.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 208191,
+      "drive_url": "https://drive.google.com/file/d/1IFosWx0tOq7vytFTjZCsLiYGvB9UAZ8F/view?usp=drivesdk",
+      "parent_folder_id": "22o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:37.425Z",
+      "drive_modified_time": "2021-10-03T00:52:32Z"
+    },
+    {
+      "drive_file_id": "19SRqFCjQlQMhkYpR0QK9kjzMZjrGbgj5",
+      "file_name": "UED_ISE_SemVII_Oct2021.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 286275,
+      "drive_url": "https://drive.google.com/file/d/19SRqFCjQlQMhkYpR0QK9kjzMZjrGbgj5/view?usp=drivesdk",
+      "parent_folder_id": "22o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:37.403Z",
+      "drive_modified_time": "2021-10-02T15:27:40Z"
+    },
+    {
+      "drive_file_id": "1pQ0_ht43bGP2oycKY812m_wVD6DyqqAo",
+      "file_name": "ISE-QP without co.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 301941,
+      "drive_url": "https://drive.google.com/file/d/1pQ0_ht43bGP2oycKY812m_wVD6DyqqAo/view?usp=drivesdk",
+      "parent_folder_id": "22o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:36.807Z",
+      "drive_modified_time": "2021-09-30T18:39:08Z"
+    },
+    {
+      "drive_file_id": "1nIF-KFrAGgQI-EfrQiF7qe6097AD_OkL",
+      "file_name": "BCT-LY_ISE_QUESTION PAPER.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 289397,
+      "drive_url": "https://drive.google.com/file/d/1nIF-KFrAGgQI-EfrQiF7qe6097AD_OkL/view?usp=drivesdk",
+      "parent_folder_id": "22o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:37.544Z",
+      "drive_modified_time": "2021-09-30T05:14:46Z"
+    },
+    {
+      "drive_file_id": "1uKptR8A4r0vwAn9XGiIZ_KxwMOSGWuXs",
+      "file_name": "PM_ISE_ QUESTION PAPER.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 117884,
+      "drive_url": "https://drive.google.com/file/d/1uKptR8A4r0vwAn9XGiIZ_KxwMOSGWuXs/view?usp=drivesdk",
+      "parent_folder_id": "22o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:37.376Z",
+      "drive_modified_time": "2021-09-30T04:48:22Z"
+    },
+    {
+      "drive_file_id": "1HtEwL6yNeivGQB_jm5TQAF8X63VSW7nr",
+      "file_name": "CSM ISE -LY_QUESTION PAPER WITHOUT CO_FOR STUDENTS.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 207583,
+      "drive_url": "https://drive.google.com/file/d/1HtEwL6yNeivGQB_jm5TQAF8X63VSW7nr/view?usp=drivesdk",
+      "parent_folder_id": "22o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:37.569Z",
+      "drive_modified_time": "2021-09-29T07:00:34Z"
+    },
+    {
+      "drive_file_id": "1XCCMSLhI3x4V2aVLZLyALCBCAvwd9paq",
+      "file_name": "RL -ISE LY_QUESTION PAPER WITHOUT CO_FOR STUDENTS.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 144804,
+      "drive_url": "https://drive.google.com/file/d/1XCCMSLhI3x4V2aVLZLyALCBCAvwd9paq/view?usp=drivesdk",
+      "parent_folder_id": "22o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:36.767Z",
+      "drive_modified_time": "2021-09-29T07:01:14Z"
+    },
+    {
+      "drive_file_id": "1HYZcQFEbjKKONtDvh7vaTBW60GZ5Fjzf",
+      "file_name": "CCET ISE  QUESTION PAPER_WITHOUT CO- 29-09-2021.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 184188,
+      "drive_url": "https://drive.google.com/file/d/1HYZcQFEbjKKONtDvh7vaTBW60GZ5Fjzf/view?usp=drivesdk",
+      "parent_folder_id": "22o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 odd/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122o",
+        "22o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:37.485Z",
+      "drive_modified_time": "2021-09-28T06:41:04Z"
+    },
+    {
+      "drive_file_id": "1xo4l5NFN5bwp-EPo1Fq7dcVoCUdziQcx",
+      "file_name": "SY(PSOT,AOA,RDBMS,TACD).PDF",
+      "mime_type": "application/pdf",
+      "file_size": 8770064,
+      "drive_url": "https://drive.google.com/file/d/1xo4l5NFN5bwp-EPo1Fq7dcVoCUdziQcx/view?usp=drivesdk",
+      "parent_folder_id": "22e_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 even/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122e",
+        "22e_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:32:19.416Z",
+      "drive_modified_time": "2022-03-10T21:39:12Z"
+    },
+    {
+      "drive_file_id": "1qIK8vZDECtcsBmTLaMudDPa3mmnkwji8",
+      "file_name": "TY(AI,DSIP,CSS).PDF",
+      "mime_type": "application/pdf",
+      "file_size": 4470941,
+      "drive_url": "https://drive.google.com/file/d/1qIK8vZDECtcsBmTLaMudDPa3mmnkwji8/view?usp=drivesdk",
+      "parent_folder_id": "22e_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 even/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122e",
+        "22e_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:55.180Z",
+      "drive_modified_time": "2022-03-10T21:20:52Z"
+    },
+    {
+      "drive_file_id": "1H5YyeHkDCfb3hd3RiXrY7N5R2YqJG6Q4",
+      "file_name": "NLP  ISE M.Tech II.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 780548,
+      "drive_url": "https://drive.google.com/file/d/1H5YyeHkDCfb3hd3RiXrY7N5R2YqJG6Q4/view?usp=drivesdk",
+      "parent_folder_id": "22e_MT",
+      "parent_folder_name": "M-Tech",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 even/M-Tech",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122e",
+        "22e_MT"
+      ],
+      "drive_created_time": "2026-08-11T18:31:20.766Z",
+      "drive_modified_time": "2022-05-12T21:06:56Z"
+    },
+    {
+      "drive_file_id": "1-oYJOBXy2u8ohvyE4cgrqINyI9oyId38",
+      "file_name": "UED ISE M.Tech II.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 506783,
+      "drive_url": "https://drive.google.com/file/d/1-oYJOBXy2u8ohvyE4cgrqINyI9oyId38/view?usp=drivesdk",
+      "parent_folder_id": "22e_MT",
+      "parent_folder_name": "M-Tech",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 even/M-Tech",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122e",
+        "22e_MT"
+      ],
+      "drive_created_time": "2026-08-11T18:31:20.986Z",
+      "drive_modified_time": "2022-05-12T19:08:06Z"
+    },
+    {
+      "drive_file_id": "1NIcFI1v4LGy6uCvNsSJtYL_fP9OITlM0",
+      "file_name": "BDA  ISE M.Tech II.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 571176,
+      "drive_url": "https://drive.google.com/file/d/1NIcFI1v4LGy6uCvNsSJtYL_fP9OITlM0/view?usp=drivesdk",
+      "parent_folder_id": "22e_MT",
+      "parent_folder_name": "M-Tech",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 even/M-Tech",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122e",
+        "22e_MT"
+      ],
+      "drive_created_time": "2026-08-11T18:31:20.847Z",
+      "drive_modified_time": "2022-05-12T19:09:14Z"
+    },
+    {
+      "drive_file_id": "1SLvJTa7pQ_6qRh9J1lE3uFi3hngHX6Cm",
+      "file_name": "BCT  ISE M.Tech II.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 532837,
+      "drive_url": "https://drive.google.com/file/d/1SLvJTa7pQ_6qRh9J1lE3uFi3hngHX6Cm/view?usp=drivesdk",
+      "parent_folder_id": "22e_MT",
+      "parent_folder_name": "M-Tech",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/21-22 even/M-Tech",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2122e",
+        "22e_MT"
+      ],
+      "drive_created_time": "2026-08-11T18:31:20.737Z",
+      "drive_modified_time": "2022-05-12T19:10:24Z"
+    },
+    {
+      "drive_file_id": "1kuz4fD9aKcf7wv7Ag2SYyl-h5L4O-npD",
+      "file_name": "ML 1 pg.jpg",
+      "mime_type": "image/jpeg",
+      "file_size": 102109,
+      "drive_url": "https://drive.google.com/file/d/1kuz4fD9aKcf7wv7Ag2SYyl-h5L4O-npD/view?usp=drivesdk",
+      "parent_folder_id": "bl_ML",
+      "parent_folder_name": "ML",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 22-23 Even & Syllabus/ISE QP with Blooms and Toxonomy/M Tech/ML",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2223e",
+        "blooms",
+        "bl_MT",
+        "bl_ML"
+      ],
+      "drive_created_time": "2026-08-11T18:31:57.797Z",
+      "drive_modified_time": "2023-06-02T01:22:54Z"
+    },
+    {
+      "drive_file_id": "1D1L1chnStdvCI2owuyh4mkOKwXtk9u1K",
+      "file_name": "ML 2 pg.jpg",
+      "mime_type": "image/jpeg",
+      "file_size": 33917,
+      "drive_url": "https://drive.google.com/file/d/1D1L1chnStdvCI2owuyh4mkOKwXtk9u1K/view?usp=drivesdk",
+      "parent_folder_id": "bl_ML",
+      "parent_folder_name": "ML",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 22-23 Even & Syllabus/ISE QP with Blooms and Toxonomy/M Tech/ML",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2223e",
+        "blooms",
+        "bl_MT",
+        "bl_ML"
+      ],
+      "drive_created_time": "2026-08-11T18:31:57.697Z",
+      "drive_modified_time": "2023-06-02T01:22:54Z"
+    },
+    {
+      "drive_file_id": "1IU0SNd9Lz444mzJHqJNorEip8wdZWPfK",
+      "file_name": "AIT.jpg",
+      "mime_type": "image/jpeg",
+      "file_size": 82331,
+      "drive_url": "https://drive.google.com/file/d/1IU0SNd9Lz444mzJHqJNorEip8wdZWPfK/view?usp=drivesdk",
+      "parent_folder_id": "bl_MT",
+      "parent_folder_name": "M Tech",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 22-23 Even & Syllabus/ISE QP with Blooms and Toxonomy/M Tech",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2223e",
+        "blooms",
+        "bl_MT"
+      ],
+      "drive_created_time": "2026-08-11T18:31:52.665Z",
+      "drive_modified_time": "2023-06-02T01:22:54Z"
+    },
+    {
+      "drive_file_id": "1P8WD2PDrJ5mRyLgNdbgkZRIp47hPg9uk",
+      "file_name": "PSOT.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 1701584,
+      "drive_url": "https://drive.google.com/file/d/1P8WD2PDrJ5mRyLgNdbgkZRIp47hPg9uk/view?usp=drivesdk",
+      "parent_folder_id": "24e_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 Even/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324e",
+        "24e_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:32:42.094Z",
+      "drive_modified_time": "2024-04-12T03:47:28Z"
+    },
+    {
+      "drive_file_id": "1PHe3j7OCb63hnFQf4MIguMNoDyAkrf3f",
+      "file_name": "RDBMS.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 1894391,
+      "drive_url": "https://drive.google.com/file/d/1PHe3j7OCb63hnFQf4MIguMNoDyAkrf3f/view?usp=drivesdk",
+      "parent_folder_id": "24e_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 Even/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324e",
+        "24e_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:32:39.050Z",
+      "drive_modified_time": "2024-04-12T03:44:04Z"
+    },
+    {
+      "drive_file_id": "1bqzzNVLOGcEYIw-uzpGpxVkBncwdDSYF",
+      "file_name": "TACD.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 1096500,
+      "drive_url": "https://drive.google.com/file/d/1bqzzNVLOGcEYIw-uzpGpxVkBncwdDSYF/view?usp=drivesdk",
+      "parent_folder_id": "24e_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 Even/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324e",
+        "24e_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:32:36.250Z",
+      "drive_modified_time": "2024-04-12T03:41:02Z"
+    },
+    {
+      "drive_file_id": "1es15Evap777oz4GSV4FjfHEnhVctESMe",
+      "file_name": "AOA.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 743638,
+      "drive_url": "https://drive.google.com/file/d/1es15Evap777oz4GSV4FjfHEnhVctESMe/view?usp=drivesdk",
+      "parent_folder_id": "24e_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 Even/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324e",
+        "24e_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:31.256Z",
+      "drive_modified_time": "2024-04-12T03:45:34Z"
+    },
+    {
+      "drive_file_id": "1CLtG6wUXMT8YdAjqgXELgdgeYP0DeLaO",
+      "file_name": "M-OOPM.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 516428,
+      "drive_url": "https://drive.google.com/file/d/1CLtG6wUXMT8YdAjqgXELgdgeYP0DeLaO/view?usp=drivesdk",
+      "parent_folder_id": "24e_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 Even/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324e",
+        "24e_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:31.652Z",
+      "drive_modified_time": "2024-04-12T03:37:22Z"
+    },
+    {
+      "drive_file_id": "1h_A7iLrSiQUBSeVpU8SwKgsGa_ualnNb",
+      "file_name": "H-ADS.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 890026,
+      "drive_url": "https://drive.google.com/file/d/1h_A7iLrSiQUBSeVpU8SwKgsGa_ualnNb/view?usp=drivesdk",
+      "parent_folder_id": "24e_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 Even/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324e",
+        "24e_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:31.291Z",
+      "drive_modified_time": "2024-04-12T03:38:54Z"
+    },
+    {
+      "drive_file_id": "1XWlrsMKIj-KOWZ7EKp9_Iy6SoYakPk8V",
+      "file_name": "H-CSFC.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 510299,
+      "drive_url": "https://drive.google.com/file/d/1XWlrsMKIj-KOWZ7EKp9_Iy6SoYakPk8V/view?usp=drivesdk",
+      "parent_folder_id": "24e_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 23-24 Even/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2324e",
+        "24e_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:31.347Z",
+      "drive_modified_time": "2024-04-12T03:33:56Z"
+    },
+    {
+      "drive_file_id": "11GRvDDmy4iXbKIhku0PsU0wDuD8_OdAT",
+      "file_name": "OS.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 217782,
+      "drive_url": "https://drive.google.com/file/d/11GRvDDmy4iXbKIhku0PsU0wDuD8_OdAT/view?usp=drivesdk",
+      "parent_folder_id": "25o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:26.134Z",
+      "drive_modified_time": "2025-01-14T20:07:22Z"
+    },
+    {
+      "drive_file_id": "1y96qSCajVf4AJa8-XEqOGLkEuYNbzR6s",
+      "file_name": "SC.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 150604,
+      "drive_url": "https://drive.google.com/file/d/1y96qSCajVf4AJa8-XEqOGLkEuYNbzR6s/view?usp=drivesdk",
+      "parent_folder_id": "25o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:25.706Z",
+      "drive_modified_time": "2025-01-14T20:08:12Z"
+    },
+    {
+      "drive_file_id": "12-3RzQvQ3OPlTcQXvRngSpXcLGbnbxGx",
+      "file_name": "M-OS.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 203180,
+      "drive_url": "https://drive.google.com/file/d/12-3RzQvQ3OPlTcQXvRngSpXcLGbnbxGx/view?usp=drivesdk",
+      "parent_folder_id": "25o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:25.861Z",
+      "drive_modified_time": "2025-01-14T20:06:46Z"
+    },
+    {
+      "drive_file_id": "15nW5d2D5y5PJSzRJHXWfMnKebF9QiVhP",
+      "file_name": "H-DA.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 235713,
+      "drive_url": "https://drive.google.com/file/d/15nW5d2D5y5PJSzRJHXWfMnKebF9QiVhP/view?usp=drivesdk",
+      "parent_folder_id": "25o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:25.734Z",
+      "drive_modified_time": "2025-01-14T20:05:52Z"
+    },
+    {
+      "drive_file_id": "1sgpB-n4ZpajoLUCfHOSqI9a4L7CwMrJd",
+      "file_name": "Futter.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 471443,
+      "drive_url": "https://drive.google.com/file/d/1sgpB-n4ZpajoLUCfHOSqI9a4L7CwMrJd/view?usp=drivesdk",
+      "parent_folder_id": "25o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:25.927Z",
+      "drive_modified_time": "2025-01-14T20:03:56Z"
+    },
+    {
+      "drive_file_id": "1MBA0y_Fpm4nxDbrB7QPbWXbAwrUIqxa6",
+      "file_name": "IMCT.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 125220,
+      "drive_url": "https://drive.google.com/file/d/1MBA0y_Fpm4nxDbrB7QPbWXbAwrUIqxa6/view?usp=drivesdk",
+      "parent_folder_id": "25o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:25.688Z",
+      "drive_modified_time": "2025-01-14T19:44:42Z"
+    },
+    {
+      "drive_file_id": "1Lo-YYH5BoDnopypRMNKKMAoR9nXPvG1L",
+      "file_name": "Supply Chain Mngt.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 110162,
+      "drive_url": "https://drive.google.com/file/d/1Lo-YYH5BoDnopypRMNKKMAoR9nXPvG1L/view?usp=drivesdk",
+      "parent_folder_id": "25o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:25.657Z",
+      "drive_modified_time": "2025-01-14T19:44:42Z"
+    },
+    {
+      "drive_file_id": "1dPEZrRsNekZ5k5HazrQ6QutPYD8SCsbt",
+      "file_name": "BCT.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 102606,
+      "drive_url": "https://drive.google.com/file/d/1dPEZrRsNekZ5k5HazrQ6QutPYD8SCsbt/view?usp=drivesdk",
+      "parent_folder_id": "25o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:26.279Z",
+      "drive_modified_time": "2025-01-14T19:39:44Z"
+    },
+    {
+      "drive_file_id": "1bW486S2-QZvu9x5oBkEfOHNZyKVib23c",
+      "file_name": "EEFM.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 130989,
+      "drive_url": "https://drive.google.com/file/d/1bW486S2-QZvu9x5oBkEfOHNZyKVib23c/view?usp=drivesdk",
+      "parent_folder_id": "25o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:25.994Z",
+      "drive_modified_time": "2025-01-14T19:39:44Z"
+    },
+    {
+      "drive_file_id": "13cWmT80KIZB7TDXTUm4yB7xOPmsBy1Ea",
+      "file_name": "CG.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 148155,
+      "drive_url": "https://drive.google.com/file/d/13cWmT80KIZB7TDXTUm4yB7xOPmsBy1Ea/view?usp=drivesdk",
+      "parent_folder_id": "25o_TY",
+      "parent_folder_name": "TY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/TY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:25.763Z",
+      "drive_modified_time": "2025-01-14T19:39:44Z"
+    },
+    {
+      "drive_file_id": "122cc57KTEy97xYZmDznGcneLwTZem8AV",
+      "file_name": "OOPM.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 206132,
+      "drive_url": "https://drive.google.com/file/d/122cc57KTEy97xYZmDznGcneLwTZem8AV/view?usp=drivesdk",
+      "parent_folder_id": "25o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:20.010Z",
+      "drive_modified_time": "2025-01-14T20:02:42Z"
+    },
+    {
+      "drive_file_id": "1KsiZGSTwRCl1dEtoD1MUZPG9xSlk5q_1",
+      "file_name": "DSM.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 174687,
+      "drive_url": "https://drive.google.com/file/d/1KsiZGSTwRCl1dEtoD1MUZPG9xSlk5q_1/view?usp=drivesdk",
+      "parent_folder_id": "25o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:19.354Z",
+      "drive_modified_time": "2025-01-14T20:01:44Z"
+    },
+    {
+      "drive_file_id": "1CInufaTvXi8HMs4Bfll5o1DefG3uTdlt",
+      "file_name": "DS.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 209406,
+      "drive_url": "https://drive.google.com/file/d/1CInufaTvXi8HMs4Bfll5o1DefG3uTdlt/view?usp=drivesdk",
+      "parent_folder_id": "25o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:19.478Z",
+      "drive_modified_time": "2025-01-14T20:00:30Z"
+    },
+    {
+      "drive_file_id": "12h39hSO32TTi4ZlCbz6iXtAEJ67IHu2w",
+      "file_name": "COA.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 104067,
+      "drive_url": "https://drive.google.com/file/d/12h39hSO32TTi4ZlCbz6iXtAEJ67IHu2w/view?usp=drivesdk",
+      "parent_folder_id": "25o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:18.179Z",
+      "drive_modified_time": "2025-01-14T19:34:00Z"
+    },
+    {
+      "drive_file_id": "1SezKMUGyrPn6-aUdPhnWjgnLyan-IXwE",
+      "file_name": "ITVC.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 126557,
+      "drive_url": "https://drive.google.com/file/d/1SezKMUGyrPn6-aUdPhnWjgnLyan-IXwE/view?usp=drivesdk",
+      "parent_folder_id": "25o_SY",
+      "parent_folder_name": "SY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/SY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:18.050Z",
+      "drive_modified_time": "2025-01-14T19:34:00Z"
+    },
+    {
+      "drive_file_id": "1937JtJl8g6aD2uEHTCY2Ko5kVBGPKNuU",
+      "file_name": "SADT.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 171912,
+      "drive_url": "https://drive.google.com/file/d/1937JtJl8g6aD2uEHTCY2Ko5kVBGPKNuU/view?usp=drivesdk",
+      "parent_folder_id": "25o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:17.919Z",
+      "drive_modified_time": "2025-01-14T21:02:46Z"
+    },
+    {
+      "drive_file_id": "1wZnV6ljujkdq2JGiGzA8gYisJy6EFbKu",
+      "file_name": "RL.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 195874,
+      "drive_url": "https://drive.google.com/file/d/1wZnV6ljujkdq2JGiGzA8gYisJy6EFbKu/view?usp=drivesdk",
+      "parent_folder_id": "25o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:18.024Z",
+      "drive_modified_time": "2025-01-14T21:02:06Z"
+    },
+    {
+      "drive_file_id": "19tFxqsuJNXWFAwz-dMuIbna8RAXxjt_K",
+      "file_name": "M-WP.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 160355,
+      "drive_url": "https://drive.google.com/file/d/19tFxqsuJNXWFAwz-dMuIbna8RAXxjt_K/view?usp=drivesdk",
+      "parent_folder_id": "25o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:17.827Z",
+      "drive_modified_time": "2025-01-14T21:01:26Z"
+    },
+    {
+      "drive_file_id": "1BEjIWBcUE2uD1LmPxtXjB4AVbYids_Gj",
+      "file_name": "H-AML.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 250289,
+      "drive_url": "https://drive.google.com/file/d/1BEjIWBcUE2uD1LmPxtXjB4AVbYids_Gj/view?usp=drivesdk",
+      "parent_folder_id": "25o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:17.672Z",
+      "drive_modified_time": "2025-01-14T21:00:44Z"
+    },
+    {
+      "drive_file_id": "14SCvLh5s5GwyaPJknvvEzXxOtkCSfrhB",
+      "file_name": "CSM.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 290800,
+      "drive_url": "https://drive.google.com/file/d/14SCvLh5s5GwyaPJknvvEzXxOtkCSfrhB/view?usp=drivesdk",
+      "parent_folder_id": "25o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:17.371Z",
+      "drive_modified_time": "2025-01-14T20:59:50Z"
+    },
+    {
+      "drive_file_id": "1TPJ4M5hdaWQaA4I9zkyCdMYfbkg8NRfE",
+      "file_name": "C#.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 220886,
+      "drive_url": "https://drive.google.com/file/d/1TPJ4M5hdaWQaA4I9zkyCdMYfbkg8NRfE/view?usp=drivesdk",
+      "parent_folder_id": "25o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:18.129Z",
+      "drive_modified_time": "2025-01-14T20:09:00Z"
+    },
+    {
+      "drive_file_id": "1HIVY7Sc_LCPtVRS5gizOCO8dclGVKgRc",
+      "file_name": "H-SEC.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 85557,
+      "drive_url": "https://drive.google.com/file/d/1HIVY7Sc_LCPtVRS5gizOCO8dclGVKgRc/view?usp=drivesdk",
+      "parent_folder_id": "25o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:17.988Z",
+      "drive_modified_time": "2025-01-14T19:50:30Z"
+    },
+    {
+      "drive_file_id": "1dtwCbJcDn5m5gjQxZpc_Adr11HxkQQ3T",
+      "file_name": "UED.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 131101,
+      "drive_url": "https://drive.google.com/file/d/1dtwCbJcDn5m5gjQxZpc_Adr11HxkQQ3T/view?usp=drivesdk",
+      "parent_folder_id": "25o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:17.948Z",
+      "drive_modified_time": "2025-01-14T19:50:30Z"
+    },
+    {
+      "drive_file_id": "1gruFNmOp2y7tM9GYRa9eS07r_ew0AsKm",
+      "file_name": "M-DL.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 83452,
+      "drive_url": "https://drive.google.com/file/d/1gruFNmOp2y7tM9GYRa9eS07r_ew0AsKm/view?usp=drivesdk",
+      "parent_folder_id": "25o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:17.803Z",
+      "drive_modified_time": "2025-01-14T19:50:30Z"
+    },
+    {
+      "drive_file_id": "1ujXpfqYUdtRvIxsrVfwPrlnvhDy1R_lb",
+      "file_name": "DS.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 73409,
+      "drive_url": "https://drive.google.com/file/d/1ujXpfqYUdtRvIxsrVfwPrlnvhDy1R_lb/view?usp=drivesdk",
+      "parent_folder_id": "25o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:18.040Z",
+      "drive_modified_time": "2025-01-14T19:48:38Z"
+    },
+    {
+      "drive_file_id": "1FJmeo2rAMC_PaKt5aNbdsAjnaYJWLjH9",
+      "file_name": "APM.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 102922,
+      "drive_url": "https://drive.google.com/file/d/1FJmeo2rAMC_PaKt5aNbdsAjnaYJWLjH9/view?usp=drivesdk",
+      "parent_folder_id": "25o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:18.012Z",
+      "drive_modified_time": "2025-01-14T19:48:38Z"
+    },
+    {
+      "drive_file_id": "1qyHUhixRZY3xkCcwVMR6sSNNIHF1qvDx",
+      "file_name": "BCT.pdf",
+      "mime_type": "application/pdf",
+      "file_size": 124303,
+      "drive_url": "https://drive.google.com/file/d/1qyHUhixRZY3xkCcwVMR6sSNNIHF1qvDx/view?usp=drivesdk",
+      "parent_folder_id": "25o_LY",
+      "parent_folder_name": "LY",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Odd PDF/LY",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425o",
+        "25o_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:17.727Z",
+      "drive_modified_time": "2025-01-14T19:48:38Z"
+    },
+    {
+      "drive_file_id": "1djTOaEfjT43TP26QJTzE4M5ypBWSEkFI",
+      "file_name": "TY VI-AI.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 1157973,
+      "drive_url": "https://drive.google.com/file/d/1djTOaEfjT43TP26QJTzE4M5ypBWSEkFI/view?usp=drivesdk",
+      "parent_folder_id": "25e_TY",
+      "parent_folder_name": "TY VI",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Even/TY VI",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425e",
+        "25e_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:49.463Z",
+      "drive_modified_time": "2025-03-12T18:40:50Z"
+    },
+    {
+      "drive_file_id": "1jGjfmjNB_O7yNd4npYJ_UZmarL6bDi7J",
+      "file_name": "TY VI-IS.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 1219131,
+      "drive_url": "https://drive.google.com/file/d/1jGjfmjNB_O7yNd4npYJ_UZmarL6bDi7J/view?usp=drivesdk",
+      "parent_folder_id": "25e_TY",
+      "parent_folder_name": "TY VI",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Even/TY VI",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425e",
+        "25e_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:45.814Z",
+      "drive_modified_time": "2025-03-12T18:45:16Z"
+    },
+    {
+      "drive_file_id": "1n_tezzisr_cnEtWnzz_x4d5GB0id4hZm",
+      "file_name": "TY VI-OET-AMLT.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 1050760,
+      "drive_url": "https://drive.google.com/file/d/1n_tezzisr_cnEtWnzz_x4d5GB0id4hZm/view?usp=drivesdk",
+      "parent_folder_id": "25e_TY",
+      "parent_folder_name": "TY VI",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Even/TY VI",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425e",
+        "25e_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:43.425Z",
+      "drive_modified_time": "2025-03-12T18:50:14Z"
+    },
+    {
+      "drive_file_id": "1SCRFmBTSvH7eLLICTua5OXdKxwxelG70",
+      "file_name": "TY VI-H-ADM.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 1160444,
+      "drive_url": "https://drive.google.com/file/d/1SCRFmBTSvH7eLLICTua5OXdKxwxelG70/view?usp=drivesdk",
+      "parent_folder_id": "25e_TY",
+      "parent_folder_name": "TY VI",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Even/TY VI",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425e",
+        "25e_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:40.372Z",
+      "drive_modified_time": "2025-03-12T18:48:50Z"
+    },
+    {
+      "drive_file_id": "1nAAuXCOjRdeRJwpAyHBP0wxVaZaMW1wK",
+      "file_name": "TY VI-H-VAPT.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 684780,
+      "drive_url": "https://drive.google.com/file/d/1nAAuXCOjRdeRJwpAyHBP0wxVaZaMW1wK/view?usp=drivesdk",
+      "parent_folder_id": "25e_TY",
+      "parent_folder_name": "TY VI",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Even/TY VI",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425e",
+        "25e_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:15.094Z",
+      "drive_modified_time": "2025-03-12T18:47:26Z"
+    },
+    {
+      "drive_file_id": "1FlICjdxr_xphPKJ4vWVzVJv9QoR3woxW",
+      "file_name": "TY VI-DSIP.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 590138,
+      "drive_url": "https://drive.google.com/file/d/1FlICjdxr_xphPKJ4vWVzVJv9QoR3woxW/view?usp=drivesdk",
+      "parent_folder_id": "25e_TY",
+      "parent_folder_name": "TY VI",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Even/TY VI",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425e",
+        "25e_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:14.944Z",
+      "drive_modified_time": "2025-03-12T18:46:32Z"
+    },
+    {
+      "drive_file_id": "1q_ItzuW7iJcz1o98BlcX1H-OyDPeDmiV",
+      "file_name": "TY VI-CC.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 653266,
+      "drive_url": "https://drive.google.com/file/d/1q_ItzuW7iJcz1o98BlcX1H-OyDPeDmiV/view?usp=drivesdk",
+      "parent_folder_id": "25e_TY",
+      "parent_folder_name": "TY VI",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Even/TY VI",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425e",
+        "25e_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:15.005Z",
+      "drive_modified_time": "2025-03-12T18:42:08Z"
+    },
+    {
+      "drive_file_id": "1loFGIh56qKC3ZOAJDeietJ-gR0kGgbp7",
+      "file_name": "TY VI-AC.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 698702,
+      "drive_url": "https://drive.google.com/file/d/1loFGIh56qKC3ZOAJDeietJ-gR0kGgbp7/view?usp=drivesdk",
+      "parent_folder_id": "25e_TY",
+      "parent_folder_name": "TY VI",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Even/TY VI",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425e",
+        "25e_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:14.996Z",
+      "drive_modified_time": "2025-03-12T18:41:40Z"
+    },
+    {
+      "drive_file_id": "1_I6sg3SeRQjgZM4o_ValkyCPhIw6U9B3",
+      "file_name": "TY VI-OEHM-German.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 988542,
+      "drive_url": "https://drive.google.com/file/d/1_I6sg3SeRQjgZM4o_ValkyCPhIw6U9B3/view?usp=drivesdk",
+      "parent_folder_id": "25e_TY",
+      "parent_folder_name": "TY VI",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Even/TY VI",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425e",
+        "25e_TY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:14.988Z",
+      "drive_modified_time": "2025-03-12T18:39:06Z"
+    },
+    {
+      "drive_file_id": "14cCFjXcSosmRm14kc76iSdkox7w329H_",
+      "file_name": "SY IV-H-IDS.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 1332231,
+      "drive_url": "https://drive.google.com/file/d/14cCFjXcSosmRm14kc76iSdkox7w329H_/view?usp=drivesdk",
+      "parent_folder_id": "25e_SY",
+      "parent_folder_name": "SY IV",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Even/SY IV",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425e",
+        "25e_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:34.973Z",
+      "drive_modified_time": "2025-03-12T19:00:14Z"
+    },
+    {
+      "drive_file_id": "1LFmiF68LjxVstlJhUjSQxHXg3ooY9Ja7",
+      "file_name": "SY IV-PSOT.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 1630384,
+      "drive_url": "https://drive.google.com/file/d/1LFmiF68LjxVstlJhUjSQxHXg3ooY9Ja7/view?usp=drivesdk",
+      "parent_folder_id": "25e_SY",
+      "parent_folder_name": "SY IV",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Even/SY IV",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425e",
+        "25e_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:32.270Z",
+      "drive_modified_time": "2025-03-12T18:59:04Z"
+    },
+    {
+      "drive_file_id": "1LzMSNrHgqFj_4_2VQ45iqxe1Q5b30_mp",
+      "file_name": "SY IV-RDBMS.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 1132495,
+      "drive_url": "https://drive.google.com/file/d/1LzMSNrHgqFj_4_2VQ45iqxe1Q5b30_mp/view?usp=drivesdk",
+      "parent_folder_id": "25e_SY",
+      "parent_folder_name": "SY IV",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Even/SY IV",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425e",
+        "25e_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:29.258Z",
+      "drive_modified_time": "2025-03-12T18:55:08Z"
+    },
+    {
+      "drive_file_id": "1nvwBQjFgEpnEsXat2rPRWtstOeasUmIJ",
+      "file_name": "SY IV-OS.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 1295264,
+      "drive_url": "https://drive.google.com/file/d/1nvwBQjFgEpnEsXat2rPRWtstOeasUmIJ/view?usp=drivesdk",
+      "parent_folder_id": "25e_SY",
+      "parent_folder_name": "SY IV",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Even/SY IV",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425e",
+        "25e_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:26.353Z",
+      "drive_modified_time": "2025-03-12T18:57:32Z"
+    },
+    {
+      "drive_file_id": "1XiYynz9lMTs8abrWw0lyeJXKUDm3TUTh",
+      "file_name": "SY IV-H-AC.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 695863,
+      "drive_url": "https://drive.google.com/file/d/1XiYynz9lMTs8abrWw0lyeJXKUDm3TUTh/view?usp=drivesdk",
+      "parent_folder_id": "25e_SY",
+      "parent_folder_name": "SY IV",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Even/SY IV",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425e",
+        "25e_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:14.997Z",
+      "drive_modified_time": "2025-03-12T19:01:06Z"
+    },
+    {
+      "drive_file_id": "1zfkQGgPBUp81cqW-HLGzWsqIqDCcKcTh",
+      "file_name": "SY IV-AOA.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 771439,
+      "drive_url": "https://drive.google.com/file/d/1zfkQGgPBUp81cqW-HLGzWsqIqDCcKcTh/view?usp=drivesdk",
+      "parent_folder_id": "25e_SY",
+      "parent_folder_name": "SY IV",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Even/SY IV",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425e",
+        "25e_SY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:14.564Z",
+      "drive_modified_time": "2025-03-12T18:54:00Z"
+    },
+    {
+      "drive_file_id": "1R4_wQP0i96f1Psq46myyfkHVcYqjt1VX",
+      "file_name": "LY VIII-NLP.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 1142145,
+      "drive_url": "https://drive.google.com/file/d/1R4_wQP0i96f1Psq46myyfkHVcYqjt1VX/view?usp=drivesdk",
+      "parent_folder_id": "25e_LY",
+      "parent_folder_name": "LY VIII",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Even/LY VIII",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425e",
+        "25e_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:37.790Z",
+      "drive_modified_time": "2025-03-12T18:30:56Z"
+    },
+    {
+      "drive_file_id": "129Rz3r4gqWcRrkl0zpBV9wMb2TINX2uS",
+      "file_name": "LY VIII-AADA.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 624873,
+      "drive_url": "https://drive.google.com/file/d/129Rz3r4gqWcRrkl0zpBV9wMb2TINX2uS/view?usp=drivesdk",
+      "parent_folder_id": "25e_LY",
+      "parent_folder_name": "LY VIII",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Even/LY VIII",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425e",
+        "25e_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:14.924Z",
+      "drive_modified_time": "2025-03-12T18:35:14Z"
+    },
+    {
+      "drive_file_id": "1rKjRTN5Sjau0M0jhwMewmkB2dPvcQJ8O",
+      "file_name": "LY VIII-IOE.PDF",
+      "mime_type": "application/pdf",
+      "file_size": 642033,
+      "drive_url": "https://drive.google.com/file/d/1rKjRTN5Sjau0M0jhwMewmkB2dPvcQJ8O/view?usp=drivesdk",
+      "parent_folder_id": "25e_LY",
+      "parent_folder_name": "LY VIII",
+      "folder_path": "ise question paper kj somaiya/drive-download-20260811T182940Z-1-001/ISE QP 24-25 Even/LY VIII",
+      "folder_path_ids": [
+        "1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+        "1vl_AF5Ca166AcUS7PPOo8DRyNzFM6tiO",
+        "y2425e",
+        "25e_LY"
+      ],
+      "drive_created_time": "2026-08-11T18:31:15.055Z",
+      "drive_modified_time": "2025-03-12T18:32:40Z"
+    }
+  ]
+}
