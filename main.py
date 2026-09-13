@@ -11,6 +11,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
 from services.faculty_service import answer_faculty_question
+from services.policy_service import answer_policy_question
 from services.pyq_service import answer_pyq_question
 
 app = FastAPI(title="KJGPT Prototype")
@@ -18,6 +19,14 @@ app = FastAPI(title="KJGPT Prototype")
 
 class Question(BaseModel):
     question: str
+
+
+class PolicyQuestion(BaseModel):
+    question: str
+    # Off by default. The corpus holds a 2018 handbook edition whose
+    # examination rules were replaced when the institute became autonomous;
+    # answering a current student from it would be worse than saying nothing.
+    include_superseded: bool = False
 
 
 class PYQQuestion(BaseModel):
@@ -67,5 +76,32 @@ def pyq_ask_debug(payload: PYQQuestion):
     try:
         return answer_pyq_question(payload.question, debug=True,
                                    use_llm=payload.use_llm)
+    except RuntimeError as e:
+        raise HTTPException(status_code=503, detail=str(e))
+
+
+@app.post("/policy/ask")
+def policy_ask(payload: PolicyQuestion):
+    """Institute Policy Handbook questions -> sourced provisions.
+
+    Returns {"answer": str, "sources": [{policy, document, page, section, url,
+    status}], "found": bool}. Every fact in `answer` is traceable to a page of
+    a named PDF via `sources`. When `found` is false the answer says so rather
+    than offering the nearest thing it could find.
+    """
+    try:
+        return answer_policy_question(
+            payload.question, include_superseded=payload.include_superseded)
+    except RuntimeError as e:
+        raise HTTPException(status_code=503, detail=str(e))
+
+
+@app.post("/policy/ask/debug")
+def policy_ask_debug(payload: PolicyQuestion):
+    """Development-only. Adds the fulltext query and the provisions retrieved."""
+    try:
+        return answer_policy_question(
+            payload.question, debug=True,
+            include_superseded=payload.include_superseded)
     except RuntimeError as e:
         raise HTTPException(status_code=503, detail=str(e))

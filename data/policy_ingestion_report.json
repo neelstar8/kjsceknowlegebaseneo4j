@@ -1,0 +1,28 @@
+{
+  "seen": {
+    "category": 4,
+    "document": 14,
+    "policy": 41,
+    "provision": 432,
+    "entity": 224
+  },
+  "created": {
+    "category": 4,
+    "document": 14,
+    "policy": 41,
+    "provision": 432,
+    "entity": 224
+  },
+  "relationships": 570,
+  "run_at": "2026-09-13T15:43:07.242398+00:00",
+  "dry_run": false,
+  "graph_counts": {
+    "policy_handbook": 1,
+    "policy_category": 4,
+    "policy_document": 14,
+    "policy": 41,
+    "policy_provision": 432,
+    "faculty_member": 613,
+    "pyq": 164
+  }
+}
