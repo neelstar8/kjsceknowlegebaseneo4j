@@ -191,6 +191,19 @@ def _relevant(rows: list[dict], terms: list[str]) -> list[dict]:
     return kept
 
 
+def _attach_forms(provisions: list[dict]) -> list[dict]:
+    """Fold each provision's REQUIRES->Form links onto the row for build_answer.
+
+    provision_requirements() already existed for this; nothing in the answer
+    path called it, so form links found their way into the graph but never
+    into a student-facing answer.
+    """
+    for row in provisions:
+        reqs = q.provision_requirements(row["provision_id"])
+        row["_forms"] = reqs.get("forms") or []
+    return provisions
+
+
 def retrieve(question: str, *, include_superseded: bool = False,
              limit: int = 8) -> dict:
     """Route the question and pull the supporting provisions."""
@@ -216,7 +229,8 @@ def retrieve(question: str, *, include_superseded: bool = False,
             row.update(policy_id=policy["policy_id"], policy_name=policy["name"],
                        policy_status=policy["status"])
         return {"question": question, "matched_policy": policy,
-                "matched_entities": entities, "provisions": rows[:limit]}
+                "matched_entities": entities,
+                "provisions": _attach_forms(rows[:limit])}
 
     if policy:
         known = {row["provision_id"] for row in provisions}
@@ -232,7 +246,8 @@ def retrieve(question: str, *, include_superseded: bool = False,
                                        r.get("_own", False), r.get("score") or 0.0),
                         reverse=True)
     return {"question": question, "matched_policy": policy,
-            "matched_entities": entities, "provisions": provisions[:limit]}
+            "matched_entities": entities,
+            "provisions": _attach_forms(provisions[:limit])}
 
 
 def _format_numbers(row: dict) -> str:
@@ -288,6 +303,11 @@ def build_answer(result: dict) -> str:
             lines.append(f"  VERSION: {row['superseded_note']}")
         lines.append(f"  Source: {row.get('document_title') or row.get('policy_name')}"
                      f", page {row.get('page')}, section {row.get('section')}")
+        for form in row.get("_forms") or []:
+            if form.get("url"):
+                lines.append(f"  Form: {form['name']} - {form['url']}")
+            elif form.get("name"):
+                lines.append(f"  Form: {form['name']}")
         lines.append("")
     lines.append("Institution: K J Somaiya Institute of Technology (KJSIT), "
                  "formerly KJSIEIT. These policies are KJSIT's own and are not "
@@ -323,6 +343,9 @@ def answer_policy_question(question: str, *, debug: bool = False,
              "page": row.get("page"), "section": row.get("section"),
              "url": row.get("source_url"), "status": row.get("policy_status")}
             for row in result["provisions"]
+        ],
+        "forms": [
+            form for row in result["provisions"] for form in (row.get("_forms") or [])
         ],
         "found": bool(result["provisions"]),
     }

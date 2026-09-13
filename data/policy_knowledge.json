@@ -1010,6 +1010,24 @@
    "name": "Hostel request letter to Student Section"
   },
   {
+   "label": "Form",
+   "entity_key": "internship_application_form",
+   "name": "Internship Form",
+   "form_code": "IC-01",
+   "url": "https://kjsce-old.somaiya.edu/media/pdf/KJSCE_18_Sept_2019IC-01%20Internship%20Application%20Form_v3.pdf",
+   "issuer": "K J Somaiya College of Engineering (KJSCE), Internship Cell",
+   "source_page": "https://kjsce.somaiya.edu/en/documents/ (Training and Placement and IAI > Internship)"
+  },
+  {
+   "label": "Form",
+   "entity_key": "internship_work_report_form",
+   "name": "Internship Report Format",
+   "form_code": "IC-02",
+   "url": "https://kjsce-old.somaiya.edu/media/pdf/KJSCE_IAI_16_Sept_2019_IC-02%20Internship%20work%20report_v4.pdf",
+   "issuer": "K J Somaiya College of Engineering (KJSCE), Internship Cell",
+   "source_page": "https://kjsce.somaiya.edu/en/documents/ (Training and Placement and IAI > Internship)"
+  },
+  {
    "label": "Portal",
    "entity_key": "myaccount_somaiya",
    "name": "SVV NetID account portal",
@@ -6881,7 +6899,8 @@
      "page": 3,
      "section": "8.1 Purpose",
      "text": "The institute intends to help students, whenever possible, to get vacation or concurrent assignments or internships, provided it does not interfere with their regular academic obligations like attendance.",
-     "ambiguity": "There is NO internship policy, internship credit rule or internship duration requirement anywhere in this corpus - internships are mentioned only as a best-effort activity subject to attendance."
+     "ambiguity": "There is NO internship policy, internship credit rule or internship duration requirement anywhere in this corpus - internships are mentioned only as a best-effort activity subject to attendance.",
+     "requires_forms": ["internship_application_form", "internship_work_report_form"]
     },
     {
      "pid": "tp_team_structure",
