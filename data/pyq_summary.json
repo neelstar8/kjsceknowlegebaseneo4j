@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-09-13T06:19:03.019798+00:00",
+  "source": "https://drive.google.com/drive/folders/1oBE_-p1E64JOl28luRsiw_KGyjUs-Q-J",
+  "collection": "ise_question_paper_kj_somaiya",
+  "allowed_exam_types": [
+    "ISE"
+  ],
+  "year_window": {
+    "min": null,
+    "max": null
+  },
+  "total_raw_files": 171,
+  "distinct_drive_files": 171,
+  "repeated_drive_file_ids": 0,
+  "files_by_detected_exam_type": {
+    "ISE": 162
+  },
+  "files_mapped": 162,
+  "papers_mapped": 167,
+  "files_skipped_out_of_year_window": 0,
+  "files_skipped_unclassified": 0,
+  "files_excluded_by_type": 9,
+  "pyq_id_collisions": 3,
+  "reason_counts": {
+    "excluded_archive": 5,
+    "excluded_mime": 4,
+    "multi_paper_file": 2,
+    "pyq_id_collision_unexplained": 2,
+    "semester_unknown": 1,
+    "unresolved_subject": 51
+  }
+}

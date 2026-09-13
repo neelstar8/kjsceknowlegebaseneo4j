@@ -58,10 +58,14 @@ def main():
     parser.add_argument("--in", dest="infile", default=NORM_FILE)
     parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--report", default=REPORT_FILE)
+    parser.add_argument("--collection", default=None,
+                        help="overrides the collection used for --report-stale; "
+                             "defaults to the one recorded in the input file")
     parser.add_argument("--dry-run", action="store_true",
                         help="print what would be written and touch nothing")
     parser.add_argument("--report-stale", action="store_true",
                         help="also list PYQFile nodes this run no longer saw")
+    parser.add_argument("--stale-report", default=STALE_FILE)
     args = parser.parse_args()
 
     setup_logging()
@@ -122,6 +126,7 @@ def main():
                 subject_status=paper["subject_status"],
                 aliases=subject.get("aliases"),
                 now=run_started,
+                is_bundle=bool(paper.get("is_bundle")),
             )
             inserted += int(created)
             updated += int(not created)
@@ -146,8 +151,11 @@ def main():
 
     stale = []
     if args.report_stale:
-        stale = stale_files(COLLECTION, run_started)
-        with open(STALE_FILE, "w", encoding="utf-8") as f:
+        # Scoped to this collection, so an ESE run can never report every ISE
+        # file as missing.
+        collection = args.collection or payload.get("collection") or COLLECTION
+        stale = stale_files(collection, run_started)
+        with open(args.stale_report, "w", encoding="utf-8") as f:
             json.dump({"generated_at": run_started, "count": len(stale),
                        "note": "Reported only. Nothing is ever deleted.",
                        "files": stale}, f, indent=2, ensure_ascii=False)

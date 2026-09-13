@@ -62,7 +62,6 @@ QUESTIONS = [
     ("give me BCT paper",                          ("min", 1)),
 
     # --- honest misses ----------------------------------------------------
-    ("give me ESE DBMS paper",                     ("empty", "ese_not_ingested")),
     ("give me organic chemistry paper",            ("empty", "unknown_subject")),
     ("give me all papers",                         ("empty", "no_filters")),
 ]

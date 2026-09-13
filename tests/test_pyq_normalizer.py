@@ -108,8 +108,13 @@ REJECTED = [
      PDF, "excluded_syllabus"),
     ("ISE QP 23-24 odd.zip", ROOT, ZIP, "excluded_archive"),
     ("AI TY ISE 20-21.docx", f"{ROOT}/20-21 even/TY", DOCX, "excluded_mime"),
-    ("TY VI ESE DBMS.pdf", f"{ROOT}/ISE QP 23-24 Even/TY", PDF, "exam_type_ese"),
-    ("End Sem OS.pdf", f"{ROOT}/ISE QP 23-24 Even/TY", PDF, "exam_type_ese"),
+]
+
+# ESE is a first-class exam type now. A nearer ESE marker must still beat an
+# ISE marker further up the folder path -- that is what makes a mixed tree safe.
+ESE_CASES = [
+    ("TY VI ESE DBMS.pdf", f"{ROOT}/ISE QP 23-24 Even/TY", PDF, "dbms"),
+    ("End Sem OS.pdf", f"{ROOT}/ISE QP 23-24 Even/TY", PDF, "os"),
 ]
 
 MULTI = [
@@ -152,6 +157,24 @@ def main():
                             f"{[p['subject_key'] for p in result['papers']]}")
         if reason not in result["reasons"]:
             failures.append(f"{name}: expected {reason}, got {result['reasons']}")
+
+    for name, path, mime, subject_key in ESE_CASES:
+        result = _parse(name, path, mime)
+        if not result["papers"]:
+            failures.append(f"{name}: produced no ESE paper ({result['reasons']})")
+            continue
+        paper = result["papers"][0]
+        if paper["exam_type"] != "ESE":
+            failures.append(f"{name}: exam_type == {paper['exam_type']!r}, "
+                            "expected 'ESE'")
+        if paper["subject_key"] != subject_key:
+            failures.append(f"{name}: subject_key == {paper['subject_key']!r}, "
+                            f"expected {subject_key!r}")
+        # An ESE and an ISE paper for the same subject/term are different papers.
+        ise = _parse(name.replace("ESE", "ISE").replace("End Sem ", "ISE "),
+                     path, mime)
+        if ise["papers"] and ise["papers"][0]["pyq_id"] == paper["pyq_id"]:
+            failures.append(f"{name}: ESE and ISE share a pyq_id")
 
     for name, path, mime, keys in MULTI:
         result = _parse(name, path, mime)
