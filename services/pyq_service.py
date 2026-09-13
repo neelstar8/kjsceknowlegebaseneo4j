@@ -18,6 +18,12 @@ from llm.qwen import ask_qwen
 from llm.system_prompt import KJGPT_PYQ_SYSTEM_PROMPT
 
 MAX_RESULTS = 50
+
+# The corpus KJGPT is allowed to answer from. The ESE Drive folder reaches back
+# to 2013, but only 2019 onwards was mapped, so this is belt-and-braces: even if
+# an older paper ever reached the graph it would not be handed to a student.
+MIN_YEAR = 2019
+MAX_YEAR = 2025
 # Only the LLM path is capped -- see build_context(). The deterministic
 # answer always lists every match.
 MAX_LLM_PAPERS = 15
@@ -135,6 +141,7 @@ def extract_filters(question: str) -> dict:
     filters = {
         "subject_key": None, "exam_type": None, "year": None, "semester": None,
         "year_of_study": None, "category": None, "variant": None,
+        "year_min": None, "year_max": None,
     }
 
     filters["exam_type"] = _first(text, EXAM_PATTERNS)
@@ -143,15 +150,26 @@ def extract_filters(question: str) -> dict:
     if re.search(r"\bpwd\b", text):
         filters["variant"] = "pwd"
 
-    # Year: a bare 2024, or an academic span like 2023-24 / 23-24.
-    m = re.search(r"\b(20\d{2})\s*[-/]\s*(?:20)?\d{2}\b", text) or \
-        re.search(r"\b(20\d{2})\b", text)
-    if m:
-        filters["year"] = int(m.group(1))
+    # A span of several years -- "from 2019 to 2025", "between 2019 and 2025",
+    # "2019-2025". Checked before the single-year forms, and only accepted when
+    # the two years are more than one apart: "2023-2024" is an academic year,
+    # not a request for a range.
+    span = re.search(
+        r"\b(20\d{2})\s*(?:-|–|/|to|until|through|and|upto|up to)\s*(20\d{2})\b",
+        text)
+    if span and int(span.group(2)) - int(span.group(1)) > 1:
+        filters["year_min"] = int(span.group(1))
+        filters["year_max"] = int(span.group(2))
     else:
-        m = re.search(r"\b(\d{2})\s*[-/]\s*(\d{2})\b", text)
-        if m and int(m.group(2)) == int(m.group(1)) + 1:
-            filters["year"] = 2000 + int(m.group(1))
+        # Year: a bare 2024, or an academic span like 2023-24 / 23-24.
+        m = re.search(r"\b(20\d{2})\s*[-/]\s*(?:20)?\d{2}\b", text) or \
+            re.search(r"\b(20\d{2})\b", text)
+        if m:
+            filters["year"] = int(m.group(1))
+        else:
+            m = re.search(r"\b(\d{2})\s*[-/]\s*(\d{2})\b", text)
+            if m and int(m.group(2)) == int(m.group(1)) + 1:
+                filters["year"] = 2000 + int(m.group(1))
 
     # Semester, numeric or roman.
     m = re.search(r"\bsem(?:ester)?\s*(\d)\b", text) or \
@@ -226,6 +244,9 @@ def describe_filters(filters: dict) -> str:
         parts.append(filters["exam_type"])
     if filters.get("year"):
         parts.append(str(filters["year"]))
+    if filters.get("year_min") or filters.get("year_max"):
+        parts.append(f"{filters.get('year_min') or MIN_YEAR}"
+                     f"-{filters.get('year_max') or MAX_YEAR}")
     if filters.get("semester"):
         parts.append(f"sem {filters['semester']}")
     if filters.get("year_of_study"):
@@ -244,20 +265,25 @@ def retrieve(question: str, limit: int = MAX_RESULTS) -> dict:
     # match, and should be reported as one.
     if not any(filters[k] for k in
                ("subject_key", "year", "semester", "year_of_study",
-                "category", "variant", "exam_type")):
+                "category", "variant", "exam_type", "year_min", "year_max")):
         reason = "unknown_subject" if filters["_unmatched_text"] else "no_filters"
         return {"filters": filters, "rows": [], "context": "", "reason": reason}
 
-    # Phase 1 holds ISE only, so an unstated exam type means ISE rather than
-    # "any" -- and an explicit ESE request gets an honest empty answer.
+    # Both ISE and ESE are ingested, so an unstated exam type means BOTH.
+    # "all OS papers" has to return every OS paper; only an explicit "ISE" or
+    # "ESE" in the question narrows it.
     # Underscore-prefixed keys are diagnostics for the caller, not query filters.
     query_filters = {k: v for k, v in filters.items() if not k.startswith("_")}
-    query_filters["exam_type"] = filters["exam_type"] or "ISE"
+    # A span the student asked for narrows the corpus window; it can never
+    # widen it, so a request for "2015 to 2025" still yields 2019 onwards.
+    asked_min = query_filters.pop("year_min", None)
+    asked_max = query_filters.pop("year_max", None)
 
-    rows = q.find_pyq(limit=limit, **query_filters)
-    reason = None
-    if not rows:
-        reason = "ese_not_ingested" if filters["exam_type"] == "ESE" else "no_match"
+    rows = q.find_pyq(limit=limit,
+                      year_min=max(MIN_YEAR, asked_min or MIN_YEAR),
+                      year_max=min(MAX_YEAR, asked_max or MAX_YEAR),
+                      **query_filters)
+    reason = None if rows else "no_match"
     return {"filters": filters, "rows": rows,
             "context": build_context(rows, filters), "reason": reason}
 
@@ -278,10 +304,7 @@ def answer_pyq_question(question: str, debug: bool = False,
     trace["reason"] = result["reason"]
 
     if not result["rows"]:
-        if result["reason"] == "ese_not_ingested":
-            answer = ("KJGPT currently holds ISE/MSE papers only. ESE papers "
-                      "have not been added to the knowledge base yet.")
-        elif result["reason"] == "unknown_subject":
+        if result["reason"] == "unknown_subject":
             named = result["filters"]["_unmatched_text"]
             answer = (f"I don't have any papers for \"{named}\" in the KJGPT "
                       "knowledge base.")

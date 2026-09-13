@@ -168,7 +168,8 @@ def list_children(folder_id: str) -> list[dict]:
     return children
 
 
-def walk_folder(root_id: str, root_name: str | None = None):
+def walk_folder(root_id: str, root_name: str | None = None,
+                exclude_ids: set[str] | None = None):
     """Breadth-first walk yielding every non-folder file under root_id.
 
     Each yielded record carries the folder chain it was found in, because for
@@ -180,7 +181,10 @@ def walk_folder(root_id: str, root_name: str | None = None):
     if root_name is None:
         root_name = get_file(root_id).get("name", root_id)
 
-    visited: set[str] = set()
+    # The ESE collection lives in a subfolder of the ISE root, so an ISE re-walk
+    # has to be told to leave it alone or it would sweep ESE files into the ISE
+    # collection.
+    visited: set[str] = set(exclude_ids or ())
     queue = [(root_id, [root_name], [root_id])]
 
     while queue:
@@ -210,6 +214,30 @@ def walk_folder(root_id: str, root_name: str | None = None):
                 "drive_created_time": child.get("createdTime"),
                 "drive_modified_time": child.get("modifiedTime"),
             }
+
+
+def download_file(file_id: str, max_bytes: int | None = None) -> bytes:
+    """Fetch a file's bytes.
+
+    Used only to LOOK INSIDE a semester bundle and find out which subjects it
+    contains. The bytes are held in memory, read once, and dropped -- nothing
+    downloaded here is ever written to disk or stored in Neo4j, which holds
+    metadata and the Drive link only.
+    """
+    import io
+
+    from googleapiclient.http import MediaIoBaseDownload
+
+    buffer = io.BytesIO()
+    request = get_service().files().get_media(fileId=file_id,
+                                              supportsAllDrives=True)
+    downloader = MediaIoBaseDownload(buffer, request, chunksize=1024 * 1024)
+    done = False
+    while not done:
+        _, done = downloader.next_chunk()
+        if max_bytes is not None and buffer.tell() > max_bytes:
+            break
+    return buffer.getvalue()
 
 
 def close_service():

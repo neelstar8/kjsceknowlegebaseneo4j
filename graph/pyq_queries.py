@@ -28,6 +28,8 @@ WHERE ($subject_key   IS NULL OR p.subject_key = $subject_key)
        OR p.exam_year = $year
        OR p.academic_year STARTS WITH toString($year)
        OR p.academic_year ENDS WITH right(toString($year), 2))
+  AND ($year_min      IS NULL OR p.exam_year >= $year_min)
+  AND ($year_max      IS NULL OR p.exam_year <= $year_max)
 RETURN p.pyq_id        AS pyq_id,
        p.title         AS title,
        p.subject       AS subject,
@@ -43,7 +45,7 @@ RETURN p.pyq_id        AS pyq_id,
        f.drive_url     AS drive_url,
        f.file_name     AS file_name,
        r.page_label    AS page_label
-ORDER BY p.exam_year DESC, p.subject, p.variant, r.part_index
+ORDER BY p.exam_year DESC, p.subject, p.exam_type, p.variant, r.part_index
 LIMIT $limit
 """
 
@@ -97,19 +99,23 @@ ORDER BY file_count DESC, title
 """
 
 
-def find_pyq(subject_key: str | None = None, exam_type: str | None = "ISE",
+def find_pyq(subject_key: str | None = None, exam_type: str | None = None,
              year: int | None = None, semester: int | None = None,
              year_of_study: str | None = None, category: str | None = None,
-             variant: str | None = None, limit: int = 50) -> list[dict]:
-    """The single entry point the future query layer calls.
+             variant: str | None = None, limit: int = 50,
+             year_min: int | None = None,
+             year_max: int | None = None) -> list[dict]:
+    """The single entry point the query layer calls.
 
-    exam_type defaults to "ISE" rather than None so a caller that forgets to
-    set it cannot accidentally hand a student an ESE paper once phase 2 lands.
+    exam_type defaults to None, meaning BOTH ISE and ESE. Now that both are
+    ingested, "all OS papers" must return both; a caller wanting one kind has
+    to say so. Only an explicit "ISE"/"ESE" narrows the result.
     """
     return run_query(FIND_PYQ, {
         "subject_key": subject_key, "exam_type": exam_type, "year": year,
         "semester": semester, "year_of_study": year_of_study,
         "category": category, "variant": variant, "limit": limit,
+        "year_min": year_min, "year_max": year_max,
     })
 
 

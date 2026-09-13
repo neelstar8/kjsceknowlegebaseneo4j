@@ -268,7 +268,7 @@ main.py                 # FastAPI app: /ask and /ask/debug
 
 ---
 
-# PYQ Knowledge Base (Phase 1: ISE/MSE)
+# PYQ Knowledge Base (ISE/MSE + ESE)
 
 Previous-year question papers stay in Google Drive. KJGPT stores **only metadata
 and the Drive link**, so a student asking for a paper gets a URL they click to open
@@ -446,17 +446,85 @@ expected; otherwise it is flagged in `data/pyq_collisions.json` for review.
 the PwD pair, both Honours spellings, the embedded course code, the `Futter` typo
 staying unresolved, syllabus/zip/ESE rejection, and the split-paper identity.
 
-`scripts/test_pyq_queries.py` checks the five student question shapes, that
-`FacultyMember` is still 613, that no content leaked into the graph, that no ESE paper
-was ingested, and that no physical file was duplicated.
+`scripts/test_pyq_queries.py` checks the student question shapes, that
+`FacultyMember` is still 613, that no content leaked into the graph, that an unqualified
+request returns both exam types while a qualified one does not, that nothing outside
+2019-2025 is reachable, that no semester bundle is reachable by subject, and that no
+physical file was duplicated.
 
-## 7. Adding ESE later
+## 7. The ESE collection
 
-Nothing structural changes. `exam_type` is already a first-class indexed property whose
-canonical vocabulary includes `"ESE"`, and the pipeline already detects and classifies
-ESE — it just declines to write it. Set `PYQ_ALLOWED_EXAM_TYPES=ISE,ESE`, point
-`PYQ_DRIVE_ROOT_FOLDER_ID` at the ESE folder, re-run. Existing ISE nodes are untouched
-because `pyq_id` includes `exam_type`.
+ESE is a second collection through the same four stages, plus one extra stage. It writes
+its own `data/pyq_ese_*.json` files, so the ISE data is never touched. Existing ISE nodes
+cannot collide with it because `pyq_id` includes `exam_type`.
+
+```bash
+.venv/bin/python -m scripts.discover_pyq \
+    --folder 1WyOcP9LbQBgA7LWsK6nZeZ2YWfk-asHr \
+    --out data/pyq_ese_drive_raw.json
+
+.venv/bin/python -m scripts.normalize_pyq --tag ese \
+    --in data/pyq_ese_drive_raw.json \
+    --collection ese_question_paper_kj_somaiya \
+    --exam-types ESE --default-exam-type ESE \
+    --min-year 2019 --max-year 2025
+
+# stage 2.5 -- opens semester-bundle PDFs to find the subjects inside
+.venv/bin/python -m scripts.inspect_pyq_bundles --in data/pyq_ese_normalized.json
+
+.venv/bin/python -m scripts.validate_pyq --in data/pyq_ese_normalized.json \
+    --report data/pyq_ese_validation_report.json
+.venv/bin/python -m scripts.ingest_pyq --in data/pyq_ese_normalized.json \
+    --report data/pyq_ese_ingestion_report.json
+```
+
+Three things about this corpus differ from the ISE one, and the pipeline handles each:
+
+**Nothing names the exam type.** Not the files, not the folders, not the root. The ISE
+root is literally called *"ise question paper kj somaiya"*, which is where its ISE marker
+comes from; this tree has no equivalent. `--default-exam-type ESE` asserts it for the
+collection, and the resulting nodes record `exam_type_source: "collection_default"` so
+the provenance stays honest. A file that *does* name ESE or ISE still wins over the
+default, and a contradictory tree is still rejected.
+
+**Dates are split across folders.** `2024/JANUARY - JUNE 2024/...` gives a bare calendar
+year plus a month range instead of the `23-24` span the ISE tree uses. The two are
+recombined: an odd term opens the academic year, an even term closes it, so
+*JAN-JUNE 2024* is `2023-24` and *JULY-DEC 2024* is `2024-25`.
+
+**Granularity is mixed.** Some files are one paper (`SEM V COMP OS.pdf`); others bundle a
+whole semester (`COMP- SEM- VIII..pdf`) and name no subject at all. See below.
+
+### Semester bundles
+
+A file whose own name states a semester but no subject is a **bundle** — every paper sat
+that semester, in one PDF. It gets `is_bundle: true`, a `_bundle_<branch>` identity, and
+**no `FOR_SUBJECT` edge**, so a subject query can never reach it.
+
+`scripts/inspect_pyq_bundles.py` then opens each bundle and reads its pages. Where a page
+header carries a curated alias or a subject code, that subject is established and the
+bundle is replaced by real subject-level papers with their page ranges on the
+`STORED_IN` edge. Where it cannot be established, the bundle stays exactly as it was.
+
+The splitter refuses rather than guesses: an unreadable or scanned PDF, a header naming
+two subjects, fewer than 30% of pages resolved, or only one subject found all leave the
+bundle intact. A wrong subject link is worse than an unresolved one, because it hands a
+student the wrong paper while looking authoritative. **No ISE data is ever used to infer
+an ESE subject.** Nothing downloaded is retained — the bytes are read in memory and
+dropped, and only `{subject_key, page_start, page_end}` survives.
+
+So: `"ESE OS papers"` returns only papers whose subject was actually established, while
+`"all ESE papers"` and `"ESE 2024 papers"` also return unresolved bundles.
+
+### The two folders are nested
+
+The ESE folder sits *inside* the ISE root. A future ISE re-walk must therefore exclude it,
+or it would sweep ESE files into the ISE collection:
+
+```bash
+.venv/bin/python -m scripts.discover_pyq \
+    --exclude-folder 1WyOcP9LbQBgA7LWsK6nZeZ2YWfk-asHr
+```
 
 ## Files
 
@@ -465,7 +533,9 @@ drive/client.py                  # read-only service account, cycle-safe recursi
 normalization/pyq_normalizer.py  # token-bag parsing; deterministic, no LLM
 graph/pyq_ingestion.py           # constraints, indexes, idempotent upsert, stale report
 graph/pyq_queries.py             # parameterized search; Qwen never writes Cypher
+normalization/pyq_pdf_subjects.py # reads bundle pages to establish subjects
 scripts/discover_pyq.py  normalize_pyq.py  validate_pyq.py  ingest_pyq.py
+scripts/inspect_pyq_bundles.py   # stage 2.5, splits semester bundles
 services/pyq_service.py          # question -> filters -> links; deterministic
 scripts/test_pyq_queries.py      # live-graph verification
 tests/test_pyq_normalizer.py     # offline parser tests on real filenames
