@@ -111,6 +111,7 @@ These details are sourced from his official profile and CV.
 - **PVPP's Manohar Phalke Polytechnic** (Lecturer, December 2009 – January 2015)  
 - Other roles included visiting faculty positions at Yashwantrao Chavan Maharashtra Open University, Government Polytechnic Mumbai, ICFAI Business School, and Birla College.  
 
+
 These roles are listed in reverse chronological order in his professional experience.
 ----------------------------------------------------------------------
 [17/30] (12.90s) Q: What are his research interests?
@@ -163,7 +164,9 @@ These reflect his technical expertise as detailed in his official profiles.
 [22/30] (17.89s) Q: What responsibilities does he handle in the department?
         A: Dr. Vaibhav Prakash Vasani handles the following responsibilities in the department:  
 - Faculty Advisor for the Somaiya Machine Learning and Research Association (SMLRA)  
-- Coordinator for the Software Development Cell (SWDC)  
+- Coordinator for the Soft
+
+ware Development Cell (SWDC)  
 - Honours Coordinator  
 - Timetable In-charge of the Computer Engineering Department  
 - Member of the Social Media and Publicity team  
