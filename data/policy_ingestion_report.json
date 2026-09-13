@@ -4,17 +4,17 @@
     "document": 14,
     "policy": 41,
     "provision": 432,
-    "entity": 224
+    "entity": 226
   },
   "created": {
-    "category": 4,
-    "document": 14,
-    "policy": 41,
-    "provision": 432,
-    "entity": 224
+    "category": 0,
+    "document": 0,
+    "policy": 0,
+    "provision": 0,
+    "entity": 0
   },
-  "relationships": 570,
-  "run_at": "2026-09-13T15:43:07.242398+00:00",
+  "relationships": 572,
+  "run_at": "2026-09-13T17:31:04.486618+00:00",
   "dry_run": false,
   "graph_counts": {
     "policy_handbook": 1,

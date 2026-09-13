@@ -95,7 +95,8 @@ OPTIONAL MATCH (role)-[:RESPONSIBLE_FOR]->(v)
 OPTIONAL MATCH (approver)-[:APPROVES]->(v)
 OPTIONAL MATCH (v)-[:HAS_CONSEQUENCE]->(pen:PolicyProvision)
 OPTIONAL MATCH (v)-[:HAS_EXCEPTION]->(exc:PolicyProvision)
-RETURN collect(DISTINCT f.name) AS forms,
+RETURN collect(DISTINCT CASE WHEN f IS NULL THEN NULL
+                             ELSE {name: f.name, url: f.url} END) AS forms,
        collect(DISTINCT portal.name) AS portals,
        collect(DISTINCT role.name) AS responsible,
        collect(DISTINCT approver.name) AS approvers,
