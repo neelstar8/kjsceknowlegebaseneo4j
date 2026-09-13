@@ -1,0 +1,27 @@
+{
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "documents_off_handbook": 2,
+    "kind_contact": 1,
+    "kind_definition": 24,
+    "kind_eligibility": 25,
+    "kind_exception": 7,
+    "kind_fee": 16,
+    "kind_numeric": 37,
+    "kind_penalty": 24,
+    "kind_procedure": 55,
+    "kind_requirement": 17,
+    "kind_responsibility": 17,
+    "kind_rule": 183,
+    "kind_timeline": 26,
+    "orphan_entities": 0,
+    "policies": 41,
+    "provisions": 432,
+    "provisions_flagged_ambiguous": 30,
+    "provisions_flagged_superseded": 12,
+    "provisions_with_numbers": 192
+  },
+  "severe": 0,
+  "blocking": false
+}
