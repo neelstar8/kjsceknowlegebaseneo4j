@@ -11,7 +11,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
 from services.faculty_service import answer_faculty_question
-from services.policy_service import answer_policy_question
+from services.policy_service import answer_policy_question, answer_policy_question_llm
 from services.pyq_service import answer_pyq_question
 
 app = FastAPI(title="KJGPT Prototype")
@@ -27,6 +27,11 @@ class PolicyQuestion(BaseModel):
     # examination rules were replaced when the institute became autonomous;
     # answering a current student from it would be worse than saying nothing.
     include_superseded: bool = False
+    # Off by default, same contract as PYQQuestion.use_llm: the deterministic
+    # path stays the default so existing callers/tests are unchanged. When
+    # true, Qwen synthesizes the final answer from the same retrieved
+    # provisions under the Policy-domain system prompt stored on the graph.
+    use_llm: bool = False
 
 
 class PYQQuestion(BaseModel):
@@ -90,8 +95,8 @@ def policy_ask(payload: PolicyQuestion):
     than offering the nearest thing it could find.
     """
     try:
-        return answer_policy_question(
-            payload.question, include_superseded=payload.include_superseded)
+        fn = answer_policy_question_llm if payload.use_llm else answer_policy_question
+        return fn(payload.question, include_superseded=payload.include_superseded)
     except RuntimeError as e:
         raise HTTPException(status_code=503, detail=str(e))
 
@@ -100,8 +105,8 @@ def policy_ask(payload: PolicyQuestion):
 def policy_ask_debug(payload: PolicyQuestion):
     """Development-only. Adds the fulltext query and the provisions retrieved."""
     try:
-        return answer_policy_question(
-            payload.question, debug=True,
-            include_superseded=payload.include_superseded)
+        fn = answer_policy_question_llm if payload.use_llm else answer_policy_question
+        return fn(payload.question, debug=True,
+                  include_superseded=payload.include_superseded)
     except RuntimeError as e:
         raise HTTPException(status_code=503, detail=str(e))

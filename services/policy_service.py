@@ -21,6 +21,7 @@ import re
 from functools import lru_cache
 
 from graph import policy_queries as q
+from llm.qwen import ask_qwen
 
 # Aliases that are ordinary English words match nearly every question, so they
 # only count when the question is otherwise about that topic. Same guard
@@ -354,5 +355,77 @@ def answer_policy_question(question: str, *, debug: bool = False,
             "fulltext_query": _fulltext_query(question),
             "matched_entities": [e["entity_key"] for e in result["matched_entities"]],
             "provision_ids": [r["provision_id"] for r in result["provisions"]],
+        }
+    return payload
+
+
+@lru_cache(maxsize=1)
+def _policy_system_prompt() -> str:
+    """The Policy knowledge-domain's system prompt, read off the singleton
+    :PolicyHandbook node rather than hard-coded here -- see
+    graph/policy_ingestion.py and data/policy_knowledge.json's meta.system_prompt.
+    """
+    prompt = q.handbook_system_prompt()
+    if not prompt:
+        raise RuntimeError(
+            "PolicyHandbook has no system_prompt set. Run scripts.ingest_policies "
+            "after adding meta.system_prompt to data/policy_knowledge.json.")
+    return prompt
+
+
+def reset_prompt_cache():
+    """Drop the cached system prompt. Call after a re-ingest changes it."""
+    _policy_system_prompt.cache_clear()
+
+
+def answer_policy_question_llm(question: str, *, debug: bool = False,
+                               include_superseded: bool = False) -> dict:
+    """Same deterministic retrieval as answer_policy_question, but Qwen
+    synthesizes the final answer instead of the plain-text formatter.
+
+    Retrieval, relevance filtering and ranking are unchanged and still fully
+    deterministic -- Qwen never sees Neo4j and never writes Cypher. It only
+    reasons over the provisions retrieve() already decided are relevant:
+    selecting, combining, deduplicating and phrasing them under the
+    Policy-domain system prompt. When retrieval finds nothing, the same
+    honest "not in the documents I hold" text is returned without a model
+    call, for the same reason services/pyq_service.py skips the model on an
+    empty result: there is nothing to reformat.
+    """
+    result = retrieve(question, include_superseded=include_superseded)
+    provisions = result["provisions"]
+
+    sources = [
+        {"policy": row.get("policy_name"), "document": row.get("document_title"),
+         "page": row.get("page"), "section": row.get("section"),
+         "url": row.get("source_url"), "status": row.get("policy_status")}
+        for row in provisions
+    ]
+    forms = [form for row in provisions for form in (row.get("_forms") or [])]
+
+    context = None
+    if not provisions:
+        answer = _no_answer(result)
+    else:
+        context = build_answer(result)
+        user_prompt = (
+            f"RETRIEVED POLICY PROVISIONS:\n{context}\n\n"
+            f"STUDENT QUESTION:\n{question}"
+        )
+        answer = ask_qwen(_policy_system_prompt(), user_prompt)
+
+    payload = {
+        "answer": answer,
+        "matched_policy": (result["matched_policy"] or {}).get("policy_id"),
+        "sources": sources,
+        "forms": forms,
+        "found": bool(provisions),
+    }
+    if debug:
+        payload["debug"] = {
+            "fulltext_query": _fulltext_query(question),
+            "matched_entities": [e["entity_key"] for e in result["matched_entities"]],
+            "provision_ids": [r["provision_id"] for r in provisions],
+            "llm_context": context,
         }
     return payload

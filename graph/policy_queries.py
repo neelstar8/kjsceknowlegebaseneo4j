@@ -16,6 +16,15 @@ from it would be worse than saying nothing.
 """
 from graph.neo4j_driver import run_query
 
+# One system prompt for the whole Policy knowledge domain, read off the
+# singleton :PolicyHandbook root rather than duplicated onto every Policy or
+# PolicyProvision node.
+HANDBOOK_SYSTEM_PROMPT_QUERY = """
+MATCH (h:PolicyHandbook)
+RETURN h.system_prompt AS system_prompt
+LIMIT 1
+"""
+
 VOCABULARY_QUERY = """
 MATCH (p:Policy)
 RETURN p.policy_id AS policy_id, p.name AS name, p.aliases AS aliases,
@@ -136,6 +145,11 @@ RETURN v.provision_id AS provision_id, v.topic AS topic, v.text AS text,
 ORDER BY v.provision_id
 LIMIT $limit
 """
+
+
+def handbook_system_prompt() -> str | None:
+    rows = run_query(HANDBOOK_SYSTEM_PROMPT_QUERY)
+    return rows[0]["system_prompt"] if rows else None
 
 
 def policy_vocabulary() -> list[dict]:

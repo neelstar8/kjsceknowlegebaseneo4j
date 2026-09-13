@@ -107,6 +107,10 @@ def ingest(knowledge: dict, dry_run: bool = False) -> dict:
             "second_publication": meta["second_publication"],
             "last_update": meta["last_update"],
             "knowledge_version": meta["knowledge_version"],
+            # One prompt for the whole Policy knowledge domain, held on its
+            # singleton root node rather than duplicated onto every Policy or
+            # PolicyProvision -- see services/policy_service.py's LLM path.
+            "system_prompt": meta.get("system_prompt"),
         })
 
     for category in knowledge["categories"]:
