@@ -12,6 +12,7 @@ from pydantic import BaseModel
 
 from services.exam_document_service import answer_exam_document_question
 from services.faculty_service import answer_faculty_question
+from services.policy_service import answer_policy_question, answer_policy_question_llm
 from services.pyq_service import answer_pyq_question
 
 app = FastAPI(title="KJGPT Prototype")
@@ -19,6 +20,19 @@ app = FastAPI(title="KJGPT Prototype")
 
 class Question(BaseModel):
     question: str
+
+
+class PolicyQuestion(BaseModel):
+    question: str
+    # Off by default. The corpus holds a 2018 handbook edition whose
+    # examination rules were replaced when the institute became autonomous;
+    # answering a current student from it would be worse than saying nothing.
+    include_superseded: bool = False
+    # Off by default, same contract as PYQQuestion.use_llm: the deterministic
+    # path stays the default so existing callers/tests are unchanged. When
+    # true, Qwen synthesizes the final answer from the same retrieved
+    # provisions under the Policy-domain system prompt stored on the graph.
+    use_llm: bool = False
 
 
 class PYQQuestion(BaseModel):
@@ -70,32 +84,6 @@ def pyq_ask_debug(payload: PYQQuestion):
                                    use_llm=payload.use_llm)
     except RuntimeError as e:
         raise HTTPException(status_code=503, detail=str(e))
-<<<<<<< Updated upstream
-=======
-
-
-@app.post("/exam/documents/ask")
-def exam_documents_ask(payload: Question):
-    """Official Examination documents (academic & examination calendars) -> links.
-
-    Returns {"answer": str, "documents": [{doc_id, title, url, academic_year,
-    programmes, levels, document_status, events}], "found": bool}. Deterministic:
-    no model call, so the official URLs cannot be altered. This is NOT the PYQ
-    question-paper route -- see /pyq/ask for past papers.
-    """
-    try:
-        return answer_exam_document_question(payload.question, debug=False)
-    except RuntimeError as e:
-        raise HTTPException(status_code=503, detail=str(e))
-
-
-@app.post("/exam/documents/ask/debug")
-def exam_documents_ask_debug(payload: Question):
-    """Development-only. Adds the extracted filters and matched doc_ids."""
-    try:
-        return answer_exam_document_question(payload.question, debug=True)
-    except RuntimeError as e:
-        raise HTTPException(status_code=503, detail=str(e))
 
 
 @app.post("/policy/ask")
@@ -123,4 +111,3 @@ def policy_ask_debug(payload: PolicyQuestion):
                   include_superseded=payload.include_superseded)
     except RuntimeError as e:
         raise HTTPException(status_code=503, detail=str(e))
->>>>>>> Stashed changes

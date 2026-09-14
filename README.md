@@ -268,7 +268,7 @@ main.py                 # FastAPI app: /ask and /ask/debug
 
 ---
 
-# PYQ Knowledge Base (Phase 1: ISE/MSE)
+# PYQ Knowledge Base (ISE/MSE + ESE)
 
 Previous-year question papers stay in Google Drive. KJGPT stores **only metadata
 and the Drive link**, so a student asking for a paper gets a URL they click to open
@@ -446,17 +446,85 @@ expected; otherwise it is flagged in `data/pyq_collisions.json` for review.
 the PwD pair, both Honours spellings, the embedded course code, the `Futter` typo
 staying unresolved, syllabus/zip/ESE rejection, and the split-paper identity.
 
-`scripts/test_pyq_queries.py` checks the five student question shapes, that
-`FacultyMember` is still 613, that no content leaked into the graph, that no ESE paper
-was ingested, and that no physical file was duplicated.
+`scripts/test_pyq_queries.py` checks the student question shapes, that
+`FacultyMember` is still 613, that no content leaked into the graph, that an unqualified
+request returns both exam types while a qualified one does not, that nothing outside
+2019-2025 is reachable, that no semester bundle is reachable by subject, and that no
+physical file was duplicated.
 
-## 7. Adding ESE later
+## 7. The ESE collection
 
-Nothing structural changes. `exam_type` is already a first-class indexed property whose
-canonical vocabulary includes `"ESE"`, and the pipeline already detects and classifies
-ESE — it just declines to write it. Set `PYQ_ALLOWED_EXAM_TYPES=ISE,ESE`, point
-`PYQ_DRIVE_ROOT_FOLDER_ID` at the ESE folder, re-run. Existing ISE nodes are untouched
-because `pyq_id` includes `exam_type`.
+ESE is a second collection through the same four stages, plus one extra stage. It writes
+its own `data/pyq_ese_*.json` files, so the ISE data is never touched. Existing ISE nodes
+cannot collide with it because `pyq_id` includes `exam_type`.
+
+```bash
+.venv/bin/python -m scripts.discover_pyq \
+    --folder 1WyOcP9LbQBgA7LWsK6nZeZ2YWfk-asHr \
+    --out data/pyq_ese_drive_raw.json
+
+.venv/bin/python -m scripts.normalize_pyq --tag ese \
+    --in data/pyq_ese_drive_raw.json \
+    --collection ese_question_paper_kj_somaiya \
+    --exam-types ESE --default-exam-type ESE \
+    --min-year 2019 --max-year 2025
+
+# stage 2.5 -- opens semester-bundle PDFs to find the subjects inside
+.venv/bin/python -m scripts.inspect_pyq_bundles --in data/pyq_ese_normalized.json
+
+.venv/bin/python -m scripts.validate_pyq --in data/pyq_ese_normalized.json \
+    --report data/pyq_ese_validation_report.json
+.venv/bin/python -m scripts.ingest_pyq --in data/pyq_ese_normalized.json \
+    --report data/pyq_ese_ingestion_report.json
+```
+
+Three things about this corpus differ from the ISE one, and the pipeline handles each:
+
+**Nothing names the exam type.** Not the files, not the folders, not the root. The ISE
+root is literally called *"ise question paper kj somaiya"*, which is where its ISE marker
+comes from; this tree has no equivalent. `--default-exam-type ESE` asserts it for the
+collection, and the resulting nodes record `exam_type_source: "collection_default"` so
+the provenance stays honest. A file that *does* name ESE or ISE still wins over the
+default, and a contradictory tree is still rejected.
+
+**Dates are split across folders.** `2024/JANUARY - JUNE 2024/...` gives a bare calendar
+year plus a month range instead of the `23-24` span the ISE tree uses. The two are
+recombined: an odd term opens the academic year, an even term closes it, so
+*JAN-JUNE 2024* is `2023-24` and *JULY-DEC 2024* is `2024-25`.
+
+**Granularity is mixed.** Some files are one paper (`SEM V COMP OS.pdf`); others bundle a
+whole semester (`COMP- SEM- VIII..pdf`) and name no subject at all. See below.
+
+### Semester bundles
+
+A file whose own name states a semester but no subject is a **bundle** — every paper sat
+that semester, in one PDF. It gets `is_bundle: true`, a `_bundle_<branch>` identity, and
+**no `FOR_SUBJECT` edge**, so a subject query can never reach it.
+
+`scripts/inspect_pyq_bundles.py` then opens each bundle and reads its pages. Where a page
+header carries a curated alias or a subject code, that subject is established and the
+bundle is replaced by real subject-level papers with their page ranges on the
+`STORED_IN` edge. Where it cannot be established, the bundle stays exactly as it was.
+
+The splitter refuses rather than guesses: an unreadable or scanned PDF, a header naming
+two subjects, fewer than 30% of pages resolved, or only one subject found all leave the
+bundle intact. A wrong subject link is worse than an unresolved one, because it hands a
+student the wrong paper while looking authoritative. **No ISE data is ever used to infer
+an ESE subject.** Nothing downloaded is retained — the bytes are read in memory and
+dropped, and only `{subject_key, page_start, page_end}` survives.
+
+So: `"ESE OS papers"` returns only papers whose subject was actually established, while
+`"all ESE papers"` and `"ESE 2024 papers"` also return unresolved bundles.
+
+### The two folders are nested
+
+The ESE folder sits *inside* the ISE root. A future ISE re-walk must therefore exclude it,
+or it would sweep ESE files into the ISE collection:
+
+```bash
+.venv/bin/python -m scripts.discover_pyq \
+    --exclude-folder 1WyOcP9LbQBgA7LWsK6nZeZ2YWfk-asHr
+```
 
 ## Files
 
@@ -465,7 +533,9 @@ drive/client.py                  # read-only service account, cycle-safe recursi
 normalization/pyq_normalizer.py  # token-bag parsing; deterministic, no LLM
 graph/pyq_ingestion.py           # constraints, indexes, idempotent upsert, stale report
 graph/pyq_queries.py             # parameterized search; Qwen never writes Cypher
+normalization/pyq_pdf_subjects.py # reads bundle pages to establish subjects
 scripts/discover_pyq.py  normalize_pyq.py  validate_pyq.py  ingest_pyq.py
+scripts/inspect_pyq_bundles.py   # stage 2.5, splits semester bundles
 services/pyq_service.py          # question -> filters -> links; deterministic
 scripts/test_pyq_queries.py      # live-graph verification
 tests/test_pyq_normalizer.py     # offline parser tests on real filenames
@@ -534,3 +604,200 @@ free-form questions the pattern matcher cannot handle ("compare the DBMS papers 
 the last three years"), the place to add a model is filter *extraction* —
 `extract_filters()` — not answer generation, and not Cypher. `/ask` and `/ask/debug`
 are unchanged.
+
+---
+
+# Policy Knowledge Base (KJSIT Institute Policy Handbook)
+
+The official KJSIT Institute Policy Handbook as a real knowledge graph in Neo4j:
+policies, the atomic provisions inside them, and the departments, committees,
+roles, forms and portals those provisions actually name — every fact carrying
+the PDF, page and section it came from.
+
+No chunking, no embeddings, no vector DB, **no PDF bytes in Neo4j** — the same
+rule the PYQ system follows. `scripts/test_policy_queries.py` asserts the graph
+holds a summary rather than the corpus (173 KB of provision text against 676 KB
+of extracted source text).
+
+Source: <https://kjsit.somaiya.edu.in/en/handbook/>
+
+## Institution scope — read this first
+
+Every document in this corpus is authored by **K. J. Somaiya Institute of
+Engineering and Information Technology (KJSIEIT)**, now named **K J Somaiya
+Institute of Technology (KJSIT)**. It is **not** KJSSE. Nothing here may be
+presented as a KJSSE policy. Every `Policy`, `PolicyProvision` and
+`PolicyDocument` node carries `institution: "KJSIT"`, and the validation suite
+fails if any node claims otherwise or if the string "KJSSE" appears anywhere in
+the graph.
+
+## Graph shape
+
+```
+(:PolicyHandbook)-[:HAS_CATEGORY]->(:PolicyCategory)
+(:Policy)-[:BELONGS_TO]->(:PolicyCategory)
+(:Policy)-[:DOCUMENTED_IN {page_start, page_end, section}]->(:PolicyDocument)
+(:Policy)-[:DEFINES|SPECIFIES]->(:PolicyProvision)
+(:PolicyProvision)-[:SOURCED_FROM {page, section}]->(:PolicyDocument)
+(:Policy)-[:APPLIES_TO|INVOLVES|REFERENCES]->(entity)
+(:PolicyProvision)-[:REQUIRES]->(:Form)
+(:PolicyProvision)-[:USES]->(:Portal)
+(:Role|:Committee)-[:RESPONSIBLE_FOR|:APPROVES]->(:PolicyProvision)
+(:PolicyProvision)-[:HAS_CONSEQUENCE|HAS_EXCEPTION]->(:PolicyProvision)
+(:Policy)-[:SUPERSEDED_BY]->(:Policy)
+```
+
+Three levels, on purpose:
+
+| node | is | why |
+|---|---|---|
+| `PolicyDocument` | the physical PDF that was fetched | URL, page count, checksum — never page text |
+| `Policy` | a handbook chapter or a numbered section inside one | what a student names when they ask |
+| `PolicyProvision` | one atomic normative statement | the unit that carries page-level provenance |
+
+`PolicyProvision` exists because "75% attendance" is only trustworthy if the
+graph can say **which page of which PDF** said so. `DEFINES` vs `SPECIFIES` is a
+pure function of `provision.kind` (rules are defined, procedures are specified),
+so the knowledge file can never contradict the edge type.
+
+Entity labels: `Department`, `Committee`, `Role`, `Programme`, `StudentCategory`,
+`Form`, `Portal`, `Facility`, `ExternalOrganization`, `Scheme` — all keyed on
+`entity_key`.
+
+`:Faculty`, `:FacultyMember`, `:PYQ`, `:PYQFile` and `:Subject` are untouched.
+The only thing shared with those systems is the driver in
+`graph/neo4j_driver.py`.
+
+## Run the pipeline
+
+Four independent stages, so Neo4j never depends on the website being reachable:
+
+```
+handbook page  ->  data/policy_discovery.json        (scripts/discover_policies.py)
+               ->  data/policy_knowledge.json        (curated, hand-authored)
+               ->  data/policy_validation_report.json (scripts/validate_policies.py)
+               ->  Neo4j                             (scripts/ingest_policies.py)
+```
+
+```bash
+.venv/bin/python -m scripts.discover_policies        # fetches every linked PDF
+.venv/bin/python -m scripts.validate_policies        # blocks ingest on severe errors
+.venv/bin/python -m scripts.ingest_policies --dry-run
+.venv/bin/python -m scripts.ingest_policies
+.venv/bin/python -m scripts.test_policy_queries      # 33 live-graph checks
+.venv/bin/python -m tests.test_policy_questions      # 56 student questions
+```
+
+Ingestion is idempotent: every node MERGEs on a deterministic id
+(`policy_id`, `provision_id`, `doc_id`, `entity_key`), all unique-constrained.
+Run it twice and the second run creates nothing. Nothing is ever deleted.
+
+Stage 2 is a **curated file, not a parser**. Policy prose cannot be parsed
+deterministically the way a filename can, so `data/policy_knowledge.json` is
+authored from a full page-by-page read and then machine-validated — the same
+role `data/pyq_subjects.json` plays for subject aliases.
+
+## What discovery actually found
+
+12 linked PDFs, 405 pages, all fetched. Two things a naive scrape gets wrong:
+
+**HR Policies has no link at all.** Not a broken URL — the `<li>` contains no
+`<a>` element. Discovery records it as `NO_LINK_ON_PAGE` rather than dropping
+it, because "the handbook has no HR Policies link" is itself a finding. The
+2018 edition's 39-page HR chapter was located and ingested in its place.
+
+**15 pages of the QMS chapter are scanned images.** They still extract ~22
+characters each — the running header is real text laid over a full-page raster —
+so a text-length threshold finds nothing. `scripts/discover_policies.scanned_pages`
+therefore looks for a page-sized image inside the nested Form XObjects. Those
+15 pages are the signed *Revised Higher Studies Policy of KJSIEIT* (PhD
+sponsorship, study leave, bonds, penalties), which a length check would have
+silently dropped.
+
+## Versioning
+
+The corpus holds three generations of examination rules and they disagree:
+
+| | 2018 edition | Scheme I (2021-22) | current (Scheme III) |
+|---|---|---|---|
+| weightage | IA 20% / ESE 80% | CA 40% / ESE 60% | CA 40% / ESE 60% |
+| ATKT | 8 heads, max 5 ESE | not published | 6 heads, max 3 ESE |
+| term test (core) | — | 15 marks | 20 marks |
+
+Superseded policies stay in the graph as history and carry `SUPERSEDED_BY` to
+their replacement, but **default retrieval excludes them** — answering a current
+student from the 2018 edition would be worse than saying nothing. Pass
+`include_superseded: true` to reach them.
+
+Two documents on the official Examinations page were pulled in during the
+cross-check for the truncated handbook Examination Policy. They are marked
+`source_type: "official_site_supplement"` and are **not** part of the handbook;
+the current one is newer than the handbook and supersedes it on examination
+matters.
+
+## Asking a policy question
+
+```bash
+curl -X POST http://127.0.0.1:8000/policy/ask \
+  -H "Content-Type: application/json" \
+  -d '{"question": "What is the attendance requirement?"}'
+```
+
+Returns `{"answer": str, "sources": [{policy, document, page, section, url,
+status}], "found": bool}`. Every fact in `answer` is traceable to a page of a
+named PDF. Retrieval and the answer are both deterministic — **no model is
+involved**, and Qwen never writes Cypher.
+
+Routing matches the question against vocabularies read out of the graph itself
+(policy names, aliases, entity names), the same pattern
+`services/faculty_service._build_index()` uses, so the router grows as the
+knowledge base grows.
+
+### The thing this had to get right
+
+A fulltext OR query will return a plausible-looking, correctly-cited answer to
+*any* question, including "what is Vaibhav Vasani's favourite food?" (the exam
+hall bans food; the library bans food). A sourced-looking wrong answer is worse
+than no answer, so a hit has to survive a term-coverage floor: **two matched
+terms with at least one distinctive**, or **one distinctive term that is what
+the provision is about**. Matching is on word-prefix, not substring — plain
+substring matching had `fine` matching inside `define` and put the library's
+vision statement at the top of a question about library fines.
+
+Naming a policy is a *preference*, not an override, for the same reason.
+
+### Gaps are answers
+
+Where the corpus is silent, that silence is a provision in the graph, not an
+absence:
+
+```
+Q: What is the library fine per day for students?
+A: NOT SPECIFIED IN SOURCE: the Library Manual states an overdue fine of Rs. 5
+   per day for ALUMNI members only. No overdue fine rate for regular students
+   ... is stated anywhere in the manual.
+   Source: 07 Library : Knowledge Resource Hub Policies, page 17, section 7.9
+```
+
+30 provisions carry an `ambiguity` flag (contradictions, unquantified rules,
+unstated amounts); 12 carry a `superseded_note`. `data/policy_gap_analysis.json`
+has the full analysis: 16 missing topics ranked HIGH/MEDIUM/LOW with the
+official source to obtain each, 6 internal contradictions, 3 link problems and
+2 incomplete documents.
+
+## Files
+
+```
+scripts/discover_policies.py     # stage 1: fetch + scanned-page detection
+scripts/validate_policies.py     # stage 3: referential integrity, blocks ingest
+scripts/ingest_policies.py       # stage 4: idempotent upsert
+scripts/test_policy_queries.py   # 33 live-graph validation checks
+graph/policy_ingestion.py        # constraints, indexes, allow-listed upserts
+graph/policy_queries.py          # parameterized retrieval; the LLM never writes Cypher
+services/policy_service.py       # question -> filters -> sourced answer
+tests/test_policy_questions.py   # 56 student questions incl. honest misses
+data/policy_knowledge.json       # the curated knowledge base
+data/policy_discovery.json       # raw fetch manifest
+data/policy_gap_analysis.json    # what is missing and where to get it
+data/policy_pdfs/                # the fetched PDFs (gitignored)
+```

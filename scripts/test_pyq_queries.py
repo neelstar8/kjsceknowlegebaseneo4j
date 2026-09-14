@@ -4,14 +4,15 @@ Checks the things that would actually hurt if they broke:
   * the five student question shapes each return a usable Drive link
   * the faculty subgraph is untouched
   * no PDF content leaked into the graph
-  * no ESE paper was ingested in this phase
+  * an unqualified request returns BOTH ISE and ESE, and a qualified one does not
+  * nothing outside the 2019-2025 window is reachable
   * physical files are never duplicated, and split papers stay unified
 
 Usage:
     .venv/bin/python -m scripts.test_pyq_queries
 """
 from graph.neo4j_driver import close_driver, run_query, verify_connection
-from graph.pyq_ingestion import counts, non_ise_count
+from graph.pyq_ingestion import counts
 import graph.pyq_queries as q
 
 EXPECTED_FACULTY_MEMBERS = 613
@@ -46,6 +47,19 @@ MATCH (p:PYQ) WHERE NOT (p)-[:STORED_IN]->(:PYQFile)
 RETURN p.pyq_id AS pyq_id LIMIT 5
 """
 
+# Every non-bundle paper must reach a Subject. Bundles deliberately do not.
+SUBJECTLESS_QUERY = """
+MATCH (p:PYQ) WHERE coalesce(p.is_bundle, false) = false
+  AND NOT (p)-[:FOR_SUBJECT]->(:Subject)
+RETURN p.pyq_id AS pyq_id LIMIT 5
+"""
+
+# ...and no bundle may ever be reachable by a subject query.
+BUNDLE_LEAK_QUERY = """
+MATCH (p:PYQ)-[:FOR_SUBJECT]->(s:Subject) WHERE p.is_bundle = true
+RETURN p.pyq_id AS pyq_id, s.subject_key AS subject_key LIMIT 5
+"""
+
 
 def main():
     verify_connection()
@@ -60,21 +74,44 @@ def main():
     print(f"\nGraph: PYQ={c['pyq']} PYQFile={c['pyq_file']} Subject={c['subject']} "
           f"STORED_IN={c['stored_in']} FOR_SUBJECT={c['for_subject']}")
 
-    print("\n-- the five student question shapes --")
+    print("\n-- the student question shapes --")
+    seen = {}
     for label, kwargs in [
+        ("A. all OS papers", {"subject_key": "os", "limit": 100}),
+        ("B. ISE OS papers", {"subject_key": "os", "exam_type": "ISE",
+                              "limit": 100}),
+        ("C. ESE OS papers", {"subject_key": "os", "exam_type": "ESE",
+                              "limit": 100}),
+        ("D. all DBMS papers from 2022", {"subject_key": "dbms", "year": 2022,
+                                          "limit": 100}),
+        ("E. ESE DBMS 2024 paper", {"subject_key": "dbms", "year": 2024,
+                                    "exam_type": "ESE", "limit": 100}),
+        ("F. all ESE papers", {"exam_type": "ESE", "limit": 1000}),
+        ("G. all papers 2019-2025", {"year_min": 2019, "year_max": 2025,
+                                     "limit": 1000}),
         ("all DBMS papers", {"subject_key": "dbms", "limit": 100}),
-        ("DBMS paper 2024", {"subject_key": "dbms", "year": 2024}),
-        ("DBMS 2024 ISE paper", {"subject_key": "dbms", "year": 2024,
-                                 "exam_type": "ISE"}),
         ("all ISE papers", {"exam_type": "ISE", "limit": 1000}),
-        ("all ISE DBMS papers", {"subject_key": "dbms", "exam_type": "ISE",
-                                 "limit": 100}),
     ]:
         rows = q.find_pyq(**kwargs)
+        seen[label] = rows
         usable = [r for r in rows
                   if (r.get("drive_url") or "").startswith("https://drive.google.com/")]
+        types = sorted({r["exam_type"] for r in rows})
         check(f'"{label}"', bool(rows) and len(usable) == len(rows),
-              f"{len(rows)} result(s), {len(usable)} with a usable link")
+              f"{len(rows)} result(s), {len(usable)} linked, types={types}")
+
+    # The default rule: unqualified must be the union, qualified must be a subset.
+    all_os = {r["pyq_id"] for r in seen["A. all OS papers"]}
+    ise_os = {r["pyq_id"] for r in seen["B. ISE OS papers"]}
+    ese_os = {r["pyq_id"] for r in seen["C. ESE OS papers"]}
+    check("'all OS papers' == ISE OS + ESE OS", all_os == ise_os | ese_os,
+          f"all={len(all_os)} ise={len(ise_os)} ese={len(ese_os)}")
+    check("ISE OS and ESE OS do not overlap", not (ise_os & ese_os),
+          str(list(ise_os & ese_os)[:3]))
+    check("'ESE OS papers' really are all ESE",
+          all(r["exam_type"] == "ESE" for r in seen["C. ESE OS papers"]))
+    check("'ISE OS papers' really are all ISE",
+          all(r["exam_type"] == "ISE" for r in seen["B. ISE OS papers"]))
 
     print("\n-- integrity --")
     check("faculty subgraph untouched", c["faculty_member"] == EXPECTED_FACULTY_MEMBERS,
@@ -83,8 +120,16 @@ def main():
     leaks = run_query(CONTENT_LEAK_QUERY, {"forbidden": FORBIDDEN_PROPS})
     check("no paper content stored in the graph", not leaks, str(leaks[:2]))
 
-    check("no ESE papers ingested in this phase", non_ise_count() == 0,
-          f"non-ISE PYQ nodes = {non_ise_count()}")
+    bad_types = run_query(
+        "MATCH (p:PYQ) WHERE NOT p.exam_type IN ['ISE', 'ESE'] "
+        "RETURN p.pyq_id AS pyq_id, p.exam_type AS exam_type LIMIT 5")
+    check("every paper is ISE or ESE", not bad_types, str(bad_types))
+
+    out_of_range = run_query(
+        "MATCH (p:PYQ) WHERE p.exam_year < 2019 OR p.exam_year > 2025 "
+        "RETURN p.pyq_id AS pyq_id, p.exam_year AS exam_year LIMIT 5")
+    check("no paper outside the 2019-2025 window", not out_of_range,
+          str(out_of_range))
 
     dups = run_query(DUP_FILE_QUERY)
     check("no duplicated physical Drive files", not dups, str(dups[:3]))
@@ -94,6 +139,14 @@ def main():
 
     orphans = run_query(ORPHAN_QUERY)
     check("every PYQ points at a file", not orphans, str(orphans[:3]))
+
+    subjectless = run_query(SUBJECTLESS_QUERY)
+    check("every non-bundle paper reaches a Subject", not subjectless,
+          str(subjectless[:3]))
+
+    leaked = run_query(BUNDLE_LEAK_QUERY)
+    check("no semester bundle is reachable by subject", not leaked,
+          str(leaked[:3]))
 
     print("\n-- many-to-many cases --")
     multi_files = q.multi_paper_files()

@@ -42,6 +42,10 @@ def main():
     parser.add_argument("--folder", default=DRIVE_ROOT_FOLDER_ID)
     parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--out", default=RAW_FILE)
+    parser.add_argument("--exclude-folder", action="append", default=[],
+                        metavar="FOLDER_ID",
+                        help="skip this folder and everything under it; "
+                             "repeatable")
     args = parser.parse_args()
 
     setup_logging()
@@ -54,7 +58,8 @@ def main():
     print(f"Root folder: {root.get('name')}")
 
     files = []
-    for record in walk_folder(args.folder, root.get("name")):
+    for record in walk_folder(args.folder, root.get("name"),
+                              exclude_ids=set(args.exclude_folder)):
         files.append(record)
         log.debug("found %s | %s", record["folder_path"], record["file_name"])
         print(f"  discovered {len(files)} files", end="\r", flush=True)
@@ -66,6 +71,7 @@ def main():
         "source": f"https://drive.google.com/drive/folders/{args.folder}",
         "root_folder_id": args.folder,
         "root_folder_name": root.get("name"),
+        "excluded_folder_ids": args.exclude_folder,
         "retrieved_at": datetime.now(timezone.utc).isoformat(),
         "total_files": len(files),
         "files": files,

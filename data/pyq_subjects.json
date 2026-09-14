@@ -33,7 +33,10 @@
       "aliases": [
         "cn",
         "computer network",
-        "computer networks"
+        "computer networks",
+        "c net",
+        "cnet",
+        "computer networks and network design"
       ]
     },
     {
@@ -122,7 +125,10 @@
         "database management",
         "database",
         "rdbms",
-        "relational database management system"
+        "relational database management system",
+        "rdms",
+        "adbms",
+        "advanced dbms"
       ]
     },
     {
@@ -224,7 +230,8 @@
         "dsip",
         "digital signal and image processing",
         "digital signal & image processing",
-        "digital image processing"
+        "digital image processing",
+        "dspi"
       ]
     },
     {

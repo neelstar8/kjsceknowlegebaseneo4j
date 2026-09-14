@@ -70,6 +70,28 @@ REMOVE p._created
 RETURN created
 """
 
+# A semester bundle holds every subject sat that semester and names none of
+# them. It gets the PYQ and PYQFile nodes so its Drive link stays reachable by
+# semester/year/exam-type queries, but deliberately no :Subject and no
+# FOR_SUBJECT edge -- a subject query must never be able to reach it, because
+# nothing in the metadata establishes which subjects are inside.
+UPSERT_BUNDLE_QUERY = """
+MERGE (f:PYQFile {drive_file_id: $drive_file_id})
+  ON CREATE SET f.first_seen_at = $now
+SET f += $file_props, f.last_seen_at = $now
+
+MERGE (p:PYQ {pyq_id: $pyq_id})
+  ON CREATE SET p._created = true, p.first_seen_at = $now
+SET p += $pyq_props, p.ingested_at = $now
+
+MERGE (p)-[r:STORED_IN]->(f)
+SET r += $edge_props
+
+WITH p, coalesce(p._created, false) AS created
+REMOVE p._created
+RETURN created
+"""
+
 COUNT_QUERIES = {
     "pyq": "MATCH (p:PYQ) RETURN count(p) AS count",
     "pyq_file": "MATCH (f:PYQFile) RETURN count(f) AS count",
@@ -97,8 +119,19 @@ def ensure_schema():
 
 
 def upsert_pyq(*, pyq_id, pyq_props, file_props, edge_props, subject_key,
-               subject_name, subject_code, subject_status, aliases, now) -> bool:
+               subject_name, subject_code, subject_status, aliases, now,
+               is_bundle: bool = False) -> bool:
     """Write one paper and the file it lives in. True if the PYQ was created."""
+    if is_bundle:
+        rows = run_query(UPSERT_BUNDLE_QUERY, {
+            "pyq_id": pyq_id,
+            "pyq_props": pyq_props,
+            "drive_file_id": file_props["drive_file_id"],
+            "file_props": file_props,
+            "edge_props": edge_props,
+            "now": now,
+        })
+        return bool(rows and rows[0]["created"])
     rows = run_query(UPSERT_QUERY, {
         "pyq_id": pyq_id,
         "pyq_props": pyq_props,
