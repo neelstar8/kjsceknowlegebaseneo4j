@@ -1,0 +1,2027 @@
+{
+ "meta": {
+  "source_page": "https://kjsce.somaiya.edu/en/documents/",
+  "source_section": "Academics (department_id=15)",
+  "source_endpoint": "https://kjsce.somaiya.edu/arigel_general/get_document",
+  "subcategories_discovered": [
+   {
+    "name": "Academic and Examination Calendar",
+    "category_id": "183",
+    "items": 7
+   },
+   {
+    "name": "8 POINT DEVELOPMENT PLAN",
+    "category_id": "198",
+    "items": 0,
+    "note": "AJAX endpoint returns 'No Data Found.'; the PDF is linked from the site's About navigation"
+   },
+   {
+    "name": "KJSSE Strategic Plan (2025-2030)",
+    "category_id": "199",
+    "items": 0,
+    "note": "AJAX endpoint returns 'No Data Found.'; the PDF is linked from the site's About navigation"
+   },
+   {
+    "name": "Roll Call List",
+    "category_id": "49",
+    "items": 1
+   },
+   {
+    "name": "Class Time Table",
+    "category_id": "47",
+    "items": 1
+   },
+   {
+    "name": "Syllabus",
+    "category_id": "48",
+    "items": 1
+   },
+   {
+    "name": "Download Softwares",
+    "category_id": "163",
+    "items": 1
+   }
+  ],
+  "institution": "KJSIT",
+  "institution_note": "KJ GPT treats KJSCE / KJSSE / KJSIT as the same K J Somaiya engineering college. `institution` is held as KJSIT for consistency with the rest of the graph; the name printed on each document is kept in `institution_name_in_source`. Several documents state this directly: 'K J Somaiya School of Engineering (formerly K J Somaiya College of Engineering)'.",
+  "extraction_method": "All 12 PDFs downloaded and read. 5 had a usable text layer; 7 are image-only scans whose 19 pages were read visually. The three index PDFs additionally had their embedded link annotations extracted and mapped to branch labels by matching the text inside each link rectangle.",
+  "resources_discovered": 13,
+  "pdfs": 12,
+  "external_resources": 1,
+  "duplicate_note": "The Academics 'AEC-KJSSE 2026-27 (SY/TY/LY)' PDF is byte-identical (sha256 39eefe465aa3a9c51f470b7b67b59bfc...) to a document already ingested from the Examination section, published under a second URL differing only by '2026-27' vs '2026_27'. The existing node is reused; no duplicate document is created.",
+  "policy_note": "None of these resources states an examination rule, ordinance, penalty or eligibility condition, so no PolicyProvision is created. Calendar dates stay on the document that published them. Strategic-plan goals and development-plan parameters are institutional intentions and measurement parameters, not student rules.",
+  "knowledge_version": "1.0",
+  "built_at": "2026-09-14T14:33:42.764030+00:00"
+ },
+ "duplicate_reuse": [
+  {
+   "existing_doc_id": "exam_aec_2026_27_sytyly_btech_fysy_mtech",
+   "academics_title": "Academic & Examination Calendar AEC-KJSSE 2026-27 (SY/TY/LY)",
+   "academics_url": "https://kjsce-files.somaiya.edu/Academics/AEC_SY_TY_LY_(B.Tech)_FY_SY_(M.Tech)_2026-27.pdf",
+   "sha256": "39eefe465aa3a9c51f470b7b67b59bfc",
+   "action": "reuse existing node; record the Academics URL as alternate_source_url and link it from the Academics parent too"
+  }
+ ],
+ "documents": [
+  {
+   "doc_id": "acad_aec_2024_25",
+   "title": "Academic & Examination Calendar AEC-KJSSE 2024-25",
+   "source_url": "https://kjsce-files.somaiya.edu/Academics/AEC+KJSCE+2024-25.pdf",
+   "source_type": "academic_calendar",
+   "academics_subcategory": "Academic and Examination Calendar",
+   "resource_kind": "pdf",
+   "filename": "AEC+KJSCE+2024-25.pdf",
+   "sha256": "cc7af30f3cf2dd432e0b9bfdd8430089e1fe49f71fae73aaaf6d5ef78f298a94",
+   "file_size_bytes": 1722796,
+   "pages": 3,
+   "academic_year": "2024-25",
+   "programmes": [
+    "B.Tech",
+    "M.Tech"
+   ],
+   "levels": [
+    "FY",
+    "SY",
+    "TY",
+    "LY"
+   ],
+   "level_note": "FY/SY/TY/LY, all programmes (UG and PG)",
+   "terms": [
+    "First/Odd",
+    "Second/Even"
+   ],
+   "document_status": "tentative",
+   "document_date": "2024-07-25",
+   "issuing_authority": "Dr. S K Ukarande, Principal",
+   "institution_name_in_source": "K J Somaiya College of Engineering, Somaiya Vidyavihar University",
+   "text_layer": "scanned_images_read_visually",
+   "content_note": "Two calendar tables. The odd-term table is laid out in TWO COLUMNS giving different dates for FY and for SY/TY/LY; the even-term table gives a single set of dates for all levels and is headed 'Proposed/Tentative'.",
+   "document_type": "academic_and_examination_calendar",
+   "event_terms": [
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even"
+   ],
+   "event_names": [
+    "First Year Orientation (FY)",
+    "Commencement of Classes (FY)",
+    "Commencement of Classes (SY/TY/LY)",
+    "In-Semester Examination (ISE)/Test/Mid Term Examination (FY)",
+    "In-Semester Examination (ISE)/Test/Mid Term Examination (SY/TY/LY)",
+    "One week Diwali Holidays for Students",
+    "Dispersal of Classes of First/Odd term (FY)",
+    "Dispersal of Classes of First/Odd term (SY/TY/LY)",
+    "Execution of Regular ESE Examinations (FY)",
+    "Execution of Regular ESE Examinations (SY/TY/LY)",
+    "Internship (Wherever is applicable)",
+    "One week Christmas Holidays for Students",
+    "Date of Declaration of Regular Examinations Results (FY)",
+    "Date of Declaration of Regular Examinations Results (SY/TY/LY)",
+    "Open day",
+    "Proposed Date of Declaration of results after open day of semester I, III, V and VII",
+    "Commencement of Classes",
+    "In-Semester Examination (ISE)/Test/Mid Term Examination",
+    "Dispersal of Classes of Second/Even Term",
+    "Execution of Regular ESE Examinations",
+    "Internship (Wherever is applicable)",
+    "Date of declaration of Regular Examinations Results",
+    "Open day",
+    "Supplementary Examinations of semester II, IV, VI and VIII",
+    "Date of declaration of Supplementary Examinations Results",
+    "Commencement of the First/Odd Term of Next Academic Year 2025-26",
+    "Convocation 2025"
+   ],
+   "event_schedules": [
+    "29 July to 2 August 2024",
+    "5 August 2024",
+    "15 July 2024",
+    "30 September to 4 October 2024",
+    "23 September 2024 to 28 September 2024",
+    "28 October to 4 November 2024",
+    "20 November 2024",
+    "6 November 2024",
+    "22 November to 6 December 2024 (2 weeks)",
+    "8 November to 29 November 2024 (3 weeks)",
+    "29 November 2024 to 2 January 2025",
+    "24 December 2024 to 1 January 2025",
+    "27 December 2024",
+    "20 December 2024",
+    "From 3 to 6 January 2025",
+    "On or before 25 January 2025",
+    "3 January 2025",
+    "3 March to 7 March 2025",
+    "25 April 2025",
+    "26 April to 17 May 2025 (3 weeks)",
+    "18 May 2025 to 13 July 2025",
+    "On or before 10 June 2025",
+    "From 11 June 2025 to 16 June 2025",
+    "5 July 2025 to 12 July 2025",
+    "On or before 25 July 2025",
+    "14 July 2025",
+    "20 September 2025"
+   ],
+   "events_text": "First/Odd: First Year Orientation (FY) - 29 July to 2 August 2024 | First/Odd: Commencement of Classes (FY) - 5 August 2024 | First/Odd: Commencement of Classes (SY/TY/LY) - 15 July 2024 | First/Odd: In-Semester Examination (ISE)/Test/Mid Term Examination (FY) - 30 September to 4 October 2024 | First/Odd: In-Semester Examination (ISE)/Test/Mid Term Examination (SY/TY/LY) - 23 September 2024 to 28 September 2024 | First/Odd: One week Diwali Holidays for Students - 28 October to 4 November 2024 | First/Odd: Dispersal of Classes of First/Odd term (FY) - 20 November 2024 | First/Odd: Dispersal of Classes of First/Odd term (SY/TY/LY) - 6 November 2024 | First/Odd: Execution of Regular ESE Examinations (FY) - 22 November to 6 December 2024 (2 weeks) | First/Odd: Execution of Regular ESE Examinations (SY/TY/LY) - 8 November to 29 November 2024 (3 weeks) | First/Odd: Internship (Wherever is applicable) - 29 November 2024 to 2 January 2025 | First/Odd: One week Christmas Holidays for Students - 24 December 2024 to 1 January 2025 | First/Odd: Date of Declaration of Regular Examinations Results (FY) - 27 December 2024 | First/Odd: Date of Declaration of Regular Examinations Results (SY/TY/LY) - 20 December 2024 | First/Odd: Open day - From 3 to 6 January 2025 | First/Odd: Proposed Date of Declaration of results after open day of semester I, III, V and VII - On or before 25 January 2025 | Second/Even: Commencement of Classes - 3 January 2025 | Second/Even: In-Semester Examination (ISE)/Test/Mid Term Examination - 3 March to 7 March 2025 | Second/Even: Dispersal of Classes of Second/Even Term - 25 April 2025 | Second/Even: Execution of Regular ESE Examinations - 26 April to 17 May 2025 (3 weeks) | Second/Even: Internship (Wherever is applicable) - 18 May 2025 to 13 July 2025 | Second/Even: Date of declaration of Regular Examinations Results - On or before 10 June 2025 | Second/Even: Open day - From 11 June 2025 to 16 June 2025 | Second/Even: Supplementary Examinations of semester II, IV, VI and VIII - 5 July 2025 to 12 July 2025 | Second/Even: Date of declaration of Supplementary Examinations Results - On or before 25 July 2025 | Second/Even: Commencement of the First/Odd Term of Next Academic Year 2025-26 - 14 July 2025 | Second/Even: Convocation 2025 - 20 September 2025",
+   "event_count": 27,
+   "events": [
+    {
+     "term": "First/Odd",
+     "event": "First Year Orientation (FY)",
+     "schedule": "29 July to 2 August 2024"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Commencement of Classes (FY)",
+     "schedule": "5 August 2024"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Commencement of Classes (SY/TY/LY)",
+     "schedule": "15 July 2024"
+    },
+    {
+     "term": "First/Odd",
+     "event": "In-Semester Examination (ISE)/Test/Mid Term Examination (FY)",
+     "schedule": "30 September to 4 October 2024"
+    },
+    {
+     "term": "First/Odd",
+     "event": "In-Semester Examination (ISE)/Test/Mid Term Examination (SY/TY/LY)",
+     "schedule": "23 September 2024 to 28 September 2024"
+    },
+    {
+     "term": "First/Odd",
+     "event": "One week Diwali Holidays for Students",
+     "schedule": "28 October to 4 November 2024"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Dispersal of Classes of First/Odd term (FY)",
+     "schedule": "20 November 2024"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Dispersal of Classes of First/Odd term (SY/TY/LY)",
+     "schedule": "6 November 2024"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Execution of Regular ESE Examinations (FY)",
+     "schedule": "22 November to 6 December 2024 (2 weeks)"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Execution of Regular ESE Examinations (SY/TY/LY)",
+     "schedule": "8 November to 29 November 2024 (3 weeks)"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Internship (Wherever is applicable)",
+     "schedule": "29 November 2024 to 2 January 2025"
+    },
+    {
+     "term": "First/Odd",
+     "event": "One week Christmas Holidays for Students",
+     "schedule": "24 December 2024 to 1 January 2025"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Date of Declaration of Regular Examinations Results (FY)",
+     "schedule": "27 December 2024"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Date of Declaration of Regular Examinations Results (SY/TY/LY)",
+     "schedule": "20 December 2024"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Open day",
+     "schedule": "From 3 to 6 January 2025"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Proposed Date of Declaration of results after open day of semester I, III, V and VII",
+     "schedule": "On or before 25 January 2025"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Commencement of Classes",
+     "schedule": "3 January 2025"
+    },
+    {
+     "term": "Second/Even",
+     "event": "In-Semester Examination (ISE)/Test/Mid Term Examination",
+     "schedule": "3 March to 7 March 2025"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Dispersal of Classes of Second/Even Term",
+     "schedule": "25 April 2025"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Execution of Regular ESE Examinations",
+     "schedule": "26 April to 17 May 2025 (3 weeks)"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Internship (Wherever is applicable)",
+     "schedule": "18 May 2025 to 13 July 2025"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Date of declaration of Regular Examinations Results",
+     "schedule": "On or before 10 June 2025"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Open day",
+     "schedule": "From 11 June 2025 to 16 June 2025"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Supplementary Examinations of semester II, IV, VI and VIII",
+     "schedule": "5 July 2025 to 12 July 2025"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Date of declaration of Supplementary Examinations Results",
+     "schedule": "On or before 25 July 2025"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Commencement of the First/Odd Term of Next Academic Year 2025-26",
+     "schedule": "14 July 2025"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Convocation 2025",
+     "schedule": "20 September 2025"
+    }
+   ]
+  },
+  {
+   "doc_id": "acad_aec_2025_26",
+   "title": "Academic & Examination Calendar AEC-KJSSE 2025-26",
+   "source_url": "https://kjsce-files.somaiya.edu/Academics/AEC-Academic+Year-+2025-26.pdf",
+   "source_type": "academic_calendar",
+   "academics_subcategory": "Academic and Examination Calendar",
+   "resource_kind": "pdf",
+   "filename": "AEC-Academic+Year-+2025-26.pdf",
+   "sha256": "4d3736ca333195992bc3a22dac06841fed452f275b183b5ea6994b912a17d283",
+   "file_size_bytes": 893823,
+   "pages": 3,
+   "academic_year": "2025-26",
+   "programmes": [
+    "B.Tech",
+    "M.Tech"
+   ],
+   "levels": [
+    "FY",
+    "SY",
+    "TY",
+    "LY"
+   ],
+   "level_note": "FY/SY/TY/LY (B.Tech and M.Tech)",
+   "terms": [
+    "First/Odd",
+    "Second/Even"
+   ],
+   "document_status": "proposed",
+   "document_date": "2025-05-20",
+   "issuing_authority": "Dr. Suresh Ukarande, Director KJSSE; Dr. Sonali Patil, Associate Dean Academics Programmes",
+   "institution_name_in_source": "K J Somaiya School of Engineering, Somaiya Vidyavihar University",
+   "text_layer": "scanned_images_read_visually",
+   "content_note": "A single unified calendar covering FY through LY for both B.Tech and M.Tech. The odd-term page is headed 'Proposed' and the even-term page 'Proposed/Tentative'. Note this differs from the separate FY B.Tech 2025-26 calendar issued later on 24 July 2025.",
+   "document_type": "academic_and_examination_calendar",
+   "event_terms": [
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even"
+   ],
+   "event_names": [
+    "First Year Orientation",
+    "Commencement of Classes",
+    "In-Semester Examination (ISE)/Test/Mid Term Examination",
+    "SVU Convocation 2025",
+    "ABHIYANTRIKI 25",
+    "One week Diwali Holidays for Students",
+    "Last instructional day of First/Odd term",
+    "Submission of Theory CA, LAB/TUT CA, Term-work Marksheets",
+    "Execution of Regular ESE Examinations",
+    "Internship (Wherever is applicable)",
+    "One week Christmas Holidays for Students",
+    "Date of Declaration of Regular Examinations Results",
+    "Open day",
+    "Proposed Date of Declaration of results after open day of semester I, III, V and VII",
+    "Commencement of Classes",
+    "SKREAM 2026",
+    "Symphony 2026",
+    "In-Semester Examination (ISE)/Test/Mid Term Examination",
+    "Last instructional day of Second/Even Term",
+    "Execution of Regular ESE Examinations",
+    "Internship (Wherever is applicable)",
+    "Date of declaration of Regular Examinations Results",
+    "Open day",
+    "Supplementary Examinations of semester II, IV, VI and VIII",
+    "Date of declaration of Supplementary Examinations Results",
+    "Commencement of the First/Odd Term of Next Academic Year 2026-27",
+    "Convocation 2026"
+   ],
+   "event_schedules": [
+    "14 July to 25 July 2025",
+    "14 July 2025",
+    "15 September 2025 to 19 September 2025",
+    "20 September 2025",
+    "14 October 2025 to 15 October 2025",
+    "17 October to 24 October 2025",
+    "10 November 2025",
+    "27 November 2025",
+    "14 November to 5 December 2025 (3 weeks)",
+    "8 December 2025 to 3 January 2026",
+    "24 December 2025 to 1 January 2026",
+    "5 January 2026",
+    "From 5 to 8 January 2026",
+    "On or before 30 January 2026",
+    "5 January 2026",
+    "8 January to 13 January 2026",
+    "16 February to 18 February 2026",
+    "9 March to 14 March 2026",
+    "24 April 2026",
+    "30 April to 21 May 2026 (3 weeks)",
+    "22 May to 14 July 2026",
+    "On or before 22 June 2026",
+    "From 23 June to 26 June 2026",
+    "13 July 2026 to 17 July 2026",
+    "On or before 30 July 2026",
+    "13 July 2026",
+    "26 September 2026"
+   ],
+   "events_text": "First/Odd: First Year Orientation - 14 July to 25 July 2025 | First/Odd: Commencement of Classes - 14 July 2025 | First/Odd: In-Semester Examination (ISE)/Test/Mid Term Examination - 15 September 2025 to 19 September 2025 | First/Odd: SVU Convocation 2025 - 20 September 2025 | First/Odd: ABHIYANTRIKI 25 - 14 October 2025 to 15 October 2025 | First/Odd: One week Diwali Holidays for Students - 17 October to 24 October 2025 | First/Odd: Last instructional day of First/Odd term - 10 November 2025 | First/Odd: Submission of Theory CA, LAB/TUT CA, Term-work Marksheets - 27 November 2025 | First/Odd: Execution of Regular ESE Examinations - 14 November to 5 December 2025 (3 weeks) | First/Odd: Internship (Wherever is applicable) - 8 December 2025 to 3 January 2026 | First/Odd: One week Christmas Holidays for Students - 24 December 2025 to 1 January 2026 | First/Odd: Date of Declaration of Regular Examinations Results - 5 January 2026 | First/Odd: Open day - From 5 to 8 January 2026 | First/Odd: Proposed Date of Declaration of results after open day of semester I, III, V and VII - On or before 30 January 2026 | Second/Even: Commencement of Classes - 5 January 2026 | Second/Even: SKREAM 2026 - 8 January to 13 January 2026 | Second/Even: Symphony 2026 - 16 February to 18 February 2026 | Second/Even: In-Semester Examination (ISE)/Test/Mid Term Examination - 9 March to 14 March 2026 | Second/Even: Last instructional day of Second/Even Term - 24 April 2026 | Second/Even: Execution of Regular ESE Examinations - 30 April to 21 May 2026 (3 weeks) | Second/Even: Internship (Wherever is applicable) - 22 May to 14 July 2026 | Second/Even: Date of declaration of Regular Examinations Results - On or before 22 June 2026 | Second/Even: Open day - From 23 June to 26 June 2026 | Second/Even: Supplementary Examinations of semester II, IV, VI and VIII - 13 July 2026 to 17 July 2026 | Second/Even: Date of declaration of Supplementary Examinations Results - On or before 30 July 2026 | Second/Even: Commencement of the First/Odd Term of Next Academic Year 2026-27 - 13 July 2026 | Second/Even: Convocation 2026 - 26 September 2026",
+   "event_count": 27,
+   "events": [
+    {
+     "term": "First/Odd",
+     "event": "First Year Orientation",
+     "schedule": "14 July to 25 July 2025"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Commencement of Classes",
+     "schedule": "14 July 2025"
+    },
+    {
+     "term": "First/Odd",
+     "event": "In-Semester Examination (ISE)/Test/Mid Term Examination",
+     "schedule": "15 September 2025 to 19 September 2025"
+    },
+    {
+     "term": "First/Odd",
+     "event": "SVU Convocation 2025",
+     "schedule": "20 September 2025"
+    },
+    {
+     "term": "First/Odd",
+     "event": "ABHIYANTRIKI 25",
+     "schedule": "14 October 2025 to 15 October 2025"
+    },
+    {
+     "term": "First/Odd",
+     "event": "One week Diwali Holidays for Students",
+     "schedule": "17 October to 24 October 2025"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Last instructional day of First/Odd term",
+     "schedule": "10 November 2025"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Submission of Theory CA, LAB/TUT CA, Term-work Marksheets",
+     "schedule": "27 November 2025"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Execution of Regular ESE Examinations",
+     "schedule": "14 November to 5 December 2025 (3 weeks)"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Internship (Wherever is applicable)",
+     "schedule": "8 December 2025 to 3 January 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "One week Christmas Holidays for Students",
+     "schedule": "24 December 2025 to 1 January 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Date of Declaration of Regular Examinations Results",
+     "schedule": "5 January 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Open day",
+     "schedule": "From 5 to 8 January 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Proposed Date of Declaration of results after open day of semester I, III, V and VII",
+     "schedule": "On or before 30 January 2026"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Commencement of Classes",
+     "schedule": "5 January 2026"
+    },
+    {
+     "term": "Second/Even",
+     "event": "SKREAM 2026",
+     "schedule": "8 January to 13 January 2026"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Symphony 2026",
+     "schedule": "16 February to 18 February 2026"
+    },
+    {
+     "term": "Second/Even",
+     "event": "In-Semester Examination (ISE)/Test/Mid Term Examination",
+     "schedule": "9 March to 14 March 2026"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Last instructional day of Second/Even Term",
+     "schedule": "24 April 2026"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Execution of Regular ESE Examinations",
+     "schedule": "30 April to 21 May 2026 (3 weeks)"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Internship (Wherever is applicable)",
+     "schedule": "22 May to 14 July 2026"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Date of declaration of Regular Examinations Results",
+     "schedule": "On or before 22 June 2026"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Open day",
+     "schedule": "From 23 June to 26 June 2026"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Supplementary Examinations of semester II, IV, VI and VIII",
+     "schedule": "13 July 2026 to 17 July 2026"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Date of declaration of Supplementary Examinations Results",
+     "schedule": "On or before 30 July 2026"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Commencement of the First/Odd Term of Next Academic Year 2026-27",
+     "schedule": "13 July 2026"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Convocation 2026",
+     "schedule": "26 September 2026"
+    }
+   ]
+  },
+  {
+   "doc_id": "acad_aec_2025_26_fy_btech",
+   "title": "F Y B.Tech. Academic and Exam Calendar 2025-26",
+   "source_url": "https://kjsce-files.somaiya.edu/Academics/F.Y.+B+Tech_Academic+Calender_2025-2026.pdf",
+   "source_type": "academic_calendar",
+   "academics_subcategory": "Academic and Examination Calendar",
+   "resource_kind": "pdf",
+   "filename": "F.Y.+B+Tech_Academic+Calender_2025-2026.pdf",
+   "sha256": "4ec24b4d6a86e4467df61004f069163046a376ede22bcdb9aeeb62b4d7d0df64",
+   "file_size_bytes": 551930,
+   "pages": 3,
+   "academic_year": "2025-26",
+   "programmes": [
+    "B.Tech"
+   ],
+   "levels": [
+    "FY"
+   ],
+   "level_note": "FY (B.Tech) only",
+   "terms": [
+    "First/Odd",
+    "Second/Even"
+   ],
+   "document_status": "issued",
+   "document_date": "2025-07-24",
+   "issuing_authority": "Dr. Suresh Ukarande, Director KJSSE; Dr. Sonali Patil, Associate Dean Academics Programmes",
+   "institution_name_in_source": "K J Somaiya School of Engineering, Somaiya Vidyavihar University",
+   "text_layer": "scanned_images_read_visually",
+   "content_note": "FY B.Tech-specific calendar for 2025-26. Its ODD term differs from the unified 2025-26 calendar (classes start 4 August rather than 14 July, MSE 6-10 October rather than ISE 15-19 September, ESE 2 weeks rather than 3). Its EVEN term is identical to the unified one.",
+   "document_type": "academic_and_examination_calendar",
+   "event_terms": [
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even"
+   ],
+   "event_names": [
+    "First Year Orientation",
+    "Commencement of Classes",
+    "Mid-Semester Examination (ISE)/Test/Mid Term Examination",
+    "One week Diwali Holidays for Students",
+    "Last instructional day of First/Odd term",
+    "Submission of Theory CA, LAB/TUT CA, Term-work Marksheets",
+    "Execution of Regular ESE Examinations",
+    "Internship (Wherever is applicable)",
+    "One week Christmas Holidays for Students",
+    "Date of Declaration of Regular Examinations Results",
+    "Open day",
+    "Commencement of Classes",
+    "Mid-Semester Examination (ISE)/Test/Mid Term Examination",
+    "Last instructional day of Second/Even Term",
+    "Execution of Regular ESE Examinations",
+    "Internship (Wherever is applicable)",
+    "Date of declaration of Regular Examinations Results",
+    "Supplementary Examinations of semester II, IV, VI and VIII",
+    "Commencement of the First/Odd Term of Next Academic Year 2026-27",
+    "Convocation 2026"
+   ],
+   "event_schedules": [
+    "29 July to 1 August 2025",
+    "4 August 2025",
+    "6 October 2025 to 10 October 2025",
+    "17 October to 24 October 2025",
+    "21 November 2025",
+    "27 November 2025",
+    "24 November to 5 December 2025 (2 weeks)",
+    "8 December 2025 to 3 January 2026",
+    "24 December 2025 to 1 January 2026",
+    "5 January 2026",
+    "From 5 to 8 January 2026",
+    "5 January 2026",
+    "9 March to 14 March 2026",
+    "24 April 2026",
+    "30 April to 21 May 2026 (3 weeks)",
+    "22 May to 14 July 2026",
+    "On or before 22 June 2026",
+    "13 July 2026 to 17 July 2026",
+    "13 July 2026",
+    "26 September 2026"
+   ],
+   "events_text": "First/Odd: First Year Orientation - 29 July to 1 August 2025 | First/Odd: Commencement of Classes - 4 August 2025 | First/Odd: Mid-Semester Examination (ISE)/Test/Mid Term Examination - 6 October 2025 to 10 October 2025 | First/Odd: One week Diwali Holidays for Students - 17 October to 24 October 2025 | First/Odd: Last instructional day of First/Odd term - 21 November 2025 | First/Odd: Submission of Theory CA, LAB/TUT CA, Term-work Marksheets - 27 November 2025 | First/Odd: Execution of Regular ESE Examinations - 24 November to 5 December 2025 (2 weeks) | First/Odd: Internship (Wherever is applicable) - 8 December 2025 to 3 January 2026 | First/Odd: One week Christmas Holidays for Students - 24 December 2025 to 1 January 2026 | First/Odd: Date of Declaration of Regular Examinations Results - 5 January 2026 | First/Odd: Open day - From 5 to 8 January 2026 | Second/Even: Commencement of Classes - 5 January 2026 | Second/Even: Mid-Semester Examination (ISE)/Test/Mid Term Examination - 9 March to 14 March 2026 | Second/Even: Last instructional day of Second/Even Term - 24 April 2026 | Second/Even: Execution of Regular ESE Examinations - 30 April to 21 May 2026 (3 weeks) | Second/Even: Internship (Wherever is applicable) - 22 May to 14 July 2026 | Second/Even: Date of declaration of Regular Examinations Results - On or before 22 June 2026 | Second/Even: Supplementary Examinations of semester II, IV, VI and VIII - 13 July 2026 to 17 July 2026 | Second/Even: Commencement of the First/Odd Term of Next Academic Year 2026-27 - 13 July 2026 | Second/Even: Convocation 2026 - 26 September 2026",
+   "event_count": 20,
+   "events": [
+    {
+     "term": "First/Odd",
+     "event": "First Year Orientation",
+     "schedule": "29 July to 1 August 2025"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Commencement of Classes",
+     "schedule": "4 August 2025"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Mid-Semester Examination (ISE)/Test/Mid Term Examination",
+     "schedule": "6 October 2025 to 10 October 2025"
+    },
+    {
+     "term": "First/Odd",
+     "event": "One week Diwali Holidays for Students",
+     "schedule": "17 October to 24 October 2025"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Last instructional day of First/Odd term",
+     "schedule": "21 November 2025"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Submission of Theory CA, LAB/TUT CA, Term-work Marksheets",
+     "schedule": "27 November 2025"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Execution of Regular ESE Examinations",
+     "schedule": "24 November to 5 December 2025 (2 weeks)"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Internship (Wherever is applicable)",
+     "schedule": "8 December 2025 to 3 January 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "One week Christmas Holidays for Students",
+     "schedule": "24 December 2025 to 1 January 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Date of Declaration of Regular Examinations Results",
+     "schedule": "5 January 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Open day",
+     "schedule": "From 5 to 8 January 2026"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Commencement of Classes",
+     "schedule": "5 January 2026"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Mid-Semester Examination (ISE)/Test/Mid Term Examination",
+     "schedule": "9 March to 14 March 2026"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Last instructional day of Second/Even Term",
+     "schedule": "24 April 2026"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Execution of Regular ESE Examinations",
+     "schedule": "30 April to 21 May 2026 (3 weeks)"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Internship (Wherever is applicable)",
+     "schedule": "22 May to 14 July 2026"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Date of declaration of Regular Examinations Results",
+     "schedule": "On or before 22 June 2026"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Supplementary Examinations of semester II, IV, VI and VIII",
+     "schedule": "13 July 2026 to 17 July 2026"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Commencement of the First/Odd Term of Next Academic Year 2026-27",
+     "schedule": "13 July 2026"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Convocation 2026",
+     "schedule": "26 September 2026"
+    }
+   ]
+  },
+  {
+   "doc_id": "acad_aec_2026_27_fy_btech",
+   "title": "F Y B.Tech. Academic and Exam Calendar 2026-27",
+   "source_url": "https://kjsce-files.somaiya.edu/Academics/AEC_FYB_Tech+_2026_27.pdf",
+   "source_type": "academic_calendar",
+   "academics_subcategory": "Academic and Examination Calendar",
+   "resource_kind": "pdf",
+   "filename": "AEC_FYB_Tech+_2026_27.pdf",
+   "sha256": "ec14313328b3831407235e4431b35d5fb43a0ce0bce049c6cee65e35069bc11a",
+   "file_size_bytes": 961356,
+   "pages": 3,
+   "academic_year": "2026-27",
+   "programmes": [
+    "B.Tech"
+   ],
+   "levels": [
+    "FY"
+   ],
+   "level_note": "FY (B.Tech) only",
+   "terms": [
+    "First/Odd",
+    "Second/Even"
+   ],
+   "document_status": "issued",
+   "document_date": "2026-09-01",
+   "issuing_authority": "Dr. Suresh Ukarande, Director KJSSE; Dr. J H Nirmal, Associate Dean Academics Programmes",
+   "institution_name_in_source": "K J Somaiya School of Engineering (formerly K J Somaiya College of Engineering), Somaiya Vidyavihar University",
+   "text_layer": "scanned_images_read_visually",
+   "content_note": "FY B.Tech-specific calendar for 2026-27. Its ODD term differs materially from the SY/TY/LY 2026-27 calendar (classes 17 August rather than 13 July, MSE 26-30 October rather than 7-12 September, ESE 2 weeks rather than 3). Its EVEN term matches the SY/TY/LY even term.",
+   "document_type": "academic_and_examination_calendar",
+   "event_terms": [
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even",
+    "Second/Even"
+   ],
+   "event_names": [
+    "First Year Orientation",
+    "Commencement of Classes",
+    "Freshers' Eve FY (2026)",
+    "Mid-Semester Examination (MSE)/Test",
+    "SVU Convocation 2026",
+    "Abhiyantriki 2026",
+    "One week Diwali Holidays for Students",
+    "Last instructional day of First/Odd term",
+    "Submission of Theory CA, LAB/TUT CA, Term-work Marksheets",
+    "Execution of Regular ESE Examinations",
+    "One week Christmas Holidays for Students",
+    "Date of Declaration of Regular Examinations Results",
+    "Open day",
+    "Proposed Date of Declaration of results after open day of semester I",
+    "Commencement of Classes",
+    "SKREAM 2027",
+    "Symphony 2027",
+    "Mid-Semester Examination (MSE)/Test",
+    "Last instructional day",
+    "Execution of Regular ESE Examinations",
+    "Internship (Wherever Applicable)",
+    "Date of Declaration of Regular Examinations Results",
+    "Execution of Supplementary ESE Examinations",
+    "Commencement of Next Academic Year 2027-28",
+    "Convocation 2027"
+   ],
+   "event_schedules": [
+    "14 August 2026",
+    "17 August 2026",
+    "1 September 2026",
+    "26 October 2026 to 30 October 2026",
+    "26 September 2026",
+    "15 October 2026 to 16 October 2026",
+    "9 November to 13 November 2026",
+    "4 December 2026",
+    "6 December 2026",
+    "14 December to 24 December 2026 (2 weeks)",
+    "25 December 2026 to 1 January 2027",
+    "18 January 2027",
+    "From 19 to 21 January 2027",
+    "On or before 14 February 2027",
+    "4 January 2027",
+    "4 January to 8 January 2027",
+    "24 February to 26 February 2027",
+    "1 March to 6 March 2027",
+    "23 April 2027",
+    "3 May to 21 May 2027",
+    "24 May 2027 to 30 June 2027",
+    "On or before 10 June 2027",
+    "24 June 2027 to 8 July 2027",
+    "1 July 2027",
+    "18 September 2027"
+   ],
+   "events_text": "First/Odd: First Year Orientation - 14 August 2026 | First/Odd: Commencement of Classes - 17 August 2026 | First/Odd: Freshers' Eve FY (2026) - 1 September 2026 | First/Odd: Mid-Semester Examination (MSE)/Test - 26 October 2026 to 30 October 2026 | First/Odd: SVU Convocation 2026 - 26 September 2026 | First/Odd: Abhiyantriki 2026 - 15 October 2026 to 16 October 2026 | First/Odd: One week Diwali Holidays for Students - 9 November to 13 November 2026 | First/Odd: Last instructional day of First/Odd term - 4 December 2026 | First/Odd: Submission of Theory CA, LAB/TUT CA, Term-work Marksheets - 6 December 2026 | First/Odd: Execution of Regular ESE Examinations - 14 December to 24 December 2026 (2 weeks) | First/Odd: One week Christmas Holidays for Students - 25 December 2026 to 1 January 2027 | First/Odd: Date of Declaration of Regular Examinations Results - 18 January 2027 | First/Odd: Open day - From 19 to 21 January 2027 | First/Odd: Proposed Date of Declaration of results after open day of semester I - On or before 14 February 2027 | Second/Even: Commencement of Classes - 4 January 2027 | Second/Even: SKREAM 2027 - 4 January to 8 January 2027 | Second/Even: Symphony 2027 - 24 February to 26 February 2027 | Second/Even: Mid-Semester Examination (MSE)/Test - 1 March to 6 March 2027 | Second/Even: Last instructional day - 23 April 2027 | Second/Even: Execution of Regular ESE Examinations - 3 May to 21 May 2027 | Second/Even: Internship (Wherever Applicable) - 24 May 2027 to 30 June 2027 | Second/Even: Date of Declaration of Regular Examinations Results - On or before 10 June 2027 | Second/Even: Execution of Supplementary ESE Examinations - 24 June 2027 to 8 July 2027 | Second/Even: Commencement of Next Academic Year 2027-28 - 1 July 2027 | Second/Even: Convocation 2027 - 18 September 2027",
+   "event_count": 25,
+   "events": [
+    {
+     "term": "First/Odd",
+     "event": "First Year Orientation",
+     "schedule": "14 August 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Commencement of Classes",
+     "schedule": "17 August 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Freshers' Eve FY (2026)",
+     "schedule": "1 September 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Mid-Semester Examination (MSE)/Test",
+     "schedule": "26 October 2026 to 30 October 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "SVU Convocation 2026",
+     "schedule": "26 September 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Abhiyantriki 2026",
+     "schedule": "15 October 2026 to 16 October 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "One week Diwali Holidays for Students",
+     "schedule": "9 November to 13 November 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Last instructional day of First/Odd term",
+     "schedule": "4 December 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Submission of Theory CA, LAB/TUT CA, Term-work Marksheets",
+     "schedule": "6 December 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Execution of Regular ESE Examinations",
+     "schedule": "14 December to 24 December 2026 (2 weeks)"
+    },
+    {
+     "term": "First/Odd",
+     "event": "One week Christmas Holidays for Students",
+     "schedule": "25 December 2026 to 1 January 2027"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Date of Declaration of Regular Examinations Results",
+     "schedule": "18 January 2027"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Open day",
+     "schedule": "From 19 to 21 January 2027"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Proposed Date of Declaration of results after open day of semester I",
+     "schedule": "On or before 14 February 2027"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Commencement of Classes",
+     "schedule": "4 January 2027"
+    },
+    {
+     "term": "Second/Even",
+     "event": "SKREAM 2027",
+     "schedule": "4 January to 8 January 2027"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Symphony 2027",
+     "schedule": "24 February to 26 February 2027"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Mid-Semester Examination (MSE)/Test",
+     "schedule": "1 March to 6 March 2027"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Last instructional day",
+     "schedule": "23 April 2027"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Execution of Regular ESE Examinations",
+     "schedule": "3 May to 21 May 2027"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Internship (Wherever Applicable)",
+     "schedule": "24 May 2027 to 30 June 2027"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Date of Declaration of Regular Examinations Results",
+     "schedule": "On or before 10 June 2027"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Execution of Supplementary ESE Examinations",
+     "schedule": "24 June 2027 to 8 July 2027"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Commencement of Next Academic Year 2027-28",
+     "schedule": "1 July 2027"
+    },
+    {
+     "term": "Second/Even",
+     "event": "Convocation 2027",
+     "schedule": "18 September 2027"
+    }
+   ]
+  },
+  {
+   "doc_id": "acad_aec_2026_27_mtech",
+   "title": "M. Tech. Academic and Exam Calendar 2026-27",
+   "source_url": "https://kjsse-files.somaiya.edu/Academics/AEC_2026-27_FY+(M.Tech)_Final.pdf",
+   "source_type": "academic_calendar",
+   "academics_subcategory": "Academic and Examination Calendar",
+   "resource_kind": "pdf",
+   "filename": "AEC_2026-27_FY+(M.Tech)_Final.pdf",
+   "sha256": "77b5984e3852226976d22d296a1c9a3a9562113b1646110eeb054f270da172ca",
+   "file_size_bytes": 929874,
+   "pages": 3,
+   "academic_year": "2026-27",
+   "programmes": [
+    "M.Tech"
+   ],
+   "levels": [
+    "FY",
+    "SY"
+   ],
+   "level_note": "FY M.Tech calendar, plus the Second Year M.Tech (Batch 2026-28) Semester III and IV schedule",
+   "terms": [
+    "First/Odd",
+    "Semester III",
+    "Semester IV"
+   ],
+   "document_status": "proposed",
+   "document_date": "2026-07-30",
+   "issuing_authority": "Dr. Suresh Ukarande, Director KJSSE; Associate Dean Academic Programmes",
+   "institution_name_in_source": "K J Somaiya School of Engineering (formerly K J Somaiya College of Engineering), Somaiya Vidyavihar University",
+   "text_layer": "scanned_images_read_visually",
+   "content_note": "Despite its single title, this PDF contains TWO different documents. Page 2 is the 'Proposed' FY M.Tech AEC for 2026-27 First Term/Odd Semester (dated 30/07/2026). Page 3 is a separate 'Schedule of Second Year M.Tech, Batch 2026-28, Semester III and IV' (dated 31/07/2026) covering dissertation milestones for all PG programmes. There is no FY M.Tech even-term table in this PDF.",
+   "document_type": "academic_and_examination_calendar",
+   "event_terms": [
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "First/Odd",
+    "Semester III",
+    "Semester III",
+    "Semester III",
+    "Semester III",
+    "Semester III",
+    "Semester III",
+    "Semester III",
+    "Semester III",
+    "Semester IV",
+    "Semester IV",
+    "Semester IV",
+    "Semester IV",
+    "Semester IV"
+   ],
+   "event_names": [
+    "First Year Orientation (FY M.Tech)",
+    "Commencement of Classes (FY M.Tech)",
+    "Mid Semester Examination (MSE)/Test (FY M.Tech)",
+    "SVU Convocation 2026",
+    "ABHIYANTRIKI 26",
+    "One week Diwali Holidays for Students",
+    "Submission of Theory CA, LAB/TUT CA, Term-work Marksheets",
+    "Last instructional day of First/Odd term",
+    "Execution of Regular ESE Examinations (FY M.Tech)",
+    "One week Christmas Holidays for Students",
+    "Date of Declaration of Regular Examinations Results",
+    "Open day",
+    "Commencement of Even Semester",
+    "Allocation of guides for dissertation (SY M.Tech, Batch 2026-28)",
+    "Dissertation Topic approval (SY M.Tech, Batch 2026-28)",
+    "Online course allotment (SY M.Tech, Batch 2026-28)",
+    "Online Course Completion and submission of certificate",
+    "Progress seminar",
+    "Project Stage I Presentation (Dissertation)",
+    "Submission of Stage-1 Mark-sheet to exam cell",
+    "Proposed date of declaration of result",
+    "Progress seminar",
+    "Research Paper Publication in Scopus/SCI/WOS journal or conference (at least 01)",
+    "Project Stage II Presentation (Dissertation)",
+    "Dissertation Defense",
+    "Proposed date of declaration of result"
+   ],
+   "event_schedules": [
+    "3 August 2026",
+    "3 August 2026",
+    "5 October 2026 to 10 October 2026",
+    "26 September 2026",
+    "15 October 2026 to 16 October 2026",
+    "9 November to 13 November 2026",
+    "16 November 2026",
+    "20 November 2026",
+    "30 November to 11 December 2026 (2 weeks)",
+    "25 December 2026 to 1 January 2027",
+    "On or before 22 December 2026",
+    "From 23 to 24 December 2026",
+    "4 January 2027",
+    "On or before 30 September 2026",
+    "To be completed by 11 January 2027",
+    "On or before 21 July 2027",
+    "On or before 1 November 2027; for NPTEL courses 22 November 2027",
+    "During the MSE slot of odd semester as per AEC 2027-28",
+    "To be completed on or before 3 December 2027",
+    "On or before 10 December 2027",
+    "On or before 15 December 2027",
+    "During the MSE slot of even semester as per AEC 2027-28",
+    "Before the project stage II",
+    "To be completed on or before 20 April 2028",
+    "On or before 15 June 2028",
+    "On or before 30 June 2028"
+   ],
+   "events_text": "First/Odd: First Year Orientation (FY M.Tech) - 3 August 2026 | First/Odd: Commencement of Classes (FY M.Tech) - 3 August 2026 | First/Odd: Mid Semester Examination (MSE)/Test (FY M.Tech) - 5 October 2026 to 10 October 2026 | First/Odd: SVU Convocation 2026 - 26 September 2026 | First/Odd: ABHIYANTRIKI 26 - 15 October 2026 to 16 October 2026 | First/Odd: One week Diwali Holidays for Students - 9 November to 13 November 2026 | First/Odd: Submission of Theory CA, LAB/TUT CA, Term-work Marksheets - 16 November 2026 | First/Odd: Last instructional day of First/Odd term - 20 November 2026 | First/Odd: Execution of Regular ESE Examinations (FY M.Tech) - 30 November to 11 December 2026 (2 weeks) | First/Odd: One week Christmas Holidays for Students - 25 December 2026 to 1 January 2027 | First/Odd: Date of Declaration of Regular Examinations Results - On or before 22 December 2026 | First/Odd: Open day - From 23 to 24 December 2026 | First/Odd: Commencement of Even Semester - 4 January 2027 | Semester III: Allocation of guides for dissertation (SY M.Tech, Batch 2026-28) - On or before 30 September 2026 | Semester III: Dissertation Topic approval (SY M.Tech, Batch 2026-28) - To be completed by 11 January 2027 | Semester III: Online course allotment (SY M.Tech, Batch 2026-28) - On or before 21 July 2027 | Semester III: Online Course Completion and submission of certificate - On or before 1 November 2027; for NPTEL courses 22 November 2027 | Semester III: Progress seminar - During the MSE slot of odd semester as per AEC 2027-28 | Semester III: Project Stage I Presentation (Dissertation) - To be completed on or before 3 December 2027 | Semester III: Submission of Stage-1 Mark-sheet to exam cell - On or before 10 December 2027 | Semester III: Proposed date of declaration of result - On or before 15 December 2027 | Semester IV: Progress seminar - During the MSE slot of even semester as per AEC 2027-28 | Semester IV: Research Paper Publication in Scopus/SCI/WOS journal or conference (at least 01) - Before the project stage II | Semester IV: Project Stage II Presentation (Dissertation) - To be completed on or before 20 April 2028 | Semester IV: Dissertation Defense - On or before 15 June 2028 | Semester IV: Proposed date of declaration of result - On or before 30 June 2028",
+   "event_count": 26,
+   "events": [
+    {
+     "term": "First/Odd",
+     "event": "First Year Orientation (FY M.Tech)",
+     "schedule": "3 August 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Commencement of Classes (FY M.Tech)",
+     "schedule": "3 August 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Mid Semester Examination (MSE)/Test (FY M.Tech)",
+     "schedule": "5 October 2026 to 10 October 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "SVU Convocation 2026",
+     "schedule": "26 September 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "ABHIYANTRIKI 26",
+     "schedule": "15 October 2026 to 16 October 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "One week Diwali Holidays for Students",
+     "schedule": "9 November to 13 November 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Submission of Theory CA, LAB/TUT CA, Term-work Marksheets",
+     "schedule": "16 November 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Last instructional day of First/Odd term",
+     "schedule": "20 November 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Execution of Regular ESE Examinations (FY M.Tech)",
+     "schedule": "30 November to 11 December 2026 (2 weeks)"
+    },
+    {
+     "term": "First/Odd",
+     "event": "One week Christmas Holidays for Students",
+     "schedule": "25 December 2026 to 1 January 2027"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Date of Declaration of Regular Examinations Results",
+     "schedule": "On or before 22 December 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Open day",
+     "schedule": "From 23 to 24 December 2026"
+    },
+    {
+     "term": "First/Odd",
+     "event": "Commencement of Even Semester",
+     "schedule": "4 January 2027"
+    },
+    {
+     "term": "Semester III",
+     "event": "Allocation of guides for dissertation (SY M.Tech, Batch 2026-28)",
+     "schedule": "On or before 30 September 2026"
+    },
+    {
+     "term": "Semester III",
+     "event": "Dissertation Topic approval (SY M.Tech, Batch 2026-28)",
+     "schedule": "To be completed by 11 January 2027"
+    },
+    {
+     "term": "Semester III",
+     "event": "Online course allotment (SY M.Tech, Batch 2026-28)",
+     "schedule": "On or before 21 July 2027"
+    },
+    {
+     "term": "Semester III",
+     "event": "Online Course Completion and submission of certificate",
+     "schedule": "On or before 1 November 2027; for NPTEL courses 22 November 2027"
+    },
+    {
+     "term": "Semester III",
+     "event": "Progress seminar",
+     "schedule": "During the MSE slot of odd semester as per AEC 2027-28"
+    },
+    {
+     "term": "Semester III",
+     "event": "Project Stage I Presentation (Dissertation)",
+     "schedule": "To be completed on or before 3 December 2027"
+    },
+    {
+     "term": "Semester III",
+     "event": "Submission of Stage-1 Mark-sheet to exam cell",
+     "schedule": "On or before 10 December 2027"
+    },
+    {
+     "term": "Semester III",
+     "event": "Proposed date of declaration of result",
+     "schedule": "On or before 15 December 2027"
+    },
+    {
+     "term": "Semester IV",
+     "event": "Progress seminar",
+     "schedule": "During the MSE slot of even semester as per AEC 2027-28"
+    },
+    {
+     "term": "Semester IV",
+     "event": "Research Paper Publication in Scopus/SCI/WOS journal or conference (at least 01)",
+     "schedule": "Before the project stage II"
+    },
+    {
+     "term": "Semester IV",
+     "event": "Project Stage II Presentation (Dissertation)",
+     "schedule": "To be completed on or before 20 April 2028"
+    },
+    {
+     "term": "Semester IV",
+     "event": "Dissertation Defense",
+     "schedule": "On or before 15 June 2028"
+    },
+    {
+     "term": "Semester IV",
+     "event": "Proposed date of declaration of result",
+     "schedule": "On or before 30 June 2028"
+    }
+   ]
+  },
+  {
+   "doc_id": "acad_schedule_sy_mtech",
+   "title": "Schedule of SY M.Tech",
+   "source_url": "https://kjsse-files.somaiya.edu/Academics/Schedule+of+SY+_M.Tech+2025-27+Batch+(Sem-III+%26+IV).pdf",
+   "source_type": "academic_calendar",
+   "academics_subcategory": "Academic and Examination Calendar",
+   "resource_kind": "pdf",
+   "filename": "Schedule+of+SY+_M.Tech+2025-27+Batch+(Sem-III+%26+IV).pdf",
+   "sha256": "c449636489f8791abb69700765ba524c3fb0cf4522c36bad2dddef8c2451774c",
+   "file_size_bytes": 395435,
+   "pages": 1,
+   "academic_year": "2026-27",
+   "programmes": [
+    "M.Tech"
+   ],
+   "levels": [
+    "SY"
+   ],
+   "level_note": "Second Year M.Tech, Batch 2025-27, Semester III and IV (all PG programmes)",
+   "terms": [
+    "Semester III",
+    "Semester IV"
+   ],
+   "document_status": "issued",
+   "document_date": "2026-07-31",
+   "issuing_authority": "Dr. Suresh Ukarande, Director KJSSE; Associate Dean Academic Programmes",
+   "institution_name_in_source": "K J Somaiya School of Engineering (formerly K J Somaiya College of Engineering), Somaiya Vidyavihar University",
+   "text_layer": "scanned_images_read_visually",
+   "content_note": "Dissertation and milestone schedule for Second Year M.Tech of the 2025-27 batch. It is a different batch from the 2026-28 schedule carried inside the M.Tech 2026-27 calendar PDF, so the two must not be merged. Its Semester IV progress seminar refers to AEC 2026-27.",
+   "document_type": "academic_and_examination_calendar",
+   "event_terms": [
+    "Semester III",
+    "Semester III",
+    "Semester III",
+    "Semester III",
+    "Semester III",
+    "Semester III",
+    "Semester III",
+    "Semester III",
+    "Semester IV",
+    "Semester IV",
+    "Semester IV",
+    "Semester IV",
+    "Semester IV"
+   ],
+   "event_names": [
+    "Allocation of guides for dissertation",
+    "Dissertation Topic approval",
+    "Online course allotment",
+    "Online Course Completion and submission of certificate",
+    "Progress seminar",
+    "Project Stage I Presentation (Dissertation)",
+    "Submission of Stage-1 Mark-sheet to exam cell",
+    "Proposed date of declaration of result",
+    "Progress seminar",
+    "Research Paper Publication in Scopus/SCI/WOS journal or conference (at least 01)",
+    "Project Stage II Presentation (Dissertation)",
+    "Dissertation Defense",
+    "Proposed date of declaration of Result"
+   ],
+   "event_schedules": [
+    "On or before 27 April 2026",
+    "To be completed by 30 June 2026",
+    "On or before 21 July 2026",
+    "On or before 30 October 2026 (Coursera); for NPTEL courses 20 November 2026",
+    "5 October 2026 to 10 October 2026",
+    "To be completed on or before 2 December 2026",
+    "On or before 7 December 2026",
+    "On or before 11 December 2026",
+    "During the MSE slot of even semester as per AEC 2026-27",
+    "Before the Project Stage II",
+    "To be completed on or before 20 April 2027",
+    "On or before 15 June 2027",
+    "On or before 30 June 2027"
+   ],
+   "events_text": "Semester III: Allocation of guides for dissertation - On or before 27 April 2026 | Semester III: Dissertation Topic approval - To be completed by 30 June 2026 | Semester III: Online course allotment - On or before 21 July 2026 | Semester III: Online Course Completion and submission of certificate - On or before 30 October 2026 (Coursera); for NPTEL courses 20 November 2026 | Semester III: Progress seminar - 5 October 2026 to 10 October 2026 | Semester III: Project Stage I Presentation (Dissertation) - To be completed on or before 2 December 2026 | Semester III: Submission of Stage-1 Mark-sheet to exam cell - On or before 7 December 2026 | Semester III: Proposed date of declaration of result - On or before 11 December 2026 | Semester IV: Progress seminar - During the MSE slot of even semester as per AEC 2026-27 | Semester IV: Research Paper Publication in Scopus/SCI/WOS journal or conference (at least 01) - Before the Project Stage II | Semester IV: Project Stage II Presentation (Dissertation) - To be completed on or before 20 April 2027 | Semester IV: Dissertation Defense - On or before 15 June 2027 | Semester IV: Proposed date of declaration of Result - On or before 30 June 2027",
+   "event_count": 13,
+   "events": [
+    {
+     "term": "Semester III",
+     "event": "Allocation of guides for dissertation",
+     "schedule": "On or before 27 April 2026"
+    },
+    {
+     "term": "Semester III",
+     "event": "Dissertation Topic approval",
+     "schedule": "To be completed by 30 June 2026"
+    },
+    {
+     "term": "Semester III",
+     "event": "Online course allotment",
+     "schedule": "On or before 21 July 2026"
+    },
+    {
+     "term": "Semester III",
+     "event": "Online Course Completion and submission of certificate",
+     "schedule": "On or before 30 October 2026 (Coursera); for NPTEL courses 20 November 2026"
+    },
+    {
+     "term": "Semester III",
+     "event": "Progress seminar",
+     "schedule": "5 October 2026 to 10 October 2026"
+    },
+    {
+     "term": "Semester III",
+     "event": "Project Stage I Presentation (Dissertation)",
+     "schedule": "To be completed on or before 2 December 2026"
+    },
+    {
+     "term": "Semester III",
+     "event": "Submission of Stage-1 Mark-sheet to exam cell",
+     "schedule": "On or before 7 December 2026"
+    },
+    {
+     "term": "Semester III",
+     "event": "Proposed date of declaration of result",
+     "schedule": "On or before 11 December 2026"
+    },
+    {
+     "term": "Semester IV",
+     "event": "Progress seminar",
+     "schedule": "During the MSE slot of even semester as per AEC 2026-27"
+    },
+    {
+     "term": "Semester IV",
+     "event": "Research Paper Publication in Scopus/SCI/WOS journal or conference (at least 01)",
+     "schedule": "Before the Project Stage II"
+    },
+    {
+     "term": "Semester IV",
+     "event": "Project Stage II Presentation (Dissertation)",
+     "schedule": "To be completed on or before 20 April 2027"
+    },
+    {
+     "term": "Semester IV",
+     "event": "Dissertation Defense",
+     "schedule": "On or before 15 June 2027"
+    },
+    {
+     "term": "Semester IV",
+     "event": "Proposed date of declaration of Result",
+     "schedule": "On or before 30 June 2027"
+    }
+   ]
+  },
+  {
+   "doc_id": "acad_class_timetable",
+   "title": "Class Time Table",
+   "source_url": "https://kjsce-files.somaiya.edu/Academics/KJSCE_Class_TT.pdf",
+   "source_type": "class_timetable_index",
+   "academics_subcategory": "Class Time Table",
+   "resource_kind": "pdf",
+   "filename": "KJSCE_Class_TT.pdf",
+   "sha256": "48086b4c94bea87c102af15633c5caa5e784084995c9c0487e36ee80f9276408",
+   "file_size_bytes": 95759,
+   "pages": 1,
+   "document_type": "academic_resource_index",
+   "content_note": "Index PDF listing FY B.Tech (all branches) plus each branch, with an embedded Google Drive folder link per branch. It is a link hub, not a timetable itself: the actual class timetables live in the linked Drive folders. No day/time/room/faculty detail appears in this PDF, so none is recorded.",
+   "text_layer": "text_plus_embedded_link_annotations",
+   "branch_names": [
+    "Agricultural Science & Technology",
+    "Artificial Intelligence & Data Science",
+    "Computer & Communication Engineering",
+    "Computer Engineering",
+    "Computer Science & Business Systems Engineering",
+    "Electronics & Computer Engineering",
+    "Electronics & Telecommunication Engineering",
+    "Electronics Engineering",
+    "F. Y. B. Tech. (All Branches)",
+    "Information Technology Engineering",
+    "Mechanical Engineering",
+    "Robotics & Artificial Intelligence",
+    "Robotics & Automation"
+   ],
+   "branch_urls": [
+    "https://drive.google.com/drive/folders/1MDcIY8bhhSbAhdsQPnxGCENOOpCHxrTV?usp=drive_link",
+    "https://drive.google.com/drive/folders/1HAq2CZFWi7_EswFOTmKhTy8-15E4zBIn",
+    "https://drive.google.com/drive/folders/1GOYDnIHeGYKjiWus1p7oTsoIKYJ6_GVY?usp=drive_link",
+    "https://drive.google.com/drive/folders/19TArkpkwRv7puE_UGLwzsXvUinBmJHf3?usp=sharing",
+    "https://drive.google.com/drive/folders/1IlFeQBcaeMZwHEv6_WZvlVq2WTDfW9Xt?usp=sharing",
+    "https://drive.google.com/drive/folders/19dhTSXWDm5vuxYm9KPhn1tQUY-32x6HF?usp=drive_link",
+    "https://drive.google.com/drive/folders/1PaV8Xtm92QyJkKq2-RKp1_B496W7fvmi?usp=sharing",
+    "https://drive.google.com/drive/folders/1sb944jHFm-q5dvetLxDXPwvadvA5sBA_?usp=sharing",
+    "https://drive.google.com/drive/folders/1bx3BVAeRAgVmlrQwY2yNOoo9uNpKf-B-?usp=sharing",
+    "https://drive.google.com/drive/folders/1r0TfZ4lH6j8pmiANGPvkx5mTAR63vXhZ?usp=sharing",
+    "https://drive.google.com/drive/folders/1nebj27DaBJtyxaPczvRnkNZj8eKdNZ-0?usp=drive_link",
+    "https://drive.google.com/drive/folders/1jbVglSetJ7tYuEwgn3jJmZKJqUYMiAjl?usp=drive_link",
+    "https://drive.google.com/drive/folders/1Xi3hoh5e7IWFPCi5OGg4hH1OJ-_1jyVK?usp=drive_link"
+   ],
+   "branch_link_count": 13,
+   "branches_text": "Agricultural Science & Technology | Artificial Intelligence & Data Science | Computer & Communication Engineering | Computer Engineering | Computer Science & Business Systems Engineering | Electronics & Computer Engineering | Electronics & Telecommunication Engineering | Electronics Engineering | F. Y. B. Tech. (All Branches) | Information Technology Engineering | Mechanical Engineering | Robotics & Artificial Intelligence | Robotics & Automation",
+   "contains_personal_data": false,
+   "branch_links": [
+    {
+     "branch": "Agricultural Science & Technology",
+     "url": "https://drive.google.com/drive/folders/1MDcIY8bhhSbAhdsQPnxGCENOOpCHxrTV?usp=drive_link"
+    },
+    {
+     "branch": "Artificial Intelligence & Data Science",
+     "url": "https://drive.google.com/drive/folders/1HAq2CZFWi7_EswFOTmKhTy8-15E4zBIn"
+    },
+    {
+     "branch": "Computer & Communication Engineering",
+     "url": "https://drive.google.com/drive/folders/1GOYDnIHeGYKjiWus1p7oTsoIKYJ6_GVY?usp=drive_link"
+    },
+    {
+     "branch": "Computer Engineering",
+     "url": "https://drive.google.com/drive/folders/19TArkpkwRv7puE_UGLwzsXvUinBmJHf3?usp=sharing"
+    },
+    {
+     "branch": "Computer Science & Business Systems Engineering",
+     "url": "https://drive.google.com/drive/folders/1IlFeQBcaeMZwHEv6_WZvlVq2WTDfW9Xt?usp=sharing"
+    },
+    {
+     "branch": "Electronics & Computer Engineering",
+     "url": "https://drive.google.com/drive/folders/19dhTSXWDm5vuxYm9KPhn1tQUY-32x6HF?usp=drive_link"
+    },
+    {
+     "branch": "Electronics & Telecommunication Engineering",
+     "url": "https://drive.google.com/drive/folders/1PaV8Xtm92QyJkKq2-RKp1_B496W7fvmi?usp=sharing"
+    },
+    {
+     "branch": "Electronics Engineering",
+     "url": "https://drive.google.com/drive/folders/1sb944jHFm-q5dvetLxDXPwvadvA5sBA_?usp=sharing"
+    },
+    {
+     "branch": "F. Y. B. Tech. (All Branches)",
+     "url": "https://drive.google.com/drive/folders/1bx3BVAeRAgVmlrQwY2yNOoo9uNpKf-B-?usp=sharing"
+    },
+    {
+     "branch": "Information Technology Engineering",
+     "url": "https://drive.google.com/drive/folders/1r0TfZ4lH6j8pmiANGPvkx5mTAR63vXhZ?usp=sharing"
+    },
+    {
+     "branch": "Mechanical Engineering",
+     "url": "https://drive.google.com/drive/folders/1nebj27DaBJtyxaPczvRnkNZj8eKdNZ-0?usp=drive_link"
+    },
+    {
+     "branch": "Robotics & Artificial Intelligence",
+     "url": "https://drive.google.com/drive/folders/1jbVglSetJ7tYuEwgn3jJmZKJqUYMiAjl?usp=drive_link"
+    },
+    {
+     "branch": "Robotics & Automation",
+     "url": "https://drive.google.com/drive/folders/1Xi3hoh5e7IWFPCi5OGg4hH1OJ-_1jyVK?usp=drive_link"
+    }
+   ]
+  },
+  {
+   "doc_id": "acad_syllabus",
+   "title": "Syllabus",
+   "source_url": "https://kjsce-files.somaiya.edu/Download/KJSCE_syllabus.pdf",
+   "source_type": "syllabus_index",
+   "academics_subcategory": "Syllabus",
+   "resource_kind": "pdf",
+   "filename": "KJSCE_syllabus.pdf",
+   "sha256": "6bb8e5fc5e119fbfa8b04f0607ddd1817583a2eda013cff62a83432feef85458",
+   "file_size_bytes": 80345,
+   "pages": 1,
+   "document_type": "academic_resource_index",
+   "content_note": "Index PDF listing the FY Curriculum (all programmes), each B.Tech branch and All Minor Programmes, with an embedded Google Drive folder link per entry. It is a link hub, not a syllabus: no subject, subject code, credit, module or course-outcome detail appears in this PDF, and no curriculum scheme or regulation year is stated, so none is recorded.",
+   "text_layer": "text_plus_embedded_link_annotations",
+   "branch_names": [
+    "Agricultural Science & Technology",
+    "All Minor Programmes",
+    "Artificial Intelligence & Data Science",
+    "Computer & Communication Engineering",
+    "Computer Engineering",
+    "Computer Science and Business Systems",
+    "Electronics & Computer Engineering",
+    "Electronics & Telecommunication Engineering",
+    "Electronics Engineering",
+    "Electronics Engineering (VLSI Design & Technology)",
+    "FY Curriculum (All Programmes)",
+    "Information Technology",
+    "Mechanical Engineering",
+    "Robotics & Artificial Intelligence",
+    "Robotics & Automation"
+   ],
+   "branch_urls": [
+    "https://drive.google.com/drive/folders/1w3mza14yIVWYSI7qOV56nuKEUgycChm6?usp=sharing",
+    "https://drive.google.com/drive/folders/1DMa9gRA48w-5fDB24q1sep-aVTgytk_Y?usp=share_link",
+    "https://drive.google.com/drive/folders/1wHVcUQbIk58neu1LvTfyhysIsrx2UjtZ?usp=sharing",
+    "https://drive.google.com/drive/folders/1tPmcjjMUVUAul3HCnM6XECl5mitQa6ue?usp=sharing",
+    "https://drive.google.com/drive/folders/1-BZEg1P728jFELPpK9mHO-IqTxtOYV9g?usp=sharing",
+    "https://drive.google.com/drive/folders/1GHa3slz6Y2IRAUWkj1JTuQh43ntmYu0R?usp=drive_link",
+    "https://drive.google.com/drive/folders/1IdQ6nCw-mDSBgSZXFc5qR-8I4r6Ke_01?usp=share_link",
+    "https://drive.google.com/drive/folders/1mDKlTXRS_K-bQ0c1-MPz4jvI5v_B_izD?usp=sharing",
+    "https://drive.google.com/drive/folders/1_kMx3SCVmzGb3lpQ0LTite-ZfBq8Si1G?usp=sharing",
+    "https://drive.google.com/drive/folders/161OOdu0dtUYRBFF7bgBC5o54Zuz9PJzc?usp=sharing",
+    "https://drive.google.com/drive/folders/14TlLm67sbruBHJDIlp94kPtt2j31c_UM?usp=sharing",
+    "https://drive.google.com/drive/folders/1tHdn43vdGAQATJcAVduAebQ8kCt6flqx?usp=sharing",
+    "https://drive.google.com/drive/folders/13FL_Dvqyn2Znt_yAN2rrfVBANX4ql8ux?usp=sharing",
+    "https://drive.google.com/drive/folders/1D-eHIa5nucaVopcZdK2G6hVou1NF_Xhx?usp=sharing",
+    "https://drive.google.com/drive/folders/1vADIv0ArWIW1RVkxcu2gI9FPChtne_vc?usp=sharing"
+   ],
+   "branch_link_count": 15,
+   "branches_text": "Agricultural Science & Technology | All Minor Programmes | Artificial Intelligence & Data Science | Computer & Communication Engineering | Computer Engineering | Computer Science and Business Systems | Electronics & Computer Engineering | Electronics & Telecommunication Engineering | Electronics Engineering | Electronics Engineering (VLSI Design & Technology) | FY Curriculum (All Programmes) | Information Technology | Mechanical Engineering | Robotics & Artificial Intelligence | Robotics & Automation",
+   "contains_personal_data": false,
+   "branch_links": [
+    {
+     "branch": "Agricultural Science & Technology",
+     "url": "https://drive.google.com/drive/folders/1w3mza14yIVWYSI7qOV56nuKEUgycChm6?usp=sharing"
+    },
+    {
+     "branch": "All Minor Programmes",
+     "url": "https://drive.google.com/drive/folders/1DMa9gRA48w-5fDB24q1sep-aVTgytk_Y?usp=share_link"
+    },
+    {
+     "branch": "Artificial Intelligence & Data Science",
+     "url": "https://drive.google.com/drive/folders/1wHVcUQbIk58neu1LvTfyhysIsrx2UjtZ?usp=sharing"
+    },
+    {
+     "branch": "Computer & Communication Engineering",
+     "url": "https://drive.google.com/drive/folders/1tPmcjjMUVUAul3HCnM6XECl5mitQa6ue?usp=sharing"
+    },
+    {
+     "branch": "Computer Engineering",
+     "url": "https://drive.google.com/drive/folders/1-BZEg1P728jFELPpK9mHO-IqTxtOYV9g?usp=sharing"
+    },
+    {
+     "branch": "Computer Science and Business Systems",
+     "url": "https://drive.google.com/drive/folders/1GHa3slz6Y2IRAUWkj1JTuQh43ntmYu0R?usp=drive_link"
+    },
+    {
+     "branch": "Electronics & Computer Engineering",
+     "url": "https://drive.google.com/drive/folders/1IdQ6nCw-mDSBgSZXFc5qR-8I4r6Ke_01?usp=share_link"
+    },
+    {
+     "branch": "Electronics & Telecommunication Engineering",
+     "url": "https://drive.google.com/drive/folders/1mDKlTXRS_K-bQ0c1-MPz4jvI5v_B_izD?usp=sharing"
+    },
+    {
+     "branch": "Electronics Engineering",
+     "url": "https://drive.google.com/drive/folders/1_kMx3SCVmzGb3lpQ0LTite-ZfBq8Si1G?usp=sharing"
+    },
+    {
+     "branch": "Electronics Engineering (VLSI Design & Technology)",
+     "url": "https://drive.google.com/drive/folders/161OOdu0dtUYRBFF7bgBC5o54Zuz9PJzc?usp=sharing"
+    },
+    {
+     "branch": "FY Curriculum (All Programmes)",
+     "url": "https://drive.google.com/drive/folders/14TlLm67sbruBHJDIlp94kPtt2j31c_UM?usp=sharing"
+    },
+    {
+     "branch": "Information Technology",
+     "url": "https://drive.google.com/drive/folders/1tHdn43vdGAQATJcAVduAebQ8kCt6flqx?usp=sharing"
+    },
+    {
+     "branch": "Mechanical Engineering",
+     "url": "https://drive.google.com/drive/folders/13FL_Dvqyn2Znt_yAN2rrfVBANX4ql8ux?usp=sharing"
+    },
+    {
+     "branch": "Robotics & Artificial Intelligence",
+     "url": "https://drive.google.com/drive/folders/1D-eHIa5nucaVopcZdK2G6hVou1NF_Xhx?usp=sharing"
+    },
+    {
+     "branch": "Robotics & Automation",
+     "url": "https://drive.google.com/drive/folders/1vADIv0ArWIW1RVkxcu2gI9FPChtne_vc?usp=sharing"
+    }
+   ]
+  },
+  {
+   "doc_id": "acad_roll_call",
+   "title": "Roll Call List",
+   "source_url": "https://kjsce-files.somaiya.edu/Academics/KJSCE_Roll+Call.pdf",
+   "source_type": "roll_call_index",
+   "academics_subcategory": "Roll Call List",
+   "resource_kind": "pdf",
+   "filename": "KJSCE_Roll+Call.pdf",
+   "sha256": "12960ef6802a10f3f7829f159ae71a7dcb524e3a290f327406acea7c310277c0",
+   "file_size_bytes": 90538,
+   "pages": 1,
+   "document_type": "academic_resource_index",
+   "content_note": "Index PDF listing FY B.Tech (all branches) and each department, with an embedded Google Drive folder link per entry. It is a link hub and contains NO individual student names or roll numbers - only branch/department labels - so no personal data enters the graph.",
+   "text_layer": "text_plus_embedded_link_annotations",
+   "branch_names": [
+    "Artificial Intelligence & Data Science",
+    "Computer & Communication Engineering",
+    "Computer Department",
+    "Computer Science & Business Systems",
+    "Electronics & Computer Department",
+    "Electronics & Telecommunication Department",
+    "Electronics Department",
+    "Electronics Engineering (VLSI Design and Technology)",
+    "F. Y. B. Tech. (All Branches)",
+    "Information Technology Department",
+    "Mechanical Department",
+    "Robotics & Artificial Intelligence",
+    "Robotics & Automation"
+   ],
+   "branch_urls": [
+    "https://drive.google.com/drive/folders/1PsSRwekDCEOV6dtJqhBw6mLZRnRdUP9k?usp=drive_link",
+    "https://drive.google.com/drive/folders/1D2luL_AAlStywigVl5Lme6duNL6kqWdF?usp=drive_link",
+    "https://drive.google.com/drive/folders/1zhGfkUM8n4v9Ay6UlP_81m__L6XsSfLE?usp=sharing",
+    "https://drive.google.com/drive/folders/14RjNzlshjwZGjd-nsKGOsepL4BlfFArL?usp=sharing",
+    "https://drive.google.com/drive/folders/1PRF3TSP6N0rOeT2IEi15PgwVaDEQGmSF?usp=drive_link",
+    "https://drive.google.com/drive/folders/1j-wq7CVDlXHTlq8m025jAy2aIWFGi1GZ?usp=sharing",
+    "https://drive.google.com/drive/folders/1cDcr4p4khDMoXo38Sp2Xgejy8Dzp7-CT?usp=sharing",
+    "https://drive.google.com/drive/folders/1QAvlZtBCYE0nZCgaBesCAybLk7efLJXt?usp=sharing",
+    "https://drive.google.com/drive/folders/1HREmGVlYDfR_7ivOjQ3G3VMfPEwTCQgR?usp=sharing",
+    "https://drive.google.com/drive/folders/1wWJJ1lZpTdZNHmg90NijlMwH_Oh2DBSF?usp=sharing",
+    "https://drive.google.com/drive/folders/1qo6gBLLm3dO4v-R56KYXddgAnPlCisXR?usp=sharing",
+    "https://drive.google.com/drive/folders/1TCYWO6zVuVxbJzyNJPIPaOy5Zl62dL47?usp=drive_link",
+    "https://drive.google.com/drive/folders/1DChoyF02RdqjDetcCnZ9oLQpJoIBQ6-j?usp=drive_link"
+   ],
+   "branch_link_count": 13,
+   "branches_text": "Artificial Intelligence & Data Science | Computer & Communication Engineering | Computer Department | Computer Science & Business Systems | Electronics & Computer Department | Electronics & Telecommunication Department | Electronics Department | Electronics Engineering (VLSI Design and Technology) | F. Y. B. Tech. (All Branches) | Information Technology Department | Mechanical Department | Robotics & Artificial Intelligence | Robotics & Automation",
+   "contains_personal_data": false,
+   "branch_links": [
+    {
+     "branch": "Artificial Intelligence & Data Science",
+     "url": "https://drive.google.com/drive/folders/1PsSRwekDCEOV6dtJqhBw6mLZRnRdUP9k?usp=drive_link"
+    },
+    {
+     "branch": "Computer & Communication Engineering",
+     "url": "https://drive.google.com/drive/folders/1D2luL_AAlStywigVl5Lme6duNL6kqWdF?usp=drive_link"
+    },
+    {
+     "branch": "Computer Department",
+     "url": "https://drive.google.com/drive/folders/1zhGfkUM8n4v9Ay6UlP_81m__L6XsSfLE?usp=sharing"
+    },
+    {
+     "branch": "Computer Science & Business Systems",
+     "url": "https://drive.google.com/drive/folders/14RjNzlshjwZGjd-nsKGOsepL4BlfFArL?usp=sharing"
+    },
+    {
+     "branch": "Electronics & Computer Department",
+     "url": "https://drive.google.com/drive/folders/1PRF3TSP6N0rOeT2IEi15PgwVaDEQGmSF?usp=drive_link"
+    },
+    {
+     "branch": "Electronics & Telecommunication Department",
+     "url": "https://drive.google.com/drive/folders/1j-wq7CVDlXHTlq8m025jAy2aIWFGi1GZ?usp=sharing"
+    },
+    {
+     "branch": "Electronics Department",
+     "url": "https://drive.google.com/drive/folders/1cDcr4p4khDMoXo38Sp2Xgejy8Dzp7-CT?usp=sharing"
+    },
+    {
+     "branch": "Electronics Engineering (VLSI Design and Technology)",
+     "url": "https://drive.google.com/drive/folders/1QAvlZtBCYE0nZCgaBesCAybLk7efLJXt?usp=sharing"
+    },
+    {
+     "branch": "F. Y. B. Tech. (All Branches)",
+     "url": "https://drive.google.com/drive/folders/1HREmGVlYDfR_7ivOjQ3G3VMfPEwTCQgR?usp=sharing"
+    },
+    {
+     "branch": "Information Technology Department",
+     "url": "https://drive.google.com/drive/folders/1wWJJ1lZpTdZNHmg90NijlMwH_Oh2DBSF?usp=sharing"
+    },
+    {
+     "branch": "Mechanical Department",
+     "url": "https://drive.google.com/drive/folders/1qo6gBLLm3dO4v-R56KYXddgAnPlCisXR?usp=sharing"
+    },
+    {
+     "branch": "Robotics & Artificial Intelligence",
+     "url": "https://drive.google.com/drive/folders/1TCYWO6zVuVxbJzyNJPIPaOy5Zl62dL47?usp=drive_link"
+    },
+    {
+     "branch": "Robotics & Automation",
+     "url": "https://drive.google.com/drive/folders/1DChoyF02RdqjDetcCnZ9oLQpJoIBQ6-j?usp=drive_link"
+    }
+   ]
+  },
+  {
+   "doc_id": "acad_8_point_plan",
+   "title": "8 POINT DEVELOPMENT PLAN",
+   "source_url": "https://kjsse-files.somaiya.edu/About/Eight+Point+Development+Plan_+KJSSE.pdf",
+   "source_type": "academic_development_plan",
+   "academics_subcategory": "8 POINT DEVELOPMENT PLAN",
+   "resource_kind": "pdf",
+   "filename": "Eight+Point+Development+Plan_+KJSSE.pdf",
+   "sha256": "8dbae7a134d8d315f841254c3861debca3dd0deeb2f75fae1bfdef7d9d7889f5",
+   "file_size_bytes": 158926,
+   "pages": 4,
+   "document_type": "development_plan",
+   "text_layer": "text",
+   "plan_title": "8 Point Development Plan",
+   "plan_purpose": "For Performance Improvement in Rankings, Ratings, and Global Impact",
+   "issuing_authority": "Dr. Suresh K. Ukarande, Director",
+   "institution_name_in_source": "K J Somaiya School of Engineering",
+   "section_count": 8,
+   "parameter_count": 43,
+   "section_numbers": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "VI",
+    "VII",
+    "VIII"
+   ],
+   "section_names": [
+    "Teaching-Learning",
+    "Research and Development",
+    "Innovation, Entrepreneurship, and Start-up",
+    "Co-curricular and Extra-curricular Activities",
+    "Industry-Interaction",
+    "Placements",
+    "Higher Studies and Alumni Engagement",
+    "Institute Capacity and Visibility"
+   ],
+   "section_parameter_ranges": [
+    "1-6",
+    "7-17",
+    "18-24",
+    "25-27",
+    "28-30",
+    "31-34",
+    "35-37",
+    "38-43"
+   ],
+   "section_parameters": [
+    "Academic Results ; Students Graduating in Stipulated Time ; Credit Courses in Innovation / Entrepreneurship / IPR offered in Curriculum ; Courses in Advanced Technologies & Courses Promoting Interdisciplinary Studies, Problem Solving and Critical Thinking ; Courses with Contents & Course Outcomes aligned to Sustainable Development Goals (SDGs) ; Certification Courses Completed by Students",
+    "Publications in Peer Reviewed Journals indexed in Scopus / Web of Science / UGC Care List ; Publications in Conference Proceedings indexed in Scopus / Web of Science ; Publications as Books / Book Chapters ; Research Impact Metrics (SJR, JIF, SNIP, CiteScore) ; Citations to Publications and H-index ; Patents Filed, Published and Granted ; Copyrights Applied and Registered ; Consultancies Received / Technologies Commercialized or Transferred ; Fund Generated from External Sources through Consultancy Work ; Funded Research Projects ; Research Fund Received / Sanctioned",
+    "Activities under Institution's Innovation Council (IIC) and implementation of National Innovation and Start-up Policy (NISP) ; SDPs, FDPs and Short-term Training / Certificate Programs of minimum 30 contact hours ; Student and Faculty Participation in Innovation / IPR / Entrepreneurship activities ; Field Projects ; Innovations Supported by Institute ; Innovations at various Technology Readiness Levels (TRLs) ; Innovations aligned to SDGs",
+    "Student Participations in Competitions ; Prizes / Awards to Students / Innovations in Competitions and Co-curricular / Extra-curricular Events ; Social Welfare Activities & Activities providing Innovation Mentoring or Support to Other Organizations",
+    "Collaboration Linkages (MoUs) with Industries, Research Organizations, Govt. agencies, other HEIs, Incubation Units and Research Parks ; Industry Experts Invited and Engaged in Development Activities ; Industry-associated / supported Events Conducted",
+    "Placement (program-wise, in %) ; Median Annual Salary ; Highest Annual Salary ; Activities Conducted to Enhance Placements",
+    "Students Qualifying Higher Studies Entrance Examinations (GRE, CAT, CET, GATE etc.) ; Students Joining Higher Studies in India and abroad ; Alumni Involved in various Activities",
+    "UG, PG, Ph.D. Student Strength and Faculties with/without Doctorate Degree, and Faculty-Student Ratio ; Recognitions to Faculties and Contribution by Faculties to the Outside World ; Gender and Regional Diversity ; Participants from other States in Organized Events ; Funded / Industry-supported / Other Technology Labs, Centres of Excellence, Research Labs and Innovation / Tinkering Labs ; Digital footprint"
+   ],
+   "sections_text": "I. Teaching-Learning: Academic Results; Students Graduating in Stipulated Time; Credit Courses in Innovation / Entrepreneurship / IPR offered in Curriculum; Courses in Advanced Technologies & Courses Promoting Interdisciplinary Studies, Problem Solving and Critical Thinking; Courses with Contents & Course Outcomes aligned to Sustainable Development Goals (SDGs); Certification Courses Completed by Students | II. Research and Development: Publications in Peer Reviewed Journals indexed in Scopus / Web of Science / UGC Care List; Publications in Conference Proceedings indexed in Scopus / Web of Science; Publications as Books / Book Chapters; Research Impact Metrics (SJR, JIF, SNIP, CiteScore); Citations to Publications and H-index; Patents Filed, Published and Granted; Copyrights Applied and Registered; Consultancies Received / Technologies Commercialized or Transferred; Fund Generated from External Sources through Consultancy Work; Funded Research Projects; Research Fund Received / Sanctioned | III. Innovation, Entrepreneurship, and Start-up: Activities under Institution's Innovation Council (IIC) and implementation of National Innovation and Start-up Policy (NISP); SDPs, FDPs and Short-term Training / Certificate Programs of minimum 30 contact hours; Student and Faculty Participation in Innovation / IPR / Entrepreneurship activities; Field Projects; Innovations Supported by Institute; Innovations at various Technology Readiness Levels (TRLs); Innovations aligned to SDGs | IV. Co-curricular and Extra-curricular Activities: Student Participations in Competitions; Prizes / Awards to Students / Innovations in Competitions and Co-curricular / Extra-curricular Events; Social Welfare Activities & Activities providing Innovation Mentoring or Support to Other Organizations | V. Industry-Interaction: Collaboration Linkages (MoUs) with Industries, Research Organizations, Govt. agencies, other HEIs, Incubation Units and Research Parks; Industry Experts Invited and Engaged in Development Activities; Industry-associated / supported Events Conducted | VI. Placements: Placement (program-wise, in %); Median Annual Salary; Highest Annual Salary; Activities Conducted to Enhance Placements | VII. Higher Studies and Alumni Engagement: Students Qualifying Higher Studies Entrance Examinations (GRE, CAT, CET, GATE etc.); Students Joining Higher Studies in India and abroad; Alumni Involved in various Activities | VIII. Institute Capacity and Visibility: UG, PG, Ph.D. Student Strength and Faculties with/without Doctorate Degree, and Faculty-Student Ratio; Recognitions to Faculties and Contribution by Faculties to the Outside World; Gender and Regional Diversity; Participants from other States in Organized Events; Funded / Industry-supported / Other Technology Labs, Centres of Excellence, Research Labs and Innovation / Tinkering Labs; Digital footprint",
+   "content_note": "A measurement framework, not a set of student rules. Eight numbered sections (I-VIII) define 43 numbered parameters the institute tracks for rankings, ratings and global impact, each with a 'Details' note describing how it is to be counted. It sets no obligation on students and states no targets or deadlines.",
+   "sections": [
+    {
+     "number": "I",
+     "name": "Teaching-Learning",
+     "parameter_range": "1-6",
+     "parameters": [
+      "Academic Results",
+      "Students Graduating in Stipulated Time",
+      "Credit Courses in Innovation / Entrepreneurship / IPR offered in Curriculum",
+      "Courses in Advanced Technologies & Courses Promoting Interdisciplinary Studies, Problem Solving and Critical Thinking",
+      "Courses with Contents & Course Outcomes aligned to Sustainable Development Goals (SDGs)",
+      "Certification Courses Completed by Students"
+     ]
+    },
+    {
+     "number": "II",
+     "name": "Research and Development",
+     "parameter_range": "7-17",
+     "parameters": [
+      "Publications in Peer Reviewed Journals indexed in Scopus / Web of Science / UGC Care List",
+      "Publications in Conference Proceedings indexed in Scopus / Web of Science",
+      "Publications as Books / Book Chapters",
+      "Research Impact Metrics (SJR, JIF, SNIP, CiteScore)",
+      "Citations to Publications and H-index",
+      "Patents Filed, Published and Granted",
+      "Copyrights Applied and Registered",
+      "Consultancies Received / Technologies Commercialized or Transferred",
+      "Fund Generated from External Sources through Consultancy Work",
+      "Funded Research Projects",
+      "Research Fund Received / Sanctioned"
+     ]
+    },
+    {
+     "number": "III",
+     "name": "Innovation, Entrepreneurship, and Start-up",
+     "parameter_range": "18-24",
+     "parameters": [
+      "Activities under Institution's Innovation Council (IIC) and implementation of National Innovation and Start-up Policy (NISP)",
+      "SDPs, FDPs and Short-term Training / Certificate Programs of minimum 30 contact hours",
+      "Student and Faculty Participation in Innovation / IPR / Entrepreneurship activities",
+      "Field Projects",
+      "Innovations Supported by Institute",
+      "Innovations at various Technology Readiness Levels (TRLs)",
+      "Innovations aligned to SDGs"
+     ]
+    },
+    {
+     "number": "IV",
+     "name": "Co-curricular and Extra-curricular Activities",
+     "parameter_range": "25-27",
+     "parameters": [
+      "Student Participations in Competitions",
+      "Prizes / Awards to Students / Innovations in Competitions and Co-curricular / Extra-curricular Events",
+      "Social Welfare Activities & Activities providing Innovation Mentoring or Support to Other Organizations"
+     ]
+    },
+    {
+     "number": "V",
+     "name": "Industry-Interaction",
+     "parameter_range": "28-30",
+     "parameters": [
+      "Collaboration Linkages (MoUs) with Industries, Research Organizations, Govt. agencies, other HEIs, Incubation Units and Research Parks",
+      "Industry Experts Invited and Engaged in Development Activities",
+      "Industry-associated / supported Events Conducted"
+     ]
+    },
+    {
+     "number": "VI",
+     "name": "Placements",
+     "parameter_range": "31-34",
+     "parameters": [
+      "Placement (program-wise, in %)",
+      "Median Annual Salary",
+      "Highest Annual Salary",
+      "Activities Conducted to Enhance Placements"
+     ]
+    },
+    {
+     "number": "VII",
+     "name": "Higher Studies and Alumni Engagement",
+     "parameter_range": "35-37",
+     "parameters": [
+      "Students Qualifying Higher Studies Entrance Examinations (GRE, CAT, CET, GATE etc.)",
+      "Students Joining Higher Studies in India and abroad",
+      "Alumni Involved in various Activities"
+     ]
+    },
+    {
+     "number": "VIII",
+     "name": "Institute Capacity and Visibility",
+     "parameter_range": "38-43",
+     "parameters": [
+      "UG, PG, Ph.D. Student Strength and Faculties with/without Doctorate Degree, and Faculty-Student Ratio",
+      "Recognitions to Faculties and Contribution by Faculties to the Outside World",
+      "Gender and Regional Diversity",
+      "Participants from other States in Organized Events",
+      "Funded / Industry-supported / Other Technology Labs, Centres of Excellence, Research Labs and Innovation / Tinkering Labs",
+      "Digital footprint"
+     ]
+    }
+   ]
+  },
+  {
+   "doc_id": "acad_strategic_plan_2025_2030",
+   "title": "KJSSE Strategic Plan (2025-2030)",
+   "source_url": "https://kjsse-files.somaiya.edu/About/KJSSE+Strategic+Plan+2025-2030+by+Dr.+S+K+Ukarande+.r.pdf",
+   "source_type": "strategic_plan",
+   "academics_subcategory": "KJSSE Strategic Plan (2025-2030)",
+   "resource_kind": "pdf",
+   "filename": "KJSSE+Strategic+Plan+2025-2030+by+Dr.+S+K+Ukarande+.r.pdf",
+   "sha256": "1f421370a5b10b3e85b908a7df08a9ed113470e272be52b72700d2e054de6a38",
+   "file_size_bytes": 1205270,
+   "pages": 12,
+   "document_type": "strategic_plan",
+   "text_layer": "text",
+   "plan_title": "K J Somaiya School of Engineering Strategic Plan 2025-2030",
+   "plan_period_start": 2025,
+   "plan_period_end": 2030,
+   "plan_period": "2025-2030 (five-year roadmap)",
+   "issuing_authority": "Dr. S K Ukarande, Director KJSSE and Dean, Faculty of Engineering and Technology, Somaiya Vidyavihar University",
+   "institution_name_in_source": "K J Somaiya School of Engineering (formerly K J Somaiya College of Engineering), a constituent of Somaiya Vidyavihar University",
+   "goal_count": 8,
+   "goal_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "goal_names": [
+    "Transformative Education",
+    "Career Opportunities",
+    "Student Experience and Alumni Engagement",
+    "Immersive Industry Interaction",
+    "Advanced Research and Development",
+    "Quality Assurance",
+    "Sustainability Initiatives",
+    "Internationalization and Outreach"
+   ],
+   "goal_agendas": [
+    "To transform engineering education aligned with Academia 4.0, through evolving academic models that meet global educational demands and equip students with the skills and mindset to lead, create, and make a meaningful impact in a dynamic world.",
+    "To continuously develop, evolve and sustain high-impact practices that strengthen professional placements, foster entrepreneurial ambitions, and advance academic progression, while also enabling faculty to engage in professional advancement.",
+    "To remain committed to placing students at the center of our efforts - enhancing their experience through innovation, inclusion and engagement, while advancing initiatives that empower and connect generations.",
+    "To enhance industry engagement through meaningful partnerships and applied learning opportunities to promote innovation, career readiness, growth and institutional relevance.",
+    "To strengthen research contributions and establish specialized research centers in key engineering domains to address grand challenges through the integration of expertise from multiple disciplines.",
+    "To adapt to evolving educational standards and stakeholder needs through timely actions and consistent quality assurance, fostering a culture of continuous improvement and integrity.",
+    "To advance sustainability through integrated efforts in education, research, community engagement and digital innovation, aligned with global goals for long-term institutional and societal impact.",
+    "To build a strong international presence through expanded academic collaborations, foster cross-cultural engagement, enhance outreach to extend the benefits of education and technology into society, and strengthen institutional perception on global platforms."
+   ],
+   "goals_text": "1. Transformative Education: To transform engineering education aligned with Academia 4.0, through evolving academic models that meet global educational demands and equip students with the skills and mindset to lead, create, and make a meaningful impact in a dynamic world. | 2. Career Opportunities: To continuously develop, evolve and sustain high-impact practices that strengthen professional placements, foster entrepreneurial ambitions, and advance academic progression, while also enabling faculty to engage in professional advancement. | 3. Student Experience and Alumni Engagement: To remain committed to placing students at the center of our efforts - enhancing their experience through innovation, inclusion and engagement, while advancing initiatives that empower and connect generations. | 4. Immersive Industry Interaction: To enhance industry engagement through meaningful partnerships and applied learning opportunities to promote innovation, career readiness, growth and institutional relevance. | 5. Advanced Research and Development: To strengthen research contributions and establish specialized research centers in key engineering domains to address grand challenges through the integration of expertise from multiple disciplines. | 6. Quality Assurance: To adapt to evolving educational standards and stakeholder needs through timely actions and consistent quality assurance, fostering a culture of continuous improvement and integrity. | 7. Sustainability Initiatives: To advance sustainability through integrated efforts in education, research, community engagement and digital innovation, aligned with global goals for long-term institutional and societal impact. | 8. Internationalization and Outreach: To build a strong international presence through expanded academic collaborations, foster cross-cultural engagement, enhance outreach to extend the benefits of education and technology into society, and strengthen institutional perception on global platforms.",
+   "action_timelines": [
+    "Immediately Actionable (1 Year)",
+    "Planned Strengthening (1 - 3 Years)",
+    "Progressive Implementation (2 - 5 Years)"
+   ],
+   "content_note": "A five-year institutional roadmap headed 'STRATEGIC PLAN AGENDA, IMPLEMENTATION YEARS: 2025-2030'. Eight agenda items each carry a Development Agenda statement and a set of Action Items bucketed into three timelines: Immediately Actionable (1 Year), Planned Strengthening (1-3 Years) and Progressive Implementation (2-5 Years). These are institutional intentions and commitments, NOT current student rules or requirements.",
+   "goals": [
+    {
+     "number": 1,
+     "name": "Transformative Education",
+     "development_agenda": "To transform engineering education aligned with Academia 4.0, through evolving academic models that meet global educational demands and equip students with the skills and mindset to lead, create, and make a meaningful impact in a dynamic world."
+    },
+    {
+     "number": 2,
+     "name": "Career Opportunities",
+     "development_agenda": "To continuously develop, evolve and sustain high-impact practices that strengthen professional placements, foster entrepreneurial ambitions, and advance academic progression, while also enabling faculty to engage in professional advancement."
+    },
+    {
+     "number": 3,
+     "name": "Student Experience and Alumni Engagement",
+     "development_agenda": "To remain committed to placing students at the center of our efforts - enhancing their experience through innovation, inclusion and engagement, while advancing initiatives that empower and connect generations."
+    },
+    {
+     "number": 4,
+     "name": "Immersive Industry Interaction",
+     "development_agenda": "To enhance industry engagement through meaningful partnerships and applied learning opportunities to promote innovation, career readiness, growth and institutional relevance."
+    },
+    {
+     "number": 5,
+     "name": "Advanced Research and Development",
+     "development_agenda": "To strengthen research contributions and establish specialized research centers in key engineering domains to address grand challenges through the integration of expertise from multiple disciplines."
+    },
+    {
+     "number": 6,
+     "name": "Quality Assurance",
+     "development_agenda": "To adapt to evolving educational standards and stakeholder needs through timely actions and consistent quality assurance, fostering a culture of continuous improvement and integrity."
+    },
+    {
+     "number": 7,
+     "name": "Sustainability Initiatives",
+     "development_agenda": "To advance sustainability through integrated efforts in education, research, community engagement and digital innovation, aligned with global goals for long-term institutional and societal impact."
+    },
+    {
+     "number": 8,
+     "name": "Internationalization and Outreach",
+     "development_agenda": "To build a strong international presence through expanded academic collaborations, foster cross-cultural engagement, enhance outreach to extend the benefits of education and technology into society, and strengthen institutional perception on global platforms."
+    }
+   ]
+  },
+  {
+   "doc_id": "acad_matlab",
+   "title": "Matlab for students/faculty and staff members",
+   "source_url": "https://www.mathworks.com/academia/tah-portal/kj-somaiya-college-of-engineering-925175.html",
+   "source_type": "software_resource",
+   "academics_subcategory": "Download Softwares",
+   "resource_kind": "external_webpage",
+   "document_type": "software_portal",
+   "provider": "MathWorks",
+   "software": "MATLAB",
+   "audience": [
+    "students",
+    "faculty",
+    "staff"
+   ],
+   "access_note": "Listed under Academics > Download Softwares as 'Matlab for students/faculty and staff members.' The link is a MathWorks Academic Tah-Portal page for K J Somaiya College of Engineering, i.e. a campus-wide MATLAB licence portal hosted by MathWorks, not a file on the college site.",
+   "fetch_status": "HTTP 403 - MathWorks blocks automated fetches; page content was not read, so nothing about eligibility, version or installation steps is recorded",
+   "content_verified": false
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+  "run_at": "2026-09-14T14:34:56.618230+00:00",
+  "dry_run": false,
+  "documents_in_file": 12,
+  "documents_created": 0,
+  "documents_updated": 12,
+  "links_merged": 13,
+  "reused_documents": [
+    {
+      "existing_doc_id": "exam_aec_2026_27_sytyly_btech_fysy_mtech",
+      "academics_title": "Academic & Examination Calendar AEC-KJSSE 2026-27 (SY/TY/LY)",
+      "academics_url": "https://kjsce-files.somaiya.edu/Academics/AEC_SY_TY_LY_(B.Tech)_FY_SY_(M.Tech)_2026-27.pdf",
+      "sha256": "39eefe465aa3a9c51f470b7b67b59bfc",
+      "action": "reuse existing node; record the Academics URL as alternate_source_url and link it from the Academics parent too",
+      "alternate_url_recorded": true,
+      "linked_from_academics": true
+    }
+  ],
+  "parent_policy": "teaching_learning_process",
+  "rows": [
+    {
+      "doc_id": "acad_aec_2024_25",
+      "title": "Academic & Examination Calendar AEC-KJSSE 2024-25",
+      "source_url": "https://kjsce-files.somaiya.edu/Academics/AEC+KJSCE+2024-25.pdf",
+      "source_type": "academic_calendar",
+      "created": false,
+      "linked": true
+    },
+    {
+      "doc_id": "acad_aec_2025_26",
+      "title": "Academic & Examination Calendar AEC-KJSSE 2025-26",
+      "source_url": "https://kjsce-files.somaiya.edu/Academics/AEC-Academic+Year-+2025-26.pdf",
+      "source_type": "academic_calendar",
+      "created": false,
+      "linked": true
+    },
+    {
+      "doc_id": "acad_aec_2025_26_fy_btech",
+      "title": "F Y B.Tech. Academic and Exam Calendar 2025-26",
+      "source_url": "https://kjsce-files.somaiya.edu/Academics/F.Y.+B+Tech_Academic+Calender_2025-2026.pdf",
+      "source_type": "academic_calendar",
+      "created": false,
+      "linked": true
+    },
+    {
+      "doc_id": "acad_aec_2026_27_fy_btech",
+      "title": "F Y B.Tech. Academic and Exam Calendar 2026-27",
+      "source_url": "https://kjsce-files.somaiya.edu/Academics/AEC_FYB_Tech+_2026_27.pdf",
+      "source_type": "academic_calendar",
+      "created": false,
+      "linked": true
+    },
+    {
+      "doc_id": "acad_aec_2026_27_mtech",
+      "title": "M. Tech. Academic and Exam Calendar 2026-27",
+      "source_url": "https://kjsse-files.somaiya.edu/Academics/AEC_2026-27_FY+(M.Tech)_Final.pdf",
+      "source_type": "academic_calendar",
+      "created": false,
+      "linked": true
+    },
+    {
+      "doc_id": "acad_schedule_sy_mtech",
+      "title": "Schedule of SY M.Tech",
+      "source_url": "https://kjsse-files.somaiya.edu/Academics/Schedule+of+SY+_M.Tech+2025-27+Batch+(Sem-III+%26+IV).pdf",
+      "source_type": "academic_calendar",
+      "created": false,
+      "linked": true
+    },
+    {
+      "doc_id": "acad_class_timetable",
+      "title": "Class Time Table",
+      "source_url": "https://kjsce-files.somaiya.edu/Academics/KJSCE_Class_TT.pdf",
+      "source_type": "class_timetable_index",
+      "created": false,
+      "linked": true
+    },
+    {
+      "doc_id": "acad_syllabus",
+      "title": "Syllabus",
+      "source_url": "https://kjsce-files.somaiya.edu/Download/KJSCE_syllabus.pdf",
+      "source_type": "syllabus_index",
+      "created": false,
+      "linked": true
+    },
+    {
+      "doc_id": "acad_roll_call",
+      "title": "Roll Call List",
+      "source_url": "https://kjsce-files.somaiya.edu/Academics/KJSCE_Roll+Call.pdf",
+      "source_type": "roll_call_index",
+      "created": false,
+      "linked": true
+    },
+    {
+      "doc_id": "acad_8_point_plan",
+      "title": "8 POINT DEVELOPMENT PLAN",
+      "source_url": "https://kjsse-files.somaiya.edu/About/Eight+Point+Development+Plan_+KJSSE.pdf",
+      "source_type": "academic_development_plan",
+      "created": false,
+      "linked": true
+    },
+    {
+      "doc_id": "acad_strategic_plan_2025_2030",
+      "title": "KJSSE Strategic Plan (2025-2030)",
+      "source_url": "https://kjsse-files.somaiya.edu/About/KJSSE+Strategic+Plan+2025-2030+by+Dr.+S+K+Ukarande+.r.pdf",
+      "source_type": "strategic_plan",
+      "created": false,
+      "linked": true
+    },
+    {
+      "doc_id": "acad_matlab",
+      "title": "Matlab for students/faculty and staff members",
+      "source_url": "https://www.mathworks.com/academia/tah-portal/kj-somaiya-college-of-engineering-925175.html",
+      "source_type": "software_resource",
+      "created": false,
+      "linked": true
+    }
+  ],
+  "graph_counts": {
+    "academics_documents": 12,
+    "academics_links": 13
+  }
+}

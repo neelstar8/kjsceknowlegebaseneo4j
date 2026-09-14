@@ -86,6 +86,30 @@ def pyq_ask_debug(payload: PYQQuestion):
         raise HTTPException(status_code=503, detail=str(e))
 
 
+@app.post("/exam/documents/ask")
+def exam_documents_ask(payload: Question):
+    """Official Examination documents (academic & examination calendars) -> links.
+
+    Returns {"answer": str, "documents": [{doc_id, title, url, academic_year,
+    programmes, levels, document_status, events}], "found": bool}. Deterministic:
+    no model call, so the official URLs cannot be altered. This is NOT the PYQ
+    question-paper route -- see /pyq/ask for past papers.
+    """
+    try:
+        return answer_exam_document_question(payload.question, debug=False)
+    except RuntimeError as e:
+        raise HTTPException(status_code=503, detail=str(e))
+
+
+@app.post("/exam/documents/ask/debug")
+def exam_documents_ask_debug(payload: Question):
+    """Development-only. Adds the extracted filters and matched doc_ids."""
+    try:
+        return answer_exam_document_question(payload.question, debug=True)
+    except RuntimeError as e:
+        raise HTTPException(status_code=503, detail=str(e))
+
+
 @app.post("/policy/ask")
 def policy_ask(payload: PolicyQuestion):
     """Institute Policy Handbook questions -> sourced provisions.
