@@ -10,6 +10,7 @@ Endpoints:
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
+from services.exam_document_service import answer_exam_document_question
 from services.faculty_service import answer_faculty_question
 from services.pyq_service import answer_pyq_question
 
@@ -69,3 +70,57 @@ def pyq_ask_debug(payload: PYQQuestion):
                                    use_llm=payload.use_llm)
     except RuntimeError as e:
         raise HTTPException(status_code=503, detail=str(e))
+<<<<<<< Updated upstream
+=======
+
+
+@app.post("/exam/documents/ask")
+def exam_documents_ask(payload: Question):
+    """Official Examination documents (academic & examination calendars) -> links.
+
+    Returns {"answer": str, "documents": [{doc_id, title, url, academic_year,
+    programmes, levels, document_status, events}], "found": bool}. Deterministic:
+    no model call, so the official URLs cannot be altered. This is NOT the PYQ
+    question-paper route -- see /pyq/ask for past papers.
+    """
+    try:
+        return answer_exam_document_question(payload.question, debug=False)
+    except RuntimeError as e:
+        raise HTTPException(status_code=503, detail=str(e))
+
+
+@app.post("/exam/documents/ask/debug")
+def exam_documents_ask_debug(payload: Question):
+    """Development-only. Adds the extracted filters and matched doc_ids."""
+    try:
+        return answer_exam_document_question(payload.question, debug=True)
+    except RuntimeError as e:
+        raise HTTPException(status_code=503, detail=str(e))
+
+
+@app.post("/policy/ask")
+def policy_ask(payload: PolicyQuestion):
+    """Institute Policy Handbook questions -> sourced provisions.
+
+    Returns {"answer": str, "sources": [{policy, document, page, section, url,
+    status}], "found": bool}. Every fact in `answer` is traceable to a page of
+    a named PDF via `sources`. When `found` is false the answer says so rather
+    than offering the nearest thing it could find.
+    """
+    try:
+        fn = answer_policy_question_llm if payload.use_llm else answer_policy_question
+        return fn(payload.question, include_superseded=payload.include_superseded)
+    except RuntimeError as e:
+        raise HTTPException(status_code=503, detail=str(e))
+
+
+@app.post("/policy/ask/debug")
+def policy_ask_debug(payload: PolicyQuestion):
+    """Development-only. Adds the fulltext query and the provisions retrieved."""
+    try:
+        fn = answer_policy_question_llm if payload.use_llm else answer_policy_question
+        return fn(payload.question, debug=True,
+                  include_superseded=payload.include_superseded)
+    except RuntimeError as e:
+        raise HTTPException(status_code=503, detail=str(e))
+>>>>>>> Stashed changes

@@ -12,7 +12,7 @@ import re
 
 from graph import faculty_queries as q
 from llm.qwen import ask_qwen
-from llm.system_prompt import KJGPT_SYSTEM_PROMPT
+from llm.system_prompt import KJGPT_FACULTY_SYSTEM_PROMPT
 
 MAX_LIST_RESULTS = 40
 
@@ -293,7 +293,7 @@ def answer_faculty_question(question: str, debug: bool = False) -> dict:
         f"KNOWLEDGE BASE CONTEXT:\n{result['context']}\n\n"
         f"USER QUESTION:\n{question}"
     )
-    answer = ask_qwen(KJGPT_SYSTEM_PROMPT, user_prompt)
+    answer = ask_qwen(KJGPT_FACULTY_SYSTEM_PROMPT, user_prompt)
     trace["answer"] = answer
 
     return trace if debug else {"answer": answer}
