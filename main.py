@@ -10,6 +10,7 @@ Endpoints:
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
+from services.exam_document_service import answer_exam_document_question
 from services.faculty_service import answer_faculty_question
 from services.policy_service import answer_policy_question, answer_policy_question_llm
 from services.pyq_service import answer_pyq_question

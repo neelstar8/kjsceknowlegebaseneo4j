@@ -11,7 +11,7 @@ import time
 
 from graph.neo4j_driver import verify_connection, close_driver
 from llm.qwen import verify_ollama
-from llm.system_prompt import KJGPT_SYSTEM_PROMPT
+from llm.system_prompt import KJGPT_FACULTY_SYSTEM_PROMPT
 from services.faculty_service import answer_faculty_question
 
 STUDENT_QUESTIONS = [
@@ -62,7 +62,7 @@ def main():
     print("=" * 70)
     print("SYSTEM PROMPT USED FOR EVERY QUESTION")
     print("=" * 70)
-    print(KJGPT_SYSTEM_PROMPT)
+    print(KJGPT_FACULTY_SYSTEM_PROMPT)
     print("=" * 70)
     print()
 
