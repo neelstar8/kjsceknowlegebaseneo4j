@@ -128,6 +128,54 @@ def classify_document(*, title: str | None, url: str,
             "reason": "no routing rule matched; will not guess a section"}
 
 
+# Where a *page* belongs. Pages are routed by their own URL section, which on this
+# site is a reliable statement of purpose, never by guessing from prose.
+PAGE_ROUTES: list[tuple[str, str, re.Pattern]] = [
+    ("admission_page", "admission_process",
+     re.compile(r"(?i)^/(en|hi)?/?admission")),
+    ("programme_page", "programs_and_departments",
+     re.compile(r"(?i)^/(en|hi)?/?(programme|academic-programme|mtech-phdprogramme|"
+                r"phd|majors-minors-graduates|programme-finder)")),
+    ("placement_page", "training_placement_policy",
+     re.compile(r"(?i)^/(en|hi)?/?(placement|internship-cell|industry-academic-interface)")),
+    ("library_page", "library_policy",
+     re.compile(r"(?i)^/(en|hi)?/?library")),
+    ("examination_page", "exam_structure_current",
+     re.compile(r"(?i)^/(en|hi)?/?(exam-cell|transcripts?|online-student-data)")),
+    ("academic_page", "teaching_learning_process",
+     re.compile(r"(?i)^/(en|hi)?/?(academic-flexibility|academics)")),
+    ("certificate_page", "student_section_certificates",
+     re.compile(r"(?i)^/(en|hi)?/?(migration-certificate|certificate)")),
+    ("research_page", "research_development_policy",
+     re.compile(r"(?i)^/(en|hi)?/?(research|project|institutions-innovation-council|"
+                r"multidisciplinary-activities|accomplishment)")),
+    ("student_life_page", "student_welfare_policies",
+     re.compile(r"(?i)^/(en|hi)?/?(students-council|students-association|cultural-teams|"
+                r"annual-events|events-and-updates|view-events)")),
+    ("alumni_page", "industry_institute_interaction",
+     re.compile(r"(?i)^/(en|hi)?/?(alumni|transcript-and-services-to-alumni)")),
+    ("accreditation_page", "qms_iqac",
+     re.compile(r"(?i)^/(en|hi)?/?(ranking|national-institute-ranking|mandatory-disclosure)")),
+    ("notice_page", "governance_statutory_bodies",
+     re.compile(r"(?i)^/(en|hi)?/?(notices|view-announcement|covid|news-media|"
+                r"view-media-coverage|blog|media|career|gallery|view-post-details)")),
+    ("institution_page", "about_institute",
+     re.compile(r"(?i)^/(en|hi)?/?(director-message|principal-message|contact-us|documents)?/?$")),
+]
+
+
+def classify_page(url: str) -> dict:
+    """Route a webpage to a source_type and an existing parent policy."""
+    path = up.unquote(up.urlsplit(url).path)
+    for source_type, parent, pattern in PAGE_ROUTES:
+        m = pattern.search(path)
+        if m:
+            return {"source_type": source_type, "parent_policy_id": parent,
+                    "matched_on": m.group(0) or path, "matched_by": "page_path"}
+    return {"source_type": None, "parent_policy_id": None, "matched_on": None,
+            "reason": "no page routing rule matched; will not guess a section"}
+
+
 def ranking_metadata(title: str | None, url: str) -> dict:
     """The only facts read out of a ranking report, per the document-level-only rule.
 

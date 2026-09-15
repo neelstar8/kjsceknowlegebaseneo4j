@@ -1,0 +1,793 @@
+{
+ "059b904f7d874790": [
+  "https://kjsce.somaiya.edu/en/",
+  "https://kjsce.somaiya.edu/en/admission/certification?vthmstablink=vtmhs1",
+  "https://kjsce.somaiya.edu/en/admission/certification?vthmstablink=vtmhs3",
+  "https://kjsce.somaiya.edu/en/admission/certification?vthmstablink=vtmhs6",
+  "https://kjsce.somaiya.edu/en/admission/certification?vthmstablink=vtmhs4",
+  "https://kjsce.somaiya.edu/en/admission/certification?vthmstablink=vtmhs7",
+  "https://kjsce.somaiya.edu/en/admission/certification?vthmstablink=vtmhs2",
+  "https://kjsce.somaiya.edu/en/admission/certification?vthmstablink=vtmhs5",
+  "https://kjsce.somaiya.edu/en/view-member/160021?type=faculty"
+ ],
+ "c6fe3f9956dfc87e": [
+  "https://kjsce.somaiya.edu/en/director-message/"
+ ],
+ "d9ada432b9610d9e": [
+  "https://kjsce.somaiya.edu/en/ranking/"
+ ],
+ "9380d8b05d0c57fb": [
+  "https://kjsce.somaiya.edu/en/library/overview/"
+ ],
+ "f7c1aaae6e2beb62": [
+  "https://kjsce.somaiya.edu/en/programme/btech-in-artificial-intelligence-data-science/"
+ ],
+ "03452b2fff89a6bd": [
+  "https://kjsce.somaiya.edu/en/programme/bachelor-of-technology-computer-engineering/"
+ ],
+ "7ff7ee4215eb1349": [
+  "https://kjsce.somaiya.edu/en/programme/btech-in-computer-and-communication-engineering/"
+ ],
+ "8df7b87e20995fa2": [
+  "https://kjsce.somaiya.edu/en/programme/bachelor-of-technology-computer-science-and-business-systems/"
+ ],
+ "05c150b8c7dd45b3": [
+  "https://kjsce.somaiya.edu/en/programme/bachelor-of-technology-in-electronics-computer-engineering/"
+ ],
+ "70a0e8c8fba82dbd": [
+  "https://kjsce.somaiya.edu/en/programme/bachelor-of-technology-electronic-telecommunication/"
+ ],
+ "25ccca63beaf857a": [
+  "https://kjsce.somaiya.edu/en/programme/bachelor-of-technology-electronics-Engineering-VLSI-design-technology/"
+ ],
+ "4d015153f2679d60": [
+  "https://kjsce.somaiya.edu/en/programme/bachelor-of-technology-information-technology/"
+ ],
+ "1440bc53103b356d": [
+  "https://kjsce.somaiya.edu/en/programme/bachelor-of-technology-mechanical-engineering/"
+ ],
+ "447d1571b4147140": [
+  "https://kjsce.somaiya.edu/en/programme/btech-in-robotics-artificial-intelligence/"
+ ],
+ "a24bcba9f6d8a0c2": [
+  "https://kjsce.somaiya.edu/en/programme/it/honours-in-high-performance-computing/",
+  "https://kjsce.somaiya.edu/en/programme/it/honours-in-high-performance-computing"
+ ],
+ "66dcc1751064f1b6": [
+  "https://kjsce.somaiya.edu/en/programme/ai-ds/honours-in-spatial-analytics/"
+ ],
+ "ae9cb8d4d1b50150": [
+  "https://kjsce.somaiya.edu/en/programme/ai-ds/honours-in-applied-cyber-security/"
+ ],
+ "7a05ce28610bf5a3": [
+  "https://kjsce.somaiya.edu/en/programme/ai-ds/honours-in-data-engineering/"
+ ],
+ "5a142937df135624": [
+  "https://kjsce.somaiya.edu/en/programme/comp/honours-in-geospatial-computing/"
+ ],
+ "f07109476c28c1a6": [
+  "https://kjsce.somaiya.edu/en/programme/comp/honours-in-cyber-security-forensics/"
+ ],
+ "3276fdd29fdeaf93": [
+  "https://kjsce.somaiya.edu/en/programme/comp/honours-in-data-science-analytics/"
+ ],
+ "9f5fa1be3a0d9179": [
+  "https://kjsce.somaiya.edu/en/programme/comp/honours-in-software-project-management/"
+ ],
+ "7cb3aee04fe67c44": [
+  "https://kjsce.somaiya.edu/en/programme/comp/honours-in-software-application-development/"
+ ],
+ "5bede23b334db8fe": [
+  "https://kjsce.somaiya.edu/en/programme/extc/honours-in-networking/"
+ ],
+ "4abbded0a149d617": [
+  "https://kjsce.somaiya.edu/en/programme/cce/honours-in-metaverse/"
+ ],
+ "8d6425faf54c40b1": [
+  "https://kjsce.somaiya.edu/en/programme/excp/honours-in-internet-of-things/"
+ ],
+ "93e8372b5ed1a574": [
+  "https://kjsce.somaiya.edu/en/programme/etrx/honours-in-ai-computer-vision-and-robotics/"
+ ],
+ "8cb68a46d2f5007e": [
+  "https://kjsce.somaiya.edu/en/programme/excp/honours-in-vlsi/"
+ ],
+ "9a16fd029a77ecb2": [
+  "https://kjsce.somaiya.edu/en/programme/extc/honours-in-applied-signal-processing/"
+ ],
+ "5b226a183f4b5ba9": [
+  "https://kjsce.somaiya.edu/en/programme/extc/honours-in-advanced-telecommunications/"
+ ],
+ "bb31bbc8617e6ed7": [
+  "https://kjsce.somaiya.edu/en/programme/extc/honours-in-data-science-for-emerging-analytics/"
+ ],
+ "f6697452c1a080dc": [
+  "https://kjsce.somaiya.edu/en/programme/it/honours-in-cyber-security/"
+ ],
+ "a36d8060f68e6f24": [
+  "https://kjsce.somaiya.edu/en/programme/it/honours-in-artificial-intelligence/"
+ ],
+ "630569a162a22404": [
+  "https://kjsce.somaiya.edu/en/programme/it/honours-in-computer-application-development/"
+ ],
+ "4afeb5210eb23401": [
+  "https://kjsce.somaiya.edu/en/programme/mech/honours-in-energy-engineering/"
+ ],
+ "6fccf3635f4faf29": [
+  "https://kjsce.somaiya.edu/en/programme/mech/honours-in-design-engineering/"
+ ],
+ "6525af90a1346929": [
+  "https://kjsce.somaiya.edu/en/programme/mech/honours-in-aerospace-engineering/"
+ ],
+ "ce1e85591766cb57": [
+  "https://kjsce.somaiya.edu/en/programme/rai/honours-in-computer-aided-engineering/"
+ ],
+ "949dc493a608c7cb": [
+  "https://kjsce.somaiya.edu/en/programme/mech/honours-in-automobile-engineering/"
+ ],
+ "61b58e6452ac116a": [
+  "https://kjsce.somaiya.edu/en/programme/rai/honours-in-smart-manufacturing"
+ ],
+ "2eaae12592344a68": [
+  "https://kjsce.somaiya.edu/en/programme/rai/honours-in-data-driven-analytics/"
+ ],
+ "358492564bcb9144": [
+  "https://kjsce.somaiya.edu/en/programme/master-of-technology-computer-engineering/"
+ ],
+ "324d15d8bbeecd40": [
+  "https://kjsce.somaiya.edu/en/programme/master-of-technology-electronics-engineering-vlsi-design/"
+ ],
+ "b5a5589c87b366b8": [
+  "https://kjsce.somaiya.edu/en/programme/master-of-technology-information-security/"
+ ],
+ "d2f01d4b554ed9e8": [
+  "https://kjsce.somaiya.edu/en/programme/mtech-in-it-ai-data-science/"
+ ],
+ "874f4c4a5ed6e35b": [
+  "https://kjsce.somaiya.edu/en/programme/master-of-technology-digital-agriculture/"
+ ],
+ "9e257b57bdf088c5": [
+  "https://kjsce.somaiya.edu/en/programme/master-of-technology-cad-cam-robotics/"
+ ],
+ "f78c32a135599902": [
+  "https://kjsce.somaiya.edu/en/programme/master-of-technology-in-robotics-automation-engineering/"
+ ],
+ "8681943b630ada53": [
+  "https://kjsce.somaiya.edu/en/programme/master-of-technology-electronics-telecommunication/"
+ ],
+ "ad709d7cea536c55": [
+  "https://kjsce.somaiya.edu/en/programme/master-of-technology-energy-engineering/"
+ ],
+ "f88e13cd33e62033": [
+  "https://kjsce.somaiya.edu/en/programme/phd-in-computer-engineering/",
+  "https://kjsce.somaiya.edu/en/programme/phd-in-computer-engineering"
+ ],
+ "f201ed1d22e7191e": [
+  "https://kjsce.somaiya.edu/en/programme/phd-in-information-technology/"
+ ],
+ "164817f577e4dd73": [
+  "https://kjsce.somaiya.edu/en/programme/phd-in-energy-engineering/"
+ ],
+ "498fa09beb409336": [
+  "https://kjsce.somaiya.edu/en/programme/doctor-of-philosophy-in-electronics-engineering/"
+ ],
+ "f9f7ab2c68333ff5": [
+  "https://kjsce.somaiya.edu/en/programme/phd-in-mechanical-engineering/"
+ ],
+ "c9c49da9fe3cc0b6": [
+  "https://kjsce.somaiya.edu/en/programme/phd-in-electronics-and-telecommunication-engineering/"
+ ],
+ "dba5ccd55060ce0e": [
+  "https://kjsce.somaiya.edu/en/programme/minor-in-aerospace-engineering/"
+ ],
+ "e276a6497beef4f4": [
+  "https://kjsce.somaiya.edu/en/programme/minor-in-artificial-intelligence-machine-learning/"
+ ],
+ "7b59c27c47ac29d8": [
+  "https://kjsce.somaiya.edu/en/programme/minor-in-augmented-and-virtual-reality/"
+ ],
+ "52619a721b8965fe": [
+  "https://kjsce.somaiya.edu/en/programme/minor-programme-in-computer-engineering/"
+ ],
+ "698c7953e855b2eb": [
+  "https://kjsce.somaiya.edu/en/programme/minor-in-computer-networking-and-security/"
+ ],
+ "21947c83a22ee40c": [
+  "https://kjsce.somaiya.edu/en/programme/minor-in-cyber-security/"
+ ],
+ "92f961c73d17b18d": [
+  "https://kjsce.somaiya.edu/en/programme/minor-in-data-science/"
+ ],
+ "51cbb35be6c83902": [
+  "https://kjsce.somaiya.edu/en/programme/minor-in-drone-technology/"
+ ],
+ "7234541d0fa981f5": [
+  "https://kjsce.somaiya.edu/en/programme/minor-in-electric-vehicle/"
+ ],
+ "425f741b5b38e2fa": [
+  "https://kjsce.somaiya.edu/en/programme/minor-in-enterpreneurship/"
+ ],
+ "be508e11ebfeadbc": [
+  "https://kjsce.somaiya.edu/en/programme/minor-in-information-technology/"
+ ],
+ "fd37510b717dcaed": [
+  "https://kjsce.somaiya.edu/en/programme/minor-in-iot-and-real-time-embedded-systems/"
+ ],
+ "a1e4a8fae9223aff": [
+  "https://kjsce.somaiya.edu/en/programme/minor-in-intelligent-systems/"
+ ],
+ "88de12b0858e868c": [
+  "https://kjsce.somaiya.edu/en/programme/minor-in-industrial-engineering-and-management/"
+ ],
+ "5661e178e5cc88db": [
+  "https://kjsce.somaiya.edu/en/programme/minor-in-mechatronics/"
+ ],
+ "42c7dd7249165567": [
+  "https://kjsce.somaiya.edu/en/programme/minor-in-maker-technology/"
+ ],
+ "993c73bd01abd63f": [
+  "https://kjsce.somaiya.edu/en/programme/minor-in-power-electronics-industrial-drives/"
+ ],
+ "011814ab4e8063f2": [
+  "https://kjsce.somaiya.edu/en/programme/minor-in-robotics-artificial-intelligence/"
+ ],
+ "dfed6e375bffca3e": [
+  "https://kjsce.somaiya.edu/en/programme/minor-in-robotics-and-automation/"
+ ],
+ "a227eb5be25433cd": [
+  "https://kjsce.somaiya.edu/en/programme/minor-in-sound-engineering/"
+ ],
+ "4179235923232bc9": [
+  "https://kjsce.somaiya.edu/en/programme/minor-in-vlsi-design/"
+ ],
+ "2e83c45dc4096c4d": [
+  "https://kjsce.somaiya.edu/en/admission/btech?vthmstablink=vtmhs1",
+  "https://kjsce.somaiya.edu/en/admission/btech?vthmstablink=vtmhs3",
+  "https://kjsce.somaiya.edu/en/admission/btech?vthmstablink=vtmhs6",
+  "https://kjsce.somaiya.edu/en/admission/btech?vthmstablink=vtmhs4",
+  "https://kjsce.somaiya.edu/en/admission/btech?vthmstablink=vtmhs7",
+  "https://kjsce.somaiya.edu/en/admission/btech?vthmstablink=vtmhs2",
+  "https://kjsce.somaiya.edu/en/admission/btech?vthmstablink=vtmhs5",
+  "https://kjsce.somaiya.edu/en/admission/btech?vthmstablink=vtmhs8",
+  "https://kjsce.somaiya.edu/en/admission/btech/",
+  "https://kjsce.somaiya.edu/en/admission/btech"
+ ],
+ "b1a95998a16177da": [
+  "https://kjsce.somaiya.edu/en/admission/direct-second-year?vthmstablink=vtmhs1",
+  "https://kjsce.somaiya.edu/en/admission/direct-second-year?vthmstablink=vtmhs6",
+  "https://kjsce.somaiya.edu/en/admission/direct-second-year?vthmstablink=vtmhs9",
+  "https://kjsce.somaiya.edu/en/admission/direct-second-year?vthmstablink=vtmhs2",
+  "https://kjsce.somaiya.edu/en/admission/direct-second-year?vthmstablink=vtmhs4",
+  "https://kjsce.somaiya.edu/en/admission/direct-second-year?vthmstablink=vtmhs7",
+  "https://kjsce.somaiya.edu/en/admission/direct-second-year?vthmstablink=vtmhs10",
+  "https://kjsce.somaiya.edu/en/admission/direct-second-year?vthmstablink=vtmhs3",
+  "https://kjsce.somaiya.edu/en/admission/direct-second-year?vthmstablink=vtmhs5",
+  "https://kjsce.somaiya.edu/en/admission/direct-second-year?vthmstablink=vtmhs8"
+ ],
+ "7a0aa040f0e40da2": [
+  "https://kjsce.somaiya.edu/en/admission/mtech?vthmstablink=vtmhs1",
+  "https://kjsce.somaiya.edu/en/admission/mtech?vthmstablink=vtmhs3",
+  "https://kjsce.somaiya.edu/en/admission/mtech?vthmstablink=vtmhs6",
+  "https://kjsce.somaiya.edu/en/admission/mtech?vthmstablink=vtmhs4",
+  "https://kjsce.somaiya.edu/en/admission/mtech?vthmstablink=vtmhs7",
+  "https://kjsce.somaiya.edu/en/admission/mtech?vthmstablink=vtmhs2",
+  "https://kjsce.somaiya.edu/en/admission/mtech?vthmstablink=vtmhs5",
+  "https://kjsce.somaiya.edu/en/admission/mtech?vthmstablink=vtmhs8",
+  "https://kjsce.somaiya.edu/en/admission/mtech/",
+  "https://kjsce.somaiya.edu/en/admission/mtech"
+ ],
+ "b4aed59eb15f1054": [
+  "https://kjsce.somaiya.edu/en/programme/minor-in-information-processing-and-intelligent-systems/"
+ ],
+ "a70c58535ad3f092": [
+  "https://kjsce.somaiya.edu/en/phd/"
+ ],
+ "6f764462c89944d5": [
+  "https://kjsce.somaiya.edu/en/admission/pg-diploma?vthmstablink=vtmhs1",
+  "https://kjsce.somaiya.edu/en/admission/pg-diploma?vthmstablink=vtmhs3",
+  "https://kjsce.somaiya.edu/en/admission/pg-diploma?vthmstablink=vtmhs6",
+  "https://kjsce.somaiya.edu/en/admission/pg-diploma?vthmstablink=vtmhs4",
+  "https://kjsce.somaiya.edu/en/admission/pg-diploma?vthmstablink=vtmhs7",
+  "https://kjsce.somaiya.edu/en/admission/pg-diploma?vthmstablink=vtmhs2",
+  "https://kjsce.somaiya.edu/en/admission/pg-diploma?vthmstablink=vtmhs5"
+ ],
+ "ce8f40e365945e69": [
+  "https://kjsce.somaiya.edu/en/academic-programme/"
+ ],
+ "0b9eaaf589e70c89": [
+  "https://kjsce.somaiya.edu/en/academic-flexibility/"
+ ],
+ "6a6123eabed125cb": [
+  "https://kjsce.somaiya.edu/en/exam-cell/"
+ ],
+ "92adc67bad1a5153": [
+  "https://kjsce.somaiya.edu/en/placement/overview",
+  "https://kjsce.somaiya.edu/en/placement/overview/"
+ ],
+ "5f46514243d5c070": [
+  "https://kjsce.somaiya.edu/en/placement/about/"
+ ],
+ "439a7fd5bc4df78d": [
+  "https://kjsce.somaiya.edu/en/placement/rulesregulations/"
+ ],
+ "ed8eb78577a9e25c": [
+  "https://kjsce.somaiya.edu/en/placement/activities/"
+ ],
+ "e29ffc88bada6df0": [
+  "https://kjsce.somaiya.edu/en/institutions-innovation-council/"
+ ],
+ "35d7c8a2097ef449": [
+  "https://kjsce.somaiya.edu/en/internship-cell/"
+ ],
+ "259369c7a7d14c0f": [
+  "https://kjsce.somaiya.edu/en/industry-academic-interface/"
+ ],
+ "93cda7622998bf28": [
+  "https://kjsce.somaiya.edu/en/students-council/"
+ ],
+ "187648fe941de8a3": [
+  "https://kjsce.somaiya.edu/en/students-association/"
+ ],
+ "37827fd41c398687": [
+  "https://kjsce.somaiya.edu/en/multidisciplinary-activities/"
+ ],
+ "b12295b2fa289134": [
+  "https://kjsce.somaiya.edu/en/cultural-teams/",
+  "https://kjsce.somaiya.edu/en/cultural-teams"
+ ],
+ "c77222f53e790aec": [
+  "https://kjsce.somaiya.edu/en/annual-events/",
+  "https://kjsce.somaiya.edu/en/annual-events"
+ ],
+ "cb5116ea3cb1eddb": [
+  "https://kjsce.somaiya.edu/en/projects/"
+ ],
+ "8d36826bb1d17e17": [
+  "https://kjsce.somaiya.edu/en/alumni-overview/"
+ ],
+ "9deed0ec32375445": [
+  "https://kjsce.somaiya.edu/en/transcript-and-services-to-alumni/"
+ ],
+ "30674e0355bff050": [
+  "https://kjsce.somaiya.edu/en/view-events/2130"
+ ],
+ "0c4ad06652e64adc": [
+  "https://kjsce.somaiya.edu/en/view-events/2141",
+  "https://kjsce.somaiya.edu/en/view-events/2141/"
+ ],
+ "8af1ea7ca04652f8": [
+  "https://kjsce.somaiya.edu/en/view-events/2140",
+  "https://kjsce.somaiya.edu/en/view-events/2140/"
+ ],
+ "9c5670249d65fcee": [
+  "https://kjsce.somaiya.edu/en/view-announcement/678",
+  "https://kjsce.somaiya.edu/en/view-announcement/678/"
+ ],
+ "db0c1b80d128188b": [
+  "https://kjsce.somaiya.edu/en/view-media-coverage/1404"
+ ],
+ "8f6802d41ff6e02c": [
+  "https://kjsce.somaiya.edu/en/view-announcement/666",
+  "https://kjsce.somaiya.edu/en/view-announcement/666/"
+ ],
+ "75583fa14d61721b": [
+  "https://kjsce.somaiya.edu/en/view-announcement/668",
+  "https://kjsce.somaiya.edu/en/view-announcement/668/"
+ ],
+ "508d7aaad9bf59bd": [
+  "https://kjsce.somaiya.edu/en/blogs/"
+ ],
+ "398709eecb69a79b": [
+  "https://kjsce.somaiya.edu/en/contact-us/"
+ ],
+ "433e4051b537df72": [
+  "https://kjsce.somaiya.edu/en/view-announcement/509"
+ ],
+ "9414b0e3b1509ec5": [
+  "https://kjsce.somaiya.edu/en/view-announcement/510"
+ ],
+ "6aedaa3929ed62e4": [
+  "https://kjsce.somaiya.edu/en/view-announcement/511"
+ ],
+ "9eef38253971bccd": [
+  "https://kjsce.somaiya.edu/en/view-announcement/512"
+ ],
+ "4609206622edcbba": [
+  "https://kjsce.somaiya.edu/en/view-announcement/515"
+ ],
+ "151193baa9be0597": [
+  "https://kjsce.somaiya.edu/en/view-announcement/513"
+ ],
+ "9fa48245410b5943": [
+  "https://kjsce.somaiya.edu/en/view-announcement/514"
+ ],
+ "0d61001ee900cd95": [
+  "https://kjsce.somaiya.edu/en/view-announcement/516"
+ ],
+ "9caf9604fa451bb0": [
+  "https://kjsce.somaiya.edu/en/view-announcement/599/"
+ ],
+ "074b84f30735123c": [
+  "https://kjsce.somaiya.edu/en/view-announcement/593/"
+ ],
+ "98dcca974905d5dd": [
+  "https://kjsce.somaiya.edu/en/view-announcement/592/"
+ ],
+ "601bd668aef877d5": [
+  "https://kjsce.somaiya.edu/en/view-announcement/587/"
+ ],
+ "a88ba83de3d1ef39": [
+  "https://kjsce.somaiya.edu/en/view-announcement/595/"
+ ],
+ "62a7dad18cd44529": [
+  "https://kjsce.somaiya.edu/en/view-announcement/420"
+ ],
+ "390630306820bc1d": [
+  "https://kjsce.somaiya.edu/en/view-announcement/428"
+ ],
+ "3e177029a0c8259a": [
+  "https://kjsce.somaiya.edu/en/view-announcement/421"
+ ],
+ "9cb6ac247e945b93": [
+  "https://kjsce.somaiya.edu/en/view-announcement/353"
+ ],
+ "9606f480eb646414": [
+  "https://kjsce.somaiya.edu/en/view-announcement/352"
+ ],
+ "c84f0f3383aa28df": [
+  "https://kjsce.somaiya.edu/en/view-announcement/348"
+ ],
+ "32288ce992d952ef": [
+  "https://kjsce.somaiya.edu/en/view-announcement/350"
+ ],
+ "87b00bc5be77a768": [
+  "https://kjsce.somaiya.edu/en/view-announcement/317"
+ ],
+ "599d029d3ad5348c": [
+  "https://kjsce.somaiya.edu/en/view-announcement/328"
+ ],
+ "61649167b44e072b": [
+  "https://kjsce.somaiya.edu/en/view-announcement/295"
+ ],
+ "f097ac640afdf2ec": [
+  "https://kjsce.somaiya.edu/en/view-announcement/291"
+ ],
+ "673eb4b4d8d773f7": [
+  "https://kjsce.somaiya.edu/en/view-announcement/183"
+ ],
+ "5843287538db82c7": [
+  "https://kjsce.somaiya.edu/en/view-announcement/219"
+ ],
+ "c715f3263b96a296": [
+  "https://kjsce.somaiya.edu/en/view-announcement/205"
+ ],
+ "d23c4f405ca1b092": [
+  "https://kjsce.somaiya.edu/en/view-announcement/211"
+ ],
+ "3d4f038d6280fd00": [
+  "https://kjsce.somaiya.edu/en/library/committees"
+ ],
+ "1f38331d4d5ac286": [
+  "https://kjsce.somaiya.edu/en/library/rules"
+ ],
+ "b4ba53c7259d04ba": [
+  "https://kjsce.somaiya.edu/en/library/eresource",
+  "https://kjsce.somaiya.edu/en/library/eresource/"
+ ],
+ "413673b46fbd0d11": [
+  "https://kjsce.somaiya.edu/en/library/services"
+ ],
+ "171b5f3203208b1d": [
+  "https://kjsce.somaiya.edu/en/library/facilities"
+ ],
+ "6f0890009013557b": [
+  "https://kjsce.somaiya.edu/en/library/activities"
+ ],
+ "17c68bafc404cf9d": [
+  "https://kjsce.somaiya.edu/en/programme/etrx/honours-in-iot-and-automation/"
+ ],
+ "28da927efcb6696c": [
+  "https://kjsce.somaiya.edu/en/programme/mech/honours-in-computer-aided-engineering/"
+ ],
+ "05f9c520761ce79f": [
+  "https://kjsce.somaiya.edu/en/programme/rai/honours-in-applied-data-science/"
+ ],
+ "24c1775aaaf5505d": [
+  "https://kjsce.somaiya.edu/en/view-member/160120?type=faculty"
+ ],
+ "8e7a242daf033572": [
+  "https://kjsce.somaiya.edu/en/view-member/160188?type=faculty"
+ ],
+ "d3d480d603db1fb3": [
+  "https://kjsce.somaiya.edu/en/view-member/160993?type=faculty"
+ ],
+ "02838249ed68f74e": [
+  "https://kjsce.somaiya.edu/en/view-member/160117?type=faculty"
+ ],
+ "a5cb005cf3f73ac3": [
+  "https://kjsce.somaiya.edu/en/view-member/160129?type=faculty"
+ ],
+ "b6a13305a0187e90": [
+  "https://kjsce.somaiya.edu/en/view-member/160063?type=faculty"
+ ],
+ "cb1ae699db54dca3": [
+  "https://kjsce.somaiya.edu/en/view-member/160039?type=faculty"
+ ],
+ "a75a318b44daa1d2": [
+  "https://kjsce.somaiya.edu/en/view-member/160631?type=faculty"
+ ],
+ "f22397731751ec14": [
+  "https://kjsce.somaiya.edu/en/view-member/160055?type=faculty"
+ ],
+ "f76f2fccfad4747b": [
+  "https://kjsce.somaiya.edu/en/view-member/160177?type=faculty"
+ ],
+ "780f9bdcf12068c6": [
+  "https://kjsce.somaiya.edu/en/view-member/160523?type=faculty"
+ ],
+ "1cd6f4b72e6220a1": [
+  "https://kjsce.somaiya.edu/en/programme/etrx/honours-in-sensors-actuators-and-industrial-instrumentation/"
+ ],
+ "b88d0a4729a6d496": [
+  "https://kjsce.somaiya.edu/en/programme/etrx/honours-in-power-electronics-and-industrial-drives/"
+ ],
+ "a7dcc0f1c2bac2fb": [
+  "https://kjsce.somaiya.edu/en/placement/recruit"
+ ],
+ "d6bdc9acbedd6ab8": [
+  "https://kjsce.somaiya.edu/en/transcripts"
+ ],
+ "d69a202a1aa99038": [
+  "https://kjsce.somaiya.edu/en/online-student-data-verification"
+ ],
+ "f863d8f52ce8916b": [
+  "https://kjsce.somaiya.edu/en/migration-certificate"
+ ],
+ "2f6dbc72f3b641ee": [
+  "https://kjsce.somaiya.edu/en/view-events/2035/"
+ ],
+ "78812e609030acf2": [
+  "https://kjsce.somaiya.edu/en/view-announcement/665/"
+ ],
+ "d87a3fb1fa8e7f47": [
+  "https://kjsce.somaiya.edu/en/blog/how-can-a-masters-degree-in-ai-and-data-science-help-you-stand-out"
+ ],
+ "896e9fb81bbd7900": [
+  "https://kjsce.somaiya.edu/en/blog/engineering-your-future-what-you-need-to-know-about-top-ranked-btech-and-mtech-degrees-in-india"
+ ],
+ "f04e95b2829c2d59": [
+  "https://kjsce.somaiya.edu/en/blog/the-ultimate-guide-to-choosing-your-path-in-computer-engineering"
+ ],
+ "5090f323e11b7967": [
+  "https://kjsce.somaiya.edu/en/blog/the-nuts-and-bolts-of-mechanical-engineering-opportunities-and-challenges-ahead"
+ ],
+ "6ee42651968a0a06": [
+  "https://kjsce.somaiya.edu/en/blog/discovering-the-unique-learning-experience-at-somaiya-vidyadhar-university"
+ ],
+ "2fea997c5fceab52": [
+  "https://kjsce.somaiya.edu/en/blog/which-different-specialization-courses-are-available-during-or-post-engineering"
+ ],
+ "cacf15e1a786fee7": [
+  "https://kjsce.somaiya.edu/en/view-publication/966?id=160120&type=research",
+  "https://kjsce.somaiya.edu/en/view-publication/966?id=160129&type=research"
+ ],
+ "ed7249348f0a4bc2": [
+  "https://kjsce.somaiya.edu/en/view-publication/102?id=160120&type=ipr",
+  "https://kjsce.somaiya.edu/en/view-publication/102?id=160188&type=ipr"
+ ],
+ "e08e74904b6a980b": [
+  "https://kjsce.somaiya.edu/en/view-publication/1962?id=160188&type=research",
+  "https://kjsce.somaiya.edu/en/view-publication/502?id=160188&type=proceeding"
+ ],
+ "faa041b1b404ae0e": [
+  "https://kjsce.somaiya.edu/en/view-publication/492?id=160188&type=proceeding"
+ ],
+ "898320389f736ebc": [
+  "https://kjsce.somaiya.edu/en/view-publication/510?id=160188&type=proceeding"
+ ],
+ "789c3893da57bfc8": [
+  "https://kjsce.somaiya.edu/en/view-publication/912?id=160993&type=research"
+ ],
+ "afcfbc90183079f9": [
+  "https://kjsce.somaiya.edu/en/view-publication/910?id=160993&type=research"
+ ],
+ "eaca7892e75987bd": [
+  "https://kjsce.somaiya.edu/en/view-publication/914?id=160993&type=research"
+ ],
+ "b0c7230e4c0be6b8": [
+  "https://kjsce.somaiya.edu/en/view-publication/2509?id=160129&type=research"
+ ],
+ "68af3c09141a638c": [
+  "https://kjsce.somaiya.edu/en/view-publication/2271?id=160129&type=research"
+ ],
+ "17fcfa100f9005fc": [
+  "https://kjsce.somaiya.edu/en/view-publication/2079?id=160129&type=research"
+ ],
+ "5f9b93da739d65c8": [
+  "https://kjsce.somaiya.edu/en/view-publication/2065?id=160129&type=research"
+ ],
+ "812e05c7b80e8fd3": [
+  "https://kjsce.somaiya.edu/en/view-publication/2030?id=160129&type=research"
+ ],
+ "9c9d9373707abf54": [
+  "https://kjsce.somaiya.edu/en/view-publication/962?id=160129&type=research"
+ ],
+ "45f5731a1bc37d13": [
+  "https://kjsce.somaiya.edu/en/view-publication/961?id=160129&type=research"
+ ],
+ "f3fd339e2c5bfb38": [
+  "https://kjsce.somaiya.edu/en/view-publication/960?id=160129&type=research"
+ ],
+ "3f84cf6d5fbc8eb1": [
+  "https://kjsce.somaiya.edu/en/view-publication/958?id=160129&type=research"
+ ],
+ "4feaa9c2a4573817": [
+  "https://kjsce.somaiya.edu/en/view-publication/959?id=160129&type=research"
+ ],
+ "dc587935e8c5313b": [
+  "https://kjsce.somaiya.edu/en/view-publication/944?id=160129&type=research"
+ ],
+ "9fdd9f967868ac21": [
+  "https://kjsce.somaiya.edu/en/view-publication/947?id=160129&type=research"
+ ],
+ "3f1bf5780ca979f3": [
+  "https://kjsce.somaiya.edu/en/view-publication/943?id=160129&type=research"
+ ],
+ "cfca5a325b1882eb": [
+  "https://kjsce.somaiya.edu/en/view-publication/946?id=160129&type=research"
+ ],
+ "64081ece87edbc4c": [
+  "https://kjsce.somaiya.edu/en/view-publication/945?id=160129&type=research"
+ ],
+ "a40a4cbcd5d2cad0": [
+  "https://kjsce.somaiya.edu/en/view-publication/957?id=160129&type=research"
+ ],
+ "5bc0f8b103cf6639": [
+  "https://kjsce.somaiya.edu/en/view-publication/942?id=160129&type=research"
+ ],
+ "da86cc2acc0f8b5c": [
+  "https://kjsce.somaiya.edu/en/view-publication/2510?id=160129&type=research"
+ ],
+ "e0410dc2658e659e": [
+  "https://kjsce.somaiya.edu/en/view-publication/666?id=160129&type=proceeding"
+ ],
+ "577588f7463ff3d8": [
+  "https://kjsce.somaiya.edu/en/view-publication/554?id=160129&type=proceeding"
+ ],
+ "6e878364ac3bf91c": [
+  "https://kjsce.somaiya.edu/en/view-publication/308?id=160129&type=proceeding"
+ ],
+ "4ecf0bbff05da84a": [
+  "https://kjsce.somaiya.edu/en/view-publication/298?id=160129&type=proceeding"
+ ],
+ "eac54fa8968cae98": [
+  "https://kjsce.somaiya.edu/en/view-publication/297?id=160129&type=proceeding"
+ ],
+ "bcc03db61c866702": [
+  "https://kjsce.somaiya.edu/en/view-publication/729?id=160039&type=research"
+ ],
+ "10c7e64544364f98": [
+  "https://kjsce.somaiya.edu/en/view-publication/728?id=160039&type=research"
+ ],
+ "f52221ef7b7273b4": [
+  "https://kjsce.somaiya.edu/en/view-publication/730?id=160039&type=research"
+ ],
+ "8a5c564d3e2635cd": [
+  "https://kjsce.somaiya.edu/en/view-publication/169?id=160039&type=proceeding"
+ ],
+ "8fb08b9aac9c1ef4": [
+  "https://kjsce.somaiya.edu/en/view-publication/1993?id=160631&type=research"
+ ],
+ "3afbac7a8498153f": [
+  "https://kjsce.somaiya.edu/en/view-publication/1156?id=160631&type=research"
+ ],
+ "b6a73794ae0a7aad": [
+  "https://kjsce.somaiya.edu/en/view-publication/769?id=160631&type=research"
+ ],
+ "448796f73d91dd2d": [
+  "https://kjsce.somaiya.edu/en/view-publication/768?id=160631&type=research"
+ ],
+ "b2277e59347cfab4": [
+  "https://kjsce.somaiya.edu/en/view-publication/200?id=160631&type=proceeding"
+ ],
+ "ea7ce09d25fd25c3": [
+  "https://kjsce.somaiya.edu/en/view-publication/201?id=160631&type=proceeding"
+ ],
+ "98ff951646e15840": [
+  "https://kjsce.somaiya.edu/en/view-publication/202?id=160631&type=proceeding"
+ ],
+ "209534dc512badbf": [
+  "https://kjsce.somaiya.edu/en/view-publication/203?id=160631&type=proceeding"
+ ],
+ "334b61cff40be6f8": [
+  "https://kjsce.somaiya.edu/en/view-publication/204?id=160631&type=proceeding"
+ ],
+ "87070b2db8a2dbc3": [
+  "https://kjsce.somaiya.edu/en/view-publication/766?id=160055&type=research"
+ ],
+ "2d93d13812da2358": [
+  "https://kjsce.somaiya.edu/en/view-publication/508?id=160055&type=proceeding"
+ ],
+ "25d51215a5a5daed": [
+  "https://kjsce.somaiya.edu/en/view-publication/184?id=160055&type=proceeding"
+ ],
+ "a74b18132aa14a19": [
+  "https://kjsce.somaiya.edu/en/view-publication/186?id=160055&type=proceeding"
+ ],
+ "ea218b1160b243b8": [
+  "https://kjsce.somaiya.edu/en/view-publication/187?id=160055&type=proceeding"
+ ],
+ "856d2d37a28bacff": [
+  "https://kjsce.somaiya.edu/en/view-publication/198?id=160055&type=proceeding"
+ ],
+ "baaab0f0d27fd42c": [
+  "https://kjsce.somaiya.edu/en/view-publication/199?id=160055&type=proceeding"
+ ],
+ "e98694ba4f603ea2": [
+  "https://kjsce.somaiya.edu/en/view-publication/168?id=160055&type=ipr"
+ ],
+ "aece13679b960d6b": [
+  "https://kjsce.somaiya.edu/en/view-publication/2453?id=160177&type=research"
+ ],
+ "2cd79ffb5886ac9b": [
+  "https://kjsce.somaiya.edu/en/view-publication/2447?id=160177&type=research"
+ ],
+ "89305607bb521f68": [
+  "https://kjsce.somaiya.edu/en/view-publication/2452?id=160177&type=research"
+ ],
+ "6aa90f6a07aaeeba": [
+  "https://kjsce.somaiya.edu/en/view-publication/2455?id=160177&type=research"
+ ],
+ "ed201b8f93fea499": [
+  "https://kjsce.somaiya.edu/en/view-publication/684?id=160177&type=research",
+  "https://kjsce.somaiya.edu/en/view-publication/140?id=160177&type=proceeding"
+ ],
+ "7fc27bc5676fb143": [
+  "https://kjsce.somaiya.edu/en/view-publication/2027?id=160021&type=research"
+ ],
+ "f7e4900a7d1b4d48": [
+  "https://kjsce.somaiya.edu/en/view-publication/2026?id=160021&type=research"
+ ],
+ "0a123bb700f690c4": [
+  "https://kjsce.somaiya.edu/en/view-publication/2022?id=160021&type=research"
+ ],
+ "afcd0fd2d7e6be9b": [
+  "https://kjsce.somaiya.edu/en/view-publication/2029?id=160021&type=research"
+ ],
+ "5ad3826b0ea5b8ca": [
+  "https://kjsce.somaiya.edu/en/view-publication/507?id=160021&type=proceeding"
+ ],
+ "8e67597d64846b83": [
+  "https://kjsce.somaiya.edu/en/view-publication/511?id=160021&type=proceeding"
+ ],
+ "b1d1801276220721": [
+  "https://kjsce.somaiya.edu/en/view-publication/519?id=160021&type=proceeding"
+ ],
+ "b96e020ebd126e32": [
+  "https://kjsce.somaiya.edu/en/view-publication/520?id=160021&type=proceeding"
+ ],
+ "3ce72f1d582ff9dc": [
+  "https://kjsce.somaiya.edu/en/view-publication/523?id=160021&type=proceeding"
+ ],
+ "3a371b4d589f5c7a": [
+  "https://kjsce.somaiya.edu/en/view-publication/2439?id=160523&type=research"
+ ],
+ "002759919b5683a2": [
+  "https://kjsce.somaiya.edu/en/view-publication/1818?id=160523&type=research"
+ ],
+ "68e1004838ae7a00": [
+  "https://kjsce.somaiya.edu/en/view-publication/1999?id=160523&type=research"
+ ],
+ "5cedb2f50e07f2c8": [
+  "https://kjsce.somaiya.edu/en/view-publication/647?id=160523&type=research"
+ ],
+ "67d1c80d90725e55": [
+  "https://kjsce.somaiya.edu/en/view-publication/646?id=160523&type=research"
+ ],
+ "0f32fd8c9eb0acba": [
+  "https://kjsce.somaiya.edu/en/view-publication/504?id=160523&type=proceeding"
+ ],
+ "7b3e1569175e06f6": [
+  "https://kjsce.somaiya.edu/en/view-publication/503?id=160523&type=proceeding"
+ ]
+}

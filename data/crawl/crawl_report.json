@@ -3,10 +3,10 @@
   "resolved": 946,
   "coverage_pct": 98.64,
   "by_status": {
-    "RECORDED": 834,
+    "INGESTED": 275,
+    "RECORDED": 624,
     "REUSED": 30,
     "EXTRACTED": 4,
-    "INGESTED": 65,
     "NEEDS_REVIEW": 2,
     "OUT_OF_SCOPE": 69,
     "PERMANENTLY_FAILED": 7,
