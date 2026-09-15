@@ -1,0 +1,646 @@
+{
+  "run_at": "2026-09-15T08:32:01.375583+00:00",
+  "ingest_batch_id": "sitecrawl_20260915T083201_eaacc0",
+  "created": 64,
+  "updated": 1,
+  "links_merged": 64,
+  "alternate_urls_recorded": 3,
+  "intra_batch_duplicates": [
+    {
+      "doc_id": "rank_engineering_75e8cd35",
+      "duplicate_url": "http://kjsce-files.somaiya.edu/Affiliation+&+Accredition/Engg+K.+J.+Somaiya+College+of+Engineering20250119-.pdf",
+      "title": "NIRF",
+      "sha256": "8ec7fef7ebed95dc631393124084fdb46199a1712c47cd4f39158151025c17d3"
+    }
+  ],
+  "unrouted": [
+    "https://kjsce-old.somaiya.edu/",
+    "https://kjsce-files.somaiya.edu/mtech/Annexure+1.pdf",
+    "https://kjsce-files.somaiya.edu/mtech-website/Annexure+2+with+KJSCE+logo+-+as+per+guideline.pdf"
+  ],
+  "awaiting_review": [
+    "https://kjsse-files.somaiya.edu/documents/Eight+Point+Development+Plan_+KJSSE.pdf",
+    "https://kjsce-files.somaiya.edu/Academics/KJSCE_Roll+Call.pdf",
+    "https://financialaid.somaiya.edu/en/special-scholarship/"
+  ],
+  "counts_before": {
+    "FacultyMember": 613,
+    "PYQ": 164,
+    "PYQFile": 162,
+    "Subject": 81,
+    "PolicyProvision": 432,
+    "Policy": 41,
+    "PolicyDocument": 42
+  },
+  "counts_after": {
+    "FacultyMember": 613,
+    "PYQ": 164,
+    "PYQFile": 162,
+    "Subject": 81,
+    "PolicyProvision": 432,
+    "Policy": 41,
+    "PolicyDocument": 106
+  },
+  "graph_counts": {
+    "site_documents": 44,
+    "site_links": 64
+  },
+  "rows": [
+    {
+      "doc_id": "rank_nirf_2024_engineering_a948aebb",
+      "title": "NIRF 2024 - ENGINEERING",
+      "source_url": "https://kjsce-files.somaiya.edu/Affiliation+&+Accredition/DCS_K.+J.+Somaiya+College+of+Engineering20240126-+Engineering+26.1.24.pdf",
+      "source_type": "ranking_report",
+      "parent_policy_id": "qms_iqac",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "rank_nirf_2024_innovation_5a2bd02c",
+      "title": "NIRF 2024 - INNOVATION",
+      "source_url": "https://kjsce-files.somaiya.edu/Affiliation+&+Accredition/DCS_K.+J.+Somaiya+College+of+Engineering20240130-+Innovation.pdf",
+      "source_type": "ranking_report",
+      "parent_policy_id": "qms_iqac",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "rank_nirf_2024_overall_f1c7c41d",
+      "title": "NIRF 2024 - OVERALL",
+      "source_url": "https://kjsce-files.somaiya.edu/Affiliation+&+Accredition/DCS_K.+J.+Somaiya+College+of+Engineering20240130-Overall.pdf",
+      "source_type": "ranking_report",
+      "parent_policy_id": "qms_iqac",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "rank_nirf_2023_f5de1c03",
+      "title": "NIRF 2023",
+      "source_url": "https://kjsce-files.somaiya.edu/Affiliation+&+Accredition/NIRF+2023+FULL+REPORT_K.+J.+Somaiya+College+of+Engineering20230109-+(1)+(1).pdf",
+      "source_type": "ranking_report",
+      "parent_policy_id": "qms_iqac",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "rank_nirf_2022_84a154e3",
+      "title": "NIRF 2022",
+      "source_url": "https://kjsce-files.somaiya.edu/Full+Report+NIRF+2022_K.+J.+Somaiya+College+of+Engineering20220204-.pdf",
+      "source_type": "ranking_report",
+      "parent_policy_id": "qms_iqac",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "rank_nirf_2021_b13521e7",
+      "title": "NIRF 2021",
+      "source_url": "https://kjsce-files.somaiya.edu/NIRF+DCS+_K.+J.+Somaiya+College+of+Engineering20210201-.pdf",
+      "source_type": "ranking_report",
+      "parent_policy_id": "qms_iqac",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "rank_nirf_2020_63d1476e",
+      "title": "NIRF 2020",
+      "source_url": "https://kjsce-files.somaiya.edu/KJSCE_NIRF+2020-Full+Report_22_NOV_2019.pdf",
+      "source_type": "ranking_report",
+      "parent_policy_id": "qms_iqac",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "rank_ariia_2020_7dee8a77",
+      "title": "ARIIA 2020",
+      "source_url": "https://kjsce-files.somaiya.edu/KJSCE_ARI-C-33584.pdf",
+      "source_type": "ranking_report",
+      "parent_policy_id": "qms_iqac",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "rank_ariia_2021_4e482c77",
+      "title": "ARIIA 2021",
+      "source_url": "https://kjsce-files.somaiya.edu/ARIIA+Report+2021.pdf",
+      "source_type": "ranking_report",
+      "parent_policy_id": "qms_iqac",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "rank_nirf_ranking_within_first_200_from_2018_2021_nirf_rank_in_ba_5fcbb87c",
+      "title": "NIRF ranking within first 200 from 2018-2021. NIRF Rank in Band 250-300 in 2022, in 2024 Rank Band of 201-300",
+      "source_url": "https://kjsce-files.somaiya.edu/Affiliation+&+Accredition/National+Institute+Ranking+Framework+(NIRF)_2021.pdf",
+      "source_type": "ranking_report",
+      "parent_policy_id": "qms_iqac",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "accr_with_recommendations_from_ugc_and_govt_of_maharashtra_the_co_223e8d86",
+      "title": "With recommendations from UGC and Govt of Maharashtra the college had received autonomous status in 2014",
+      "source_url": "https://kjsce-files.somaiya.edu/Affiliation+&+Accredition/UGC.pdf",
+      "source_type": "accreditation_document",
+      "parent_policy_id": "qms_iqac",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "accr_svu_has_been_awarded_grade_a_by_the_national_assessment_and__3683e976",
+      "title": "SVU has been awarded Grade 'A' by the National Assessment and Accreditation Council (NAAC), valid upto February 2030",
+      "source_url": "https://kjsce-files.somaiya.edu/Affiliation+&+Accredition/NAAC_A_Grade_SVU_Certificate.pdf",
+      "source_type": "accreditation_document",
+      "parent_policy_id": "qms_iqac",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "rank_engineering_aa094c0e",
+      "title": "Engineering",
+      "source_url": "https://kjsse-files.somaiya.edu/NIRF/Engg+K.+J.+Somaiya+College+of+Engineering20260309-+Engg+13.3.26.pdf",
+      "source_type": "ranking_report",
+      "parent_policy_id": "qms_iqac",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "rank_overall_7268db66",
+      "title": "Overall",
+      "source_url": "https://kjsse-files.somaiya.edu/NIRF/Overall+K.+J.+Somaiya+College+of+Engineering20260313-+13.3.26.pdf",
+      "source_type": "ranking_report",
+      "parent_policy_id": "qms_iqac",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "rank_innovation_4046f273",
+      "title": "Innovation",
+      "source_url": "https://kjsse-files.somaiya.edu/NIRF/Innovation+K.+J.+Somaiya+College+of+Engineering20260316-.pdf",
+      "source_type": "ranking_report",
+      "parent_policy_id": "qms_iqac",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "rank_overall_9b35523c",
+      "title": "Overall",
+      "source_url": "https://kjsce-files.somaiya.edu/Affiliation+&+Accredition/Overall+K.+J.+Somaiya+College+of+Engineering20250120-.pdf",
+      "source_type": "ranking_report",
+      "parent_policy_id": "qms_iqac",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "rank_engineering_75e8cd35",
+      "title": "Engineering",
+      "source_url": "https://kjsce-files.somaiya.edu/Affiliation+&+Accredition/Engg+K.+J.+Somaiya+College+of+Engineering20250119-.pdf",
+      "source_type": "ranking_report",
+      "parent_policy_id": "qms_iqac",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "rank_innovation_087f1777",
+      "title": "Innovation",
+      "source_url": "https://kjsce-files.somaiya.edu/Affiliation+&+Accredition/Innovation+K.+J.+Somaiya+College+of+Engineering20250131-.pdf",
+      "source_type": "ranking_report",
+      "parent_policy_id": "qms_iqac",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "rank_sdg_institution_f2ddbf44",
+      "title": "SDG Institution",
+      "source_url": "https://kjsce-files.somaiya.edu/Affiliation+&+Accredition/SDG+-+K.+J.+Somaiya+College+of+Engineering20250131-.pdf",
+      "source_type": "ranking_report",
+      "parent_policy_id": "qms_iqac",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "adm_engineering_college_brochure_final_pdf_b69e38a3",
+      "title": "Engineering College Brochure - Final.pdf",
+      "source_url": "https://kjsce-files.somaiya.edu/Engineering+College+Brochure+-+Final.pdf",
+      "source_type": "admission_document",
+      "parent_policy_id": "admission_process",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "adm_index_html_2e11d967",
+      "title": "index.html",
+      "source_url": "https://kjsce-files.somaiya.edu/Admission/Engineering-College-Brochure-Final/index.html",
+      "source_type": "admission_document",
+      "parent_policy_id": "admission_process",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "accr_further_accreditation_status_on_the_basis_of_compliance_repo_88430f91",
+      "title": "Further Accreditation Status on the basis of Compliance Report Academic Year 2022-23 to 2024-25 i.e. upto 30-06-2025",
+      "source_url": "https://kjsce-files.somaiya.edu/Affiliation+&+Accredition/NBA+Accreditation+Letter_2022.pdf",
+      "source_type": "accreditation_document",
+      "parent_policy_id": "qms_iqac",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "accr_b_tech_programme_got_first_time_accreditation_for_three_year_1731c8d9",
+      "title": "B.Tech Programme got first time accreditation for three years under Tier-I Academic Years 2019-20 to 2021 -2022 i.e. Up to 30-06-2022",
+      "source_url": "https://kjsce-files.somaiya.edu/Affiliation+&+Accredition/KJSCE_MECH_NBA+Accreditation+Letter_25_MAY_2019.pdf",
+      "source_type": "accreditation_document",
+      "parent_policy_id": "qms_iqac",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "adm_notice_about_not_having_any_agent_liaison_officer_c7c15641",
+      "title": "Notice about not having any agent, Liaison officer.",
+      "source_url": "https://kjsse-files.somaiya.edu/Admission+2026-27/Notice+of+No+Agent+for+Admission+2026-27.pdf",
+      "source_type": "admission_document",
+      "parent_policy_id": "admission_process",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "adm_refer_gr_on_minority_bfdc4c45",
+      "title": "Refer GR on Minority",
+      "source_url": "https://kjsce-files.somaiya.edu/Admission/Minority_GR.pdf",
+      "source_type": "admission_document",
+      "parent_policy_id": "admission_process",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "adm_read_notice_41a1dcd5",
+      "title": "Read Notice",
+      "source_url": "https://kjsce-files.somaiya.edu/Admission+2023/Notices/KJSCE_DSY_Notice+.pdf",
+      "source_type": "admission_document",
+      "parent_policy_id": "admission_process",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "adm_read_notice_423870ae",
+      "title": "Read Notice",
+      "source_url": "https://kjsce-files.somaiya.edu/Admission+2023/Notices/KJSCE_Lateral_Admission_Notice.pdf",
+      "source_type": "admission_document",
+      "parent_policy_id": "admission_process",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "adm_annexure_5_c0852538",
+      "title": "(Annexure-5)",
+      "source_url": "https://kjsse-files.somaiya.edu/Admission+2026-27/Annexure-5.pdf",
+      "source_type": "admission_document",
+      "parent_policy_id": "admission_process",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "adm_annexure_3_and_4_b7a29a0e",
+      "title": "(Annexure-3 and 4",
+      "source_url": "https://kjsse-files.somaiya.edu/Admission+2026-27/Annexure3and4.pdf",
+      "source_type": "admission_document",
+      "parent_policy_id": "admission_process",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "adm_document_6e0221f56ad24a7f_6e0221f5",
+      "title": ")",
+      "source_url": "https://kjsce-files.somaiya.edu/Admission+2025/KJSSE_M+Tech_Annexure3and4.pdf",
+      "source_type": "admission_document",
+      "parent_policy_id": "admission_process",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "adm_brochure_fd32ecc7",
+      "title": "Brochure",
+      "source_url": "https://kjsce-files.somaiya.edu/Admission+2024/Notices/Brochure_PG+Diploma+in+AI&DS.pdf",
+      "source_type": "admission_document",
+      "parent_policy_id": "admission_process",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "plc_interim_placement_report_2016_20_cf4f2cf3",
+      "title": "Interim Placement Report 2016-20",
+      "source_url": "https://kjsce-files.somaiya.edu/placements/PLACEMENT+REPORT+2016-2020.pdf",
+      "source_type": "placement_document",
+      "parent_policy_id": "training_placement_policy",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "plc_interim_placement_report_2017_21_ab5f9c41",
+      "title": "Interim Placement Report 2017-21",
+      "source_url": "https://kjsce-files.somaiya.edu/placements/PLACEMENT+REPORT+2017-2021.pdf",
+      "source_type": "placement_document",
+      "parent_policy_id": "training_placement_policy",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "plc_interim_placement_report_2018_22_51e4502a",
+      "title": "Interim Placement Report 2018-22",
+      "source_url": "https://kjsce-files.somaiya.edu/placements/Placement+Report+2018-2022.pdf",
+      "source_type": "placement_document",
+      "parent_policy_id": "training_placement_policy",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "plc_final_placement_report_2019_2023_031d8fe2",
+      "title": "Final Placement Report 2019-2023",
+      "source_url": "https://kjsce-files.somaiya.edu/placements/Placement+Report+-+2019-23.pdf",
+      "source_type": "placement_document",
+      "parent_policy_id": "training_placement_policy",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "plc_final_placement_report_2020_2024_ae3a1f5e",
+      "title": "Final Placement Report 2020-2024",
+      "source_url": "https://kjsce-files.somaiya.edu/placements/Placement+Report+-+2020-24.pdf",
+      "source_type": "placement_document",
+      "parent_policy_id": "training_placement_policy",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "plc_final_placement_report_2014_18_e983d404",
+      "title": "Final Placement Report 2014-18",
+      "source_url": "https://kjsce-files.somaiya.edu/placements/PLACEMENT+REPORT+2014-2018.pdf",
+      "source_type": "placement_document",
+      "parent_policy_id": "training_placement_policy",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "plc_final_placement_report_2015_19_0e908da0",
+      "title": "Final Placement Report 2015-19",
+      "source_url": "https://kjsce-files.somaiya.edu/placements/PLACEMENT+REPORT+2015-2019.pdf",
+      "source_type": "placement_document",
+      "parent_policy_id": "training_placement_policy",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "plc_placement_policy_2o22_2026_batch_c28aed50",
+      "title": "Placement Policy: 2O22-2026 Batch",
+      "source_url": "https://kjsse-files.somaiya.edu/Placement/Placement+Policy+25-26+-+Signed.PDF",
+      "source_type": "placement_document",
+      "parent_policy_id": "training_placement_policy",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "plc_ug_internship_policy_b88edc5a",
+      "title": "UG Internship Policy",
+      "source_url": "https://kjsce-files.somaiya.edu/placements/KJSCE_Internship+Policy+23-24.PDF",
+      "source_type": "placement_document",
+      "parent_policy_id": "training_placement_policy",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "plc_pg_internship_policy_a390fbf5",
+      "title": "PG Internship Policy",
+      "source_url": "https://kjsce-files.somaiya.edu/industry-connect/M.Tech+Internship+Policy+-+Draft+(1).pdf",
+      "source_type": "placement_document",
+      "parent_policy_id": "training_placement_policy",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "alum_team_members_2023_24_f33abb4a",
+      "title": "Team Members 2023-24",
+      "source_url": "https://kjsce-files.somaiya.edu/Alumni/Teams/KJSSE_AC+23-24.pdf",
+      "source_type": "alumni_document",
+      "parent_policy_id": "industry_institute_interaction",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "alum_team_members_2022_23_b43a85b8",
+      "title": "Team Members 2022-23",
+      "source_url": "https://kjsce-files.somaiya.edu/Alumni/Teams/KJSCE_AC+22-23.pdf",
+      "source_type": "alumni_document",
+      "parent_policy_id": "industry_institute_interaction",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "alum_team_members_2021_22_f0c3d35e",
+      "title": "Team Members 2021-22",
+      "source_url": "https://kjsce-files.somaiya.edu/Alumni/Teams/KJSCE_AC+21-22.pdf",
+      "source_type": "alumni_document",
+      "parent_policy_id": "industry_institute_interaction",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "alum_team_members_2020_21_68e17dd7",
+      "title": "Team Members 2020-21",
+      "source_url": "https://kjsce-files.somaiya.edu/Alumni/Teams/KJSCE_AC+20-21.pdf",
+      "source_type": "alumni_document",
+      "parent_policy_id": "industry_institute_interaction",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "alum_team_members_2019_20_382b7de4",
+      "title": "Team Members 2019-20",
+      "source_url": "https://kjsce-files.somaiya.edu/Alumni/Teams/KJSCE_AC+19-20.pdf",
+      "source_type": "alumni_document",
+      "parent_policy_id": "industry_institute_interaction",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "alum_team_members_2018_19_6afd197a",
+      "title": "Team Members 2018-19",
+      "source_url": "https://kjsce-files.somaiya.edu/Alumni/Teams/KJSCE_AC+18-19.pdf",
+      "source_type": "alumni_document",
+      "parent_policy_id": "industry_institute_interaction",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "alum_team_members_2017_18_26845bbb",
+      "title": "Team Members 2017-18",
+      "source_url": "https://kjsce-files.somaiya.edu/Alumni/Teams/KJSCE_AC+17-18.pdf",
+      "source_type": "alumni_document",
+      "parent_policy_id": "industry_institute_interaction",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "alum_team_members_2016_17_f498ef53",
+      "title": "Team Members 2016-17",
+      "source_url": "https://kjsce-files.somaiya.edu/Alumni/Teams/KJSCE_AC+16-17.pdf",
+      "source_type": "alumni_document",
+      "parent_policy_id": "industry_institute_interaction",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "alum_team_members_2015_16_50e11adc",
+      "title": "Team Members 2015-16",
+      "source_url": "https://kjsce-files.somaiya.edu/Alumni/Teams/KJSCE_AC+15-16.pdf",
+      "source_type": "alumni_document",
+      "parent_policy_id": "industry_institute_interaction",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "alum_team_members_2014_15_5ecf496c",
+      "title": "Team Members 2014-15",
+      "source_url": "https://kjsce-files.somaiya.edu/Alumni/Teams/KJSCE_AC+14-15.pdf",
+      "source_type": "alumni_document",
+      "parent_policy_id": "industry_institute_interaction",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "alum_team_members_2013_14_584fdcf8",
+      "title": "Team Members 2013-14",
+      "source_url": "https://kjsce-files.somaiya.edu/Alumni/Teams/KJSCE_AC+13-14.pdf",
+      "source_type": "alumni_document",
+      "parent_policy_id": "industry_institute_interaction",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "alum_annual_report_2024_25_f9c49beb",
+      "title": "Annual Report 2024-25",
+      "source_url": "https://kjsce-files.somaiya.edu/Alumni/Annual+Reports/Alumni+Cell-2024-25_Annual+Report.docx.pdf",
+      "source_type": "alumni_document",
+      "parent_policy_id": "industry_institute_interaction",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "alum_annual_report_2023_24_ad1b4394",
+      "title": "Annual Report 2023-24",
+      "source_url": "https://kjsce-files.somaiya.edu/Alumni/Annual+Reports/Alumni+Cell-2023-24_Annual+Report.docx.pdf",
+      "source_type": "alumni_document",
+      "parent_policy_id": "industry_institute_interaction",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "alum_annual_report_2022_23_b42805c7",
+      "title": "Annual Report 2022-23",
+      "source_url": "https://kjsce-files.somaiya.edu/Alumni/Annual+Reports/2022-23+Annual+Report+Alumni+Cell.pdf",
+      "source_type": "alumni_document",
+      "parent_policy_id": "industry_institute_interaction",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "alum_annual_report_2021_22_81c9018c",
+      "title": "Annual Report 2021-22",
+      "source_url": "https://kjsce-files.somaiya.edu/Alumni/Annual+Reports/Annual+Report_+2021-22.pdf",
+      "source_type": "alumni_document",
+      "parent_policy_id": "industry_institute_interaction",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "alum_annual_report_2020_21_9a9c5624",
+      "title": "Annual Report 2020-21",
+      "source_url": "https://kjsce-files.somaiya.edu/Alumni/Annual+Reports/Annual+Report+20-21_+Final.pdf",
+      "source_type": "alumni_document",
+      "parent_policy_id": "industry_institute_interaction",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "alum_annual_report_2019_20_6fe977c2",
+      "title": "Annual Report 2019-20",
+      "source_url": "https://kjsce-files.somaiya.edu/Alumni/Annual+Reports/Annual+Report+19-20.pdf",
+      "source_type": "alumni_document",
+      "parent_policy_id": "industry_institute_interaction",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "alum_annual_report_2018_19_cbdfdeb4",
+      "title": "Annual Report 2018-19",
+      "source_url": "https://kjsce-files.somaiya.edu/Alumni/Annual+Reports/Annual+Report+18-19.pdf",
+      "source_type": "alumni_document",
+      "parent_policy_id": "industry_institute_interaction",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "adm_check_out_the_brochure_for_more_details_2740befa",
+      "title": "Check out the brochure for more details",
+      "source_url": "https://kjsce-files.somaiya.edu/EVENT/PRAKALPA+2025.pdf",
+      "source_type": "admission_document",
+      "parent_policy_id": "admission_process",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "lib_view_print_journals_a8ea47f8",
+      "title": "View Print Journals",
+      "source_url": "https://kjsse-files.somaiya.edu/Library/KJSSE+List+of+Journals+2026.pdf",
+      "source_type": "library_document",
+      "parent_policy_id": "library_policy",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "lib_view_printed_magazines_a42c2c54",
+      "title": "View Printed Magazines",
+      "source_url": "https://kjsse-files.somaiya.edu/Library/KJSSE+List+of+Magazines+2026.pdf",
+      "source_type": "library_document",
+      "parent_policy_id": "library_policy",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "trn_offline_transcripts_application_0aa9c7b5",
+      "title": "Offline Transcripts Application",
+      "source_url": "https://kjsce-files.somaiya.edu/Transcript/Transcript+Application+Offline.pdf",
+      "source_type": "transcript_document",
+      "parent_policy_id": "student_section_certificates",
+      "created": true,
+      "linked": true
+    },
+    {
+      "doc_id": "trn_online_transcripts_application_0c20e6d0",
+      "title": "Online Transcripts Application",
+      "source_url": "https://kjsce-files.somaiya.edu/Transcript/Online+transcript+Application+.pdf",
+      "source_type": "transcript_document",
+      "parent_policy_id": "student_section_certificates",
+      "created": true,
+      "linked": true
+    }
+  ],
+  "reused": [
+    {
+      "doc_id": "acad_strategic_plan_2025_2030",
+      "source_url": "https://kjsse-files.somaiya.edu/About/KJSSE+Strategic+Plan+2025-2030+by+Dr.+S+K+Ukarande+.r.pdf",
+      "alternate_source_url": "https://kjsse-files.somaiya.edu/documents/KJSSE+Strategic+Plan+2025-2030.pdf",
+      "evidence": "identical bytes to acad_strategic_plan_2025_2030 (sha256 1f421370a5b10b3e…)"
+    },
+    {
+      "doc_id": "exam_aec_2026_27_sytyly_btech_fysy_mtech",
+      "source_url": "https://kjsce-files.somaiya.edu/Academics/AEC_SY_TY_LY_(B.Tech)_FY_SY_(M.Tech)_2026_27.pdf",
+      "alternate_source_url": "https://kjsce-files.somaiya.edu/Academics/AEC_SY_TY_LY_(B.Tech)_FY_SY_(M.Tech)_2026-27.pdf",
+      "evidence": "source_url == https://kjsce-files.somaiya.edu/Academics/AEC_SY_TY_LY_(B.Tech)_FY_SY_(M.Tech)_2026-27.pdf"
+    },
+    {
+      "doc_id": "acad_schedule_sy_mtech",
+      "source_url": "https://kjsse-files.somaiya.edu/Academics/Schedule+of+SY+_M.Tech+2025-27+Batch+(Sem-III+%26+IV).pdf",
+      "alternate_source_url": "https://kjsse-files.somaiya.edu/Academics/Schedule+of+SY+_M.Tech+2025-27+Batch+(Sem-III+&+IV).pdf",
+      "evidence": "source_url == https://kjsse-files.somaiya.edu/Academics/Schedule+of+SY+_M.Tech+2025-27+Batch+(Sem-III+%26+IV).pdf"
+    }
+  ]
+}

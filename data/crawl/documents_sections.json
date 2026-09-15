@@ -1,0 +1,122 @@
+[
+  {
+    "department": "Training and Placement and IAI",
+    "department_id": "7",
+    "category": "(section root)",
+    "category_id": "",
+    "items": 2,
+    "empty": false
+  },
+  {
+    "department": "Training and Placement and IAI",
+    "department_id": "7",
+    "category": "Internship",
+    "category_id": "20",
+    "items": 2,
+    "empty": false
+  },
+  {
+    "department": "Administrative",
+    "department_id": "8",
+    "category": "(section root)",
+    "category_id": "",
+    "items": 11,
+    "empty": false
+  },
+  {
+    "department": "Administrative",
+    "department_id": "8",
+    "category": "Mandatory Disclosure",
+    "category_id": "21",
+    "items": 9,
+    "empty": false
+  },
+  {
+    "department": "Examination",
+    "department_id": "10",
+    "category": "(section root)",
+    "category_id": "",
+    "items": 16,
+    "empty": false
+  },
+  {
+    "department": "Examination",
+    "department_id": "10",
+    "category": "Examination Calendar",
+    "category_id": "94",
+    "items": 16,
+    "empty": false
+  },
+  {
+    "department": "Examination",
+    "department_id": "10",
+    "category": "Examination Download Forms",
+    "category_id": "30",
+    "items": 0,
+    "empty": true
+  },
+  {
+    "department": "Academics",
+    "department_id": "15",
+    "category": "(section root)",
+    "category_id": "",
+    "items": 11,
+    "empty": false
+  },
+  {
+    "department": "Academics",
+    "department_id": "15",
+    "category": "Academic and Examination Calendar",
+    "category_id": "183",
+    "items": 7,
+    "empty": false
+  },
+  {
+    "department": "Academics",
+    "department_id": "15",
+    "category": "8 POINT DEVELOPMENT PLAN",
+    "category_id": "198",
+    "items": 0,
+    "empty": true
+  },
+  {
+    "department": "Academics",
+    "department_id": "15",
+    "category": "KJSSE Strategic Plan (2025–2030)",
+    "category_id": "199",
+    "items": 0,
+    "empty": true
+  },
+  {
+    "department": "Academics",
+    "department_id": "15",
+    "category": "Roll Call List",
+    "category_id": "49",
+    "items": 1,
+    "empty": false
+  },
+  {
+    "department": "Academics",
+    "department_id": "15",
+    "category": "Class Time Table",
+    "category_id": "47",
+    "items": 1,
+    "empty": false
+  },
+  {
+    "department": "Academics",
+    "department_id": "15",
+    "category": "Syllabus",
+    "category_id": "48",
+    "items": 1,
+    "empty": false
+  },
+  {
+    "department": "Academics",
+    "department_id": "15",
+    "category": "Download Softwares",
+    "category_id": "163",
+    "items": 1,
+    "empty": false
+  }
+]

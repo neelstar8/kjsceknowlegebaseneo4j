@@ -1,0 +1,109 @@
+{
+  "total_in_scope": 959,
+  "resolved": 946,
+  "coverage_pct": 98.64,
+  "by_status": {
+    "RECORDED": 834,
+    "REUSED": 30,
+    "EXTRACTED": 4,
+    "INGESTED": 65,
+    "NEEDS_REVIEW": 2,
+    "OUT_OF_SCOPE": 69,
+    "PERMANENTLY_FAILED": 7,
+    "SKIPPED_PII": 17
+  },
+  "outstanding": [
+    {
+      "resource_id": "document_c507b2f8a6175e4f",
+      "canonical_url": "https://kjsse-files.somaiya.edu/documents/Eight+Point+Development+Plan_+KJSSE.pdf",
+      "status": "EXTRACTED",
+      "attempts": 0,
+      "last_error": null
+    },
+    {
+      "resource_id": "document_1f5d9cd9763e3ae4",
+      "canonical_url": "https://kjsce-files.somaiya.edu/Academics/KJSCE_Roll+Call.pdf",
+      "status": "NEEDS_REVIEW",
+      "attempts": 0,
+      "last_error": null
+    },
+    {
+      "resource_id": "external_04752bb8a7b45f39",
+      "canonical_url": "https://kjsce-old.somaiya.edu/",
+      "status": "EXTRACTED",
+      "attempts": 0,
+      "last_error": null
+    },
+    {
+      "resource_id": "external_1ba00824fad956ad",
+      "canonical_url": "https://financialaid.somaiya.edu/en/special-scholarship/",
+      "status": "NEEDS_REVIEW",
+      "attempts": 0,
+      "last_error": null
+    },
+    {
+      "resource_id": "document_86eb98f03279487e",
+      "canonical_url": "https://kjsse-files.somaiya.edu/Admission+2026-27/Admission+Cancellation+&+Refund+Policy+AY+2026-27,+SVU_1.pdf",
+      "status": "PERMANENTLY_FAILED",
+      "attempts": 2,
+      "last_error": "https://kjsse-files.somaiya.edu/Admission+2026-27/Admission+Cancellation+&+Refund+Policy+AY+2026-27,+SVU_1.pdf returned HTTP 403"
+    },
+    {
+      "resource_id": "document_19704f78d8dc2017",
+      "canonical_url": "https://kjsce-files.somaiya.edu/Admissions_2022/DSY/Annexure+1.pdf",
+      "status": "PERMANENTLY_FAILED",
+      "attempts": 2,
+      "last_error": "https://kjsce-files.somaiya.edu/Admissions_2022/DSY/Annexure+1.pdf returned HTTP 403"
+    },
+    {
+      "resource_id": "document_12f7738cd380fa52",
+      "canonical_url": "https://kjsce-files.somaiya.edu/Admissions_2022/DSY/Annexure++2+(1).pdf",
+      "status": "PERMANENTLY_FAILED",
+      "attempts": 2,
+      "last_error": "https://kjsce-files.somaiya.edu/Admissions_2022/DSY/Annexure++2+(1).pdf returned HTTP 403"
+    },
+    {
+      "resource_id": "document_c1bd8234e4f76d42",
+      "canonical_url": "https://kjsce-files.somaiya.edu/mtech/Annexure+1.pdf",
+      "status": "EXTRACTED",
+      "attempts": 0,
+      "last_error": null
+    },
+    {
+      "resource_id": "document_42b50ef3cbf1253c",
+      "canonical_url": "https://kjsce-files.somaiya.edu/mtech-website/Annexure+2+with+KJSCE+logo+-+as+per+guideline.pdf",
+      "status": "EXTRACTED",
+      "attempts": 0,
+      "last_error": null
+    },
+    {
+      "resource_id": "document_83685a546db10d91",
+      "canonical_url": "https://kjsce-files.somaiya.edu/Admission+2026-27/Annexure-5.pdfAdmission+2025/KJSSE_MTech_Annexure-5.pdf",
+      "status": "PERMANENTLY_FAILED",
+      "attempts": 2,
+      "last_error": "https://kjsce-files.somaiya.edu/Admission+2026-27/Annexure-5.pdfAdmission+2025/KJSSE_MTech_Annexure-5.pdf returned HTTP 403"
+    },
+    {
+      "resource_id": "document_4f9f506b5e60e087",
+      "canonical_url": "http://kjsse-files.somaiya.edu/Admission+2026-27/Annexure-5.pdf",
+      "status": "PERMANENTLY_FAILED",
+      "attempts": 2,
+      "last_error": "http://kjsse-files.somaiya.edu/Admission+2026-27/Annexure-5.pdf returned HTTP 403"
+    },
+    {
+      "resource_id": "document_08b862c04fee9d46",
+      "canonical_url": "http://kjsse-files.somaiya.edu/Internship/SLI+Final+Policy+-25-26+-+Signed+Copy.pdf",
+      "status": "PERMANENTLY_FAILED",
+      "attempts": 2,
+      "last_error": "http://kjsse-files.somaiya.edu/Internship/SLI+Final+Policy+-25-26+-+Signed+Copy.pdf returned HTTP 403"
+    },
+    {
+      "resource_id": "document_e0ccfddfdc531832",
+      "canonical_url": "https://kjsce-files.somaiya.edu/Alumni/Teams/KJSSE_AC+24-25.pdf",
+      "status": "PERMANENTLY_FAILED",
+      "attempts": 2,
+      "last_error": "https://kjsce-files.somaiya.edu/Alumni/Teams/KJSSE_AC+24-25.pdf returned HTTP 403"
+    }
+  ],
+  "excluded_out_of_scope": 69
+}
