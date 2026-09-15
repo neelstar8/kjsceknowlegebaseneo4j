@@ -1,0 +1,2129 @@
+{
+  "run_at": "2026-09-15T12:21:02.666138+00:00",
+  "ingest_batch_id": "pages_20260915T122102_9bffc0",
+  "pages_created": 154,
+  "pages_updated": 4,
+  "links_merged": 158,
+  "reused": 0,
+  "faculty_owned_skipped": [
+    "https://kjsce.somaiya.edu/en/view-member/160120?type=faculty",
+    "https://kjsce.somaiya.edu/en/view-member/160188?type=faculty",
+    "https://kjsce.somaiya.edu/en/view-member/160993?type=faculty",
+    "https://kjsce.somaiya.edu/en/view-member/160117?type=faculty",
+    "https://kjsce.somaiya.edu/en/view-member/160129?type=faculty",
+    "https://kjsce.somaiya.edu/en/view-member/160063?type=faculty",
+    "https://kjsce.somaiya.edu/en/view-member/160039?type=faculty",
+    "https://kjsce.somaiya.edu/en/view-member/160631?type=faculty",
+    "https://kjsce.somaiya.edu/en/view-member/160055?type=faculty",
+    "https://kjsce.somaiya.edu/en/view-member/160177?type=faculty",
+    "https://kjsce.somaiya.edu/en/view-member/160523?type=faculty",
+    "https://kjsce.somaiya.edu/en/view-publication/966?id=160120&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/102?id=160120&type=ipr",
+    "https://kjsce.somaiya.edu/en/view-publication/1962?id=160188&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/492?id=160188&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/510?id=160188&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/912?id=160993&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/910?id=160993&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/914?id=160993&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/2509?id=160129&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/2271?id=160129&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/2079?id=160129&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/2065?id=160129&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/2030?id=160129&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/962?id=160129&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/961?id=160129&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/960?id=160129&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/958?id=160129&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/959?id=160129&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/944?id=160129&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/947?id=160129&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/943?id=160129&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/946?id=160129&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/945?id=160129&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/957?id=160129&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/942?id=160129&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/2510?id=160129&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/666?id=160129&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/554?id=160129&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/308?id=160129&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/298?id=160129&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/297?id=160129&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/729?id=160039&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/728?id=160039&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/730?id=160039&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/169?id=160039&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/1993?id=160631&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/1156?id=160631&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/769?id=160631&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/768?id=160631&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/200?id=160631&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/201?id=160631&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/202?id=160631&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/203?id=160631&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/204?id=160631&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/766?id=160055&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/508?id=160055&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/184?id=160055&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/186?id=160055&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/187?id=160055&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/198?id=160055&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/199?id=160055&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/168?id=160055&type=ipr",
+    "https://kjsce.somaiya.edu/en/view-publication/2453?id=160177&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/2447?id=160177&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/2452?id=160177&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/2455?id=160177&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/684?id=160177&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/2027?id=160021&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/2026?id=160021&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/2022?id=160021&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/2029?id=160021&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/507?id=160021&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/511?id=160021&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/519?id=160021&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/520?id=160021&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/523?id=160021&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/2439?id=160523&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/1818?id=160523&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/1999?id=160523&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/647?id=160523&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/646?id=160523&type=research",
+    "https://kjsce.somaiya.edu/en/view-publication/504?id=160523&type=proceeding",
+    "https://kjsce.somaiya.edu/en/view-publication/503?id=160523&type=proceeding"
+  ],
+  "not_substantive": [
+    [
+      "https://kjsce.somaiya.edu/en/ranking/",
+      "descriptive prose only: no facts, tables or structure"
+    ],
+    [
+      "https://kjsce.somaiya.edu/en/exam-cell/",
+      "descriptive prose only: no facts, tables or structure"
+    ],
+    [
+      "https://kjsce.somaiya.edu/en/alumni-overview/",
+      "descriptive prose only: no facts, tables or structure"
+    ]
+  ],
+  "unrouted": [],
+  "counts_before": {
+    "FacultyMember": 613,
+    "PYQ": 164,
+    "PYQFile": 162,
+    "Subject": 81,
+    "PolicyProvision": 432,
+    "Policy": 41,
+    "PolicyDocument": 110
+  },
+  "counts_after": {
+    "FacultyMember": 613,
+    "PYQ": 164,
+    "PYQFile": 162,
+    "Subject": 81,
+    "PolicyProvision": 432,
+    "Policy": 41,
+    "PolicyDocument": 264
+  },
+  "rows": [
+    {
+      "doc_id": "page_k_j_somaiya_school_of_engineering_28961e45",
+      "title": "K J Somaiya School of Engineering",
+      "source_url": "https://kjsce.somaiya.edu/en/",
+      "source_type": "institution_page",
+      "parent_policy_id": "about_institute",
+      "facts": 3,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 8,
+      "created": true
+    },
+    {
+      "doc_id": "page_director_s_message_a8a8a43d",
+      "title": "Director's Message",
+      "source_url": "https://kjsce.somaiya.edu/en/director-message/",
+      "source_type": "institution_page",
+      "parent_policy_id": "about_institute",
+      "facts": 3,
+      "tables": 0,
+      "academic_years": [
+        "2022-23",
+        "2023-24"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_library_overview_aa6c3792",
+      "title": "Library Overview",
+      "source_url": "https://kjsce.somaiya.edu/en/library/overview/",
+      "source_type": "library_page",
+      "parent_policy_id": "library_policy",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_bachelor_of_technology_in_artificial_intelligence_da_dec4fbd3",
+      "title": "Bachelor of Technology in Artificial Intelligence & Data Science",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/btech-in-artificial-intelligence-data-science/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 2,
+      "tables": 5,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_bachelor_of_technology_computer_engineering_3a349480",
+      "title": "BACHELOR OF TECHNOLOGY COMPUTER ENGINEERING",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/bachelor-of-technology-computer-engineering/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 2,
+      "tables": 5,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_b_tech_in_computer_and_communication_engineering_c985dce8",
+      "title": "B.Tech in Computer and Communication Engineering",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/btech-in-computer-and-communication-engineering/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 3,
+      "tables": 5,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_bachelor_of_technology_computer_science_and_business_d9c76cd6",
+      "title": "Bachelor of Technology Computer Science and Business Systems",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/bachelor-of-technology-computer-science-and-business-systems/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 2,
+      "tables": 5,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_bachelor_of_technology_in_electronics_and_computer_e_1621cfff",
+      "title": "Bachelor of Technology in Electronics and Computer Engineering",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/bachelor-of-technology-in-electronics-computer-engineering/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 3,
+      "tables": 5,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_bachelor_of_technology_electronics_and_telecommunica_c357111d",
+      "title": "BACHELOR OF TECHNOLOGY ELECTRONICS AND TELECOMMUNICATION ENGINEERING",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/bachelor-of-technology-electronic-telecommunication/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 5,
+      "tables": 5,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_bachelor_of_technology_electronics_engineering_vlsi__1cfe6f69",
+      "title": "Bachelor of Technology Electronics Engineering (VLSI Design and Technology)",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/bachelor-of-technology-electronics-Engineering-VLSI-design-technology/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 2,
+      "tables": 5,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_bachelor_of_technology_information_technology_1d7890ff",
+      "title": "BACHELOR OF TECHNOLOGY INFORMATION TECHNOLOGY",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/bachelor-of-technology-information-technology/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 7,
+      "tables": 5,
+      "academic_years": [
+        "2019-20",
+        "2021-22"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_bachelor_of_technology_mechanical_engineering_b3cf116f",
+      "title": "BACHELOR OF TECHNOLOGY MECHANICAL ENGINEERING",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/bachelor-of-technology-mechanical-engineering/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 5,
+      "tables": 6,
+      "academic_years": [
+        "2019-20",
+        "2021-22",
+        "2022-23",
+        "2024-25"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_bachelor_of_technology_in_robotics_and_artificial_in_39669e20",
+      "title": "Bachelor of Technology in Robotics and Artificial Intelligence",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/btech-in-robotics-artificial-intelligence/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 2,
+      "tables": 5,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_high_performance_computing_honours_in_hig_bf38bca4",
+      "title": "Honours in High Performance Computing | Honours in High Performance Computing",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/it/honours-in-high-performance-computing/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 3,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 1,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_spatial_analytics_honours_in_spatial_anal_43deda0a",
+      "title": "Honours in Spatial Analytics | Honours in Spatial Analytics",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/ai-ds/honours-in-spatial-analytics/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_artificial_intelligence_data_science_b_tech_ai_ds_ho_7412efbf",
+      "title": "Artificial Intelligence & Data Science | B.Tech (AI & DS) | Honours in Applied Cyber Security",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/ai-ds/honours-in-applied-cyber-security/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_data_engineering_honours_in_data_engineer_d6eee217",
+      "title": "Honours in Data Engineering | Honours in Data Engineering",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/ai-ds/honours-in-data-engineering/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_geospatial_computing_honours_in_geospatia_81ee7ccb",
+      "title": "Honours in Geospatial Computing | Honours in Geospatial Computing",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/comp/honours-in-geospatial-computing/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_cyber_security_forensics_honours_in_cyber_4ed91c0c",
+      "title": "Honours in Cyber Security Forensics | Honours in Cyber Security & Forensics",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/comp/honours-in-cyber-security-forensics/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_data_science_analytics_honours_in_data_sc_d4177d64",
+      "title": "Honours in Data Science & Analytics | Honours in Data Science & Analytics",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/comp/honours-in-data-science-analytics/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_software_project_management_honours_in_so_cf707ff4",
+      "title": "Honours in Software Project Management | Honours in Software Project Management",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/comp/honours-in-software-project-management/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 2,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_software_application_development_honours__140dabad",
+      "title": "Honours in Software & Application Development | Honours in Software and Mobile Application Development",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/comp/honours-in-software-application-development/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_networking_honours_in_networking_dd0f1469",
+      "title": "Honours in Networking | Honours in Networking",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/extc/honours-in-networking/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_metaverse_honours_in_metaverse_32047c1d",
+      "title": "Honours in Metaverse | Honours in Metaverse",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/cce/honours-in-metaverse/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_internet_of_things_honours_in_internet_of_a1f62987",
+      "title": "Honours in Internet of Things | Honours in Internet of Things Honours in Internet of Things | Honours in Internet of Things",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/excp/honours-in-internet-of-things/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_ai_computer_vision_and_robotics_honours_i_8f973d21",
+      "title": "Honours in AI, Computer Vision and Robotics | Honours in AI, Computer Vision and Robotics",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/etrx/honours-in-ai-computer-vision-and-robotics/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 3,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_vlsi_honours_in_vlsi_f1b6b764",
+      "title": "Honours in VLSI | Honours in VLSI",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/excp/honours-in-vlsi/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_applied_signal_processing_honours_in_appl_ff10a375",
+      "title": "Honours in Applied Signal Processing | Honours in Applied Signal Processing",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/extc/honours-in-applied-signal-processing/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_advanced_telecommunications_honours_in_ad_404e6294",
+      "title": "Honours in Advanced Telecommunications | Honours in Advanced Telecommunications",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/extc/honours-in-advanced-telecommunications/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 2,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_data_science_for_emerging_analytics_honou_8ca29164",
+      "title": "Honours in Data Science for Emerging Analytics | Honours in Data Science for Emerging Analytics",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/extc/honours-in-data-science-for-emerging-analytics/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_cyber_security_honours_in_cyber_security_6d828951",
+      "title": "Honours in Cyber Security | Honours in Cyber Security",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/it/honours-in-cyber-security/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_artificial_intelligence_honours_in_artifi_21cafadc",
+      "title": "Honours in Artificial Intelligence | Honours in Artificial Intelligence",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/it/honours-in-artificial-intelligence/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_computer_application_development_honours__f8bd7d32",
+      "title": "Honours in Computer Application Development | Honours in Computer Application Development",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/it/honours-in-computer-application-development/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_energy_engineering_honours_in_energy_engi_3520d6bb",
+      "title": "Honours in Energy Engineering | Honours in Energy Engineering",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/mech/honours-in-energy-engineering/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_design_engineering_honours_in_design_engi_74fe89a8",
+      "title": "Honours in Design Engineering | Honours in Design Engineering",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/mech/honours-in-design-engineering/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_aerospace_engineering_honours_in_aerospac_29360c91",
+      "title": "Honours in Aerospace Engineering | Honours in Aerospace Engineering",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/mech/honours-in-aerospace-engineering/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_computer_aided_engineering_honours_in_computer_aided_eb6e097f",
+      "title": "Computer Aided Engineering | Honours in Computer Aided Engineering",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/rai/honours-in-computer-aided-engineering/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_automobile_engineering_honours_in_automob_8e42d15d",
+      "title": "Honours in Automobile Engineering | Honours in Automobile Engineering",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/mech/honours-in-automobile-engineering/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 3,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_smart_manufacturing_honours_in_smart_manufacturing_6fe119f2",
+      "title": "Smart Manufacturing | Honours in Smart Manufacturing",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/rai/honours-in-smart-manufacturing",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_data_driven_analytics_honours_in_data_dri_b1f9fa29",
+      "title": "Honours in Data Driven Analytics | Honours in Data Driven Analytics",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/rai/honours-in-data-driven-analytics/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_master_of_technology_computer_engineering_f3a2de51",
+      "title": "MASTER OF TECHNOLOGY COMPUTER ENGINEERING",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/master-of-technology-computer-engineering/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 5,
+      "tables": 2,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_master_of_technology_electronics_engineering_vlsi_de_e344e91d",
+      "title": "Master of Technology Electronics Engineering (VLSI Design and Technology)",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/master-of-technology-electronics-engineering-vlsi-design/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 2,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_master_of_technology_information_security_85bf655b",
+      "title": "MASTER OF TECHNOLOGY INFORMATION SECURITY",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/master-of-technology-information-security/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 4,
+      "tables": 2,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_master_of_technology_information_technology_with_spe_fb96a1a1",
+      "title": "Master of Technology Information Technology with Specialization in Artificial Intelligence & Data Sc",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/mtech-in-it-ai-data-science/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 1,
+      "tables": 2,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_master_of_technology_digital_agriculture_e23fbe3c",
+      "title": "Master Of Technology Digital Agriculture",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/master-of-technology-digital-agriculture/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 3,
+      "tables": 1,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_master_of_technology_cad_cam_robotics_e919046a",
+      "title": "MASTER OF TECHNOLOGY CAD/ CAM & ROBOTICS",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/master-of-technology-cad-cam-robotics/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 2,
+      "tables": 2,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_master_of_technology_in_robotics_and_automation_engi_c09cdb5d",
+      "title": "Master of Technology in Robotics and Automation Engineering",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/master-of-technology-in-robotics-automation-engineering/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 3,
+      "tables": 2,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_master_of_technology_electronics_and_telecommunicati_b6036ba6",
+      "title": "MASTER OF TECHNOLOGY ELECTRONICS AND TELECOMMUNICATION ENGINEERING",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/master-of-technology-electronics-telecommunication/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 6,
+      "tables": 2,
+      "academic_years": [
+        "2020-21",
+        "2021-22"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_master_of_technology_energy_engineering_3e503f03",
+      "title": "MASTER OF TECHNOLOGY ENERGY ENGINEERING",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/master-of-technology-energy-engineering/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 2,
+      "tables": 2,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_ph_d_in_computer_engineering_b3b19a27",
+      "title": "Ph.D. in Computer Engineering",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/phd-in-computer-engineering/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 1,
+      "tables": 1,
+      "academic_years": [],
+      "aliases": 1,
+      "created": true
+    },
+    {
+      "doc_id": "page_ph_d_in_information_technology_a1f3a6d2",
+      "title": "Ph.D. in Information Technology",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/phd-in-information-technology/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 2,
+      "tables": 1,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_ph_d_in_energy_engineering_3a0ef66b",
+      "title": "Ph.D. IN ENERGY ENGINEERING",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/phd-in-energy-engineering/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 2,
+      "tables": 1,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_ph_d_in_electronics_engineering_ee4bc4d0",
+      "title": "Ph.D. in Electronics Engineering",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/doctor-of-philosophy-in-electronics-engineering/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 2,
+      "tables": 1,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_ph_d_in_mechanical_engineering_27cfa094",
+      "title": "Ph.D. in Mechanical Engineering",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/phd-in-mechanical-engineering/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 1,
+      "tables": 1,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_ph_d_in_electronics_and_telecommunication_engineerin_d3505c28",
+      "title": "Ph.D. in Electronics and Telecommunication Engineering",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/phd-in-electronics-and-telecommunication-engineering/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 1,
+      "tables": 1,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_minor_in_aerospace_engineering_e203d0d9",
+      "title": "Minor in Aerospace Engineering",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/minor-in-aerospace-engineering/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_minor_in_artificial_intelligence_machine_learning_1526611e",
+      "title": "Minor in Artificial Intelligence & Machine Learning",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/minor-in-artificial-intelligence-machine-learning/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_minor_in_augmented_virtual_reality_cef4ca27",
+      "title": "Minor in Augmented & Virtual Reality",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/minor-in-augmented-and-virtual-reality/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_minor_programme_in_computer_engineering_a005df8b",
+      "title": "Minor Programme in Computer Engineering",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/minor-programme-in-computer-engineering/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_minor_in_computer_networking_and_security_c1355cd5",
+      "title": "Minor in Computer Networking and Security",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/minor-in-computer-networking-and-security/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_minor_in_cyber_security_f649fbe0",
+      "title": "Minor in Cyber Security",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/minor-in-cyber-security/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_minor_in_data_science_439f50d4",
+      "title": "Minor in Data Science",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/minor-in-data-science/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_minor_in_drone_technology_2e82cfa1",
+      "title": "Minor in Drone Technology",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/minor-in-drone-technology/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_minor_in_electric_vehicle_4d4ea284",
+      "title": "Minor in Electric Vehicle",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/minor-in-electric-vehicle/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_minor_in_enterpreneurship_69dc0529",
+      "title": "Minor In Enterpreneurship",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/minor-in-enterpreneurship/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_minor_in_information_technology_6411cf02",
+      "title": "Minor in Information Technology",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/minor-in-information-technology/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 2,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_minor_in_iot_and_real_time_embedded_systems_014ef16a",
+      "title": "Minor in IoT and Real Time Embedded Systems",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/minor-in-iot-and-real-time-embedded-systems/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_minor_in_intelligent_systems_4607205b",
+      "title": "Minor in Intelligent Systems",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/minor-in-intelligent-systems/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_minor_in_industrial_engineering_and_management_94c6f57f",
+      "title": "Minor in Industrial Engineering and Management",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/minor-in-industrial-engineering-and-management/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_minor_in_mechatronics_3ae5f8ef",
+      "title": "Minor in Mechatronics",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/minor-in-mechatronics/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_minor_in_maker_technology_05eff980",
+      "title": "Minor in Maker Technology",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/minor-in-maker-technology/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_minor_in_power_electronics_industrial_drives_c78ae460",
+      "title": "Minor in Power Electronics & Industrial Drives",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/minor-in-power-electronics-industrial-drives/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 2,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_minor_in_robotics_artificial_intelligence_22d2b3cc",
+      "title": "Minor in Robotics & Artificial Intelligence",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/minor-in-robotics-artificial-intelligence/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_minor_in_robotics_and_automation_02998147",
+      "title": "Minor in Robotics and Automation",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/minor-in-robotics-and-automation/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_minor_in_sound_engineering_e760924f",
+      "title": "Minor in Sound Engineering",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/minor-in-sound-engineering/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_minor_in_vlsi_design_f4c9aca1",
+      "title": "Minor in VLSI Design",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/minor-in-vlsi-design/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_b_tech_admission_cc397807",
+      "title": "B.Tech admission",
+      "source_url": "https://kjsce.somaiya.edu/en/admission/btech?vthmstablink=vtmhs1",
+      "source_type": "admission_page",
+      "parent_policy_id": "admission_process",
+      "facts": 26,
+      "tables": 3,
+      "academic_years": [
+        "2025-26",
+        "2026-27"
+      ],
+      "aliases": 9,
+      "created": false
+    },
+    {
+      "doc_id": "page_direct_second_year_27ad5596",
+      "title": "Direct Second Year",
+      "source_url": "https://kjsce.somaiya.edu/en/admission/direct-second-year?vthmstablink=vtmhs1",
+      "source_type": "admission_page",
+      "parent_policy_id": "admission_process",
+      "facts": 21,
+      "tables": 5,
+      "academic_years": [
+        "2025-26",
+        "2026-27"
+      ],
+      "aliases": 9,
+      "created": false
+    },
+    {
+      "doc_id": "page_m_tech_admission_c9516166",
+      "title": "M.Tech admission",
+      "source_url": "https://kjsce.somaiya.edu/en/admission/mtech?vthmstablink=vtmhs1",
+      "source_type": "admission_page",
+      "parent_policy_id": "admission_process",
+      "facts": 13,
+      "tables": 4,
+      "academic_years": [
+        "2024-25",
+        "2026-27"
+      ],
+      "aliases": 9,
+      "created": false
+    },
+    {
+      "doc_id": "page_minor_in_information_processing_and_intelligent_syst_ebb7da84",
+      "title": "Minor in Information Processing and Intelligent Systems",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/minor-in-information-processing-and-intelligent-systems/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_phd_998cf381",
+      "title": "PhD",
+      "source_url": "https://kjsce.somaiya.edu/en/phd/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 10,
+      "tables": 3,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_admission_pg_diploma_6e24ebcb",
+      "title": "Admission PG Diploma",
+      "source_url": "https://kjsce.somaiya.edu/en/admission/pg-diploma?vthmstablink=vtmhs1",
+      "source_type": "admission_page",
+      "parent_policy_id": "admission_process",
+      "facts": 3,
+      "tables": 1,
+      "academic_years": [
+        "2024-25"
+      ],
+      "aliases": 6,
+      "created": false
+    },
+    {
+      "doc_id": "page_academic_programme_97a3c3c7",
+      "title": "Academic Programme",
+      "source_url": "https://kjsce.somaiya.edu/en/academic-programme/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 19,
+      "tables": 5,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_academic_flexibility_32ba74bc",
+      "title": "Academic flexibility",
+      "source_url": "https://kjsce.somaiya.edu/en/academic-flexibility/",
+      "source_type": "academic_page",
+      "parent_policy_id": "teaching_learning_process",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_placement_overview_52a23cbb",
+      "title": "Placement Overview",
+      "source_url": "https://kjsce.somaiya.edu/en/placement/overview",
+      "source_type": "placement_page",
+      "parent_policy_id": "training_placement_policy",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 1,
+      "created": true
+    },
+    {
+      "doc_id": "page_placement_about_543ef3fc",
+      "title": "Placement About",
+      "source_url": "https://kjsce.somaiya.edu/en/placement/about/",
+      "source_type": "placement_page",
+      "parent_policy_id": "training_placement_policy",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_rules_regulations_52c33b80",
+      "title": "Rules & Regulations",
+      "source_url": "https://kjsce.somaiya.edu/en/placement/rulesregulations/",
+      "source_type": "placement_page",
+      "parent_policy_id": "training_placement_policy",
+      "facts": 15,
+      "tables": 1,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_activities_aacfe107",
+      "title": "Activities",
+      "source_url": "https://kjsce.somaiya.edu/en/placement/activities/",
+      "source_type": "placement_page",
+      "parent_policy_id": "training_placement_policy",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_institutions_innovation_council_3c46739c",
+      "title": "Institutions Innovation Council",
+      "source_url": "https://kjsce.somaiya.edu/en/institutions-innovation-council/",
+      "source_type": "research_page",
+      "parent_policy_id": "research_development_policy",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_internship_cell_1a4e61eb",
+      "title": "Internship Cell",
+      "source_url": "https://kjsce.somaiya.edu/en/internship-cell/",
+      "source_type": "placement_page",
+      "parent_policy_id": "training_placement_policy",
+      "facts": 1,
+      "tables": 8,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_industry_academic_interface_65d178a6",
+      "title": "Industry Academic Interface",
+      "source_url": "https://kjsce.somaiya.edu/en/industry-academic-interface/",
+      "source_type": "placement_page",
+      "parent_policy_id": "training_placement_policy",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_student_s_council_1673aa7d",
+      "title": "Student's Council",
+      "source_url": "https://kjsce.somaiya.edu/en/students-council/",
+      "source_type": "student_life_page",
+      "parent_policy_id": "student_welfare_policies",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_students_association_df1f283a",
+      "title": "Students association",
+      "source_url": "https://kjsce.somaiya.edu/en/students-association/",
+      "source_type": "student_life_page",
+      "parent_policy_id": "student_welfare_policies",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_wide_choice_of_multidisciplinary_activities_d2a4640e",
+      "title": "Wide choice of Multidisciplinary Activities",
+      "source_url": "https://kjsce.somaiya.edu/en/multidisciplinary-activities/",
+      "source_type": "research_page",
+      "parent_policy_id": "research_development_policy",
+      "facts": 3,
+      "tables": 0,
+      "academic_years": [
+        "2015-16"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_cultural_teams_1e91c777",
+      "title": "Cultural Teams",
+      "source_url": "https://kjsce.somaiya.edu/en/cultural-teams/",
+      "source_type": "student_life_page",
+      "parent_policy_id": "student_welfare_policies",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 1,
+      "created": true
+    },
+    {
+      "doc_id": "page_annual_events_e94f38c1",
+      "title": "Annual Events",
+      "source_url": "https://kjsce.somaiya.edu/en/annual-events/",
+      "source_type": "student_life_page",
+      "parent_policy_id": "student_welfare_policies",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 1,
+      "created": true
+    },
+    {
+      "doc_id": "page_projects_6193da93",
+      "title": "Projects",
+      "source_url": "https://kjsce.somaiya.edu/en/projects/",
+      "source_type": "research_page",
+      "parent_policy_id": "research_development_policy",
+      "facts": 2,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_transcript_and_services_to_alumni_6e120cca",
+      "title": "Transcript and Services to Alumni",
+      "source_url": "https://kjsce.somaiya.edu/en/transcript-and-services-to-alumni/",
+      "source_type": "examination_page",
+      "parent_policy_id": "exam_structure_current",
+      "facts": 0,
+      "tables": 1,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_2nd_international_conference_on_technologies_for_ene_a5eb7aac",
+      "title": "2nd International Conference on Technologies for Energy, Agriculture and Healthcare",
+      "source_url": "https://kjsce.somaiya.edu/en/view-events/2130",
+      "source_type": "student_life_page",
+      "parent_policy_id": "student_welfare_policies",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_prakalpa_25_innovate_to_elevate_278ecb37",
+      "title": "Prakalpa'25 : Innovate to Elevate",
+      "source_url": "https://kjsce.somaiya.edu/en/view-events/2141",
+      "source_type": "student_life_page",
+      "parent_policy_id": "student_welfare_policies",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 1,
+      "created": true
+    },
+    {
+      "doc_id": "page_agri_tech_hackathon_2025_innovate_transform_agricult_a8a655b3",
+      "title": "Agri-Tech Hackathon 2025 | Innovate & Transform Agriculture",
+      "source_url": "https://kjsce.somaiya.edu/en/view-events/2140",
+      "source_type": "student_life_page",
+      "parent_policy_id": "student_welfare_policies",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 1,
+      "created": true
+    },
+    {
+      "doc_id": "page_congratulations_to_k_j_somaiya_school_of_engineering_13bde6a9",
+      "title": "Congratulations to K J Somaiya School of Engineering on their remarkable achievement at Climate Hackathon 2024!",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/678",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 1,
+      "created": true
+    },
+    {
+      "doc_id": "page_somaiya_vidyavihar_university_s_orion_racing_india_t_8902728e",
+      "title": "Somaiya Vidyavihar University's Orion Racing India team secures 25th place at Formula Student Austria 2024",
+      "source_url": "https://kjsce.somaiya.edu/en/view-media-coverage/1404",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_smart_india_hackathon_2024_finalist_c87bd030",
+      "title": "SMART INDIA HACKATHON 2024 FINALIST",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/666",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 5,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 1,
+      "created": true
+    },
+    {
+      "doc_id": "page_smart_india_hackathon_2024_finalists_eba602e4",
+      "title": "Smart India Hackathon 2024 Finalists",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/668",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 1,
+      "created": true
+    },
+    {
+      "doc_id": "page_insights_and_stories_somaiya_kjsse_blog_d4b6a4ec",
+      "title": "Insights and Stories - Somaiya KJSSE Blog",
+      "source_url": "https://kjsce.somaiya.edu/en/blogs/",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_contact_us_7169be2d",
+      "title": "Contact Us",
+      "source_url": "https://kjsce.somaiya.edu/en/contact-us/",
+      "source_type": "institution_page",
+      "parent_policy_id": "about_institute",
+      "facts": 2,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_principal_for_the_year_2019_by_iste_e78fa62c",
+      "title": "Principal for the Year 2019 by ISTE",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/509",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_most_inspiring_leader_in_engineering_education_2023_4ec5d944",
+      "title": "Most Inspiring Leader in Engineering Education 2023",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/510",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_best_principal_of_the_year_2019_award_by_computer_so_394689fa",
+      "title": "Best Principal of the Year 2019 Award by Computer Society of India",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/511",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_best_principal_of_the_year_2018_award_by_computer_so_26c8e7a1",
+      "title": "Best Principal of the Year 2018 Award by Computer Society of India",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/512",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_best_engineering_college_principal_award_2017_by_ind_fff7182b",
+      "title": "Best Engineering College Principal Award 2017 by Indian Society for Technical Education - Maharashtra and Goa Section",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/515",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_exemplary_contribution_in_higher_education_a9a3438a",
+      "title": "Exemplary Contribution in Higher Education",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/513",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_felicitation_by_indian_society_for_technical_educati_c68a92fe",
+      "title": "Felicitation by Indian Society for Technical Education for the initiative and leading development of ISTE Membership Portal.",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/514",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_pillar_of_hindustani_society_award_2021_22_by_the_tr_324434f6",
+      "title": "Pillar of Hindustani Society Award 2021-22 by the Trans Asian Chamber of Commerce & Industry.",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/516",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 5,
+      "tables": 0,
+      "academic_years": [
+        "2021-22",
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_nirf_ranking_2024_714fbb8a",
+      "title": "NIRF Ranking 2024",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/599/",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_the_week_hansa_research_survey_2024_73bf05b8",
+      "title": "THE WEEK-HANSA RESEARCH SURVEY 2024",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/593/",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 5,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_india_today_mdra_ranking_2024_best_colleges_of_india_c450efaf",
+      "title": "India Today – MDRA Ranking 2024 Best Colleges of India Survey",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/592/",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_education_world_india_private_engineering_colleges_r_4f109442",
+      "title": "Education World India Private Engineering Colleges Rankings 2024-2025",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/587/",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2024-25",
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_kjsse_ranking_in_careers_360_survey_2024_18b80c7d",
+      "title": "KJSSE RANKING IN CAREERS 360 SURVEY 2024",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/595/",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_times_engineering_ranking_2023_23647197",
+      "title": "Times Engineering Ranking 2023",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/420",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_ranked_first_under_the_category_of_top_universities__447f67a8",
+      "title": "Ranked First under the category of Top Universities in Mumbai by Times Engineering Survey and Data Science Special",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/428",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_education_world_ranking_2023_b750cd1d",
+      "title": "Education World Ranking 2023",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/421",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_national_institutional_ranking_framework_nirf_india__052c434e",
+      "title": "National Institutional Ranking Framework (NIRF) India Ranking 2022: Band of 251-300",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/353",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_india_today_engineering_college_ranking_2022_03a8b66f",
+      "title": "India Today Engineering College Ranking 2022",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/352",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_education_world_ew_ranking_of_kjsse_2022_fc45ada1",
+      "title": "Education World (EW) ranking of KJSSE -2022",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/348",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_times_of_india_engineering_institute_ranking_2022_5d2c75c9",
+      "title": "Times of India Engineering Institute Ranking 2022",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/350",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_nirf_2021_99e40c9b",
+      "title": "NIRF - 2021",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/317",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_ariia_ranking_2021_3de93ec4",
+      "title": "ARIIA RANKING 2021",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/328",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_india_today_ranking_2021_cbf31563",
+      "title": "India Today Ranking 2021",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/295",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_education_world_ew_ranking_of_kjsse_d60dd4ea",
+      "title": "Education World (EW) ranking of KJSSE",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/291",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_nirf_2020_ac16539e",
+      "title": "NIRF - 2020",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/183",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_ariia_2020_ranked_in_top_50_f4cc0ea7",
+      "title": "ARIIA 2020 - Ranked in Top 50",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/219",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_india_today_ranking_2020_c805a842",
+      "title": "INDIA TODAY RANKING 2020",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/205",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 4,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_times_engineering_ranking_survey_2020_d9a302dd",
+      "title": "Times Engineering Ranking Survey 2020",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/211",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 5,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_library_committees_c4cc41ed",
+      "title": "Library committees",
+      "source_url": "https://kjsce.somaiya.edu/en/library/committees",
+      "source_type": "library_page",
+      "parent_policy_id": "library_policy",
+      "facts": 7,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_library_rules_638880de",
+      "title": "Library Rules",
+      "source_url": "https://kjsce.somaiya.edu/en/library/rules",
+      "source_type": "library_page",
+      "parent_policy_id": "library_policy",
+      "facts": 8,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_e_resource_fd549db0",
+      "title": "E Resource",
+      "source_url": "https://kjsce.somaiya.edu/en/library/eresource",
+      "source_type": "library_page",
+      "parent_policy_id": "library_policy",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 1,
+      "created": true
+    },
+    {
+      "doc_id": "page_library_services_7a772dee",
+      "title": "Library Services",
+      "source_url": "https://kjsce.somaiya.edu/en/library/services",
+      "source_type": "library_page",
+      "parent_policy_id": "library_policy",
+      "facts": 7,
+      "tables": 1,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_library_facilities_7593ec79",
+      "title": "Library Facilities",
+      "source_url": "https://kjsce.somaiya.edu/en/library/facilities",
+      "source_type": "library_page",
+      "parent_policy_id": "library_policy",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_library_activities_3f0f2808",
+      "title": "Library Activities",
+      "source_url": "https://kjsce.somaiya.edu/en/library/activities",
+      "source_type": "library_page",
+      "parent_policy_id": "library_policy",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_iot_and_automation_honours_in_iot_automat_63fab3d8",
+      "title": "Honours in IoT and Automation | Honours in IoT & Automation",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/etrx/honours-in-iot-and-automation/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_computer_aided_engineering_honours_in_com_3d1f92c4",
+      "title": "Honours in Computer Aided Engineering | Honours in Computer Aided Engineering",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/mech/honours-in-computer-aided-engineering/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_applied_data_science_honours_in_data_science_9640be6d",
+      "title": "Applied Data Science | Honours in Data Science",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/rai/honours-in-applied-data-science/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_sensors_actuators_and_industrial_instrume_44d4c62a",
+      "title": "Honours in Sensors Actuators and Industrial Instrumentation | Honours in Sensors Actuators & Industrial Instrumentation",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/etrx/honours-in-sensors-actuators-and-industrial-instrumentation/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_honours_in_power_electronics_and_industrial_drives_h_4cd03b98",
+      "title": "Honours in Power Electronics and Industrial Drives | Honours in Power Electronics & Industrial Drives",
+      "source_url": "https://kjsce.somaiya.edu/en/programme/etrx/honours-in-power-electronics-and-industrial-drives/",
+      "source_type": "programme_page",
+      "parent_policy_id": "programs_and_departments",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_why_recruit_at_kjsse_bb2c5273",
+      "title": "Why recruit at KJSSE",
+      "source_url": "https://kjsce.somaiya.edu/en/placement/recruit",
+      "source_type": "placement_page",
+      "parent_policy_id": "training_placement_policy",
+      "facts": 0,
+      "tables": 1,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_transcripts_13d23dcc",
+      "title": "Transcripts",
+      "source_url": "https://kjsce.somaiya.edu/en/transcripts",
+      "source_type": "examination_page",
+      "parent_policy_id": "exam_structure_current",
+      "facts": 7,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_online_student_data_verification_9016af90",
+      "title": "Online Student Data Verification",
+      "source_url": "https://kjsce.somaiya.edu/en/online-student-data-verification",
+      "source_type": "examination_page",
+      "parent_policy_id": "exam_structure_current",
+      "facts": 2,
+      "tables": 1,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_migration_certificate_fdc602f5",
+      "title": "Migration Certificate",
+      "source_url": "https://kjsce.somaiya.edu/en/migration-certificate",
+      "source_type": "certificate_page",
+      "parent_policy_id": "student_section_certificates",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_parvaah_eco_run_2025_2e820421",
+      "title": "Parvaah Eco-Run 2025",
+      "source_url": "https://kjsce.somaiya.edu/en/view-events/2035/",
+      "source_type": "student_life_page",
+      "parent_policy_id": "student_welfare_policies",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_sih_2024_winner_s_team_void_908a454e",
+      "title": "SIH 2024 WINNER's Team Void",
+      "source_url": "https://kjsce.somaiya.edu/en/view-announcement/665/",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 5,
+      "tables": 0,
+      "academic_years": [
+        "2026-27"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_how_can_a_master_s_degree_in_ai_and_data_science_hel_f3f10f64",
+      "title": "How Can a Master's Degree in AI and Data Science Help You Stand Out?",
+      "source_url": "https://kjsce.somaiya.edu/en/blog/how-can-a-masters-degree-in-ai-and-data-science-help-you-stand-out",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 3,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_engineering_your_future_what_you_need_to_know_about__031261ff",
+      "title": "Engineering Your Future: What You Need to Know About Top-Ranked BTech and MTech Degrees in India",
+      "source_url": "https://kjsce.somaiya.edu/en/blog/engineering-your-future-what-you-need-to-know-about-top-ranked-btech-and-mtech-degrees-in-india",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 0,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_the_ultimate_guide_to_choosing_your_path_in_computer_a40f0049",
+      "title": "The Ultimate Guide to Choosing Your Path in Computer Engineering",
+      "source_url": "https://kjsce.somaiya.edu/en/blog/the-ultimate-guide-to-choosing-your-path-in-computer-engineering",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_the_nuts_and_bolts_of_mechanical_engineering_opportu_3405ee92",
+      "title": "The Nuts and Bolts of Mechanical Engineering: Opportunities and Challenges Ahead",
+      "source_url": "https://kjsce.somaiya.edu/en/blog/the-nuts-and-bolts-of-mechanical-engineering-opportunities-and-challenges-ahead",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 1,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_discovering_the_unique_learning_experience_at_somaiy_452ce4ff",
+      "title": "Discovering the Unique Learning Experience at Somaiya Vidyadhar University",
+      "source_url": "https://kjsce.somaiya.edu/en/blog/discovering-the-unique-learning-experience-at-somaiya-vidyadhar-university",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 2,
+      "tables": 0,
+      "academic_years": [
+        "2023-24"
+      ],
+      "aliases": 0,
+      "created": true
+    },
+    {
+      "doc_id": "page_specialization_courses_available_with_engineering_k__60781935",
+      "title": "Specialization Courses Available with Engineering | K J Somaiya College",
+      "source_url": "https://kjsce.somaiya.edu/en/blog/which-different-specialization-courses-are-available-during-or-post-engineering",
+      "source_type": "notice_page",
+      "parent_policy_id": "governance_statutory_bodies",
+      "facts": 2,
+      "tables": 0,
+      "academic_years": [],
+      "aliases": 0,
+      "created": true
+    }
+  ],
+  "reuse_rows": []
+}
