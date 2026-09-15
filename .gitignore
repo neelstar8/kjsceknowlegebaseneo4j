@@ -5,3 +5,17 @@ __pycache__/
 .DS_Store
 service_account.json
 data/policy_pdfs/
+
+# --- site crawl runtime artifacts (large, regenerable, kept locally) ---
+# The crawl writes three kinds of file under data/crawl. These three are runtime
+# state, not knowledge: the event log is the local resume checkpoint, the cache and
+# the PDFs are re-fetched from the URLs already recorded in Neo4j. They are ignored
+# here but deliberately left on disk so `--process`/`--resume` keeps working.
+data/crawl/manifest_events.jsonl
+data/crawl/manifest_events.jsonl.*
+data/crawl/cache/
+data/crawl/pdfs/
+
+# The small JSON reports under data/crawl (crawl_report, site_reconciliation,
+# site_ingestion_report, documents_sections) ARE tracked on purpose -- they are the
+# auditable output of a run, not runtime state.
